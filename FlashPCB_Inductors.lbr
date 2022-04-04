@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no" />
+<setting verticaltext="up" />
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch" />
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes" />
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes" />
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes" />
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes" />
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes" />
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes" />
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes" />
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes" />
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes" />
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes" />
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes" />
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes" />
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes" />
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes" />
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes" />
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes" />
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes" />
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes" />
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes" />
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes" />
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes" />
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes" />
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes" />
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes" />
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes" />
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes" />
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes" />
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes" />
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes" />
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes" />
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes" />
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes" />
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes" />
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes" />
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes" />
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes" />
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes" />
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes" />
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes" />
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes" />
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes" />
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes" />
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes" />
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes" />
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes" />
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes" />
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes" />
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes" />
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes" />
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes" />
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes" />
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes" />
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes" />
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes" />
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes" />
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes" />
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes" />
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes" />
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes" />
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes" />
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes" />
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes" />
+<layer number="117" name="EdgeRestrict" color="13" fill="1" visible="yes" active="yes" />
+<layer number="119" name="RequiredOverhang" color="21" fill="1" visible="yes" active="yes" />
+</layers>
+<library>
+<packages>
+<package name="INDUCTOR_10.85MMX10.00MM">
+<smd name="P$1" x="-4.75" y="0" dx="4.1" dy="4.95" layer="1" />
+<smd name="P$2" x="4.75" y="0" dx="4.1" dy="4.95" layer="1" />
+<wire x1="-5.75" y1="5.15" x2="5.75" y2="5.15" width="0.127" layer="21" />
+<wire x1="5.75" y1="-5.15" x2="-5.75" y2="-5.15" width="0.127" layer="21" />
+<wire x1="-5.75" y1="5.15" x2="-5.75" y2="2.7" width="0.127" layer="21" />
+<wire x1="-5.75" y1="-2.7" x2="-5.75" y2="-5.15" width="0.127" layer="21" />
+<wire x1="5.75" y1="-2.7" x2="5.75" y2="-5.15" width="0.127" layer="21" />
+<wire x1="5.75" y1="5.15" x2="5.75" y2="2.7" width="0.127" layer="21" />
+<polygon width="0" layer="1">
+<vertex x="-6.9" y="-2.58" />
+<vertex x="-6.9" y="2.58" />
+<vertex x="-6" y="2.58" />
+<vertex x="-6" y="5.4" />
+<vertex x="6" y="5.4" />
+<vertex x="6" y="2.58" />
+<vertex x="6.9" y="2.58" />
+<vertex x="6.9" y="-2.58" />
+<vertex x="6" y="-2.58" />
+<vertex x="6" y="-5.4" />
+<vertex x="-6" y="-5.4" />
+<vertex x="-6" y="-2.58" />
+</polygon>
+<text x="2.19" y="6.39" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2.19" y="5.39" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_11.15MMX10.00MM">
+<smd name="P$1" x="-4.75" y="0" dx="4.1" dy="4.95" layer="1" />
+<smd name="P$2" x="4.75" y="0" dx="4.1" dy="4.95" layer="1" />
+<wire x1="-5.75" y1="5.15" x2="5.75" y2="5.15" width="0.127" layer="25" />
+<wire x1="5.75" y1="-5.15" x2="-5.75" y2="-5.15" width="0.127" layer="25" />
+<wire x1="-5.75" y1="5.15" x2="-5.75" y2="2.7" width="0.127" layer="25" />
+<wire x1="-5.75" y1="-2.7" x2="-5.75" y2="-5.15" width="0.127" layer="25" />
+<wire x1="5.75" y1="-2.7" x2="5.75" y2="-5.15" width="0.127" layer="25" />
+<wire x1="5.75" y1="5.15" x2="5.75" y2="2.7" width="0.127" layer="25" />
+<polygon width="0" layer="39">
+<vertex x="-6" y="2.58" />
+<vertex x="-6" y="5.4" />
+<vertex x="6" y="5.4" />
+<vertex x="6" y="2.58" />
+<vertex x="6.9" y="2.58" />
+<vertex x="6.9" y="-2.58" />
+<vertex x="6" y="-2.58" />
+<vertex x="6" y="-5.4" />
+<vertex x="-6" y="-5.4" />
+<vertex x="-6" y="-2.58" />
+<vertex x="-6.9" y="-2.58" />
+<vertex x="-6.9" y="2.58" />
+</polygon>
+<text x="2.36" y="6.3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2.36" y="5.4" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_13.65MMX12.60MM">
+<smd name="P$1" x="-5.625" y="0" dx="3.25" dy="5" layer="1" />
+<smd name="P$2" x="5.625" y="0" dx="3.25" dy="5" layer="1" />
+<wire x1="-7" y1="6.45" x2="7" y2="6.45" width="0.127" layer="21" />
+<wire x1="7" y1="-6.45" x2="-7" y2="-6.45" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-7.35" y="-2.6" />
+<vertex x="-7.35" y="2.6" />
+<vertex x="-7.25" y="2.6" />
+<vertex x="-7.25" y="6.7" />
+<vertex x="7.25" y="6.7" />
+<vertex x="7.25" y="2.6" />
+<vertex x="7.35" y="2.6" />
+<vertex x="7.35" y="-2.6" />
+<vertex x="7.25" y="-2.6" />
+<vertex x="7.25" y="-6.7" />
+<vertex x="-7.25" y="-6.7" />
+<vertex x="-7.25" y="-2.6" />
+</polygon>
+<wire x1="-7" y1="6.45" x2="-7" y2="2.7" width="0.127" layer="21" />
+<wire x1="-7" y1="-2.7" x2="-7" y2="-6.45" width="0.127" layer="21" />
+<wire x1="7" y1="-2.7" x2="7" y2="-6.45" width="0.127" layer="21" />
+<wire x1="7" y1="6.45" x2="7" y2="2.7" width="0.127" layer="21" />
+<text x="3.58" y="7.75" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="3.58" y="6.75" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_3.50MMX3.20MM">
+<smd name="P$1" x="-1.5" y="0" dx="1.1" dy="1.45" layer="1" />
+<smd name="P$2" x="1.5" y="0" dx="1.1" dy="1.45" layer="1" />
+<wire x1="-1.85" y1="1.7" x2="1.85" y2="1.7" width="0.127" layer="21" />
+<wire x1="1.85" y1="-1.7" x2="-1.85" y2="-1.7" width="0.127" layer="21" />
+<wire x1="-1.85" y1="1.7" x2="-1.85" y2="0.9" width="0.127" layer="21" />
+<wire x1="-1.85" y1="-0.9" x2="-1.85" y2="-1.7" width="0.127" layer="21" />
+<wire x1="1.85" y1="-0.9" x2="1.85" y2="-1.7" width="0.127" layer="21" />
+<wire x1="1.85" y1="1.7" x2="1.85" y2="0.9" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-2.15" y="0.83" />
+<vertex x="-1.95" y="0.83" />
+<vertex x="-1.95" y="1.8" />
+<vertex x="1.95" y="1.8" />
+<vertex x="1.95" y="0.83" />
+<vertex x="2.15" y="0.83" />
+<vertex x="2.15" y="-0.83" />
+<vertex x="1.95" y="-0.83" />
+<vertex x="1.95" y="-1.8" />
+<vertex x="-1.95" y="-1.8" />
+<vertex x="-1.95" y="-0.83" />
+<vertex x="-2.15" y="-0.83" />
+</polygon>
+<text x="-1.62" y="3.05" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.62" y="2.05" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_4.45MMX4.06MM">
+<smd name="P$1" x="-1.85" y="0" dx="1.5" dy="2.4" layer="1" />
+<smd name="P$2" x="1.85" y="0" dx="1.5" dy="2.4" layer="1" />
+<wire x1="-2.35" y1="2.155" x2="2.35" y2="2.155" width="0.127" layer="21" />
+<wire x1="2.35" y1="-2.155" x2="-2.35" y2="-2.155" width="0.127" layer="21" />
+<wire x1="-2.35" y1="2.155" x2="-2.35" y2="1.4" width="0.127" layer="21" />
+<wire x1="2.35" y1="2.155" x2="2.35" y2="1.4" width="0.127" layer="21" />
+<wire x1="2.35" y1="-1.385" x2="2.35" y2="-2.1" width="0.127" layer="21" />
+<wire x1="-2.35" y1="-1.385" x2="-2.35" y2="-2.155" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-2.7" y="-1.3" />
+<vertex x="-2.7" y="1.3" />
+<vertex x="-2.45" y="1.3" />
+<vertex x="-2.45" y="2.255" />
+<vertex x="2.45" y="2.255" />
+<vertex x="2.45" y="1.3" />
+<vertex x="2.7" y="1.3" />
+<vertex x="2.7" y="-1.3" />
+<vertex x="2.45" y="-1.3" />
+<vertex x="2.45" y="-2.255" />
+<vertex x="-2.45" y="-2.255" />
+<vertex x="-2.45" y="-1.3" />
+</polygon>
+<text x="-1.08" y="3.49" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.08" y="2.49" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_5.20MMX5.20MM">
+<smd name="P$1" x="-2.25" y="0" dx="2" dy="1.8" layer="1" />
+<smd name="P$2" x="2.25" y="0" dx="2" dy="1.8" layer="1" />
+<wire x1="-2.75" y1="2.75" x2="2.75" y2="2.75" width="0.127" layer="21" />
+<wire x1="2.75" y1="-2.75" x2="-2.75" y2="-2.75" width="0.127" layer="21" />
+<wire x1="-2.75" y1="2.75" x2="-2.75" y2="1.1" width="0.127" layer="21" />
+<wire x1="-2.75" y1="-1.15" x2="-2.75" y2="-2.75" width="0.127" layer="21" />
+<wire x1="2.75" y1="-1.15" x2="2.75" y2="-2.75" width="0.127" layer="21" />
+<wire x1="2.75" y1="2.75" x2="2.75" y2="1.15" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-3.35" y="-1" />
+<vertex x="-3.35" y="1" />
+<vertex x="-2.85" y="1" />
+<vertex x="-2.85" y="2.85" />
+<vertex x="2.85" y="2.85" />
+<vertex x="2.85" y="1" />
+<vertex x="3.35" y="1" />
+<vertex x="3.35" y="-1" />
+<vertex x="2.85" y="-1" />
+<vertex x="2.85" y="-2.85" />
+<vertex x="-2.85" y="-2.85" />
+<vertex x="-2.85" y="-1" />
+</polygon>
+<text x="-0.67" y="4.1" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.67" y="3.1" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_5.50MMX5.30MM">
+<smd name="P$1" x="-2.05" y="0" dx="1.9" dy="1.6" layer="1" />
+<smd name="P$2" x="2.05" y="0" dx="1.9" dy="1.6" layer="1" />
+<wire x1="-2.95" y1="2.8" x2="2.95" y2="2.8" width="0.127" layer="21" />
+<wire x1="2.95" y1="-2.8" x2="-2.95" y2="-2.8" width="0.127" layer="21" />
+<wire x1="-2.95" y1="-2.8" x2="-2.95" y2="-1" width="0.127" layer="21" />
+<wire x1="2.95" y1="-2.8" x2="2.95" y2="-1" width="0.127" layer="21" />
+<wire x1="2.95" y1="1.05" x2="2.95" y2="2.8" width="0.127" layer="21" />
+<wire x1="-2.95" y1="1.05" x2="-2.95" y2="2.8" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="3.05" y="-2.9" />
+<vertex x="-3.05" y="-2.9" />
+<vertex x="-3.05" y="-0.9" />
+<vertex x="-3.1" y="-0.9" />
+<vertex x="-3.1" y="0.9" />
+<vertex x="-3.05" y="0.9" />
+<vertex x="-3.05" y="2.9" />
+<vertex x="3.05" y="2.9" />
+<vertex x="3.05" y="0.9" />
+<vertex x="3.1" y="0.9" />
+<vertex x="3.1" y="-0.9" />
+<vertex x="3.05" y="-0.9" />
+</polygon>
+<text x="-0.52" y="4.25" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.52" y="3.25" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_6.00MMX6.00MM">
+<smd name="P$1" x="-2.15" y="0" dx="2" dy="6" layer="1" />
+<smd name="P$2" x="2.15" y="0" dx="2" dy="6" layer="1" />
+<wire x1="-0.9" y1="3.1" x2="0.9" y2="3.1" width="0.127" layer="21" />
+<wire x1="0.9" y1="-3.1" x2="-0.9" y2="-3.1" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-3.25" y="-3.35" />
+<vertex x="-3.25" y="3.35" />
+<vertex x="3.25" y="3.35" />
+<vertex x="3.25" y="-3.35" />
+</polygon>
+<text x="-0.48" y="4.29" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.48" y="3.29" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_7.15MMX6.60MM">
+<smd name="P$1" x="-3.025" y="0" dx="2.35" dy="3.5" layer="1" />
+<smd name="P$2" x="3.025" y="0" dx="2.35" dy="3.5" layer="1" />
+<wire x1="-3.75" y1="3.4" x2="3.75" y2="3.4" width="0.127" layer="25" />
+<wire x1="3.75" y1="-3.4" x2="-3.75" y2="-3.4" width="0.127" layer="25" />
+<wire x1="-3.75" y1="3.4" x2="-3.75" y2="1.9" width="0.127" layer="25" />
+<wire x1="-3.75" y1="-1.9" x2="-3.75" y2="-3.4" width="0.127" layer="25" />
+<wire x1="3.75" y1="-1.9" x2="3.75" y2="-3.4" width="0.127" layer="25" />
+<wire x1="3.75" y1="3.4" x2="3.75" y2="1.9" width="0.127" layer="25" />
+<polygon width="0" layer="39">
+<vertex x="-4" y="1.85" />
+<vertex x="-4" y="3.65" />
+<vertex x="4" y="3.65" />
+<vertex x="4" y="1.85" />
+<vertex x="4.3" y="1.85" />
+<vertex x="4.3" y="-1.85" />
+<vertex x="4" y="-1.85" />
+<vertex x="4" y="-3.65" />
+<vertex x="-4" y="-3.65" />
+<vertex x="-4" y="-1.85" />
+<vertex x="-4.3" y="-1.85" />
+<vertex x="-4.3" y="1.85" />
+</polygon>
+<text x="0.36" y="4.7" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0.36" y="3.7" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="14-LGA(3X5)">
+<smd name="P$14" x="0" y="2.0975" dx="0.55" dy="1.145" layer="1" />
+<smd name="P$7" x="0" y="-2.0975" dx="0.55" dy="1.145" layer="1" />
+<smd name="P$10" x="1.0975" y="-0.4" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$11" x="1.0975" y="0.4" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$3" x="-1.0975" y="0.4" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$4" x="-1.0975" y="-0.4" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$12" x="1.0975" y="1.2" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$2" x="-1.0975" y="1.2" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$1" x="-1.0975" y="2" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$13" x="1.0975" y="2" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$9" x="1.0975" y="-1.2" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$8" x="1.0975" y="-2" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$5" x="-1.0975" y="-1.2" dx="1.145" dy="0.55" layer="1" />
+<smd name="P$6" x="-1.0975" y="-2" dx="1.145" dy="0.55" layer="1" />
+<wire x1="0.4615" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="2.5" x2="1.5" y2="2.4615" width="0.127" layer="21" />
+<wire x1="-0.4615" y1="2.5" x2="-1.5" y2="2.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="2.5" x2="-1.5" y2="2.4615" width="0.127" layer="21" />
+<wire x1="0.4615" y1="-2.5" x2="1.5" y2="-2.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="-2.5" x2="1.5" y2="-2.4615" width="0.127" layer="21" />
+<wire x1="-0.4615" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="-2.4615" width="0.127" layer="21" />
+<rectangle x1="-1.4" y1="1.7" x2="-0.6" y2="2.4" layer="51" />
+<text x="2.3" y="1.1" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2.3" y="-0.1" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<circle x="-2.17" y="2" radius="0" width="0.508" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-1.77" y="2.65" />
+<vertex x="-0.375" y="2.65" />
+<vertex x="-0.375" y="2.77" />
+<vertex x="0.375" y="2.77" />
+<vertex x="0.375" y="2.65" />
+<vertex x="1.77" y="2.65" />
+<vertex x="1.77" y="-2.65" />
+<vertex x="0.375" y="-2.65" />
+<vertex x="0.375" y="-2.77" />
+<vertex x="-0.375" y="-2.77" />
+<vertex x="-0.375" y="-2.65" />
+<vertex x="-1.77" y="-2.65" />
+</polygon>
+</package>
+<package name="INDUCTOR_0201">
+<polygon width="0" layer="39">
+<vertex x="-0.55" y="-0.25" />
+<vertex x="0.55" y="-0.25" />
+<vertex x="0.55" y="0.25" />
+<vertex x="-0.55" y="0.25" />
+</polygon>
+<smd name="P$1" x="-0.3" y="0" dx="0.3" dy="0.3" layer="1" />
+<smd name="P$2" x="0.3" y="0" dx="0.3" dy="0.3" layer="1" />
+<text x="-1.27" y="1.5" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.27" y="0.5" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_0402">
+<polygon width="0" layer="39">
+<vertex x="-0.85" y="-0.4" />
+<vertex x="0.85" y="-0.4" />
+<vertex x="0.85" y="0.4" />
+<vertex x="-0.85" y="0.4" />
+</polygon>
+<smd name="P$1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1" />
+<smd name="P$2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1" />
+<text x="-1.27" y="1.5" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.27" y="0.5" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="-0.0635" y1="0.25" x2="0.0635" y2="0.25" width="0.127" layer="21" />
+<wire x1="-0.0635" y1="-0.254" x2="0.0635" y2="-0.254" width="0.127" layer="21" />
+</package>
+<package name="INDUCTOR_0603">
+<polygon width="0" layer="39">
+<vertex x="-1.35" y="0.55" />
+<vertex x="1.35" y="0.55" />
+<vertex x="1.35" y="-0.55" />
+<vertex x="-1.35" y="-0.55" />
+</polygon>
+<wire x1="-0.1635" y1="0.425" x2="0.1635" y2="0.425" width="0.127" layer="21" />
+<wire x1="-0.1635" y1="-0.425" x2="0.1635" y2="-0.425" width="0.127" layer="21" />
+<smd name="P$1" x="-0.8" y="0" dx="0.9" dy="0.9" layer="1" />
+<smd name="P$2" x="0.8" y="0" dx="0.9" dy="0.9" layer="1" />
+<text x="-1" y="1.8" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1" y="0.8" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_0805">
+<polygon width="0" layer="39">
+<vertex x="-2.1" y="0.8" />
+<vertex x="2.1" y="0.8" />
+<vertex x="2.1" y="-0.8" />
+<vertex x="-2.1" y="-0.8" />
+</polygon>
+<wire x1="-0.4" y1="0.6" x2="0.4" y2="0.6" width="0.127" layer="21" />
+<wire x1="-0.4" y1="-0.6" x2="0.4" y2="-0.6" width="0.127" layer="21" />
+<smd name="P$1" x="-1.3" y="0" dx="1.4" dy="1.4" layer="1" />
+<smd name="P$2" x="1.3" y="0" dx="1.4" dy="1.4" layer="1" />
+<text x="-1" y="2" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1" y="1" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_1206">
+<polygon width="0" layer="39">
+<vertex x="-2.7" y="1" />
+<vertex x="2.7" y="1" />
+<vertex x="2.7" y="-1" />
+<vertex x="-2.7" y="-1" />
+</polygon>
+<wire x1="-0.7635" y1="0.8" x2="0.7635" y2="0.8" width="0.127" layer="21" />
+<wire x1="-0.7635" y1="-0.8" x2="0.7635" y2="-0.8" width="0.127" layer="21" />
+<smd name="P$1" x="-1.8" y="0" dx="1.6" dy="1.8" layer="1" />
+<smd name="P$2" x="1.8" y="0" dx="1.6" dy="1.8" layer="1" />
+<text x="-1" y="2.2" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1" y="1.2" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_1210">
+<polygon width="0" layer="39">
+<vertex x="-2.7" y="1.35" />
+<vertex x="2.7" y="1.35" />
+<vertex x="2.7" y="-1.35" />
+<vertex x="-2.7" y="-1.35" />
+</polygon>
+<wire x1="-0.8" y1="1.25" x2="0.8" y2="1.25" width="0.127" layer="21" />
+<wire x1="-0.8" y1="-1.25" x2="0.8" y2="-1.25" width="0.127" layer="21" />
+<smd name="P$1" x="-1.8" y="0" dx="1.6" dy="2.5" layer="1" />
+<smd name="P$2" x="1.8" y="0" dx="1.6" dy="2.5" layer="1" />
+<text x="-1" y="3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1" y="2" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_74404054150">
+<smd name="P$1" x="-1.925" y="0" dx="1.55" dy="4.5" layer="1" />
+<smd name="P$2" x="1.925" y="0" dx="1.55" dy="4.5" layer="1" />
+<wire x1="-2.6" y1="2.6" x2="2.6" y2="2.6" width="0.127" layer="21" />
+<wire x1="2.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.127" layer="21" />
+<wire x1="2.6" y1="-2.45" x2="2.6" y2="-2.6" width="0.127" layer="21" />
+<wire x1="-2.6" y1="-2.45" x2="-2.6" y2="-2.6" width="0.127" layer="21" />
+<wire x1="-2.6" y1="2.6" x2="-2.6" y2="2.45" width="0.127" layer="21" />
+<wire x1="2.6" y1="2.6" x2="2.6" y2="2.45" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-2.8" y="-2.85" />
+<vertex x="-2.8" y="2.85" />
+<vertex x="2.8" y="2.85" />
+<vertex x="2.8" y="-2.85" />
+</polygon>
+<text x="-0.94" y="3.93" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.94" y="2.93" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_CDRH3D28/LDNP-120NC">
+<smd name="P$1" x="-1.3435" y="1.3435" dx="1.4" dy="1.5" layer="1" rot="R315" />
+<smd name="P$2" x="1.3435" y="-1.3435" dx="1.4" dy="1.5" layer="1" rot="R315" />
+<polygon width="0" layer="39">
+<vertex x="-2.510228125" y="1.308146875" />
+<vertex x="-1.308146875" y="2.510228125" />
+<vertex x="-0.94791875" y="2.15" />
+<vertex x="2.15" y="2.15" />
+<vertex x="2.15" y="-0.94791875" />
+<vertex x="2.510228125" y="-1.308146875" />
+<vertex x="1.308146875" y="-2.510228125" />
+<vertex x="0.94791875" y="-2.15" />
+<vertex x="-2.15" y="-2.15" />
+<vertex x="-2.15" y="0.94791875" />
+</polygon>
+<text x="-1.5" y="4" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.5" y="3" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="-0.5" y1="1.9" x2="1.15" y2="1.9" width="0.1524" layer="21" />
+<wire x1="1.15" y1="1.9" x2="1.9" y2="1.15" width="0.1524" layer="21" />
+<wire x1="1.9" y1="1.15" x2="1.9" y2="-0.5" width="0.1524" layer="21" />
+<wire x1="-1.9" y1="0.5" x2="-1.9" y2="-1.4" width="0.1524" layer="21" />
+<wire x1="-1.9" y1="-1.4" x2="-1.4" y2="-1.9" width="0.1524" layer="21" curve="90" />
+<wire x1="-1.4" y1="-1.9" x2="0.5" y2="-1.9" width="0.1524" layer="21" />
+</package>
+<package name="INDUCTOR_CR75-680KC">
+<smd name="P$1" x="-2.5" y="0" dx="3" dy="5.5" layer="1" />
+<smd name="P$2" x="2.5" y="0" dx="3" dy="5.5" layer="1" />
+<wire x1="-3.9" y1="3.5" x2="3.9" y2="3.5" width="0.127" layer="21" />
+<wire x1="3.9" y1="-3.5" x2="-3.9" y2="-3.5" width="0.127" layer="21" />
+<wire x1="-3.9" y1="3.5" x2="-3.9" y2="2.95" width="0.127" layer="21" />
+<wire x1="3.9" y1="3.5" x2="3.9" y2="2.95" width="0.127" layer="21" />
+<wire x1="3.9" y1="-2.95" x2="3.9" y2="-3.5" width="0.127" layer="21" />
+<wire x1="-3.9" y1="-2.95" x2="-3.9" y2="-3.5" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-4.15" y="3.75" />
+<vertex x="4.15" y="3.75" />
+<vertex x="4.15" y="-3.75" />
+<vertex x="-4.15" y="-3.75" />
+</polygon>
+<text x="0" y="5.3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0" y="4.3" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_LCX5050">
+<smd name="P$1" x="-1.8" y="0" dx="1.5" dy="4" layer="1" />
+<smd name="P$2" x="1.8" y="0" dx="1.5" dy="4" layer="1" />
+<wire x1="-2.55" y1="2.55" x2="2.55" y2="2.55" width="0.127" layer="21" />
+<wire x1="2.55" y1="-2.55" x2="-2.55" y2="-2.55" width="0.127" layer="21" />
+<wire x1="-2.55" y1="2.55" x2="-2.55" y2="2.2" width="0.127" layer="21" />
+<wire x1="2.55" y1="2.55" x2="2.55" y2="2.2" width="0.127" layer="21" />
+<wire x1="2.55" y1="-2.2" x2="2.55" y2="-2.55" width="0.127" layer="21" />
+<wire x1="-2.55" y1="-2.2" x2="-2.55" y2="-2.55" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-2.8" y="2.8" />
+<vertex x="2.8" y="2.8" />
+<vertex x="2.8" y="-2.8" />
+<vertex x="-2.8" y="-2.8" />
+</polygon>
+<text x="-0.98" y="3.89" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.98" y="2.89" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="INDUCTOR_NR30">
+<smd name="P$1" x="1.1" y="0" dx="0.8" dy="2.7" layer="1" />
+<smd name="P$2" x="-1.1" y="0" dx="0.8" dy="2.7" layer="1" />
+<wire x1="-1.5" y1="1.55" x2="1.5" y2="1.55" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-1.55" x2="1.5" y2="-1.55" width="0.127" layer="21" />
+<text x="-1.905" y="3.175" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.905" y="1.905" size="0.8128" layer="27" font="vector">&gt;Values</text>
+<polygon width="0" layer="39">
+<vertex x="-1.6" y="1.6" />
+<vertex x="1.6" y="1.6" />
+<vertex x="1.6" y="-1.6" />
+<vertex x="-1.6" y="-1.6" />
+</polygon>
+</package>
+<package name="INDUCTOR_NR40">
+<smd name="P$1" x="1.4" y="0" dx="1.2" dy="3.7" layer="1" />
+<smd name="P$2" x="-1.4" y="0" dx="1.2" dy="3.7" layer="1" />
+<wire x1="-2" y1="2.05" x2="2" y2="2.05" width="0.127" layer="21" />
+<wire x1="-2" y1="-2.05" x2="2" y2="-2.05" width="0.127" layer="21" />
+<text x="-1.905" y="3.81" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.905" y="2.54" size="0.8128" layer="27" font="vector">&gt;Values</text>
+<polygon width="0" layer="39">
+<vertex x="-2.1" y="2.1" />
+<vertex x="2.1" y="2.1" />
+<vertex x="2.1" y="-2.1" />
+<vertex x="-2.1" y="-2.1" />
+</polygon>
+</package>
+<package name="INDUCTOR_NR50">
+<smd name="P$1" x="1.8" y="0" dx="1.5" dy="4" layer="1" />
+<smd name="P$2" x="-1.8" y="0" dx="1.5" dy="4" layer="1" />
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21" />
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21" />
+<text x="-1.905" y="4.445" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.905" y="3.175" size="0.8128" layer="27" font="vector">&gt;Values</text>
+<polygon width="0" layer="39">
+<vertex x="-2.65" y="2.6" />
+<vertex x="2.65" y="2.6" />
+<vertex x="2.65" y="-2.6" />
+<vertex x="-2.65" y="-2.6" />
+</polygon>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.2" width="0.127" layer="21" />
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.2" width="0.127" layer="21" />
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.2" width="0.127" layer="21" />
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.2" width="0.127" layer="21" />
+</package>
+<package name="INDUCTOR_NR60">
+<smd name="P$1" x="2.35" y="0" dx="1.6" dy="5.7" layer="1" />
+<smd name="P$2" x="-2.35" y="0" dx="1.6" dy="5.7" layer="1" />
+<wire x1="-3" y1="3.05" x2="3" y2="3.05" width="0.127" layer="21" />
+<wire x1="-3" y1="-3.05" x2="3" y2="-3.05" width="0.127" layer="21" />
+<text x="-1.905" y="5.08" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.905" y="3.81" size="0.8128" layer="27" font="vector">&gt;Values</text>
+<polygon width="0" layer="39">
+<vertex x="-3.25" y="3.25" />
+<vertex x="3.25" y="3.25" />
+<vertex x="3.25" y="-3.25" />
+<vertex x="-3.25" y="-3.25" />
+</polygon>
+</package>
+<package name="INDUCTOR_NR80">
+<smd name="P$1" x="2.8" y="0" dx="1.3" dy="7.5" layer="1" />
+<smd name="P$2" x="-2.8" y="0" dx="1.3" dy="7.5" layer="1" />
+<wire x1="-4" y1="4" x2="4" y2="4" width="0.127" layer="21" />
+<wire x1="-4" y1="-4" x2="4" y2="-4" width="0.127" layer="21" />
+<text x="-1.905" y="5.81" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.905" y="4.54" size="0.8128" layer="27" font="vector">&gt;Values</text>
+<polygon width="0" layer="39">
+<vertex x="-4.25" y="4.25" />
+<vertex x="4.25" y="4.25" />
+<vertex x="4.25" y="-4.25" />
+<vertex x="-4.25" y="-4.25" />
+</polygon>
+<wire x1="4" y1="4" x2="4" y2="-4" width="0.127" layer="21" />
+<wire x1="-4" y1="4" x2="-4" y2="-4" width="0.127" layer="21" />
+</package>
+<package name="INDUCTOR_NRH24">
+<smd name="P$1" x="0.725" y="0" dx="0.7" dy="2" layer="1" />
+<smd name="P$2" x="-0.725" y="0" dx="0.7" dy="2" layer="1" />
+<wire x1="-1.2" y1="1.2" x2="1.2" y2="1.2" width="0.127" layer="21" />
+<wire x1="-1.2" y1="-1.2" x2="1.2" y2="-1.2" width="0.127" layer="21" />
+<text x="-1.905" y="3.175" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.905" y="1.905" size="0.8128" layer="27" font="vector">&gt;Values</text>
+<polygon width="0" layer="39">
+<vertex x="-1.3" y="1.3" />
+<vertex x="1.3" y="1.3" />
+<vertex x="1.3" y="-1.3" />
+<vertex x="-1.3" y="-1.3" />
+</polygon>
+</package>
+<package name="INDUCTOR_NRS20">
+<smd name="P$1" x="0.675" y="0" dx="0.65" dy="2" layer="1" />
+<smd name="P$2" x="-0.675" y="0" dx="0.65" dy="2" layer="1" />
+<wire x1="-0.15" y1="1" x2="0.15" y2="1" width="0.127" layer="21" />
+<wire x1="-0.15" y1="-1" x2="0.15" y2="-1" width="0.127" layer="21" />
+<text x="-1.905" y="2.54" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.905" y="1.27" size="0.8128" layer="27" font="vector">&gt;Values</text>
+<polygon width="0" layer="39">
+<vertex x="-1.1" y="1.1" />
+<vertex x="1.1" y="1.1" />
+<vertex x="1.1" y="-1.1" />
+<vertex x="-1.1" y="-1.1" />
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="FERRITE">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180" />
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180" />
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180" />
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180" />
+<pin name="P$1" x="-7.62" y="0" visible="off" length="short" />
+<pin name="P$2" x="7.62" y="0" visible="off" length="short" rot="R180" />
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="INDUCTOR_2-SMD" prefix="L">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="10.85X10.0" package="INDUCTOR_10.85MMX10.00MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="11.15X10.0" package="INDUCTOR_11.15MMX10.00MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="13.65X12.6" package="INDUCTOR_13.65MMX12.60MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="3.5X3.2" package="INDUCTOR_3.50MMX3.20MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="4.45X4.06" package="INDUCTOR_4.45MMX4.06MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="5.2X5.2" package="INDUCTOR_5.20MMX5.20MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="5.5X5.3" package="INDUCTOR_5.50MMX5.30MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="6.0X6.0" package="INDUCTOR_6.00MMX6.00MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="7.15X6.6" package="INDUCTOR_7.15MMX6.60MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="" package="14-LGA(3X5)">
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_0201" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_0201">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_0402" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_0603" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_0805" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_1206" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_1206">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_1210" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_1210">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_74404054150" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_74404054150">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_CDRH3D28/LDNP-120NC" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_CDRH3D28/LDNP-120NC">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_CR75-680KC" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_CR75-680KC">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_LCX5050" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDUCTOR_LCX5050">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_NR" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0" />
+</gates>
+<devices>
+<device name="NR30" package="INDUCTOR_NR30">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="NR40" package="INDUCTOR_NR40">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="NR50" package="INDUCTOR_NR50">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="NR60" package="INDUCTOR_NR60">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="NR80" package="INDUCTOR_NR80">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="NRH24" package="INDUCTOR_NRH24">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="NRS20" package="INDUCTOR_NRS20">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
