@@ -65,3 +65,7 @@ Read [our docs](https://www.flashpcb.com/docs) for more information about the or
 Feel free to [create an issue](https://github.com/FlashPCB/FlashPCB-Eagle-Lib/issues/new) in GitHub if you would like to
 request specific components added to our library. Additionally you can reach out to us
 via [our site's contact page](https://www.flashpcb.com/contact).
+
+## Do you use a different CAD software?
+
+We are working on supporting more CAD programs in the future. Check back here later for links to our other libraries.
