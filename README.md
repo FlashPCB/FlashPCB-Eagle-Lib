@@ -52,13 +52,8 @@ you're placing a resistor or by specifying a manufacturer's part number.
 
 ### Order your assembled board from FlashPCB
 
-[Upload your finished board to our website](https://www.flashpcb.com/upload-board) to get started on the ordering
-process. Our AI powered BOM generator can understand the value text `22k 1%` to find the best components that we have in
-stock to match the footprint and the properties you specified. If you've specified a manufacturer's part number in the
-value text our AI will find that component if we have it in stock or suggest a different component that matches the
-specifications of the component specified.
-
-Read [our docs](https://www.flashpcb.com/docs) for more information about the ordering process.
+We are currently in a closed beta program. Sign up [here](https://www.flashpcb.com/beta-sign-up) to get your board
+manufactured with us.
 
 ## Requesting additions to the library
 
