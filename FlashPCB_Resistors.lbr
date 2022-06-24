@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no" />
+<setting verticaltext="up" />
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch" />
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes" />
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes" />
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes" />
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes" />
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes" />
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes" />
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes" />
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes" />
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes" />
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes" />
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes" />
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes" />
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes" />
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes" />
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes" />
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes" />
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes" />
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes" />
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes" />
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes" />
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes" />
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes" />
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes" />
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes" />
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes" />
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes" />
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes" />
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes" />
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes" />
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes" />
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes" />
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes" />
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes" />
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes" />
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes" />
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes" />
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes" />
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes" />
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes" />
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes" />
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes" />
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes" />
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes" />
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes" />
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes" />
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes" />
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes" />
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes" />
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes" />
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes" />
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes" />
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes" />
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes" />
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes" />
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes" />
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes" />
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes" />
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes" />
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes" />
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes" />
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes" />
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes" />
+<layer number="117" name="EdgeRestrict" color="13" fill="1" visible="yes" active="yes" />
+</layers>
+<library>
+<packages>
+<package name="RES-4PACK-0603">
+<polygon width="0" layer="39">
+<vertex x="2.9" y="1.2" />
+<vertex x="2.9" y="-1.2" />
+<vertex x="-0.5" y="-1.2" />
+<vertex x="-0.5" y="1.2" />
+</polygon>
+<wire x1="2.8" y1="0.8" x2="2.8" y2="-0.8" width="0.127" layer="21" />
+<wire x1="-0.4" y1="0.8" x2="-0.4" y2="-0.8" width="0.127" layer="21" />
+<smd name="P$1" x="0" y="0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$2" x="0" y="-0.775" dx="0.45" dy="0.65" layer="1" />
+<text x="-0.32" y="2.7" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.32" y="1.7" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<smd name="P$3" x="0.8" y="0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$4" x="0.8" y="-0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$5" x="1.6" y="0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$6" x="1.6" y="-0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$7" x="2.4" y="0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$8" x="2.4" y="-0.775" dx="0.45" dy="0.65" layer="1" />
+</package>
+<package name="RES-4PACK-0805">
+<polygon width="0" layer="39">
+<vertex x="4.545" y="1.8" />
+<vertex x="4.545" y="-1.8" />
+<vertex x="-0.735" y="-1.8" />
+<vertex x="-0.735" y="1.8" />
+</polygon>
+<wire x1="4.445" y1="1.1" x2="4.445" y2="-1.1" width="0.127" layer="21" />
+<wire x1="-0.635" y1="1.1" x2="-0.635" y2="-1.1" width="0.127" layer="21" />
+<smd name="P$1" x="0" y="1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$2" x="0" y="-1.15" dx="0.75" dy="1.1" layer="1" />
+<text x="-0.32" y="3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.32" y="2" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<smd name="P$3" x="1.27" y="1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$4" x="1.27" y="-1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$5" x="2.54" y="1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$6" x="2.54" y="-1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$7" x="3.81" y="1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$8" x="3.81" y="-1.15" dx="0.75" dy="1.1" layer="1" />
+</package>
+<package name="RES-0402" urn="urn:adsk.eagle:footprint:17017806/1">
+<polygon width="0" layer="39">
+<vertex x="-0.85" y="-0.4" />
+<vertex x="0.85" y="-0.4" />
+<vertex x="0.85" y="0.4" />
+<vertex x="-0.85" y="0.4" />
+</polygon>
+<smd name="P$1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1" />
+<smd name="P$2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1" />
+<text x="-1.27" y="1.5" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.27" y="0.5" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="-0.2" y1="0.25" x2="0.2" y2="0.25" width="0.127" layer="21" />
+<wire x1="-0.2" y1="-0.254" x2="0.2" y2="-0.254" width="0.127" layer="21" />
+</package>
+<package name="RES-0603">
+<polygon width="0" layer="39">
+<vertex x="-1.15" y="0.55" />
+<vertex x="1.15" y="0.55" />
+<vertex x="1.15" y="-0.55" />
+<vertex x="-1.15" y="-0.55" />
+</polygon>
+<wire x1="-0.3" y1="0.425" x2="0.3" y2="0.425" width="0.127" layer="21" />
+<wire x1="-0.3" y1="-0.425" x2="0.3" y2="-0.425" width="0.127" layer="21" />
+<smd name="P$1" x="-0.75" y="0" dx="0.6" dy="0.9" layer="1" />
+<smd name="P$2" x="0.75" y="0" dx="0.6" dy="0.9" layer="1" />
+<text x="-1.45" y="1.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.45" y="0.6" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="RES-0805">
+<polygon width="0" layer="39">
+<vertex x="-1.4" y="0.75" />
+<vertex x="1.4" y="0.75" />
+<vertex x="1.4" y="-0.75" />
+<vertex x="-1.4" y="-0.75" />
+</polygon>
+<wire x1="-0.42" y1="0.6" x2="0.42" y2="0.6" width="0.127" layer="21" />
+<wire x1="-0.42" y1="-0.6" x2="0.42" y2="-0.6" width="0.127" layer="21" />
+<smd name="P$1" x="-0.95" y="0" dx="0.7" dy="1.3" layer="1" />
+<smd name="P$2" x="0.95" y="0" dx="0.7" dy="1.3" layer="1" />
+<text x="-1.45" y="1.8" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.45" y="0.8" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="RES-1206">
+<polygon width="0" layer="39">
+<vertex x="-2" y="0.9" />
+<vertex x="2" y="0.9" />
+<vertex x="2" y="-0.9" />
+<vertex x="-2" y="-0.9" />
+</polygon>
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="21" />
+<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.127" layer="21" />
+<smd name="P$1" x="-1.45" y="0" dx="0.9" dy="1.6" layer="1" />
+<smd name="P$2" x="1.45" y="0" dx="0.9" dy="1.6" layer="1" />
+<text x="-1.45" y="2" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.45" y="1" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="RES-1210">
+<polygon width="0" layer="39">
+<vertex x="-2" y="1.35" />
+<vertex x="2" y="1.35" />
+<vertex x="2" y="-1.35" />
+<vertex x="-2" y="-1.35" />
+</polygon>
+<wire x1="-0.8" y1="1.25" x2="0.8" y2="1.25" width="0.127" layer="21" />
+<wire x1="-0.8" y1="-1.25" x2="0.8" y2="-1.25" width="0.127" layer="21" />
+<smd name="P$1" x="-1.45" y="0" dx="0.9" dy="2.5" layer="1" />
+<smd name="P$2" x="1.45" y="0" dx="0.9" dy="2.5" layer="1" />
+<text x="-1.45" y="2.5" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.45" y="1.5" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="RES-2010">
+<polygon width="0" layer="39">
+<vertex x="-2.9" y="1.5" />
+<vertex x="2.9" y="1.5" />
+<vertex x="2.9" y="-1.5" />
+<vertex x="-2.9" y="-1.5" />
+</polygon>
+<wire x1="-1.7" y1="1.25" x2="1.7" y2="1.25" width="0.127" layer="21" />
+<wire x1="-1.7" y1="-1.25" x2="1.7" y2="-1.25" width="0.127" layer="21" />
+<smd name="P$1" x="-2.35" y="0" dx="0.9" dy="2.8" layer="1" />
+<smd name="P$2" x="2.35" y="0" dx="0.9" dy="2.8" layer="1" />
+<text x="-1.45" y="2.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.45" y="1.6" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="RES-2512">
+<polygon width="0" layer="39">
+<vertex x="-3.6" y="1.85" />
+<vertex x="3.6" y="1.85" />
+<vertex x="3.6" y="-1.85" />
+<vertex x="-3.6" y="-1.85" />
+</polygon>
+<wire x1="-1.7" y1="1.6" x2="1.7" y2="1.6" width="0.127" layer="21" />
+<wire x1="-1.7" y1="-1.6" x2="1.7" y2="-1.6" width="0.127" layer="21" />
+<smd name="P$1" x="-2.7" y="0" dx="1.6" dy="3.5" layer="1" />
+<smd name="P$2" x="2.7" y="0" dx="1.6" dy="3.5" layer="1" />
+<text x="-1.45" y="3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.45" y="2" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="POT-3306F">
+<polygon width="0" layer="40">
+<vertex x="-1.279090625" y="-2.5" />
+<vertex x="-1.738775" y="-1.54545625" />
+<vertex x="-2.771678125" y="-1.309703125" />
+<vertex x="-3.6" y="-1.97026875" />
+<vertex x="-3.6" y="-3.02973125" />
+<vertex x="-2.771678125" y="-3.690296875" />
+<vertex x="-1.738775" y="-3.45454375" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="0" y="1.279090625" />
+<vertex x="0.95454375" y="1.738775" />
+<vertex x="1.190296875" y="2.771678125" />
+<vertex x="0.52973125" y="3.6" />
+<vertex x="-0.52973125" y="3.6" />
+<vertex x="-1.190296875" y="2.771678125" />
+<vertex x="-0.95454375" y="1.738775" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.279090625" y="-2.5" />
+<vertex x="1.738775" y="-3.45454375" />
+<vertex x="2.771678125" y="-3.690296875" />
+<vertex x="3.6" y="-3.02973125" />
+<vertex x="3.6" y="-1.97026875" />
+<vertex x="2.771678125" y="-1.309703125" />
+<vertex x="1.738775" y="-1.54545625" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-3.655" y="3.65" />
+<vertex x="3.655" y="3.65" />
+<vertex x="3.655" y="-4.95" />
+<vertex x="-3.655" y="-4.95" />
+</polygon>
+<pad name="P$1" x="2.5" y="-2.5" drill="1.1" />
+<pad name="P$2" x="0" y="2.5" drill="1.1" />
+<pad name="P$3" x="-2.5" y="-2.5" drill="1.1" />
+<wire x1="-3.405" y1="-4.7" x2="-3.405" y2="2.4" width="0.127" layer="21" />
+<wire x1="-3.405" y1="2.4" x2="-2.405" y2="3.4" width="0.127" layer="21" />
+<wire x1="-2.405" y1="3.4" x2="2.405" y2="3.4" width="0.127" layer="21" />
+<wire x1="2.405" y1="3.4" x2="3.405" y2="2.4" width="0.127" layer="21" />
+<wire x1="3.405" y1="2.4" x2="3.405" y2="-4.7" width="0.127" layer="21" />
+<wire x1="3.405" y1="-4.7" x2="-3.405" y2="-4.7" width="0.127" layer="21" />
+<text x="0" y="6.35" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0" y="5.08" size="0.8128" layer="25" font="vector">&gt;Value</text>
+<circle x="0" y="0" radius="3.4" width="0.001" layer="51" />
+</package>
+<package name="POT-3306K">
+<polygon width="0" layer="40">
+<vertex x="-1.279090625" y="0" />
+<vertex x="-1.738775" y="0.95454375" />
+<vertex x="-2.771678125" y="1.190296875" />
+<vertex x="-3.6" y="0.52973125" />
+<vertex x="-3.6" y="-0.52973125" />
+<vertex x="-2.771678125" y="-1.190296875" />
+<vertex x="-1.738775" y="-0.95454375" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="0" y="1.279090625" />
+<vertex x="0.95454375" y="1.738775" />
+<vertex x="1.190296875" y="2.771678125" />
+<vertex x="0.52973125" y="3.6" />
+<vertex x="-0.52973125" y="3.6" />
+<vertex x="-1.190296875" y="2.771678125" />
+<vertex x="-0.95454375" y="1.738775" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.279090625" y="0" />
+<vertex x="1.738775" y="-0.95454375" />
+<vertex x="2.771678125" y="-1.190296875" />
+<vertex x="3.6" y="-0.52973125" />
+<vertex x="3.6" y="0.52973125" />
+<vertex x="2.771678125" y="1.190296875" />
+<vertex x="1.738775" y="0.95454375" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-3.655" y="2.75" />
+<vertex x="-1.0894875" y="2.75" />
+<vertex x="-0.95454375" y="3.341225" />
+<vertex x="0" y="3.800909375" />
+<vertex x="0.95454375" y="3.341225" />
+<vertex x="1.0894875" y="2.75" />
+<vertex x="3.655" y="2.75" />
+<vertex x="3.655" y="-5" />
+<vertex x="-3.655" y="-5" />
+</polygon>
+<pad name="P$1" x="2.5" y="0" drill="1.1" />
+<pad name="P$2" x="0" y="2.5" drill="1.1" />
+<pad name="P$3" x="-2.5" y="0" drill="1.1" />
+<wire x1="-3.405" y1="-4.5" x2="-3.405" y2="2.5" width="0.127" layer="21" />
+<wire x1="-3.405" y1="2.5" x2="-1.27" y2="2.5" width="0.127" layer="21" />
+<wire x1="1.27" y1="2.5" x2="3.405" y2="2.5" width="0.127" layer="21" />
+<wire x1="3.405" y1="2.5" x2="3.405" y2="-4.5" width="0.127" layer="21" />
+<wire x1="3.405" y1="-4.5" x2="-3.405" y2="-4.5" width="0.127" layer="21" />
+<text x="0" y="6.35" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0" y="5.08" size="0.8128" layer="25" font="vector">&gt;Value</text>
+</package>
+<package name="POT-3306P">
+<polygon width="0" layer="40">
+<vertex x="-1.279090625" y="-1.25" />
+<vertex x="-1.738775" y="-0.29545625" />
+<vertex x="-2.771678125" y="-0.059703125" />
+<vertex x="-3.6" y="-0.72026875" />
+<vertex x="-3.6" y="-1.77973125" />
+<vertex x="-2.771678125" y="-2.440296875" />
+<vertex x="-1.738775" y="-2.20454375" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="0" y="0.029090625" />
+<vertex x="0.95454375" y="0.488775" />
+<vertex x="1.190296875" y="1.521678125" />
+<vertex x="0.52973125" y="2.35" />
+<vertex x="-0.52973125" y="2.35" />
+<vertex x="-1.190296875" y="1.521678125" />
+<vertex x="-0.95454375" y="0.488775" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.279090625" y="-1.25" />
+<vertex x="1.738775" y="-2.20454375" />
+<vertex x="2.771678125" y="-2.440296875" />
+<vertex x="3.6" y="-1.77973125" />
+<vertex x="3.6" y="-0.72026875" />
+<vertex x="2.771678125" y="-0.059703125" />
+<vertex x="1.738775" y="-0.29545625" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-3.655" y="3.65" />
+<vertex x="3.655" y="3.65" />
+<vertex x="3.655" y="-4.95" />
+<vertex x="-3.655" y="-4.95" />
+</polygon>
+<pad name="P$1" x="2.5" y="-1.25" drill="1.1" />
+<pad name="P$2" x="0" y="1.25" drill="1.1" />
+<pad name="P$3" x="-2.5" y="-1.25" drill="1.1" />
+<wire x1="-3.405" y1="-4.7" x2="-3.405" y2="2.4" width="0.127" layer="21" />
+<wire x1="-3.405" y1="2.4" x2="-2.405" y2="3.4" width="0.127" layer="21" />
+<wire x1="-2.405" y1="3.4" x2="2.405" y2="3.4" width="0.127" layer="21" />
+<wire x1="2.405" y1="3.4" x2="3.405" y2="2.4" width="0.127" layer="21" />
+<wire x1="3.405" y1="2.4" x2="3.405" y2="-4.7" width="0.127" layer="21" />
+<wire x1="3.405" y1="-4.7" x2="-3.405" y2="-4.7" width="0.127" layer="21" />
+<text x="0" y="6.35" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0" y="5.08" size="0.8128" layer="25" font="vector">&gt;Value</text>
+<circle x="0" y="0" radius="3.4" width="0.001" layer="51" />
+</package>
+<package name="POT-3306W">
+<polygon width="0" layer="40">
+<vertex x="-1.279090625" y="0" />
+<vertex x="-1.738775" y="0.95454375" />
+<vertex x="-2.771678125" y="1.190296875" />
+<vertex x="-3.6" y="0.52973125" />
+<vertex x="-3.6" y="-0.52973125" />
+<vertex x="-2.771678125" y="-1.190296875" />
+<vertex x="-1.738775" y="-0.95454375" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="0" y="1.279090625" />
+<vertex x="0.95454375" y="1.738775" />
+<vertex x="1.190296875" y="2.771678125" />
+<vertex x="0.52973125" y="3.6" />
+<vertex x="-0.52973125" y="3.6" />
+<vertex x="-1.190296875" y="2.771678125" />
+<vertex x="-0.95454375" y="1.738775" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.279090625" y="0" />
+<vertex x="1.738775" y="-0.95454375" />
+<vertex x="2.771678125" y="-1.190296875" />
+<vertex x="3.6" y="-0.52973125" />
+<vertex x="3.6" y="0.52973125" />
+<vertex x="2.771678125" y="1.190296875" />
+<vertex x="1.738775" y="0.95454375" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-3.655" y="2.75" />
+<vertex x="-1.0894875" y="2.75" />
+<vertex x="-0.95454375" y="3.341225" />
+<vertex x="0" y="3.800909375" />
+<vertex x="0.95454375" y="3.341225" />
+<vertex x="1.0894875" y="2.75" />
+<vertex x="3.655" y="2.75" />
+<vertex x="3.655" y="-2.25" />
+<vertex x="-3.655" y="-2.25" />
+</polygon>
+<pad name="P$1" x="2.5" y="0" drill="1.1" />
+<pad name="P$2" x="0" y="2.5" drill="1.1" />
+<pad name="P$3" x="-2.5" y="0" drill="1.1" />
+<wire x1="-3.405" y1="-2" x2="-3.405" y2="2.5" width="0.127" layer="21" />
+<wire x1="-3.405" y1="2.5" x2="-1.27" y2="2.5" width="0.127" layer="21" />
+<wire x1="1.27" y1="2.5" x2="3.405" y2="2.5" width="0.127" layer="21" />
+<wire x1="3.405" y1="2.5" x2="3.405" y2="-2" width="0.127" layer="21" />
+<wire x1="3.405" y1="-2" x2="-3.405" y2="-2" width="0.127" layer="21" />
+<text x="0" y="6.35" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0" y="5.08" size="0.8128" layer="25" font="vector">&gt;Value</text>
+</package>
+<package name="POT-3299P">
+<polygon width="0" layer="40">
+<vertex x="6.450909375" y="2.54" />
+<vertex x="5.991225" y="3.49454375" />
+<vertex x="4.958321875" y="3.730296875" />
+<vertex x="4.13" y="3.06973125" />
+<vertex x="4.13" y="2.01026875" />
+<vertex x="4.958321875" y="1.349703125" />
+<vertex x="5.991225" y="1.58545625" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="8.990909375" y="0" />
+<vertex x="8.531225" y="0.95454375" />
+<vertex x="7.498321875" y="1.190296875" />
+<vertex x="6.67" y="0.52973125" />
+<vertex x="6.67" y="-0.52973125" />
+<vertex x="7.498321875" y="-1.190296875" />
+<vertex x="8.531225" y="-0.95454375" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="6.450909375" y="-2.54" />
+<vertex x="5.991225" y="-1.58545625" />
+<vertex x="4.958321875" y="-1.349703125" />
+<vertex x="4.13" y="-2.01026875" />
+<vertex x="4.13" y="-3.06973125" />
+<vertex x="4.958321875" y="-3.730296875" />
+<vertex x="5.991225" y="-3.49454375" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-0.25" y="5.015" />
+<vertex x="6.67" y="5.08" />
+<vertex x="10.3" y="5.08" />
+<vertex x="10.3" y="-2" />
+<vertex x="11.8" y="-2" />
+<vertex x="11.8" y="-5.015" />
+<vertex x="-0.25" y="-5.015" />
+</polygon>
+<pad name="P$1" x="5.23" y="-2.54" drill="1.1" />
+<pad name="P$2" x="7.77" y="0" drill="1.1" />
+<pad name="P$3" x="5.23" y="2.54" drill="1.1" />
+<wire x1="0" y1="4.765" x2="10.03" y2="4.765" width="0.127" layer="21" />
+<wire x1="10.03" y1="4.765" x2="10.03" y2="-4.765" width="0.127" layer="21" />
+<wire x1="10.03" y1="-4.765" x2="0" y2="-4.765" width="0.127" layer="21" />
+<wire x1="0" y1="-4.765" x2="0" y2="4.765" width="0.127" layer="21" />
+<text x="11.595" y="-3.42" size="0.3048" layer="51" font="vector" rot="R270" align="center">Trim</text>
+<wire x1="10.03" y1="-2.275" x2="11.55" y2="-2.275" width="0" layer="51" />
+<wire x1="11.55" y1="-2.275" x2="11.55" y2="-4.565" width="0" layer="51" />
+<wire x1="11.55" y1="-4.565" x2="10.03" y2="-4.565" width="0" layer="51" />
+<text x="0" y="6.35" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0" y="5.08" size="0.8128" layer="25" font="vector">&gt;Value</text>
+</package>
+<package name="POT-3299W">
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="2.54" />
+<vertex x="0.761225" y="3.49454375" />
+<vertex x="-0.271678125" y="3.730296875" />
+<vertex x="-1.1" y="3.06973125" />
+<vertex x="-1.1" y="2.01026875" />
+<vertex x="-0.271678125" y="1.349703125" />
+<vertex x="0.761225" y="1.58545625" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="0" />
+<vertex x="0.761225" y="0.95454375" />
+<vertex x="-0.271678125" y="1.190296875" />
+<vertex x="-1.1" y="0.52973125" />
+<vertex x="-1.1" y="-0.52973125" />
+<vertex x="-0.271678125" y="-1.190296875" />
+<vertex x="0.761225" y="-0.95454375" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="-2.54" />
+<vertex x="0.761225" y="-1.58545625" />
+<vertex x="-0.271678125" y="-1.349703125" />
+<vertex x="-1.1" y="-2.01026875" />
+<vertex x="-1.1" y="-3.06973125" />
+<vertex x="-0.271678125" y="-3.730296875" />
+<vertex x="0.761225" y="-3.49454375" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-2.16" y="5.015" />
+<vertex x="4.44" y="5.015" />
+<vertex x="4.44" y="-5.015" />
+<vertex x="-2.16" y="-5.015" />
+</polygon>
+<pad name="P$1" x="0" y="-2.54" drill="1.1" />
+<pad name="P$2" x="0" y="0" drill="1.1" />
+<pad name="P$3" x="0" y="2.54" drill="1.1" />
+<wire x1="-1.91" y1="4.765" x2="4.19" y2="4.765" width="0.127" layer="21" />
+<wire x1="4.19" y1="4.765" x2="4.19" y2="-4.765" width="0.127" layer="21" />
+<wire x1="4.19" y1="-4.765" x2="-1.91" y2="-4.765" width="0.127" layer="21" />
+<wire x1="-1.91" y1="-4.765" x2="-1.91" y2="4.765" width="0.127" layer="21" />
+<wire x1="0.331753125" y1="-3.645" x2="0.304825" y2="-3.39740625" width="0" layer="51" />
+<wire x1="0.304825" y1="-3.39740625" x2="0.2253" y2="-3.161390625" width="0" layer="51" />
+<wire x1="0.2253" y1="-3.161390625" x2="0.0969" y2="-2.947990625" width="0" layer="51" />
+<wire x1="0.0969" y1="-2.947990625" x2="-0.074371875" y2="-2.767178125" width="0" layer="51" />
+<wire x1="-0.074371875" y1="-2.767178125" x2="-0.280509375" y2="-2.6274125" width="0" layer="51" />
+<wire x1="-0.280509375" y1="-2.6274125" x2="-0.511875" y2="-2.53523125" width="0" layer="51" />
+<wire x1="-0.511875" y1="-2.53523125" x2="-0.75764375" y2="-2.4949375" width="0" layer="51" />
+<wire x1="-0.75764375" y1="-2.4949375" x2="-1.006334375" y2="-2.508421875" width="0" layer="51" />
+<wire x1="-1.006334375" y1="-2.508421875" x2="-1.24630625" y2="-2.57505" width="0" layer="51" />
+<wire x1="-1.24630625" y1="-2.57505" x2="-1.466346875" y2="-2.691709375" width="0" layer="51" />
+<wire x1="-1.466346875" y1="-2.691709375" x2="-1.656165625" y2="-2.852940625" width="0" layer="51" />
+<wire x1="-1.656165625" y1="-2.852940625" x2="-1.8068875" y2="-3.051209375" width="0" layer="51" />
+<wire x1="-1.8068875" y1="-3.051209375" x2="-1.9114625" y2="-3.27724375" width="0" layer="51" />
+<wire x1="-1.9114625" y1="-3.27724375" x2="-1.965" y2="-3.520475" width="0" layer="51" />
+<wire x1="-1.965" y1="-3.520475" x2="-1.965" y2="-3.769525" width="0" layer="51" />
+<wire x1="-1.965" y1="-3.769525" x2="-1.9114625" y2="-4.01275625" width="0" layer="51" />
+<wire x1="-1.9114625" y1="-4.01275625" x2="-1.8068875" y2="-4.238790625" width="0" layer="51" />
+<wire x1="-1.8068875" y1="-4.238790625" x2="-1.656165625" y2="-4.437059375" width="0" layer="51" />
+<wire x1="-1.656165625" y1="-4.437059375" x2="-1.466346875" y2="-4.598290625" width="0" layer="51" />
+<wire x1="-1.466346875" y1="-4.598290625" x2="-1.24630625" y2="-4.71495" width="0" layer="51" />
+<wire x1="-1.24630625" y1="-4.71495" x2="-1.006334375" y2="-4.781578125" width="0" layer="51" />
+<wire x1="-1.006334375" y1="-4.781578125" x2="-0.75764375" y2="-4.7950625" width="0" layer="51" />
+<wire x1="-0.75764375" y1="-4.7950625" x2="-0.511875" y2="-4.75476875" width="0" layer="51" />
+<wire x1="-0.511875" y1="-4.75476875" x2="-0.280509375" y2="-4.6625875" width="0" layer="51" />
+<wire x1="-0.280509375" y1="-4.6625875" x2="-0.074371875" y2="-4.522821875" width="0" layer="51" />
+<wire x1="-0.074371875" y1="-4.522821875" x2="0.0969" y2="-4.342009375" width="0" layer="51" />
+<wire x1="0.0969" y1="-4.342009375" x2="0.2253" y2="-4.128609375" width="0" layer="51" />
+<wire x1="0.2253" y1="-4.128609375" x2="0.304825" y2="-3.89259375" width="0" layer="51" />
+<wire x1="0.304825" y1="-3.89259375" x2="0.331753125" y2="-3.645" width="0" layer="51" />
+<text x="-0.82" y="-3.645" size="0.3048" layer="51" font="vector" align="center">Trim</text>
+<text x="4.73" y="3.54" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="4.73" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="POT-3299X">
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="2.54" />
+<vertex x="0.761225" y="3.49454375" />
+<vertex x="-0.271678125" y="3.730296875" />
+<vertex x="-1.1" y="3.06973125" />
+<vertex x="-1.1" y="2.01026875" />
+<vertex x="-0.271678125" y="1.349703125" />
+<vertex x="0.761225" y="1.58545625" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="0" />
+<vertex x="0.761225" y="0.95454375" />
+<vertex x="-0.271678125" y="1.190296875" />
+<vertex x="-1.1" y="0.52973125" />
+<vertex x="-1.1" y="-0.52973125" />
+<vertex x="-0.271678125" y="-1.190296875" />
+<vertex x="0.761225" y="-0.95454375" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="-2.54" />
+<vertex x="0.761225" y="-1.58545625" />
+<vertex x="-0.271678125" y="-1.349703125" />
+<vertex x="-1.1" y="-2.01026875" />
+<vertex x="-1.1" y="-3.06973125" />
+<vertex x="-0.271678125" y="-3.730296875" />
+<vertex x="0.761225" y="-3.49454375" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-2.16" y="5.015" />
+<vertex x="1.27" y="5.08" />
+<vertex x="1.705" y="5.08" />
+<vertex x="1.705" y="6.535" />
+<vertex x="4.44" y="6.535" />
+<vertex x="4.44" y="-5.015" />
+<vertex x="-2.16" y="-5.015" />
+</polygon>
+<pad name="P$1" x="0" y="-2.54" drill="1.1" />
+<pad name="P$2" x="0" y="0" drill="1.1" />
+<pad name="P$3" x="0" y="2.54" drill="1.1" />
+<wire x1="-1.91" y1="4.765" x2="4.19" y2="4.765" width="0.127" layer="21" />
+<wire x1="4.19" y1="4.765" x2="4.19" y2="-4.765" width="0.127" layer="21" />
+<wire x1="4.19" y1="-4.765" x2="-1.91" y2="-4.765" width="0.127" layer="21" />
+<wire x1="-1.91" y1="-4.765" x2="-1.91" y2="4.765" width="0.127" layer="21" />
+<text x="3.1" y="6.515" size="0.3048" layer="51" font="vector" align="center">Trim</text>
+<wire x1="1.955" y1="4.765" x2="1.955" y2="6.285" width="0" layer="51" />
+<wire x1="1.955" y1="6.285" x2="4.245" y2="6.285" width="0" layer="51" />
+<wire x1="4.245" y1="6.285" x2="4.245" y2="4.765" width="0" layer="51" />
+<text x="4.73" y="3.54" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="4.73" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="POT-3299Y">
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="2.54" />
+<vertex x="0.761225" y="3.49454375" />
+<vertex x="-0.271678125" y="3.730296875" />
+<vertex x="-1.1" y="3.06973125" />
+<vertex x="-1.1" y="2.01026875" />
+<vertex x="-0.271678125" y="1.349703125" />
+<vertex x="0.761225" y="1.58545625" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="3.760909375" y="0" />
+<vertex x="3.301225" y="0.95454375" />
+<vertex x="2.268321875" y="1.190296875" />
+<vertex x="1.44" y="0.52973125" />
+<vertex x="1.44" y="-0.52973125" />
+<vertex x="2.268321875" y="-1.190296875" />
+<vertex x="3.301225" y="-0.95454375" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="-2.54" />
+<vertex x="0.761225" y="-1.58545625" />
+<vertex x="-0.271678125" y="-1.349703125" />
+<vertex x="-1.1" y="-2.01026875" />
+<vertex x="-1.1" y="-3.06973125" />
+<vertex x="-0.271678125" y="-3.730296875" />
+<vertex x="0.761225" y="-3.49454375" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-2.16" y="5.015" />
+<vertex x="4.44" y="5.015" />
+<vertex x="4.44" y="-5.015" />
+<vertex x="-2.16" y="-5.015" />
+</polygon>
+<pad name="P$1" x="0" y="-2.54" drill="1.1" />
+<pad name="P$2" x="2.54" y="0" drill="1.1" />
+<pad name="P$3" x="0" y="2.54" drill="1.1" />
+<wire x1="-1.91" y1="4.765" x2="4.19" y2="4.765" width="0.127" layer="21" />
+<wire x1="4.19" y1="4.765" x2="4.19" y2="-4.765" width="0.127" layer="21" />
+<wire x1="4.19" y1="-4.765" x2="-1.91" y2="-4.765" width="0.127" layer="21" />
+<wire x1="-1.91" y1="-4.765" x2="-1.91" y2="4.765" width="0.127" layer="21" />
+<wire x1="0.331753125" y1="-3.645" x2="0.304825" y2="-3.39740625" width="0" layer="51" />
+<wire x1="0.304825" y1="-3.39740625" x2="0.2253" y2="-3.161390625" width="0" layer="51" />
+<wire x1="0.2253" y1="-3.161390625" x2="0.0969" y2="-2.947990625" width="0" layer="51" />
+<wire x1="0.0969" y1="-2.947990625" x2="-0.074371875" y2="-2.767178125" width="0" layer="51" />
+<wire x1="-0.074371875" y1="-2.767178125" x2="-0.280509375" y2="-2.6274125" width="0" layer="51" />
+<wire x1="-0.280509375" y1="-2.6274125" x2="-0.511875" y2="-2.53523125" width="0" layer="51" />
+<wire x1="-0.511875" y1="-2.53523125" x2="-0.75764375" y2="-2.4949375" width="0" layer="51" />
+<wire x1="-0.75764375" y1="-2.4949375" x2="-1.006334375" y2="-2.508421875" width="0" layer="51" />
+<wire x1="-1.006334375" y1="-2.508421875" x2="-1.24630625" y2="-2.57505" width="0" layer="51" />
+<wire x1="-1.24630625" y1="-2.57505" x2="-1.466346875" y2="-2.691709375" width="0" layer="51" />
+<wire x1="-1.466346875" y1="-2.691709375" x2="-1.656165625" y2="-2.852940625" width="0" layer="51" />
+<wire x1="-1.656165625" y1="-2.852940625" x2="-1.8068875" y2="-3.051209375" width="0" layer="51" />
+<wire x1="-1.8068875" y1="-3.051209375" x2="-1.9114625" y2="-3.27724375" width="0" layer="51" />
+<wire x1="-1.9114625" y1="-3.27724375" x2="-1.965" y2="-3.520475" width="0" layer="51" />
+<wire x1="-1.965" y1="-3.520475" x2="-1.965" y2="-3.769525" width="0" layer="51" />
+<wire x1="-1.965" y1="-3.769525" x2="-1.9114625" y2="-4.01275625" width="0" layer="51" />
+<wire x1="-1.9114625" y1="-4.01275625" x2="-1.8068875" y2="-4.238790625" width="0" layer="51" />
+<wire x1="-1.8068875" y1="-4.238790625" x2="-1.656165625" y2="-4.437059375" width="0" layer="51" />
+<wire x1="-1.656165625" y1="-4.437059375" x2="-1.466346875" y2="-4.598290625" width="0" layer="51" />
+<wire x1="-1.466346875" y1="-4.598290625" x2="-1.24630625" y2="-4.71495" width="0" layer="51" />
+<wire x1="-1.24630625" y1="-4.71495" x2="-1.006334375" y2="-4.781578125" width="0" layer="51" />
+<wire x1="-1.006334375" y1="-4.781578125" x2="-0.75764375" y2="-4.7950625" width="0" layer="51" />
+<wire x1="-0.75764375" y1="-4.7950625" x2="-0.511875" y2="-4.75476875" width="0" layer="51" />
+<wire x1="-0.511875" y1="-4.75476875" x2="-0.280509375" y2="-4.6625875" width="0" layer="51" />
+<wire x1="-0.280509375" y1="-4.6625875" x2="-0.074371875" y2="-4.522821875" width="0" layer="51" />
+<wire x1="-0.074371875" y1="-4.522821875" x2="0.0969" y2="-4.342009375" width="0" layer="51" />
+<wire x1="0.0969" y1="-4.342009375" x2="0.2253" y2="-4.128609375" width="0" layer="51" />
+<wire x1="0.2253" y1="-4.128609375" x2="0.304825" y2="-3.89259375" width="0" layer="51" />
+<wire x1="0.304825" y1="-3.89259375" x2="0.331753125" y2="-3.645" width="0" layer="51" />
+<text x="-0.82" y="-3.645" size="0.3048" layer="51" font="vector" align="center">Trim</text>
+<text x="4.73" y="3.54" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="4.73" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="POT-3299Z">
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="2.54" />
+<vertex x="0.761225" y="3.49454375" />
+<vertex x="-0.271678125" y="3.730296875" />
+<vertex x="-1.1" y="3.06973125" />
+<vertex x="-1.1" y="2.01026875" />
+<vertex x="-0.271678125" y="1.349703125" />
+<vertex x="0.761225" y="1.58545625" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="3.760909375" y="0" />
+<vertex x="3.301225" y="0.95454375" />
+<vertex x="2.268321875" y="1.190296875" />
+<vertex x="1.44" y="0.52973125" />
+<vertex x="1.44" y="-0.52973125" />
+<vertex x="2.268321875" y="-1.190296875" />
+<vertex x="3.301225" y="-0.95454375" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="1.220909375" y="-2.54" />
+<vertex x="0.761225" y="-1.58545625" />
+<vertex x="-0.271678125" y="-1.349703125" />
+<vertex x="-1.1" y="-2.01026875" />
+<vertex x="-1.1" y="-3.06973125" />
+<vertex x="-0.271678125" y="-3.730296875" />
+<vertex x="0.761225" y="-3.49454375" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-2.16" y="5.015" />
+<vertex x="1.27" y="5.08" />
+<vertex x="1.705" y="5.08" />
+<vertex x="1.705" y="6.535" />
+<vertex x="4.44" y="6.535" />
+<vertex x="4.44" y="-5.015" />
+<vertex x="-2.16" y="-5.015" />
+</polygon>
+<pad name="P$1" x="0" y="-2.54" drill="1.1" />
+<pad name="P$2" x="2.54" y="0" drill="1.1" />
+<pad name="P$3" x="0" y="2.54" drill="1.1" />
+<wire x1="-1.91" y1="4.765" x2="4.19" y2="4.765" width="0.127" layer="21" />
+<wire x1="4.19" y1="4.765" x2="4.19" y2="-4.765" width="0.127" layer="21" />
+<wire x1="4.19" y1="-4.765" x2="-1.91" y2="-4.765" width="0.127" layer="21" />
+<wire x1="-1.91" y1="-4.765" x2="-1.91" y2="4.765" width="0.127" layer="21" />
+<text x="3.1" y="6.515" size="0.3048" layer="51" font="vector" align="center">Trim</text>
+<wire x1="1.955" y1="4.765" x2="1.955" y2="6.285" width="0" layer="51" />
+<wire x1="1.955" y1="6.285" x2="4.245" y2="6.285" width="0" layer="51" />
+<wire x1="4.245" y1="6.285" x2="4.245" y2="4.765" width="0" layer="51" />
+<text x="4.73" y="3.54" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="4.73" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="POT-TC33" urn="urn:adsk.eagle:footprint:17017915/1">
+<smd name="P$1" x="-1" y="-1.8" dx="1.2" dy="1.2" layer="1" />
+<smd name="P$2" x="0" y="1.45" dx="1.6" dy="1.5" layer="1" />
+<smd name="P$3" x="1" y="-1.8" dx="1.2" dy="1.2" layer="1" />
+<circle x="0" y="0" radius="1.8" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.1" x2="-1.5" y2="1.8" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.8" x2="1.5" y2="1.8" width="0.127" layer="21" />
+<wire x1="1.5" y1="1.8" x2="1.5" y2="1.1" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-1.05" x2="-1.5" y2="-2" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-2" x2="1.5" y2="-2" width="0.127" layer="21" />
+<wire x1="1.5" y1="-2" x2="1.5" y2="-1.05" width="0.127" layer="21" />
+<text x="-2.54" y="2.54" size="0.8128" layer="25" font="vector">&gt;Name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RESISTOR-4PACK">
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0.635" width="0.1524" layer="94" />
+<wire x1="-1.905" y1="0.635" x2="-0.635" y2="-0.635" width="0.1524" layer="94" />
+<wire x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" width="0.1524" layer="94" />
+<wire x1="0.635" y1="0.635" x2="1.905" y2="-0.635" width="0.1524" layer="94" />
+<wire x1="1.905" y1="-0.635" x2="2.54" y2="0" width="0.1524" layer="94" />
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" />
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180" />
+<text x="-3.175" y="2.54" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-3.175" y="-10.795" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<wire x1="-2.54" y1="-2.54" x2="-1.905" y2="-1.905" width="0.1524" layer="94" />
+<wire x1="-1.905" y1="-1.905" x2="-0.635" y2="-3.175" width="0.1524" layer="94" />
+<wire x1="-0.635" y1="-3.175" x2="0.635" y2="-1.905" width="0.1524" layer="94" />
+<wire x1="0.635" y1="-1.905" x2="1.905" y2="-3.175" width="0.1524" layer="94" />
+<wire x1="1.905" y1="-3.175" x2="2.54" y2="-2.54" width="0.1524" layer="94" />
+<pin name="P$3" x="-5.08" y="-2.54" visible="off" length="short" />
+<pin name="P$4" x="5.08" y="-2.54" visible="off" length="short" rot="R180" />
+<wire x1="-2.54" y1="-5.08" x2="-1.905" y2="-4.445" width="0.1524" layer="94" />
+<wire x1="-1.905" y1="-4.445" x2="-0.635" y2="-5.715" width="0.1524" layer="94" />
+<wire x1="-0.635" y1="-5.715" x2="0.635" y2="-4.445" width="0.1524" layer="94" />
+<wire x1="0.635" y1="-4.445" x2="1.905" y2="-5.715" width="0.1524" layer="94" />
+<wire x1="1.905" y1="-5.715" x2="2.54" y2="-5.08" width="0.1524" layer="94" />
+<pin name="P$5" x="-5.08" y="-5.08" visible="off" length="short" />
+<pin name="P$6" x="5.08" y="-5.08" visible="off" length="short" rot="R180" />
+<wire x1="-2.54" y1="-7.62" x2="-1.905" y2="-6.985" width="0.1524" layer="94" />
+<wire x1="-1.905" y1="-6.985" x2="-0.635" y2="-8.255" width="0.1524" layer="94" />
+<wire x1="-0.635" y1="-8.255" x2="0.635" y2="-6.985" width="0.1524" layer="94" />
+<wire x1="0.635" y1="-6.985" x2="1.905" y2="-8.255" width="0.1524" layer="94" />
+<wire x1="1.905" y1="-8.255" x2="2.54" y2="-7.62" width="0.1524" layer="94" />
+<pin name="P$7" x="-5.08" y="-7.62" visible="off" length="short" />
+<pin name="P$8" x="5.08" y="-7.62" visible="off" length="short" rot="R180" />
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94" />
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-8.89" width="0.254" layer="94" />
+<wire x1="3.81" y1="-8.89" x2="-3.81" y2="-8.89" width="0.254" layer="94" />
+<wire x1="-3.81" y1="-8.89" x2="-3.81" y2="1.27" width="0.254" layer="94" />
+</symbol>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0.635" width="0.1524" layer="94" />
+<wire x1="-1.905" y1="0.635" x2="-0.635" y2="-0.635" width="0.1524" layer="94" />
+<wire x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" width="0.1524" layer="94" />
+<wire x1="0.635" y1="0.635" x2="1.905" y2="-0.635" width="0.1524" layer="94" />
+<wire x1="1.905" y1="-0.635" x2="2.54" y2="0" width="0.1524" layer="94" />
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" />
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180" />
+<text x="-3.175" y="1.27" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-3.175" y="-1.905" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="POTENTIOMETER">
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0.635" width="0.1524" layer="94" />
+<wire x1="-1.905" y1="0.635" x2="-0.635" y2="-0.635" width="0.1524" layer="94" />
+<wire x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" width="0.1524" layer="94" />
+<wire x1="0.635" y1="0.635" x2="1.905" y2="-0.635" width="0.1524" layer="94" />
+<wire x1="1.905" y1="-0.635" x2="2.54" y2="0" width="0.1524" layer="94" />
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" />
+<pin name="P$3" x="5.08" y="0" visible="off" length="short" rot="R180" />
+<text x="-3.175" y="3.175" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-3.175" y="1.27" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<pin name="OUT" x="0" y="-3.81" visible="off" length="short" rot="R90" />
+<wire x1="0" y1="-1.27" x2="0" y2="-0.635" width="0.254" layer="94" />
+<wire x1="0" y1="-0.635" x2="0.635" y2="-1.27" width="0.254" layer="94" />
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.254" layer="94" />
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RES-4PACK-0603" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR-4PACK" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="RES-4PACK-0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+<connect gate="G$1" pin="P$4" pad="P$4" />
+<connect gate="G$1" pin="P$5" pad="P$5" />
+<connect gate="G$1" pin="P$6" pad="P$6" />
+<connect gate="G$1" pin="P$7" pad="P$7" />
+<connect gate="G$1" pin="P$8" pad="P$8" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-4PACK-0805" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR-4PACK" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="RES-4PACK-0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+<connect gate="G$1" pin="P$4" pad="P$4" />
+<connect gate="G$1" pin="P$5" pad="P$5" />
+<connect gate="G$1" pin="P$6" pad="P$6" />
+<connect gate="G$1" pin="P$7" pad="P$7" />
+<connect gate="G$1" pin="P$8" pad="P$8" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-0402" prefix="R" uservalue="yes">
+<description>https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAX1EFqpEDxxY%2BWVoR4gGooA</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-0603" prefix="R" uservalue="yes">
+<description>https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAX1EFqpEDxxY%2BWVoR4gGooA</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-0805" prefix="R" uservalue="yes">
+<description>https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAX1EFqpEDxxY%2BWVoR4gGooA</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="RES-0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-1206" prefix="R" uservalue="yes">
+<description>https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAX1EFqpEDxxY%2BWVoR4gGooA</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="RES-1206">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-1210" prefix="R" uservalue="yes">
+<description>https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAX1EFqpEDxxY%2BWVoR4gGooA</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="RES-1210">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-2010" prefix="R" uservalue="yes">
+<description>https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAX1EFqpEDxxY%2BWVoR4gGooA</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="RES-2010">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-2512" prefix="R" uservalue="yes">
+<description>https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAX1EFqpEDxxY%2BWVoR4gGooA</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="RES-2512">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POT-THT-6MMROUND" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="POTENTIOMETER" x="0" y="0" />
+</gates>
+<devices>
+<device name="3306F" package="POT-3306F">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="3306K" package="POT-3306K">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="3306P" package="POT-3306P">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="3306W" package="POT-3306W">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POT-THT-9.53MM" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="POTENTIOMETER" x="0" y="0" />
+</gates>
+<devices>
+<device name="3299P" package="POT-3299P">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="3299W" package="POT-3299W">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="3299X" package="POT-3299X">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="3299Y" package="POT-3299Y">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="3299Z" package="POT-3299Z">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POT-SMT-JLEAD-3.8X3.6MM" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="POTENTIOMETER" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="POT-TC33">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

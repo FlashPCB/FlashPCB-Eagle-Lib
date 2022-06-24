@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no" />
+<setting verticaltext="up" />
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch" />
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes" />
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes" />
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes" />
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes" />
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes" />
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes" />
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes" />
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes" />
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes" />
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes" />
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes" />
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes" />
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes" />
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes" />
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes" />
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes" />
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes" />
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes" />
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes" />
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes" />
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes" />
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes" />
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes" />
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes" />
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes" />
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes" />
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes" />
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes" />
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes" />
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes" />
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes" />
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes" />
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes" />
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes" />
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes" />
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes" />
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes" />
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes" />
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes" />
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes" />
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes" />
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes" />
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes" />
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes" />
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes" />
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes" />
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes" />
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes" />
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes" />
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes" />
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes" />
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes" />
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes" />
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes" />
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes" />
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes" />
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes" />
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes" />
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes" />
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes" />
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes" />
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes" />
+<layer number="117" name="EdgeRestrict" color="13" fill="1" visible="yes" active="yes" />
+</layers>
+<library>
+<packages>
+<package name="DPAK114P990X239-6N">
+<polygon width="0" layer="39">
+<vertex x="-2.98" y="-2.5" />
+<vertex x="-3.62" y="-2.5" />
+<vertex x="-3.62" y="4.23" />
+<vertex x="-3.07" y="4.23" />
+<vertex x="-3.07" y="5.81" />
+<vertex x="3.07" y="5.81" />
+<vertex x="3.07" y="4.23" />
+<vertex x="3.62" y="4.23" />
+<vertex x="3.62" y="-2.5" />
+<vertex x="2.98" y="-2.5" />
+<vertex x="2.98" y="-5.81" />
+<vertex x="-2.98" y="-5.81" />
+</polygon>
+<circle x="-3.4" y="-5.2" radius="0.1" width="0.2" layer="21" />
+<circle x="-3.4" y="-5.2" radius="0.1" width="0.2" layer="51" />
+<wire x1="-3.37" y1="-2.243" x2="-3.37" y2="3.978" width="0.127" layer="51" />
+<wire x1="-3.37" y1="3.978" x2="3.37" y2="3.978" width="0.127" layer="51" />
+<wire x1="3.37" y1="3.978" x2="3.37" y2="-2.243" width="0.127" layer="51" />
+<wire x1="3.37" y1="-2.243" x2="-3.37" y2="-2.243" width="0.127" layer="51" />
+<wire x1="-3.2" y1="3.978" x2="-3.37" y2="3.978" width="0.127" layer="21" />
+<wire x1="-3.37" y1="3.978" x2="-3.37" y2="-2.243" width="0.127" layer="21" />
+<wire x1="-3.37" y1="-2.243" x2="3.37" y2="-2.243" width="0.127" layer="21" />
+<wire x1="3.37" y1="-2.243" x2="3.37" y2="3.978" width="0.127" layer="21" />
+<wire x1="3.37" y1="3.978" x2="3.2" y2="3.978" width="0.127" layer="21" />
+<rectangle x1="-1.78" y1="0.58" x2="1.78" y2="4.44" layer="31" />
+<smd name="1" x="-2.28" y="-4.14" dx="2.83" dy="0.9" layer="1" roundness="23" rot="R90" thermals="no" />
+<smd name="2" x="-1.14" y="-4.14" dx="2.83" dy="0.9" layer="1" roundness="23" rot="R90" />
+<smd name="4" x="1.14" y="-4.14" dx="2.83" dy="0.9" layer="1" roundness="23" rot="R90" thermals="no" />
+<smd name="5" x="2.28" y="-4.14" dx="2.83" dy="0.9" layer="1" roundness="23" rot="R90" />
+<smd name="6" x="0" y="2.51" dx="5.63" dy="6.1" layer="1" roundness="23" thermals="no" cream="no" />
+<text x="-3.2021" y="6.103990625" size="1.27083125" layer="25">&gt;NAME</text>
+<text x="-3.10576875" y="-7.2134" size="1.272359375" layer="27">&gt;VALUE</text>
+</package>
+<package name="8-POWER-TDFN">
+<smd name="P$1" x="-1.905" y="-2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$2" x="-0.635" y="-2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$3" x="0.635" y="-2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$4" x="1.905" y="-2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$5" x="1.905" y="2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$6" x="0.635" y="2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$7" x="-0.635" y="2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$8" x="-1.905" y="2.825" dx="0.65" dy="1.2" layer="1" />
+<rectangle x1="-1.47" y1="-1.27" x2="-0.2" y2="0" layer="31" />
+<rectangle x1="-1.47" y1="0.4" x2="-0.2" y2="1.67" layer="31" />
+<rectangle x1="0.2" y1="0.4" x2="1.47" y2="1.67" layer="31" />
+<rectangle x1="0.2" y1="-1.27" x2="1.47" y2="0" layer="31" />
+<wire x1="-2.575" y1="3.075" x2="2.575" y2="3.075" width="0" layer="51" />
+<wire x1="2.575" y1="3.075" x2="2.575" y2="-3.075" width="0" layer="51" />
+<wire x1="2.575" y1="-3.075" x2="-2.575" y2="-3.075" width="0" layer="51" />
+<wire x1="-2.575" y1="-3.075" x2="-2.575" y2="3.075" width="0" layer="51" />
+<wire x1="-2.33" y1="3.2" x2="-2.575" y2="3.2" width="0.127" layer="21" />
+<wire x1="-2.575" y1="3.2" x2="-2.575" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-2.575" y1="-3.2" x2="-2.33" y2="-3.2" width="0.127" layer="21" />
+<wire x1="2.33" y1="3.2" x2="2.575" y2="3.2" width="0.127" layer="21" />
+<wire x1="2.575" y1="3.2" x2="2.575" y2="-3.2" width="0.127" layer="21" />
+<wire x1="2.575" y1="-3.2" x2="2.33" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-1.48" y1="-3.2" x2="-1.06" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-0.21" y1="-3.2" x2="0.21" y2="-3.2" width="0.127" layer="21" />
+<wire x1="1.06" y1="-3.2" x2="1.48" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-1.48" y1="3.2" x2="-1.06" y2="3.2" width="0.127" layer="21" />
+<wire x1="-0.21" y1="3.2" x2="0.21" y2="3.2" width="0.127" layer="21" />
+<wire x1="1.06" y1="3.2" x2="1.48" y2="3.2" width="0.127" layer="21" />
+<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-2.925" y="3.425" />
+<vertex x="-2.33" y="3.425" />
+<vertex x="-2.33" y="3.525" />
+<vertex x="-1.48" y="3.525" />
+<vertex x="-1.48" y="3.425" />
+<vertex x="-1.06" y="3.425" />
+<vertex x="-1.06" y="3.525" />
+<vertex x="-0.21" y="3.525" />
+<vertex x="-0.21" y="3.425" />
+<vertex x="0.21" y="3.425" />
+<vertex x="0.21" y="3.525" />
+<vertex x="1.06" y="3.525" />
+<vertex x="1.06" y="3.425" />
+<vertex x="1.48" y="3.425" />
+<vertex x="1.48" y="3.525" />
+<vertex x="2.33" y="3.525" />
+<vertex x="2.33" y="3.425" />
+<vertex x="2.925" y="3.425" />
+<vertex x="2.925" y="-3.425" />
+<vertex x="2.33" y="-3.425" />
+<vertex x="2.33" y="-3.525" />
+<vertex x="1.48" y="-3.525" />
+<vertex x="1.48" y="-3.425" />
+<vertex x="1.06" y="-3.425" />
+<vertex x="1.06" y="-3.525" />
+<vertex x="0.21" y="-3.525" />
+<vertex x="0.21" y="-3.425" />
+<vertex x="-0.21" y="-3.425" />
+<vertex x="-0.21" y="-3.525" />
+<vertex x="-1.06" y="-3.525" />
+<vertex x="-1.06" y="-3.425" />
+<vertex x="-1.48" y="-3.425" />
+<vertex x="-1.48" y="-3.525" />
+<vertex x="-2.33" y="-3.525" />
+<vertex x="-2.33" y="-3.425" />
+<vertex x="-2.925" y="-3.425" />
+</polygon>
+<circle x="-1.905" y="-4" radius="0" width="0.5" layer="21" />
+<smd name="TAB" x="0" y="0.7125" dx="4.7" dy="4.575" layer="1" cream="no" />
+</package>
+<package name="8-POWER-TDFN-NOSILK">
+<smd name="P$1" x="-1.905" y="-2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$2" x="-0.635" y="-2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$3" x="0.635" y="-2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$4" x="1.905" y="-2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$5" x="1.905" y="2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$6" x="0.635" y="2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$7" x="-0.635" y="2.825" dx="0.65" dy="1.2" layer="1" />
+<smd name="P$8" x="-1.905" y="2.825" dx="0.65" dy="1.2" layer="1" />
+<rectangle x1="-1.47" y1="-1.27" x2="-0.2" y2="0" layer="31" />
+<rectangle x1="-1.47" y1="0.4" x2="-0.2" y2="1.67" layer="31" />
+<rectangle x1="0.2" y1="0.4" x2="1.47" y2="1.67" layer="31" />
+<rectangle x1="0.2" y1="-1.27" x2="1.47" y2="0" layer="31" />
+<wire x1="-2.575" y1="3.075" x2="2.575" y2="3.075" width="0" layer="51" />
+<wire x1="2.575" y1="3.075" x2="2.575" y2="-3.075" width="0" layer="51" />
+<wire x1="2.575" y1="-3.075" x2="-2.575" y2="-3.075" width="0" layer="51" />
+<wire x1="-2.575" y1="-3.075" x2="-2.575" y2="3.075" width="0" layer="51" />
+<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-2.925" y="3.425" />
+<vertex x="-2.33" y="3.425" />
+<vertex x="-2.33" y="3.525" />
+<vertex x="-1.48" y="3.525" />
+<vertex x="-1.48" y="3.425" />
+<vertex x="-1.06" y="3.425" />
+<vertex x="-1.06" y="3.525" />
+<vertex x="-0.21" y="3.525" />
+<vertex x="-0.21" y="3.425" />
+<vertex x="0.21" y="3.425" />
+<vertex x="0.21" y="3.525" />
+<vertex x="1.06" y="3.525" />
+<vertex x="1.06" y="3.425" />
+<vertex x="1.48" y="3.425" />
+<vertex x="1.48" y="3.525" />
+<vertex x="2.33" y="3.525" />
+<vertex x="2.33" y="3.425" />
+<vertex x="2.925" y="3.425" />
+<vertex x="2.925" y="-3.425" />
+<vertex x="2.33" y="-3.425" />
+<vertex x="2.33" y="-3.525" />
+<vertex x="1.48" y="-3.525" />
+<vertex x="1.48" y="-3.425" />
+<vertex x="1.06" y="-3.425" />
+<vertex x="1.06" y="-3.525" />
+<vertex x="0.21" y="-3.525" />
+<vertex x="0.21" y="-3.425" />
+<vertex x="-0.21" y="-3.425" />
+<vertex x="-0.21" y="-3.525" />
+<vertex x="-1.06" y="-3.525" />
+<vertex x="-1.06" y="-3.425" />
+<vertex x="-1.48" y="-3.425" />
+<vertex x="-1.48" y="-3.525" />
+<vertex x="-2.33" y="-3.525" />
+<vertex x="-2.33" y="-3.425" />
+<vertex x="-2.925" y="-3.425" />
+</polygon>
+<smd name="TAB" x="0" y="0.7125" dx="4.7" dy="4.575" layer="1" cream="no" />
+</package>
+<package name="8-POWER-TDFN-5LEAD">
+<smd name="P$1" x="-1.905" y="-2.795" dx="0.75" dy="1" layer="1" />
+<smd name="P$2" x="-0.635" y="-2.795" dx="0.75" dy="1" layer="1" />
+<smd name="P$3" x="0.635" y="-2.795" dx="0.75" dy="1" layer="1" />
+<smd name="P$4" x="1.905" y="-2.795" dx="0.75" dy="1" layer="1" />
+<smd name="P$5" x="1.905" y="2.9625" dx="0.75" dy="0.475" layer="1" />
+<smd name="P$8" x="-1.905" y="2.9625" dx="0.75" dy="0.475" layer="1" />
+<rectangle x1="-1.47" y1="-1.27" x2="-0.2" y2="0" layer="31" />
+<rectangle x1="-1.47" y1="0.4" x2="-0.2" y2="1.67" layer="31" />
+<rectangle x1="0.2" y1="0.4" x2="1.47" y2="1.67" layer="31" />
+<rectangle x1="0.2" y1="-1.27" x2="1.47" y2="0" layer="31" />
+<wire x1="-2.575" y1="2.95" x2="2.575" y2="2.95" width="0" layer="51" />
+<wire x1="2.575" y1="2.95" x2="2.575" y2="-2.95" width="0" layer="51" />
+<wire x1="2.575" y1="-2.95" x2="-2.575" y2="-2.95" width="0" layer="51" />
+<wire x1="-2.575" y1="-2.95" x2="-2.575" y2="2.95" width="0" layer="51" />
+<wire x1="-2.38" y1="3.2" x2="-2.575" y2="3.2" width="0.127" layer="21" />
+<wire x1="-2.575" y1="3.2" x2="-2.575" y2="0.1" width="0.127" layer="21" />
+<wire x1="-2.575" y1="-1.05" x2="-2.575" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-2.575" y1="-3.2" x2="-2.38" y2="-3.2" width="0.127" layer="21" />
+<wire x1="2.38" y1="3.2" x2="2.575" y2="3.2" width="0.127" layer="21" />
+<wire x1="2.575" y1="3.2" x2="2.575" y2="0.1" width="0.127" layer="21" />
+<wire x1="2.575" y1="-1.005" x2="2.575" y2="-3.2" width="0.127" layer="21" />
+<wire x1="2.575" y1="-3.2" x2="2.38" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-1.43" y1="-3.2" x2="-1.11" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-0.16" y1="-3.2" x2="0.16" y2="-3.2" width="0.127" layer="21" />
+<wire x1="1.11" y1="-3.2" x2="1.43" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-1.43" y1="3.2" x2="1.43" y2="3.2" width="0.127" layer="21" />
+<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-2.925" y="3.425" />
+<vertex x="-2.33" y="3.425" />
+<vertex x="-1.48" y="3.425" />
+<vertex x="-1.06" y="3.425" />
+<vertex x="-0.21" y="3.425" />
+<vertex x="1.06" y="3.425" />
+<vertex x="2.33" y="3.425" />
+<vertex x="2.925" y="3.425" />
+<vertex x="2.925" y="-3.425" />
+<vertex x="1.48" y="-3.425" />
+<vertex x="0.21" y="-3.425" />
+<vertex x="-1.06" y="-3.425" />
+<vertex x="-2.925" y="-3.425" />
+</polygon>
+<circle x="-1.905" y="-3.8" radius="0" width="0.5" layer="21" />
+<smd name="TAB" x="0" y="0.6975" dx="4.56" dy="4.055" layer="1" cream="no" />
+<smd name="TAB$1" x="2.5275" y="-0.4525" dx="0.495" dy="0.905" layer="1" />
+<smd name="TAB$2" x="-2.5275" y="-0.4525" dx="0.495" dy="0.905" layer="1" />
+</package>
+<package name="8-POWER-TDFN-5LEAD-NOSILK">
+<smd name="P$1" x="-1.905" y="-2.795" dx="0.75" dy="1" layer="1" />
+<smd name="P$2" x="-0.635" y="-2.795" dx="0.75" dy="1" layer="1" />
+<smd name="P$3" x="0.635" y="-2.795" dx="0.75" dy="1" layer="1" />
+<smd name="P$4" x="1.905" y="-2.795" dx="0.75" dy="1" layer="1" />
+<smd name="P$5" x="1.905" y="2.9625" dx="0.75" dy="0.475" layer="1" />
+<smd name="P$8" x="-1.905" y="2.9625" dx="0.75" dy="0.475" layer="1" />
+<rectangle x1="-1.47" y1="-1.27" x2="-0.2" y2="0" layer="31" />
+<rectangle x1="-1.47" y1="0.4" x2="-0.2" y2="1.67" layer="31" />
+<rectangle x1="0.2" y1="0.4" x2="1.47" y2="1.67" layer="31" />
+<rectangle x1="0.2" y1="-1.27" x2="1.47" y2="0" layer="31" />
+<wire x1="-2.575" y1="2.95" x2="2.575" y2="2.95" width="0" layer="51" />
+<wire x1="2.575" y1="2.95" x2="2.575" y2="-2.95" width="0" layer="51" />
+<wire x1="2.575" y1="-2.95" x2="-2.575" y2="-2.95" width="0" layer="51" />
+<wire x1="-2.575" y1="-2.95" x2="-2.575" y2="2.95" width="0" layer="51" />
+<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-2.925" y="3.425" />
+<vertex x="-2.33" y="3.425" />
+<vertex x="-1.48" y="3.425" />
+<vertex x="-1.06" y="3.425" />
+<vertex x="-0.21" y="3.425" />
+<vertex x="1.06" y="3.425" />
+<vertex x="2.33" y="3.425" />
+<vertex x="2.925" y="3.425" />
+<vertex x="2.925" y="-3.425" />
+<vertex x="1.48" y="-3.425" />
+<vertex x="0.21" y="-3.425" />
+<vertex x="-1.06" y="-3.425" />
+<vertex x="-2.925" y="-3.425" />
+</polygon>
+<smd name="TAB" x="0" y="0.6975" dx="4.56" dy="4.055" layer="1" cream="no" />
+<smd name="TAB$1" x="2.5275" y="-0.4525" dx="0.495" dy="0.905" layer="1" />
+<smd name="TAB$2" x="-2.5275" y="-0.4525" dx="0.495" dy="0.905" layer="1" />
+</package>
+<package name="8-POWER-WDFN">
+<smd name="P$1" x="-0.975" y="-1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$2" x="-0.325" y="-1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$3" x="0.325" y="-1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$4" x="0.975" y="-1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$5" x="0.975" y="1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$6" x="0.325" y="1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$7" x="-0.325" y="1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$8" x="-0.975" y="1.425" dx="0.35" dy="0.55" layer="1" />
+<wire x1="-1.65" y1="1.65" x2="1.65" y2="1.65" width="0" layer="51" />
+<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0" layer="51" />
+<wire x1="1.65" y1="-1.65" x2="-1.65" y2="-1.65" width="0" layer="51" />
+<wire x1="-1.65" y1="-1.65" x2="-1.65" y2="1.65" width="0" layer="51" />
+<wire x1="-1.2" y1="1.65" x2="-1.65" y2="1.65" width="0.127" layer="21" />
+<wire x1="-1.65" y1="1.65" x2="-1.65" y2="-1.65" width="0.127" layer="21" />
+<wire x1="-1.65" y1="-1.65" x2="-1.2" y2="-1.65" width="0.127" layer="21" />
+<wire x1="1.2" y1="1.65" x2="1.65" y2="1.65" width="0.127" layer="21" />
+<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.127" layer="21" />
+<wire x1="1.65" y1="-1.65" x2="1.2" y2="-1.65" width="0.127" layer="21" />
+<wire x1="-0.7" y1="-1.65" x2="-0.6" y2="-1.65" width="0.127" layer="21" />
+<wire x1="-0.05" y1="-1.65" x2="0.05" y2="-1.65" width="0.127" layer="21" />
+<wire x1="0.6" y1="-1.65" x2="0.7" y2="-1.65" width="0.127" layer="21" />
+<wire x1="-0.7" y1="1.65" x2="-0.6" y2="1.65" width="0.127" layer="21" />
+<wire x1="-0.05" y1="1.65" x2="0.05" y2="1.65" width="0.127" layer="21" />
+<wire x1="0.6" y1="1.65" x2="0.7" y2="1.65" width="0.127" layer="21" />
+<text x="2.54" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-1.95" y="1.95" />
+<vertex x="-1.48" y="1.95" />
+<vertex x="-0.21" y="1.95" />
+<vertex x="1.95" y="1.95" />
+<vertex x="1.95" y="-1.95" />
+<vertex x="1.06" y="-1.95" />
+<vertex x="-1.95" y="-1.95" />
+</polygon>
+<circle x="-0.975" y="-2.15" radius="0" width="0.5" layer="21" />
+<smd name="TAB" x="0" y="0.385" dx="2.45" dy="1.93" layer="1" cream="no" />
+<rectangle x1="-0.75" y1="-0.25" x2="0.75" y2="0.75" layer="31" />
+</package>
+<package name="8-POWER-WDFN-NOSILK">
+<smd name="P$1" x="-0.975" y="-1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$2" x="-0.325" y="-1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$3" x="0.325" y="-1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$4" x="0.975" y="-1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$5" x="0.975" y="1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$6" x="0.325" y="1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$7" x="-0.325" y="1.425" dx="0.35" dy="0.55" layer="1" />
+<smd name="P$8" x="-0.975" y="1.425" dx="0.35" dy="0.55" layer="1" />
+<wire x1="-1.65" y1="1.65" x2="1.65" y2="1.65" width="0" layer="51" />
+<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0" layer="51" />
+<wire x1="1.65" y1="-1.65" x2="-1.65" y2="-1.65" width="0" layer="51" />
+<wire x1="-1.65" y1="-1.65" x2="-1.65" y2="1.65" width="0" layer="51" />
+<text x="2.54" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-1.95" y="1.95" />
+<vertex x="-1.48" y="1.95" />
+<vertex x="-0.21" y="1.95" />
+<vertex x="1.95" y="1.95" />
+<vertex x="1.95" y="-1.95" />
+<vertex x="1.06" y="-1.95" />
+<vertex x="-1.95" y="-1.95" />
+</polygon>
+<smd name="TAB" x="0" y="0.385" dx="2.45" dy="1.93" layer="1" cream="no" />
+<rectangle x1="-0.75" y1="-0.25" x2="0.75" y2="0.75" layer="31" />
+</package>
+<package name="SOT-23-3">
+<smd name="P$1" x="-0.95" y="-1.05" dx="0.6" dy="1.3" layer="1" />
+<smd name="P$2" x="0.95" y="-1.05" dx="0.6" dy="1.3" layer="1" />
+<smd name="P$3" x="0" y="1.05" dx="0.6" dy="1.3" layer="1" />
+<wire x1="0.4" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="21" />
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="21" />
+<wire x1="-0.4" y1="0.7" x2="-1.5" y2="0.7" width="0.127" layer="21" />
+<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-0.4" y="0.8" />
+<vertex x="-0.4" y="1.8" />
+<vertex x="0.4" y="1.8" />
+<vertex x="0.4" y="0.8" />
+<vertex x="1.6" y="0.8" />
+<vertex x="1.6" y="-0.8" />
+<vertex x="1.35" y="-0.8" />
+<vertex x="1.35" y="-1.8" />
+<vertex x="0.55" y="-1.8" />
+<vertex x="0.55" y="-0.8" />
+<vertex x="-0.55" y="-0.8" />
+<vertex x="-0.55" y="-1.8" />
+<vertex x="-1.35" y="-1.8" />
+<vertex x="-1.35" y="-0.8" />
+<vertex x="-1.6" y="-0.8" />
+<vertex x="-1.6" y="0.8" />
+</polygon>
+<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="-0.5" y1="-0.7" x2="0.5" y2="-0.7" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-0.7" x2="-1.4" y2="-0.7" width="0.127" layer="21" />
+<wire x1="1.4" y1="-0.7" x2="1.5" y2="-0.7" width="0.127" layer="21" />
+</package>
+<package name="SOT-23-3_NOSILK">
+<smd name="P$1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1" />
+<smd name="P$2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1" />
+<smd name="P$3" x="0" y="1" dx="0.8" dy="0.9" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-1.645" y="0.8" />
+<vertex x="-0.5" y="0.8" />
+<vertex x="-0.5" y="1.55" />
+<vertex x="0.5" y="1.55" />
+<vertex x="0.5" y="0.8" />
+<vertex x="1.62" y="0.8" />
+<vertex x="1.62" y="-0.8" />
+<vertex x="1.45" y="-0.8" />
+<vertex x="1.45" y="-1.55" />
+<vertex x="0.45" y="-1.55" />
+<vertex x="0.45" y="-0.8" />
+<vertex x="-0.45" y="-0.8" />
+<vertex x="-0.45" y="-1.55" />
+<vertex x="-1.45" y="-1.55" />
+<vertex x="-1.45" y="-0.8" />
+<vertex x="-1.62" y="-0.8" />
+<vertex x="-1.62" y="0.8" />
+</polygon>
+<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="FDD8424H">
+<circle x="-2.54" y="-2.54" radius="0.3592" width="0" layer="94" />
+<circle x="-2.54" y="2.54" radius="0.3592" width="0" layer="94" />
+<circle x="5.08" y="2.54" radius="0.3592" width="0" layer="94" />
+<circle x="5.08" y="-2.54" radius="0.3592" width="0" layer="94" />
+<wire x1="-4.318" y1="0.762" x2="-4.318" y2="0" width="0.254" layer="94" />
+<wire x1="-4.318" y1="0" x2="-4.318" y2="-0.762" width="0.254" layer="94" />
+<wire x1="-4.318" y1="3.175" x2="-4.318" y2="2.54" width="0.254" layer="94" />
+<wire x1="-4.318" y1="2.54" x2="-4.318" y2="1.905" width="0.254" layer="94" />
+<wire x1="-4.318" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94" />
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="-4.318" y1="-1.905" x2="-4.318" y2="-2.54" width="0.254" layer="94" />
+<wire x1="-4.318" y1="-2.54" x2="-4.318" y2="-3.175" width="0.254" layer="94" />
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94" />
+<wire x1="-2.54" y1="-2.54" x2="-4.318" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0.508" width="0.1524" layer="94" />
+<wire x1="-1.27" y1="0.508" x2="-1.27" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="-4.318" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94" />
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94" />
+<wire x1="-0.508" y1="0.762" x2="-0.762" y2="0.508" width="0.1524" layer="94" />
+<wire x1="-0.762" y1="0.508" x2="-1.27" y2="0.508" width="0.1524" layer="94" />
+<wire x1="-1.27" y1="0.508" x2="-1.778" y2="0.508" width="0.1524" layer="94" />
+<wire x1="-1.778" y1="0.508" x2="-2.032" y2="0.254" width="0.1524" layer="94" />
+<wire x1="3.302" y1="-0.762" x2="3.302" y2="0" width="0.254" layer="94" />
+<wire x1="3.302" y1="0" x2="3.302" y2="0.762" width="0.254" layer="94" />
+<wire x1="3.302" y1="-3.175" x2="3.302" y2="-2.54" width="0.254" layer="94" />
+<wire x1="3.302" y1="-2.54" x2="3.302" y2="-1.905" width="0.254" layer="94" />
+<wire x1="3.302" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" />
+<wire x1="3.302" y1="1.905" x2="3.302" y2="2.54" width="0.254" layer="94" />
+<wire x1="3.302" y1="2.54" x2="3.302" y2="3.175" width="0.254" layer="94" />
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94" />
+<wire x1="5.08" y1="2.54" x2="3.302" y2="2.54" width="0.1524" layer="94" />
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-0.508" width="0.1524" layer="94" />
+<wire x1="6.35" y1="-0.508" x2="6.35" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="3.302" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="7.112" y1="-0.762" x2="6.858" y2="-0.508" width="0.1524" layer="94" />
+<wire x1="6.858" y1="-0.508" x2="6.35" y2="-0.508" width="0.1524" layer="94" />
+<wire x1="6.35" y1="-0.508" x2="5.842" y2="-0.508" width="0.1524" layer="94" />
+<wire x1="5.842" y1="-0.508" x2="5.588" y2="-0.254" width="0.1524" layer="94" />
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="5.08" width="0.1524" layer="94" />
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94" />
+<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.1524" layer="94" />
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="6.35" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94" />
+<wire x1="6.35" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94" />
+<pin name="D1/D2" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270" />
+<pin name="G1" x="-5.08" y="-5.08" visible="off" length="short" direction="pas" rot="R90" />
+<pin name="G2" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90" />
+<pin name="S1" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90" />
+<pin name="S2" x="5.08" y="-5.08" visible="off" length="short" direction="pas" rot="R90" />
+<text x="8.89213125" y="-2.540609375" size="1.77843125" layer="96">&gt;VALUE</text>
+<text x="8.90578125" y="2.544509375" size="1.781159375" layer="95">&gt;NAME</text>
+<text x="-1.016" y="7.62" size="1.778" layer="94" rot="R180">N-CH</text>
+<text x="5.08" y="6.096" size="1.778" layer="94">P-CH</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.27" y="0.508" />
+<vertex x="-1.778" y="-0.254" />
+<vertex x="-0.762" y="-0.254" />
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-4.064" y="0" />
+<vertex x="-3.048" y="0.762" />
+<vertex x="-3.048" y="-0.762" />
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="6.35" y="-0.508" />
+<vertex x="5.842" y="0.254" />
+<vertex x="6.858" y="0.254" />
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="5.08" y="0" />
+<vertex x="4.064" y="0.762" />
+<vertex x="4.064" y="-0.762" />
+</polygon>
+</symbol>
+<symbol name="FET-N-CHANNEL">
+<circle x="0" y="0" radius="5.6796125" width="0.1524" layer="94" />
+<pin name="GATE" x="-7.62" y="-2.54" visible="off" length="middle" />
+<pin name="SOURCE" x="2.54" y="-7.62" visible="off" length="middle" rot="R90" />
+<pin name="DRAIN" x="2.54" y="7.62" visible="off" length="middle" rot="R270" />
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94" />
+<wire x1="2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94" />
+<wire x1="2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" />
+<wire x1="4.064" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94" />
+<wire x1="-1.27" y1="3.302" x2="-1.27" y2="1.778" width="0.1524" layer="94" />
+<wire x1="-1.27" y1="0.762" x2="-1.27" y2="-0.762" width="0.1524" layer="94" />
+<wire x1="-1.27" y1="-1.778" x2="-1.27" y2="-3.302" width="0.1524" layer="94" />
+<wire x1="2.54" y1="-2.54" x2="4.064" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="4.064" y1="-2.54" x2="4.064" y2="2.54" width="0.1524" layer="94" />
+<wire x1="3.048" y1="0.508" x2="5.08" y2="0.508" width="0.1524" layer="94" />
+<polygon width="0.1524" layer="94">
+<vertex x="-0.254" y="0" />
+<vertex x="0.762" y="1.016" />
+<vertex x="0.762" y="-1.016" />
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.048" y="-0.508" />
+<vertex x="5.08" y="-0.508" />
+<vertex x="4.064" y="0.508" />
+</polygon>
+<text x="7.62" y="0" size="1.27" layer="95">&gt;Name</text>
+<text x="-7.62" y="-1.016" size="1.27" layer="94">G</text>
+<text x="5.08" y="4.318" size="1.27" layer="94">D</text>
+<text x="5.08" y="-5.08" size="1.27" layer="94">S</text>
+<text x="-1.905" y="3.81" size="1.016" layer="94">N-CH</text>
+<text x="7.62" y="-2.54" size="1.27" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FDD8424H" prefix="Q">
+<description>MOSFET 40V Dual N &amp; P-Ch PowerTrench MOSFET</description>
+<gates>
+<gate name="G$1" symbol="FDD8424H" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="DPAK114P990X239-6N">
+<connects>
+<connect gate="G$1" pin="D1/D2" pad="6" />
+<connect gate="G$1" pin="G1" pad="2" />
+<connect gate="G$1" pin="G2" pad="5" />
+<connect gate="G$1" pin="S1" pad="1" />
+<connect gate="G$1" pin="S2" pad="4" />
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Mosfet Array N and P-Channel 40V 9A, 6.5A 1.3W Surface Mount TO-252-4L " />
+<attribute name="DIGI-KEY_PART_NUMBER" value="FDD8424HCT-ND" />
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/on-semiconductor/FDD8424H/FDD8424HCT-ND/1626925?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" />
+<attribute name="MF" value="ON Semiconductor" />
+<attribute name="MP" value="FDD8424H" />
+<attribute name="PACKAGE" value="TO-252-5 ON Semiconductor" />
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-N-CH-8-POWER-TDFN" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="8-POWERTDFN" package="8-POWER-TDFN">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$5 P$6 P$7 P$8 TAB" />
+<connect gate="G$1" pin="GATE" pad="P$4" />
+<connect gate="G$1" pin="SOURCE" pad="P$1 P$2 P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="8-POWERTDFN-NOSILK" package="8-POWER-TDFN-NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$5 P$6 P$7 P$8 TAB" />
+<connect gate="G$1" pin="GATE" pad="P$4" />
+<connect gate="G$1" pin="SOURCE" pad="P$1 P$2 P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="5-LEAD" package="8-POWER-TDFN-5LEAD">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$5 P$8 TAB TAB$1 TAB$2" />
+<connect gate="G$1" pin="GATE" pad="P$4" />
+<connect gate="G$1" pin="SOURCE" pad="P$1 P$2 P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="5-LEAD-NOSILK" package="8-POWER-TDFN-5LEAD-NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$5 P$8 TAB TAB$1 TAB$2" />
+<connect gate="G$1" pin="GATE" pad="P$4" />
+<connect gate="G$1" pin="SOURCE" pad="P$1 P$2 P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-N-CH-8-POWER-WDFN" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="8-POWERWDFN" package="8-POWER-WDFN">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$5 P$6 P$7 P$8" />
+<connect gate="G$1" pin="GATE" pad="P$4" />
+<connect gate="G$1" pin="SOURCE" pad="P$1 P$2 P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="8-POWERWDFN-NOSILK" package="8-POWER-WDFN-NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$5 P$6 P$7 P$8" />
+<connect gate="G$1" pin="GATE" pad="P$4" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-N-CH-SOT-23-3" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-23-3" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-23-3-NOSILK" package="SOT-23-3_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
