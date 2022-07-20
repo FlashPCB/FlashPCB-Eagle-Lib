@@ -71,6 +71,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes" />
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes" />
 <layer number="117" name="EdgeRestrict" color="13" fill="1" visible="yes" active="yes" />
+<layer number="119" name="RequiredOverhang" color="21" fill="1" visible="yes" active="yes" />
 </layers>
 <library>
 <packages>
@@ -78,9 +79,9 @@
 <smd name="P$1" x="-0.95" y="-1.05" dx="0.6" dy="1.3" layer="1" />
 <smd name="P$2" x="0.95" y="-1.05" dx="0.6" dy="1.3" layer="1" />
 <smd name="P$3" x="0" y="1.05" dx="0.6" dy="1.3" layer="1" />
-<wire x1="0.4" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="21" />
+<wire x1="0.4865" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="21" />
 <wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="21" />
-<wire x1="-0.4" y1="0.7" x2="-1.5" y2="0.7" width="0.127" layer="21" />
+<wire x1="-0.4865" y1="0.7" x2="-1.5" y2="0.7" width="0.127" layer="21" />
 <wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.127" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-0.4" y="0.8" />
@@ -100,11 +101,11 @@
 <vertex x="-1.6" y="-0.8" />
 <vertex x="-1.6" y="0.8" />
 </polygon>
-<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<wire x1="-0.5" y1="-0.7" x2="0.5" y2="-0.7" width="0.127" layer="21" />
-<wire x1="-1.5" y1="-0.7" x2="-1.4" y2="-0.7" width="0.127" layer="21" />
-<wire x1="1.4" y1="-0.7" x2="1.5" y2="-0.7" width="0.127" layer="21" />
+<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="-0.4635" y1="-0.7" x2="0.4635" y2="-0.7" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-0.7" x2="-1.4365" y2="-0.7" width="0.127" layer="21" />
+<wire x1="1.4365" y1="-0.7" x2="1.5" y2="-0.7" width="0.127" layer="21" />
 </package>
 <package name="14-LGA(3X5)">
 <smd name="P$14" x="0" y="2.0975" dx="0.55" dy="1.145" layer="1" />
@@ -121,17 +122,17 @@
 <smd name="P$8" x="1.0975" y="-2" dx="1.145" dy="0.55" layer="1" />
 <smd name="P$5" x="-1.0975" y="-1.2" dx="1.145" dy="0.55" layer="1" />
 <smd name="P$6" x="-1.0975" y="-2" dx="1.145" dy="0.55" layer="1" />
-<wire x1="0.4" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21" />
-<wire x1="1.5" y1="2.5" x2="1.5" y2="2.4" width="0.127" layer="21" />
-<wire x1="-0.4" y1="2.5" x2="-1.5" y2="2.5" width="0.127" layer="21" />
-<wire x1="-1.5" y1="2.5" x2="-1.5" y2="2.4" width="0.127" layer="21" />
-<wire x1="0.4" y1="-2.5" x2="1.5" y2="-2.5" width="0.127" layer="21" />
-<wire x1="1.5" y1="-2.5" x2="1.5" y2="-2.4" width="0.127" layer="21" />
-<wire x1="-0.4" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21" />
-<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="-2.4" width="0.127" layer="21" />
+<wire x1="0.4615" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="2.5" x2="1.5" y2="2.4615" width="0.127" layer="21" />
+<wire x1="-0.4615" y1="2.5" x2="-1.5" y2="2.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="2.5" x2="-1.5" y2="2.4615" width="0.127" layer="21" />
+<wire x1="0.4615" y1="-2.5" x2="1.5" y2="-2.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="-2.5" x2="1.5" y2="-2.4615" width="0.127" layer="21" />
+<wire x1="-0.4615" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="-2.4615" width="0.127" layer="21" />
 <rectangle x1="-1.4" y1="1.7" x2="-0.6" y2="2.4" layer="51" />
-<text x="2.3" y="1.1" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.3" y="-0.1" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="2.3" y="1.1" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.3" y="-0.1" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <circle x="-2.17" y="2" radius="0" width="0.508" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-1.77" y="2.65" />
@@ -309,14 +310,14 @@
 <circle x="0.325" y="1.6625" radius="0.175" width="0" layer="31" />
 <circle x="-0.325" y="1.6625" radius="0.175" width="0" layer="31" />
 <circle x="-0.975" y="1.6625" radius="0.175" width="0" layer="31" />
-<wire x1="-2" y1="2" x2="-1.25" y2="2" width="0.127" layer="21" />
-<wire x1="1.25" y1="2" x2="2" y2="2" width="0.127" layer="21" />
-<wire x1="2" y1="2" x2="2" y2="1.25" width="0.127" layer="21" />
-<wire x1="2" y1="-1.25" x2="2" y2="-2" width="0.127" layer="21" />
-<wire x1="2" y1="-2" x2="1.25" y2="-2" width="0.127" layer="21" />
-<wire x1="-1.25" y1="-2" x2="-2" y2="-2" width="0.127" layer="21" />
-<wire x1="-2" y1="-2" x2="-2" y2="-1.25" width="0.127" layer="21" />
-<wire x1="-2" y1="1.25" x2="-2" y2="2" width="0.127" layer="21" />
+<wire x1="-2" y1="2" x2="-1.3365" y2="2" width="0.127" layer="21" />
+<wire x1="1.3365" y1="2" x2="2" y2="2" width="0.127" layer="21" />
+<wire x1="2" y1="2" x2="2" y2="1.3365" width="0.127" layer="21" />
+<wire x1="2" y1="-1.3365" x2="2" y2="-2" width="0.127" layer="21" />
+<wire x1="2" y1="-2" x2="1.3365" y2="-2" width="0.127" layer="21" />
+<wire x1="-1.3365" y1="-2" x2="-2" y2="-2" width="0.127" layer="21" />
+<wire x1="-2" y1="-2" x2="-2" y2="-1.3365" width="0.127" layer="21" />
+<wire x1="-2" y1="1.3365" x2="-2" y2="2" width="0.127" layer="21" />
 <circle x="-2.5" y="0.975" radius="0" width="0.508" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-2.175" y="2.175" />
@@ -324,8 +325,8 @@
 <vertex x="2.175" y="-2.175" />
 <vertex x="-2.175" y="-2.175" />
 </polygon>
-<text x="2.8" y="0.9" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.8" y="-0.3" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="2.8" y="0.9" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.8" y="-0.3" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <rectangle x1="-1.8" y1="1.6" x2="-1.6" y2="1.8" layer="51" />
 <smd name="P$17" x="0" y="0" dx="1.95" dy="1.95" layer="1" />
 </package>
@@ -337,11 +338,11 @@
 <smd name="P$2" x="-1.375" y="0" dx="0.55" dy="0.25" layer="1" />
 <smd name="P$1" x="-1.375" y="0.5" dx="0.55" dy="0.25" layer="1" />
 <wire x1="-1.3" y1="0.9" x2="1.3" y2="0.9" width="0.127" layer="21" />
-<wire x1="1.3" y1="0.9" x2="1.3" y2="0.75" width="0.127" layer="21" />
-<wire x1="-1.3" y1="0.9" x2="-1.3" y2="0.75" width="0.127" layer="21" />
+<wire x1="1.3" y1="0.9" x2="1.3" y2="0.8115" width="0.127" layer="21" />
+<wire x1="-1.3" y1="0.9" x2="-1.3" y2="0.8115" width="0.127" layer="21" />
 <wire x1="-1.3" y1="-0.9" x2="1.3" y2="-0.9" width="0.127" layer="21" />
-<wire x1="-1.3" y1="-0.9" x2="-1.3" y2="-0.75" width="0.127" layer="21" />
-<wire x1="1.3" y1="-0.9" x2="1.3" y2="-0.75" width="0.127" layer="21" />
+<wire x1="-1.3" y1="-0.9" x2="-1.3" y2="-0.8115" width="0.127" layer="21" />
+<wire x1="1.3" y1="-0.9" x2="1.3" y2="-0.8115" width="0.127" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-1.75" y="0.725" />
 <vertex x="-1.45" y="0.725" />
@@ -360,8 +361,8 @@
 <rectangle x1="-0.15" y1="-0.125" x2="0.15" y2="0.125" layer="51" />
 <text x="-0.1" y="0.15" size="0.08" layer="51" font="vector">PD 
 Area</text>
-<text x="-1.5" y="2.65" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="-1.5" y="1.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="-1.5" y="2.65" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.5" y="1.55" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <circle x="-2.15" y="0.5" radius="0" width="0.508" layer="21" />
 <text x="-1" y="0.35" size="0.4" layer="51" font="vector">A</text>
 <text x="-1" y="-0.15" size="0.4" layer="51" font="vector">A</text>
@@ -387,11 +388,11 @@ Area</text>
 <vertex x="-1.665" y="-1.665" />
 </polygon>
 <circle x="0.6" y="1.2" radius="0.2" width="0.127" layer="21" />
-<text x="-1.71" y="2.905" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="-1.71" y="1.832" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="-1.71" y="2.905" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.71" y="1.832" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <circle x="-0.6" y="-0.6" radius="0.175" width="0.01" layer="51" />
 <text x="-0.75" y="-0.66" size="0.05" layer="51">Vent Hole
-⌀ .35mm</text>
+Ã¢Å’â‚¬ .35mm</text>
 <text x="-0.35" y="-0.06" size="0.05" layer="51">0.6mm</text>
 <text x="-0.52" y="-0.37" size="0.05" layer="51" rot="R90">0.6mm</text>
 <wire x1="0" y1="0" x2="-0.6" y2="0" width="0" layer="51" />
@@ -414,32 +415,31 @@ Area</text>
 <smd name="P$2" x="-1.075" y="0.625" dx="1.05" dy="0.55" layer="1" />
 <smd name="P$1" x="-1.075" y="1.875" dx="1.05" dy="0.55" layer="1" />
 <wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21" />
-<wire x1="1.5" y1="2.5" x2="1.5" y2="2.25" width="0.127" layer="21" />
-<wire x1="1.5" y1="1" x2="1.5" y2="1.5" width="0.127" layer="21" />
-<wire x1="1.5" y1="0.25" x2="1.5" y2="-0.25" width="0.127" layer="21" />
-<wire x1="1.5" y1="-1" x2="1.5" y2="-1.5" width="0.127" layer="21" />
-<wire x1="1.5" y1="-2.25" x2="1.5" y2="-2.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="2.5" x2="1.5" y2="2.3365" width="0.127" layer="21" />
+<wire x1="1.5" y1="1.0865" x2="1.5" y2="1.4135" width="0.127" layer="21" />
+<wire x1="1.5" y1="0.1635" x2="1.5" y2="-0.1635" width="0.127" layer="21" />
+<wire x1="1.5" y1="-1.0865" x2="1.5" y2="-1.4135" width="0.127" layer="21" />
+<wire x1="1.5" y1="-2.3365" x2="1.5" y2="-2.5" width="0.127" layer="21" />
 <wire x1="-1.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.127" layer="21" />
-<wire x1="-1.5" y1="-1" x2="-1.5" y2="-1.5" width="0.127" layer="21" />
-<wire x1="-1.5" y1="-2.25" x2="-1.5" y2="-2.5" width="0.127" layer="21" />
-<wire x1="-1.5" y1="0.25" x2="-1.5" y2="-0.25" width="0.127" layer="21" />
-<wire x1="-1.5" y1="1" x2="-1.5" y2="1.5" width="0.127" layer="21" />
-<wire x1="-1.5" y1="2.5" x2="-1.5" y2="2.25" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-1.0865" x2="-1.5" y2="-1.4135" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-2.3365" x2="-1.5" y2="-2.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="0.1635" x2="-1.5" y2="-0.1635" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.0865" x2="-1.5" y2="1.4135" width="0.127" layer="21" />
+<wire x1="-1.5" y1="2.5" x2="-1.5" y2="2.3365" width="0.127" layer="21" />
 <polygon width="0" layer="51">
 <vertex x="-1.5" y="2.5" />
 <vertex x="-1" y="2.5" />
 <vertex x="-1" y="2" />
 <vertex x="-1.5" y="2" />
 </polygon>
-<circle x="0" y="-1.2" radius="0.4365" width="0.127" layer="21" />
 <text x="-0.4" y="-1.5" size="0.127" layer="51">Air vent 
 dim = 1mm</text>
 <wire x1="0" y1="0" x2="0" y2="-1.2" width="0" layer="51" />
 <wire x1="0" y1="-1.2" x2="0.1" y2="-1.1" width="0" layer="51" />
 <wire x1="0" y1="-1.2" x2="-0.1" y2="-1.1" width="0" layer="51" />
 <text x="-0.1" y="-0.6" size="0.127" layer="51" rot="R90">1.2mm</text>
-<text x="2.1" y="1.1" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.1" y="-0.3" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="2.1" y="1.1" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.1" y="-0.3" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <circle x="-2.1" y="1.875" radius="0" width="0.508" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-1.7" y="2.65" />
@@ -454,6 +454,9 @@ dim = 1mm</text>
 </polygon>
 <wire x1="0" y1="0" x2="0.1" y2="-0.1" width="0" layer="51" />
 <wire x1="0" y1="0" x2="-0.1" y2="-0.1" width="0" layer="51" />
+<wire x1="0.4365" y1="-1.2" x2="0.419971875" y2="-1.081015625" width="0.127" layer="21" curve="15.818096" />
+<wire x1="0.363496875" y1="-0.958334375" x2="-0.3633625" y2="-0.958134375" width="0.127" layer="21" curve="112.733632" />
+<wire x1="-0.42" y1="-1.081125" x2="0.4365" y2="-1.2" width="0.127" layer="21" curve="195.803521" />
 </package>
 <package name="20-QFN(3X3)">
 <smd name="P$1" x="-1.425" y="0.8" dx="0.75" dy="0.25" layer="1" />
@@ -477,14 +480,14 @@ dim = 1mm</text>
 <smd name="P$19" x="-0.4" y="1.425" dx="0.25" dy="0.75" layer="1" />
 <smd name="P$20" x="-0.8" y="1.425" dx="0.25" dy="0.75" layer="1" />
 <circle x="-2.3" y="0.8" radius="0" width="0.508" layer="21" />
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1" width="0.127" layer="21" />
-<wire x1="-1.5" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="21" />
-<wire x1="1" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21" />
-<wire x1="1.5" y1="1.5" x2="1.5" y2="1" width="0.127" layer="21" />
-<wire x1="1.5" y1="-1" x2="1.5" y2="-1.5" width="0.127" layer="21" />
-<wire x1="1.5" y1="-1.5" x2="1" y2="-1.5" width="0.127" layer="21" />
-<wire x1="-1" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21" />
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.1115" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.5" x2="-1.1115" y2="1.5" width="0.127" layer="21" />
+<wire x1="1.1115" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.1115" width="0.127" layer="21" />
+<wire x1="1.5" y1="-1.1115" x2="1.5" y2="-1.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="-1.5" x2="1.1115" y2="-1.5" width="0.127" layer="21" />
+<wire x1="-1.1115" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.1115" width="0.127" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-2" y="1.125" />
 <vertex x="-1.6" y="1.125" />
@@ -507,8 +510,8 @@ dim = 1mm</text>
 <vertex x="-1.6" y="-1.125" />
 <vertex x="-2" y="-1.125" />
 </polygon>
-<text x="2.5" y="1.1" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.5" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="2.5" y="1.1" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.5" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 </package>
 <package name="24-QFN(4X4)-MPU60X0">
 <smd name="P$1" x="-1.925" y="1.25" dx="0.75" dy="0.3" layer="1" />
@@ -535,14 +538,14 @@ dim = 1mm</text>
 <smd name="P$22" x="-0.25" y="1.925" dx="0.3" dy="0.75" layer="1" />
 <smd name="P$23" x="-0.75" y="1.925" dx="0.3" dy="0.75" layer="1" />
 <smd name="P$24" x="-1.25" y="1.925" dx="0.3" dy="0.75" layer="1" />
-<wire x1="-2.05" y1="-2.05" x2="-1.5" y2="-2.05" width="0.127" layer="21" />
-<wire x1="1.5" y1="-2.05" x2="2.05" y2="-2.05" width="0.127" layer="21" />
-<wire x1="2.05" y1="-2.05" x2="2.05" y2="-1.5" width="0.127" layer="21" />
-<wire x1="2.05" y1="1.5" x2="2.05" y2="2.05" width="0.127" layer="21" />
-<wire x1="2.05" y1="2.05" x2="1.5" y2="2.05" width="0.127" layer="21" />
-<wire x1="-1.5" y1="2.05" x2="-2.05" y2="2.05" width="0.127" layer="21" />
-<wire x1="-2.05" y1="2.05" x2="-2.05" y2="1.5" width="0.127" layer="21" />
-<wire x1="-2.05" y1="-1.5" x2="-2.05" y2="-2.05" width="0.127" layer="21" />
+<wire x1="-2.05" y1="-2.05" x2="-1.5865" y2="-2.05" width="0.127" layer="21" />
+<wire x1="1.5865" y1="-2.05" x2="2.05" y2="-2.05" width="0.127" layer="21" />
+<wire x1="2.05" y1="-2.05" x2="2.05" y2="-1.5865" width="0.127" layer="21" />
+<wire x1="2.05" y1="1.5865" x2="2.05" y2="2.05" width="0.127" layer="21" />
+<wire x1="2.05" y1="2.05" x2="1.5865" y2="2.05" width="0.127" layer="21" />
+<wire x1="-1.5865" y1="2.05" x2="-2.05" y2="2.05" width="0.127" layer="21" />
+<wire x1="-2.05" y1="2.05" x2="-2.05" y2="1.5865" width="0.127" layer="21" />
+<wire x1="-2.05" y1="-1.5865" x2="-2.05" y2="-2.05" width="0.127" layer="21" />
 <circle x="-2.8" y="1.25" radius="0" width="0.508" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-2.4" y="1.5" />
@@ -566,8 +569,8 @@ dim = 1mm</text>
 <vertex x="-2.15" y="-1.5" />
 <vertex x="-2.4" y="-1.5" />
 </polygon>
-<text x="3.1" y="1.3" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="3.1" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="3.1" y="1.3" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="3.1" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <polygon width="0" layer="41">
 <vertex x="-1.45" y="1.5" />
 <vertex x="1.45" y="1.5" />
@@ -669,11 +672,11 @@ dim = 1mm</text>
 </polygon>
 <circle x="-1.85" y="0.65" radius="0" width="0.585" layer="21" />
 <wire x1="-1" y1="1.2" x2="1" y2="1.2" width="0.127" layer="21" />
-<wire x1="-1" y1="1.2" x2="-1" y2="0.95" width="0.127" layer="21" />
-<wire x1="1" y1="1.2" x2="1" y2="0.95" width="0.127" layer="21" />
-<wire x1="-1" y1="-0.95" x2="-1" y2="-1.2" width="0.127" layer="21" />
+<wire x1="-1" y1="1.2" x2="-1" y2="1.0115" width="0.127" layer="21" />
+<wire x1="1" y1="1.2" x2="1" y2="1.0115" width="0.127" layer="21" />
+<wire x1="-1" y1="-1.0115" x2="-1" y2="-1.2" width="0.127" layer="21" />
 <wire x1="-1" y1="-1.2" x2="1" y2="-1.2" width="0.127" layer="21" />
-<wire x1="1" y1="-1.2" x2="1" y2="-0.95" width="0.127" layer="21" />
+<wire x1="1" y1="-1.2" x2="1" y2="-1.0115" width="0.127" layer="21" />
 <text x="0" y="-0.5" size="0.1" layer="51" align="center">Photodiode
 Array Area</text>
 <wire x1="-0.401" y1="-0.012" x2="0.401" y2="-0.012" width="0" layer="51" />
@@ -694,8 +697,8 @@ Array Area</text>
 <vertex x="-1.45" y="0.925" />
 <vertex x="-1.15" y="0.925" />
 </polygon>
-<text x="1.975" y="0.7" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="1.975" y="-0.225" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="1.975" y="0.7" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="1.975" y="-0.225" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <text x="-0.13" y="-0.83" size="0.05" layer="51">0.802mm</text>
 <wire x1="-0.4" y1="-0.8" x2="-0.15" y2="-0.8" width="0" layer="51" />
 <wire x1="-0.4" y1="-0.8" x2="-0.35" y2="-0.75" width="0" layer="51" />
@@ -753,11 +756,11 @@ Array Area</text>
 <wire x1="2.225" y1="1.225" x2="2.225" y2="-1.225" width="0.127" layer="21" />
 <wire x1="2.225" y1="-1.225" x2="-2.225" y2="-1.225" width="0.127" layer="21" />
 <wire x1="-2.225" y1="-1.225" x2="-2.225" y2="1.225" width="0.127" layer="21" />
-<circle x="-1.465" y="0" radius="0.4" width="0.02" layer="51" />
-<circle x="1.535" y="0" radius="0.2" width="0.02" layer="51" />
+<circle x="-1.44" y="0" radius="0.4" width="0.02" layer="51" />
+<circle x="1.56" y="0" radius="0.2" width="0.02" layer="51" />
 <circle x="-1.6" y="1.55" radius="0" width="0.585" layer="21" />
-<text x="2.8" y="0.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.8" y="-0.4" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="2.8" y="0.6" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.8" y="-0.4" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-2.325" y="1.325" />
 <vertex x="-2.025" y="1.325" />
@@ -768,15 +771,6 @@ Array Area</text>
 <vertex x="2.325" y="-1.325" />
 <vertex x="-2.325" y="-1.325" />
 </polygon>
-<wire x1="1.535" y1="0" x2="-1.465" y2="0" width="0" layer="51" />
-<text x="0.2" y="0.05" size="0.15" layer="51">1.535mm</text>
-<text x="-1" y="0.05" size="0.15" layer="51">1.465mm</text>
-<wire x1="0.1" y1="0.1" x2="-0.1" y2="-0.1" width="0" layer="51" />
-<wire x1="-0.1" y1="0.1" x2="0.1" y2="-0.1" width="0" layer="51" />
-<wire x1="-1.465" y1="0" x2="-1.365" y2="0.1" width="0" layer="51" />
-<wire x1="-1.465" y1="0" x2="-1.365" y2="-0.1" width="0" layer="51" />
-<wire x1="1.435" y1="0.1" x2="1.535" y2="0" width="0" layer="51" />
-<wire x1="1.535" y1="0" x2="1.435" y2="-0.1" width="0" layer="51" />
 </package>
 <package name="VL53L1X">
 <smd name="P$1" x="-1.6" y="0.8" dx="0.5" dy="0.5" layer="1" />
@@ -819,11 +813,11 @@ Array Area</text>
 <vertex x="2.7" y="-1.5" />
 <vertex x="-2.7" y="-1.5" />
 </polygon>
-<circle x="-1.52" y="0" radius="0.42" width="0.02" layer="51" />
-<circle x="1.48" y="0" radius="0.54" width="0.02" layer="51" />
+<circle x="-1.4" y="0" radius="0.85" width="0.02" layer="51" />
+<circle x="1.6" y="0" radius="0.72" width="0.02" layer="51" />
 <circle x="-1.6" y="1.55" radius="0" width="0.585" layer="21" />
-<text x="3.3" y="0.9" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="3.3" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="3.3" y="0.9" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="3.3" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-0.6" y="-1.3" />
 <vertex x="-0.6" y="-2" />
@@ -844,12 +838,10 @@ Array Area</text>
 <smd name="P$10" x="-0.375" y="1" dx="0.55" dy="0.6" layer="1" />
 <smd name="P$11" x="-1.125" y="1" dx="0.55" dy="0.6" layer="1" />
 <smd name="P$12" x="-1.875" y="1" dx="0.55" dy="0.6" layer="1" />
-<wire x1="-2.45" y1="1.45" x2="2.45" y2="1.45" width="0.127" layer="21" />
 <wire x1="2.45" y1="1.45" x2="2.45" y2="-1.45" width="0.127" layer="21" />
-<wire x1="2.45" y1="-1.45" x2="-2.45" y2="-1.45" width="0.127" layer="21" />
 <wire x1="-2.45" y1="-1.45" x2="-2.45" y2="1.45" width="0.127" layer="21" />
-<circle x="1.8" y="0" radius="0.25" width="0.02" layer="51" />
-<circle x="-1.52" y="0" radius="0.15" width="0.02" layer="51" />
+<circle x="1.8" y="0" radius="0.5" width="0.02" layer="21" />
+<circle x="-1.52" y="0" radius="0.3" width="0.02" layer="21" />
 <circle x="0.1" y="-0.9" radius="0.1" width="0.02" layer="51" />
 <text x="-0.1" y="-0.7" size="0.1" layer="51">Vent hole</text>
 <text x="1.4" y="-0.1" size="0.1" layer="51">Light emission
@@ -862,18 +854,52 @@ aperture dim .3</text>
 <vertex x="2.55" y="-1.55" />
 <vertex x="-2.55" y="-1.55" />
 </polygon>
-<text x="3" y="0.9" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="3" y="-0.1" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<circle x="-1.875" y="-1.9" radius="0" width="0.508" layer="21" />
-<text x="-1.2" y="0.2" size="0.15" layer="51">1.52mm</text>
-<text x="0.3" y="0.2" size="0.15" layer="51">1.8mm</text>
-<wire x1="-1.52" y1="0" x2="1.8" y2="0" width="0" layer="51" />
-<wire x1="-0.1" y1="0.1" x2="0.1" y2="-0.1" width="0" layer="51" />
-<wire x1="0.1" y1="0.1" x2="-0.1" y2="-0.1" width="0" layer="51" />
-<wire x1="1.7" y1="0.1" x2="1.8" y2="0" width="0" layer="51" />
-<wire x1="1.8" y1="0" x2="1.7" y2="-0.1" width="0" layer="51" />
-<wire x1="-1.42" y1="0.1" x2="-1.52" y2="0" width="0" layer="51" />
-<wire x1="-1.52" y1="0" x2="-1.42" y2="-0.1" width="0" layer="51" />
+<text x="3" y="0.9" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="3" y="-0.1" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="-2.45" y1="1.45" x2="-2.32048125" y2="1.45" width="0.127" layer="21" />
+<wire x1="2.32048125" y1="1.45" x2="2.45" y2="1.45" width="0.127" layer="21" />
+<wire x1="2.45" y1="-1.45" x2="2.32048125" y2="-1.45" width="0.127" layer="21" />
+<wire x1="-2.32048125" y1="-1.45" x2="-2.45" y2="-1.45" width="0.127" layer="21" />
+</package>
+<package name="VCNL4040M3OE">
+<smd name="P$1" x="0.7" y="-1.6125" dx="0.7" dy="0.725" layer="1" />
+<smd name="P$2" x="0.7" y="-0.5375" dx="0.7" dy="0.725" layer="1" />
+<smd name="P$3" x="0.7" y="0.5375" dx="0.7" dy="0.725" layer="1" />
+<smd name="P$4" x="0.7" y="1.6125" dx="0.7" dy="0.725" layer="1" />
+<smd name="P$5" x="-0.7" y="1.6125" dx="0.7" dy="0.725" layer="1" />
+<smd name="P$6" x="-0.7" y="0.5375" dx="0.7" dy="0.725" layer="1" />
+<smd name="P$7" x="-0.7" y="-0.5375" dx="0.7" dy="0.725" layer="1" />
+<smd name="P$8" x="-0.7" y="-1.6125" dx="0.7" dy="0.725" layer="1" />
+<wire x1="-0.1635" y1="2" x2="0.1635" y2="2" width="0.127" layer="21" />
+<wire x1="-0.1635" y1="-2" x2="0.1635" y2="-2" width="0.127" layer="21" />
+<circle x="1.55" y="-1.6125" radius="0" width="0.508" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-1.15" y="2.1" />
+<vertex x="1.15" y="2.1" />
+<vertex x="1.15" y="-2.1" />
+<vertex x="-1.15" y="-2.1" />
+</polygon>
+<wire x1="-0.377490625" y1="-1.85" x2="0.377490625" y2="-1.85" width="0.02" layer="51" />
+<wire x1="-0.377490625" y1="-1.85" x2="0.377490625" y2="-1.85" width="0.02" layer="51" curve="-273.316484" />
+<circle x="0" y="1.15" radius="0.6" width="0.02" layer="51" />
+<text x="-0.3" y="0.9" size="0.2" layer="51">LED
+ÃƒËœ 1.2</text>
+<text x="-0.3" y="-1.6" size="0.15" layer="51">Sensor
+ÃƒËœ 1.1</text>
+<text x="1.44" y="1.17" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="1.44" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="0" y1="0" x2="0" y2="1.15" width="0" layer="51" />
+<wire x1="-0.2" y1="0.95" x2="0" y2="1.15" width="0" layer="51" />
+<wire x1="0" y1="1.15" x2="0.2" y2="0.95" width="0" layer="51" />
+<wire x1="0.2" y1="0.2" x2="0" y2="0" width="0" layer="51" />
+<wire x1="0" y1="0" x2="-0.2" y2="0.2" width="0" layer="51" />
+<text x="-0.05" y="0.1" size="0.1" layer="51" rot="R90">1.15mm </text>
+<wire x1="0" y1="-1.45" x2="0" y2="0" width="0" layer="51" />
+<wire x1="-0.2" y1="-0.2" x2="0" y2="0" width="0" layer="51" />
+<wire x1="0" y1="0" x2="0.2" y2="-0.2" width="0" layer="51" />
+<wire x1="0.2" y1="-1.25" x2="0" y2="-1.45" width="0" layer="51" />
+<wire x1="0" y1="-1.45" x2="-0.2" y2="-1.25" width="0" layer="51" />
+<text x="-0.05" y="-0.8" size="0.1" layer="51" rot="R90">1.45mm </text>
 </package>
 </packages>
 <symbols>
@@ -903,8 +929,8 @@ aperture dim .3</text>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94" />
 <wire x1="12.7" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94" />
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94" />
-<text x="-7.62" y="15.24" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="12.7" size="1.778" layer="96">&gt;Value</text>
+<text x="-7.62" y="15.24" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-7.62" y="12.7" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
 <text x="-10.16" y="-12.7" size="1.778" layer="94">Accelerometer ADXL34*</text>
 </symbol>
 <symbol name="ADXL3XX-16PIN">
@@ -914,8 +940,8 @@ aperture dim .3</text>
 <pin name="YOUT" x="12.7" y="0" length="short" direction="out" rot="R180" />
 <pin name="VS" x="-10.16" y="2.54" length="short" direction="pwr" />
 <pin name="XOUT" x="12.7" y="2.54" length="short" rot="R180" />
-<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="7.62" size="1.778" layer="96">&gt;Value</text>
+<text x="-7.62" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
 <wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.127" layer="94" />
 <wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.127" layer="94" />
 <wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.127" layer="94" />
@@ -933,9 +959,9 @@ aperture dim .3</text>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94" />
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94" />
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94" />
-<text x="-7.62" y="7.62" size="1.27" layer="95">&gt;Name</text>
-<text x="-7.62" y="5.08" size="1.27" layer="96">&gt;Value</text>
-<text x="-5.08" y="-7.62" size="1.27" layer="94">BH1750FVI</text>
+<text x="-5.08" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-5.08" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="94">Light Sensor</text>
 </symbol>
 <symbol name="BME68X">
 <pin name="VDD" x="-10.16" y="7.62" length="short" direction="pwr" />
@@ -950,8 +976,8 @@ aperture dim .3</text>
 <wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94" />
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94" />
 <text x="-2.54" y="-12.7" size="1.27" layer="94">BME68x</text>
-<text x="-7.62" y="12.7" size="1.27" layer="95">&gt;Name</text>
-<text x="-7.62" y="10.16" size="1.27" layer="96">&gt;Value</text>
+<text x="-7.62" y="12.7" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-7.62" y="10.16" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
 </symbol>
 <symbol name="MPL115A2-12C">
 <pin name="VDD" x="-12.7" y="2.54" length="short" direction="pwr" />
@@ -966,8 +992,8 @@ aperture dim .3</text>
 <wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94" />
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94" />
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94" />
-<text x="-10.16" y="10.16" size="1.27" layer="95">&gt;Name</text>
-<text x="-10.16" y="7.62" size="1.27" layer="96">&gt;Value</text>
+<text x="-10.16" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-10.16" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
 </symbol>
 <symbol name="MPR121">
 <pin name="IRQ" x="-15.24" y="5.08" length="short" />
@@ -995,8 +1021,8 @@ aperture dim .3</text>
 <wire x1="15.24" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94" />
 <wire x1="-12.7" y1="-17.78" x2="-12.7" y2="15.24" width="0.254" layer="94" />
 <text x="-10.16" y="-10.16" size="1.27" layer="94" font="vector">MPR121</text>
-<text x="-12.7" y="20.32" size="1.27" layer="95" font="vector">&gt;Name</text>
-<text x="-12.7" y="17.78" size="1.27" layer="96" font="vector">&gt;Value</text>
+<text x="-12.7" y="20.32" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-12.7" y="17.78" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
 </symbol>
 <symbol name="MPU-6050">
 <pin name="CLKIN" x="-15.24" y="2.54" length="short" />
@@ -1013,8 +1039,8 @@ aperture dim .3</text>
 <pin name="AD0" x="15.24" y="0" length="short" rot="R180" />
 <pin name="INT" x="-15.24" y="7.62" length="short" />
 <text x="0" y="-10.16" size="1.27" layer="94" align="center">MPU-6050</text>
-<text x="-12.7" y="17.78" size="1.27" layer="95">&gt;Name</text>
-<text x="-12.7" y="15.24" size="1.27" layer="96">&gt;Value</text>
+<text x="-12.7" y="17.78" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-12.7" y="15.24" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
 <wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94" />
 <wire x1="12.7" y1="12.7" x2="12.7" y2="-7.62" width="0.254" layer="94" />
 <wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94" />
@@ -1031,8 +1057,8 @@ aperture dim .3</text>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94" />
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94" />
 <text x="-2.54" y="-7.62" size="1.27" layer="94">TSL2591</text>
-<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;Name</text>
-<text x="-7.62" y="7.62" size="1.27" layer="96">&gt;Value</text>
+<text x="-7.62" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
 <pin name="NC" x="10.16" y="-2.54" length="short" direction="nc" rot="R180" />
 </symbol>
 <symbol name="VL53LXX">
@@ -1049,8 +1075,8 @@ aperture dim .3</text>
 <wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94" />
 <wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94" />
 <text x="-2.54" y="-10.16" size="1.27" layer="94">VL53L0X</text>
-<text x="-12.7" y="12.7" size="1.27" layer="95" font="vector">&gt;Name</text>
-<text x="-12.7" y="10.16" size="1.27" layer="96" font="vector">&gt;Value</text>
+<text x="-12.7" y="12.7" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-12.7" y="10.16" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
 <pin name="DNC" x="15.24" y="-2.54" length="short" direction="nc" rot="R180" />
 </symbol>
 <symbol name="VL6180X">
@@ -1067,8 +1093,25 @@ aperture dim .3</text>
 <wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94" />
 <wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.254" layer="94" />
 <text x="-2.54" y="-10.16" size="1.27" layer="94">VL6180X</text>
-<text x="-12.7" y="15.24" size="1.27" layer="95">&gt;Name</text>
-<text x="-12.7" y="12.7" size="1.27" layer="96">&gt;Value</text>
+<text x="-12.7" y="15.24" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-12.7" y="12.7" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+</symbol>
+<symbol name="VCNL4040">
+<pin name="GND" x="-12.7" y="5.08" length="short" direction="pwr" />
+<pin name="S_CATH" x="-12.7" y="2.54" length="short" />
+<pin name="VDD" x="-12.7" y="0" length="short" direction="pwr" />
+<pin name="ANODE" x="-12.7" y="-2.54" length="short" />
+<pin name="SCLK" x="15.24" y="5.08" length="short" rot="R180" />
+<pin name="SDAT" x="15.24" y="2.54" length="short" rot="R180" />
+<pin name="INT" x="15.24" y="0" length="short" rot="R180" />
+<pin name="L_CATH" x="15.24" y="-2.54" length="short" rot="R180" />
+<wire x1="-10.16" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94" />
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-5.08" width="0.254" layer="94" />
+<wire x1="12.7" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94" />
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="7.62" width="0.254" layer="94" />
+<text x="-2.54" y="-7.62" size="1.27" layer="94">VCNL4040</text>
+<text x="-10.16" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-10.16" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1095,7 +1138,7 @@ aperture dim .3</text>
 
 &lt;p&gt;Technical Specifications:
 &lt;ul&gt;
-&lt;li&gt; Acceleration: up to ±16g&lt;/li&gt;
+&lt;li&gt; Acceleration: up to Ã‚Â±16g&lt;/li&gt;
 &lt;li&gt; Supply Voltage Range: 2.0v - 3.6v&lt;/li&gt;
 &lt;li&gt; Output Voltage Range: 1.7v to Vs&lt;/li&gt;
 &lt;li&gt; Resolution: 3.9mg/LSB&lt;/li&gt;
@@ -1130,7 +1173,7 @@ aperture dim .3</text>
 </devices>
 </deviceset>
 <deviceset name="ADXL326" prefix="U" uservalue="yes">
-<description>&lt;b&gt;ADXL326&lt;/b&gt; -Accelerometer X, Y, Z Axis ±19g 1.6kHz (X,Y), 550Hz (Z)
+<description>&lt;b&gt;ADXL326&lt;/b&gt; -Accelerometer X, Y, Z Axis Ã‚Â±19g 1.6kHz (X,Y), 550Hz (Z)
 
 &lt;p&gt;Technical Specifications:
 &lt;ul&gt;
@@ -1221,7 +1264,7 @@ Ambient Light Sensor IC
 </devices>
 </deviceset>
 <deviceset name="BME68X" prefix="U" uservalue="yes">
-<description>&lt;b&gt;BME680&lt;/b&gt; - Gas, Humidity, Pressure, Temperature Sensor I²C, SPI Output (BME688 includes odor detection)
+<description>&lt;b&gt;BME680&lt;/b&gt; - Gas, Humidity, Pressure, Temperature Sensor IÃ‚Â²C, SPI Output (BME688 includes odor detection)
 
 &lt;p&gt;Technical Specifications:
 &lt;ul&gt;
@@ -1328,7 +1371,7 @@ Ambient Light Sensor IC
 </devices>
 </deviceset>
 <deviceset name="MPU-6050" prefix="U" uservalue="yes">
-<description>&lt;b&gt;MPU-6050&lt;/b&gt; - Accelerometer, Gyroscope, 6 Axis Sensor I²C Output
+<description>&lt;b&gt;MPU-6050&lt;/b&gt; - Accelerometer, Gyroscope, 6 Axis Sensor IÃ‚Â²C Output
 
 &lt;p&gt;Technical Specifications:
 &lt;ul&gt;
@@ -1365,7 +1408,7 @@ Ambient Light Sensor IC
 </devices>
 </deviceset>
 <deviceset name="TSL2591" prefix="U" uservalue="yes">
-<description>&lt;b&gt;TSL2591&lt;/b&gt; - Optical Sensor Ambient - I²C 6-WFDFN
+<description>&lt;b&gt;TSL2591&lt;/b&gt; - Optical Sensor Ambient - IÃ‚Â²C 6-WFDFN
 
 &lt;p&gt;Technical Specifications:
 &lt;ul&gt;
@@ -1394,7 +1437,7 @@ Ambient Light Sensor IC
 </device>
 </devices>
 </deviceset>
-<deviceset name="VL53L0X" prefix="U" uservalue="yes">
+<deviceset name="VL53L0X" prefix="S" uservalue="yes">
 <description>&lt;b&gt;VL53L0X &lt;/b&gt; - VL53L0X Time of Flight Distance Sensor 30 to 1000mm
 
 &lt;p&gt;Technical Specifications:
@@ -1404,7 +1447,7 @@ Ambient Light Sensor IC
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf"&gt;World’s smallest Time-of-Flight ranging and gesture detection senso&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Datasheet: &lt;a herf="https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf"&gt;WorldÃ¢â‚¬â„¢s smallest Time-of-Flight ranging and gesture detection senso&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="VL53LXX" x="0" y="0" />
 </gates>
@@ -1427,7 +1470,7 @@ Ambient Light Sensor IC
 </device>
 </devices>
 </deviceset>
-<deviceset name="VL53L1X" prefix="U" uservalue="yes">
+<deviceset name="VL53L1X" prefix="S" uservalue="yes">
 <description>&lt;b&gt;VL53L1X&lt;/b&gt; - STMicroelectronics VL53L1X Time-of-Flight Proximity Sensor
 
 &lt;p&gt;Technical Specifications:
@@ -1460,7 +1503,7 @@ Ambient Light Sensor IC
 </device>
 </devices>
 </deviceset>
-<deviceset name="VL6180X" prefix="U" uservalue="yes">
+<deviceset name="VL6180X" prefix="S" uservalue="yes">
 <description>&lt;b&gt;VL6180X&lt;/b&gt; - Time of Flight distance sensor
 
 &lt;p&gt;Technical Specifications:
@@ -1485,6 +1528,37 @@ Ambient Light Sensor IC
 <connect gate="G$1" pin="GPIO1" pad="P$1" />
 <connect gate="G$1" pin="SCL" pad="P$5" />
 <connect gate="G$1" pin="SDA" pad="P$6" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCNL4040" prefix="U" uservalue="yes">
+<description>&lt;b&gt;VCNL4040M3OE&lt;/b&gt; -Optical Sensor Ambient 550nm IÃ‚Â²C 8-SMD Module
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Voltage Supply: 2.5v - 3.6v&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://www.vishay.com/docs/84274/vcnl4040.pdf"&gt;vcnl4040.pdf&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="VCNL4040" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="VCNL4040M3OE">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="P$4" />
+<connect gate="G$1" pin="GND" pad="P$1" />
+<connect gate="G$1" pin="INT" pad="P$6" />
+<connect gate="G$1" pin="L_CATH" pad="P$5" />
+<connect gate="G$1" pin="SCLK" pad="P$8" />
+<connect gate="G$1" pin="SDAT" pad="P$7" />
+<connect gate="G$1" pin="S_CATH" pad="P$2" />
+<connect gate="G$1" pin="VDD" pad="P$3" />
 </connects>
 <technologies>
 <technology name="" />

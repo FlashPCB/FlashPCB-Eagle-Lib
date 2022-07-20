@@ -71,6 +71,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes" />
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes" />
 <layer number="117" name="EdgeRestrict" color="13" fill="1" visible="yes" active="yes" />
+<layer number="119" name="RequiredOverhang" color="21" fill="1" visible="yes" active="yes" />
 </layers>
 <library>
 <packages>
@@ -94,7 +95,7 @@
 <wire x1="-0.5" y1="0.5" x2="-0.5" y2="-0.5" width="0.254" layer="21" />
 <smd name="ANODE" x="1.055" y="0" dx="0.59" dy="0.45" layer="1" />
 <smd name="CATHODE" x="-1.055" y="0" dx="0.59" dy="0.45" layer="1" />
-<text x="-2.8" y="1.4" size="1.27" layer="25" font="vector" ratio="6">&gt;Name</text>
+<text x="-2.8" y="1.4" size="1.27" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
 </package>
 <package name="LITTELFUSE_SMBJ28A">
 <polygon width="0" layer="39">
@@ -116,7 +117,7 @@
 <wire x1="-0.7" y1="1.13" x2="-0.7" y2="-1.13" width="0.4064" layer="21" />
 <smd name="ANODE" x="2.45" y="0" dx="2.16" dy="2.26" layer="1" />
 <smd name="CATHODE" x="-2.45" y="0" dx="2.16" dy="2.26" layer="1" />
-<text x="-4" y="2" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-4" y="2" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
 </package>
 </packages>
 <symbols>
@@ -133,8 +134,8 @@
 <wire x1="3.81" y1="2.032" x2="4.318" y2="2.54" width="0.1524" layer="94" />
 <pin name="ANODE" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180" />
 <pin name="CATHODE" x="0" y="0" visible="off" length="short" direction="pas" />
-<text x="-3.8862" y="-6.1976" size="2.1844" layer="96" font="vector" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-2.8194" y="3.3528" size="2.1844" layer="95" font="vector" ratio="10" rot="SR0">&gt;Name</text>
+<text x="-3.8862" y="-6.1976" size="1.778" layer="96" font="proportional" ratio="8" rot="SR0" distance="50">&gt;Value</text>
+<text x="-2.8194" y="3.3528" size="1.778" layer="95" font="proportional" ratio="8" rot="SR0" distance="50">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>

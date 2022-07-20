@@ -71,6 +71,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes" />
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes" />
 <layer number="117" name="EdgeRestrict" color="13" fill="1" visible="yes" active="yes" />
+<layer number="119" name="RequiredOverhang" color="21" fill="1" visible="yes" active="yes" />
 </layers>
 <library>
 <packages>
@@ -106,8 +107,8 @@
 <smd name="4" x="1.14" y="-4.14" dx="2.83" dy="0.9" layer="1" roundness="23" rot="R90" thermals="no" />
 <smd name="5" x="2.28" y="-4.14" dx="2.83" dy="0.9" layer="1" roundness="23" rot="R90" />
 <smd name="6" x="0" y="2.51" dx="5.63" dy="6.1" layer="1" roundness="23" thermals="no" cream="no" />
-<text x="-3.2021" y="6.103990625" size="1.27083125" layer="25">&gt;NAME</text>
-<text x="-3.10576875" y="-7.2134" size="1.272359375" layer="27">&gt;VALUE</text>
+<text x="-3.2021" y="6.103990625" size="1.27083125" layer="25" font="vector" ratio="8" distance="50">&gt;NAME</text>
+<text x="-3.10576875" y="-7.2134" size="1.272359375" layer="27" font="vector" ratio="8" distance="50">&gt;VALUE</text>
 </package>
 <package name="8-POWER-TDFN">
 <smd name="P$1" x="-1.905" y="-2.825" dx="0.65" dy="1.2" layer="1" />
@@ -126,20 +127,20 @@
 <wire x1="2.575" y1="3.075" x2="2.575" y2="-3.075" width="0" layer="51" />
 <wire x1="2.575" y1="-3.075" x2="-2.575" y2="-3.075" width="0" layer="51" />
 <wire x1="-2.575" y1="-3.075" x2="-2.575" y2="3.075" width="0" layer="51" />
-<wire x1="-2.33" y1="3.2" x2="-2.575" y2="3.2" width="0.127" layer="21" />
+<wire x1="-2.4165" y1="3.2" x2="-2.575" y2="3.2" width="0.127" layer="21" />
 <wire x1="-2.575" y1="3.2" x2="-2.575" y2="-3.2" width="0.127" layer="21" />
-<wire x1="-2.575" y1="-3.2" x2="-2.33" y2="-3.2" width="0.127" layer="21" />
-<wire x1="2.33" y1="3.2" x2="2.575" y2="3.2" width="0.127" layer="21" />
+<wire x1="-2.575" y1="-3.2" x2="-2.4165" y2="-3.2" width="0.127" layer="21" />
+<wire x1="2.4165" y1="3.2" x2="2.575" y2="3.2" width="0.127" layer="21" />
 <wire x1="2.575" y1="3.2" x2="2.575" y2="-3.2" width="0.127" layer="21" />
-<wire x1="2.575" y1="-3.2" x2="2.33" y2="-3.2" width="0.127" layer="21" />
-<wire x1="-1.48" y1="-3.2" x2="-1.06" y2="-3.2" width="0.127" layer="21" />
-<wire x1="-0.21" y1="-3.2" x2="0.21" y2="-3.2" width="0.127" layer="21" />
-<wire x1="1.06" y1="-3.2" x2="1.48" y2="-3.2" width="0.127" layer="21" />
-<wire x1="-1.48" y1="3.2" x2="-1.06" y2="3.2" width="0.127" layer="21" />
-<wire x1="-0.21" y1="3.2" x2="0.21" y2="3.2" width="0.127" layer="21" />
-<wire x1="1.06" y1="3.2" x2="1.48" y2="3.2" width="0.127" layer="21" />
-<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="3.81" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="2.575" y1="-3.2" x2="2.4165" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-1.3935" y1="-3.2" x2="-1.1465" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-0.1235" y1="-3.2" x2="0.1235" y2="-3.2" width="0.127" layer="21" />
+<wire x1="1.1465" y1="-3.2" x2="1.3935" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-1.3935" y1="3.2" x2="-1.1465" y2="3.2" width="0.127" layer="21" />
+<wire x1="-0.1235" y1="3.2" x2="0.1235" y2="3.2" width="0.127" layer="21" />
+<wire x1="1.1465" y1="3.2" x2="1.3935" y2="3.2" width="0.127" layer="21" />
+<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-2.925" y="3.425" />
 <vertex x="-2.33" y="3.425" />
@@ -198,8 +199,8 @@
 <wire x1="2.575" y1="3.075" x2="2.575" y2="-3.075" width="0" layer="51" />
 <wire x1="2.575" y1="-3.075" x2="-2.575" y2="-3.075" width="0" layer="51" />
 <wire x1="-2.575" y1="-3.075" x2="-2.575" y2="3.075" width="0" layer="51" />
-<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="3.81" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-2.925" y="3.425" />
 <vertex x="-2.33" y="3.425" />
@@ -255,20 +256,20 @@
 <wire x1="2.575" y1="2.95" x2="2.575" y2="-2.95" width="0" layer="51" />
 <wire x1="2.575" y1="-2.95" x2="-2.575" y2="-2.95" width="0" layer="51" />
 <wire x1="-2.575" y1="-2.95" x2="-2.575" y2="2.95" width="0" layer="51" />
-<wire x1="-2.38" y1="3.2" x2="-2.575" y2="3.2" width="0.127" layer="21" />
-<wire x1="-2.575" y1="3.2" x2="-2.575" y2="0.1" width="0.127" layer="21" />
-<wire x1="-2.575" y1="-1.05" x2="-2.575" y2="-3.2" width="0.127" layer="21" />
-<wire x1="-2.575" y1="-3.2" x2="-2.38" y2="-3.2" width="0.127" layer="21" />
-<wire x1="2.38" y1="3.2" x2="2.575" y2="3.2" width="0.127" layer="21" />
-<wire x1="2.575" y1="3.2" x2="2.575" y2="0.1" width="0.127" layer="21" />
-<wire x1="2.575" y1="-1.005" x2="2.575" y2="-3.2" width="0.127" layer="21" />
-<wire x1="2.575" y1="-3.2" x2="2.38" y2="-3.2" width="0.127" layer="21" />
-<wire x1="-1.43" y1="-3.2" x2="-1.11" y2="-3.2" width="0.127" layer="21" />
-<wire x1="-0.16" y1="-3.2" x2="0.16" y2="-3.2" width="0.127" layer="21" />
-<wire x1="1.11" y1="-3.2" x2="1.43" y2="-3.2" width="0.127" layer="21" />
-<wire x1="-1.43" y1="3.2" x2="1.43" y2="3.2" width="0.127" layer="21" />
-<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="3.81" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="-2.4665" y1="3.2" x2="-2.575" y2="3.2" width="0.127" layer="21" />
+<wire x1="-2.575" y1="3.2" x2="-2.575" y2="0.1865" width="0.127" layer="21" />
+<wire x1="-2.575" y1="-1.0915" x2="-2.575" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-2.575" y1="-3.2" x2="-2.4665" y2="-3.2" width="0.127" layer="21" />
+<wire x1="2.4665" y1="3.2" x2="2.575" y2="3.2" width="0.127" layer="21" />
+<wire x1="2.575" y1="3.2" x2="2.575" y2="0.1865" width="0.127" layer="21" />
+<wire x1="2.575" y1="-1.0915" x2="2.575" y2="-3.2" width="0.127" layer="21" />
+<wire x1="2.575" y1="-3.2" x2="2.4665" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-1.3435" y1="-3.2" x2="-1.1965" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-0.0735" y1="-3.2" x2="0.0735" y2="-3.2" width="0.127" layer="21" />
+<wire x1="1.1965" y1="-3.2" x2="1.3435" y2="-3.2" width="0.127" layer="21" />
+<wire x1="-1.3435" y1="3.2" x2="1.3435" y2="3.2" width="0.127" layer="21" />
+<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-2.925" y="3.425" />
 <vertex x="-2.33" y="3.425" />
@@ -304,8 +305,8 @@
 <wire x1="2.575" y1="2.95" x2="2.575" y2="-2.95" width="0" layer="51" />
 <wire x1="2.575" y1="-2.95" x2="-2.575" y2="-2.95" width="0" layer="51" />
 <wire x1="-2.575" y1="-2.95" x2="-2.575" y2="2.95" width="0" layer="51" />
-<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="3.81" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="3.81" y="1.27" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-2.925" y="3.425" />
 <vertex x="-2.33" y="3.425" />
@@ -338,20 +339,14 @@
 <wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0" layer="51" />
 <wire x1="1.65" y1="-1.65" x2="-1.65" y2="-1.65" width="0" layer="51" />
 <wire x1="-1.65" y1="-1.65" x2="-1.65" y2="1.65" width="0" layer="51" />
-<wire x1="-1.2" y1="1.65" x2="-1.65" y2="1.65" width="0.127" layer="21" />
+<wire x1="-1.3365" y1="1.65" x2="-1.65" y2="1.65" width="0.127" layer="21" />
 <wire x1="-1.65" y1="1.65" x2="-1.65" y2="-1.65" width="0.127" layer="21" />
-<wire x1="-1.65" y1="-1.65" x2="-1.2" y2="-1.65" width="0.127" layer="21" />
-<wire x1="1.2" y1="1.65" x2="1.65" y2="1.65" width="0.127" layer="21" />
+<wire x1="-1.65" y1="-1.65" x2="-1.3365" y2="-1.65" width="0.127" layer="21" />
+<wire x1="1.3365" y1="1.65" x2="1.65" y2="1.65" width="0.127" layer="21" />
 <wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.127" layer="21" />
-<wire x1="1.65" y1="-1.65" x2="1.2" y2="-1.65" width="0.127" layer="21" />
-<wire x1="-0.7" y1="-1.65" x2="-0.6" y2="-1.65" width="0.127" layer="21" />
-<wire x1="-0.05" y1="-1.65" x2="0.05" y2="-1.65" width="0.127" layer="21" />
-<wire x1="0.6" y1="-1.65" x2="0.7" y2="-1.65" width="0.127" layer="21" />
-<wire x1="-0.7" y1="1.65" x2="-0.6" y2="1.65" width="0.127" layer="21" />
-<wire x1="-0.05" y1="1.65" x2="0.05" y2="1.65" width="0.127" layer="21" />
-<wire x1="0.6" y1="1.65" x2="0.7" y2="1.65" width="0.127" layer="21" />
-<text x="2.54" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.54" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="1.65" y1="-1.65" x2="1.3365" y2="-1.65" width="0.127" layer="21" />
+<text x="2.54" y="1.27" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-1.95" y="1.95" />
 <vertex x="-1.48" y="1.95" />
@@ -378,8 +373,8 @@
 <wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0" layer="51" />
 <wire x1="1.65" y1="-1.65" x2="-1.65" y2="-1.65" width="0" layer="51" />
 <wire x1="-1.65" y1="-1.65" x2="-1.65" y2="1.65" width="0" layer="51" />
-<text x="2.54" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.54" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="2.54" y="1.27" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-1.95" y="1.95" />
 <vertex x="-1.48" y="1.95" />
@@ -392,13 +387,185 @@
 <smd name="TAB" x="0" y="0.385" dx="2.45" dy="1.93" layer="1" cream="no" />
 <rectangle x1="-0.75" y1="-0.25" x2="0.75" y2="0.75" layer="31" />
 </package>
+<package name="SOT-323">
+<smd name="P$1" x="-0.65" y="-0.95" dx="0.47" dy="0.6" layer="1" />
+<smd name="P$2" x="0.65" y="-0.95" dx="0.47" dy="0.6" layer="1" />
+<smd name="P$3" x="0" y="0.95" dx="0.47" dy="0.6" layer="1" />
+<wire x1="0.4" y1="0.675" x2="1.1" y2="0.675" width="0.127" layer="21" />
+<wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.127" layer="21" />
+<wire x1="-0.4" y1="0.675" x2="-1.1" y2="0.675" width="0.127" layer="21" />
+<wire x1="-1.1" y1="0.675" x2="-1.1" y2="-0.675" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-0.335" y="0.775" />
+<vertex x="-0.335" y="1.35" />
+<vertex x="0.335" y="1.35" />
+<vertex x="0.335" y="0.775" />
+<vertex x="1.2" y="0.775" />
+<vertex x="1.2" y="-0.775" />
+<vertex x="0.985" y="-0.775" />
+<vertex x="0.985" y="-1.35" />
+<vertex x="0.315" y="-1.35" />
+<vertex x="0.315" y="-0.775" />
+<vertex x="-0.315" y="-0.775" />
+<vertex x="-0.315" y="-1.35" />
+<vertex x="-0.985" y="-1.35" />
+<vertex x="-0.985" y="-0.775" />
+<vertex x="-1.2" y="-0.775" />
+<vertex x="-1.2" y="0.775" />
+</polygon>
+<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="-0.25" y1="-0.675" x2="0.25" y2="-0.675" width="0.127" layer="21" />
+<wire x1="-1.1" y1="-0.675" x2="-1.05" y2="-0.675" width="0.127" layer="21" />
+<wire x1="1.05" y1="-0.675" x2="1.1" y2="-0.675" width="0.127" layer="21" />
+</package>
+<package name="SOT-323_NOSILK">
+<smd name="P$1" x="-0.65" y="-0.95" dx="0.47" dy="0.6" layer="1" />
+<smd name="P$2" x="0.65" y="-0.95" dx="0.47" dy="0.6" layer="1" />
+<smd name="P$3" x="0" y="0.95" dx="0.47" dy="0.6" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-0.335" y="0.775" />
+<vertex x="-0.335" y="1.35" />
+<vertex x="0.335" y="1.35" />
+<vertex x="0.335" y="0.775" />
+<vertex x="1.2" y="0.775" />
+<vertex x="1.2" y="-0.775" />
+<vertex x="0.985" y="-0.775" />
+<vertex x="0.985" y="-1.35" />
+<vertex x="0.315" y="-1.35" />
+<vertex x="0.315" y="-0.775" />
+<vertex x="-0.315" y="-0.775" />
+<vertex x="-0.315" y="-1.35" />
+<vertex x="-0.985" y="-1.35" />
+<vertex x="-0.985" y="-0.775" />
+<vertex x="-1.2" y="-0.775" />
+<vertex x="-1.2" y="0.775" />
+</polygon>
+<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+</package>
+<package name="SOT-523">
+<smd name="P$1" x="-0.5" y="-0.65" dx="0.4" dy="0.51" layer="1" />
+<smd name="P$2" x="0.5" y="-0.65" dx="0.4" dy="0.51" layer="1" />
+<smd name="P$3" x="0" y="0.65" dx="0.4" dy="0.51" layer="1" />
+<wire x1="0.37" y1="0.425" x2="0.85" y2="0.425" width="0.127" layer="21" />
+<wire x1="0.85" y1="0.425" x2="0.85" y2="-0.23" width="0.127" layer="21" />
+<wire x1="-0.37" y1="0.425" x2="-0.85" y2="0.425" width="0.127" layer="21" />
+<wire x1="-0.85" y1="0.425" x2="-0.85" y2="-0.23" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-0.3" y="0.525" />
+<vertex x="-0.3" y="1.005" />
+<vertex x="0.3" y="1.005" />
+<vertex x="0.3" y="0.525" />
+<vertex x="0.95" y="0.525" />
+<vertex x="0.95" y="-0.525" />
+<vertex x="0.8" y="-0.525" />
+<vertex x="0.8" y="-1.005" />
+<vertex x="0.2" y="-1.005" />
+<vertex x="0.2" y="-0.525" />
+<vertex x="-0.2" y="-0.525" />
+<vertex x="-0.2" y="-1.005" />
+<vertex x="-0.8" y="-1.005" />
+<vertex x="-0.8" y="-0.525" />
+<vertex x="-0.95" y="-0.525" />
+<vertex x="-0.95" y="0.525" />
+</polygon>
+<text x="1.015" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="1.015" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="-0.13" y1="-0.425" x2="0.13" y2="-0.425" width="0.127" layer="21" />
+</package>
+<package name="SOT-523_NOSILK">
+<smd name="P$1" x="-0.5" y="-0.65" dx="0.4" dy="0.51" layer="1" />
+<smd name="P$2" x="0.5" y="-0.65" dx="0.4" dy="0.51" layer="1" />
+<smd name="P$3" x="0" y="0.65" dx="0.4" dy="0.51" layer="1" />
+<wire x1="0.37" y1="0.425" x2="0.85" y2="0.425" width="0.127" layer="21" />
+<wire x1="0.85" y1="0.425" x2="0.85" y2="-0.23" width="0.127" layer="21" />
+<wire x1="-0.37" y1="0.425" x2="-0.85" y2="0.425" width="0.127" layer="21" />
+<wire x1="-0.85" y1="0.425" x2="-0.85" y2="-0.23" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-0.3" y="0.525" />
+<vertex x="-0.3" y="1.005" />
+<vertex x="0.3" y="1.005" />
+<vertex x="0.3" y="0.525" />
+<vertex x="0.95" y="0.525" />
+<vertex x="0.95" y="-0.525" />
+<vertex x="0.8" y="-0.525" />
+<vertex x="0.8" y="-1.005" />
+<vertex x="0.2" y="-1.005" />
+<vertex x="0.2" y="-0.525" />
+<vertex x="-0.2" y="-0.525" />
+<vertex x="-0.2" y="-1.005" />
+<vertex x="-0.8" y="-1.005" />
+<vertex x="-0.8" y="-0.525" />
+<vertex x="-0.95" y="-0.525" />
+<vertex x="-0.95" y="0.525" />
+</polygon>
+<text x="1.015" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="1.015" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="-0.13" y1="-0.425" x2="0.13" y2="-0.425" width="0.127" layer="21" />
+</package>
+<package name="SOT-723">
+<smd name="P$1" x="-0.4" y="-0.49" dx="0.27" dy="0.52" layer="1" />
+<smd name="P$2" x="0.4" y="-0.49" dx="0.27" dy="0.52" layer="1" />
+<smd name="P$3" x="0" y="0.49" dx="0.36" dy="0.52" layer="1" />
+<wire x1="0.35" y1="0.425" x2="0.625" y2="0.425" width="0.127" layer="21" />
+<wire x1="0.625" y1="0.425" x2="0.625" y2="-0.0435" width="0.127" layer="21" />
+<wire x1="-0.35" y1="0.425" x2="-0.625" y2="0.425" width="0.127" layer="21" />
+<wire x1="-0.625" y1="0.425" x2="-0.625" y2="-0.0435" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-0.28" y="0.525" />
+<vertex x="-0.28" y="0.85" />
+<vertex x="0.28" y="0.85" />
+<vertex x="0.28" y="0.525" />
+<vertex x="0.725" y="0.525" />
+<vertex x="0.725" y="-0.525" />
+<vertex x="0.635" y="-0.525" />
+<vertex x="0.635" y="-0.85" />
+<vertex x="0.165" y="-0.85" />
+<vertex x="0.165" y="-0.525" />
+<vertex x="-0.165" y="-0.525" />
+<vertex x="-0.165" y="-0.85" />
+<vertex x="-0.635" y="-0.85" />
+<vertex x="-0.635" y="-0.525" />
+<vertex x="-0.725" y="-0.525" />
+<vertex x="-0.725" y="0.525" />
+</polygon>
+<text x="1.015" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="1.015" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="-0.1" y1="-0.425" x2="0.1" y2="-0.425" width="0.127" layer="21" />
+</package>
+<package name="SOT-723_NOSILK">
+<smd name="P$1" x="-0.4" y="-0.49" dx="0.27" dy="0.52" layer="1" />
+<smd name="P$2" x="0.4" y="-0.49" dx="0.27" dy="0.52" layer="1" />
+<smd name="P$3" x="0" y="0.49" dx="0.36" dy="0.52" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-0.28" y="0.525" />
+<vertex x="-0.28" y="0.85" />
+<vertex x="0.28" y="0.85" />
+<vertex x="0.28" y="0.525" />
+<vertex x="0.725" y="0.525" />
+<vertex x="0.725" y="-0.525" />
+<vertex x="0.635" y="-0.525" />
+<vertex x="0.635" y="-0.85" />
+<vertex x="0.165" y="-0.85" />
+<vertex x="0.165" y="-0.525" />
+<vertex x="-0.165" y="-0.525" />
+<vertex x="-0.165" y="-0.85" />
+<vertex x="-0.635" y="-0.85" />
+<vertex x="-0.635" y="-0.525" />
+<vertex x="-0.725" y="-0.525" />
+<vertex x="-0.725" y="0.525" />
+</polygon>
+<text x="1.015" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="1.015" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+</package>
 <package name="SOT-23-3">
 <smd name="P$1" x="-0.95" y="-1.05" dx="0.6" dy="1.3" layer="1" />
 <smd name="P$2" x="0.95" y="-1.05" dx="0.6" dy="1.3" layer="1" />
 <smd name="P$3" x="0" y="1.05" dx="0.6" dy="1.3" layer="1" />
-<wire x1="0.4" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="21" />
+<wire x1="0.4865" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="21" />
 <wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="21" />
-<wire x1="-0.4" y1="0.7" x2="-1.5" y2="0.7" width="0.127" layer="21" />
+<wire x1="-0.4865" y1="0.7" x2="-1.5" y2="0.7" width="0.127" layer="21" />
 <wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.127" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-0.4" y="0.8" />
@@ -418,11 +585,11 @@
 <vertex x="-1.6" y="-0.8" />
 <vertex x="-1.6" y="0.8" />
 </polygon>
-<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<wire x1="-0.5" y1="-0.7" x2="0.5" y2="-0.7" width="0.127" layer="21" />
-<wire x1="-1.5" y1="-0.7" x2="-1.4" y2="-0.7" width="0.127" layer="21" />
-<wire x1="1.4" y1="-0.7" x2="1.5" y2="-0.7" width="0.127" layer="21" />
+<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="-0.4635" y1="-0.7" x2="0.4635" y2="-0.7" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-0.7" x2="-1.4365" y2="-0.7" width="0.127" layer="21" />
+<wire x1="1.4365" y1="-0.7" x2="1.5" y2="-0.7" width="0.127" layer="21" />
 </package>
 <package name="SOT-23-3_NOSILK">
 <smd name="P$1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1" />
@@ -447,8 +614,302 @@
 <vertex x="-1.62" y="-0.8" />
 <vertex x="-1.62" y="0.8" />
 </polygon>
-<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<text x="2.115" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="2.115" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+</package>
+<package name="SOT-883">
+<smd name="P$1" x="-0.35" y="0.175" dx="0.4" dy="0.25" layer="1" />
+<smd name="P$2" x="-0.35" y="-0.175" dx="0.4" dy="0.25" layer="1" />
+<smd name="P$3" x="0.35" y="0" dx="0.4" dy="0.7" layer="1" />
+<wire x1="0.72" y1="0.52" x2="0.72" y2="-0.52" width="0.127" layer="21" />
+<wire x1="0.72" y1="0.52" x2="-0.72" y2="0.52" width="0.127" layer="21" />
+<wire x1="-0.72" y1="0.52" x2="-0.72" y2="-0.52" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="0.7835" y="0.5835" />
+<vertex x="0.7835" y="-0.5835" />
+<vertex x="-0.7835" y="-0.5835" />
+<vertex x="-0.7835" y="0.5835" />
+</polygon>
+<text x="0.915" y="0.335" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="0.915" y="-0.505" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="-0.72" y1="-0.52" x2="0.72" y2="-0.52" width="0.127" layer="21" />
+</package>
+<package name="SOT-883_NOSILK">
+<smd name="P$1" x="-0.35" y="0.175" dx="0.4" dy="0.25" layer="1" />
+<smd name="P$2" x="-0.35" y="-0.175" dx="0.4" dy="0.25" layer="1" />
+<smd name="P$3" x="0.35" y="0" dx="0.4" dy="0.7" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="0.7835" y="0.5835" />
+<vertex x="0.7835" y="-0.5835" />
+<vertex x="-0.7835" y="-0.5835" />
+<vertex x="-0.7835" y="0.5835" />
+</polygon>
+<text x="0.915" y="0.335" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="0.915" y="-0.505" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+</package>
+<package name="SOT-223-4">
+<smd name="P$1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1" />
+<smd name="P$2" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1" />
+<smd name="P$3" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1" />
+<wire x1="3.275" y1="1.775" x2="3.275" y2="-1.775" width="0.127" layer="21" />
+<wire x1="3.275" y1="1.775" x2="-3.275" y2="1.775" width="0.127" layer="21" />
+<wire x1="-3.275" y1="1.775" x2="-3.275" y2="-1.775" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-1.75" y="1.875" />
+<vertex x="-1.75" y="4.1" />
+<vertex x="1.75" y="4.1" />
+<vertex x="1.75" y="1.875" />
+<vertex x="3.375" y="1.875" />
+<vertex x="3.375" y="-1.875" />
+<vertex x="3" y="-1.875" />
+<vertex x="3" y="-4.1" />
+<vertex x="1.6" y="-4.1" />
+<vertex x="1.6" y="-1.875" />
+<vertex x="0.7" y="-1.875" />
+<vertex x="0.7" y="-4.1" />
+<vertex x="-0.7" y="-4.1" />
+<vertex x="-0.7" y="-1.875" />
+<vertex x="-1.6" y="-1.875" />
+<vertex x="-1.6" y="-4.1" />
+<vertex x="-3" y="-4.1" />
+<vertex x="-3" y="-1.875" />
+<vertex x="-3.375" y="-1.875" />
+<vertex x="-3.375" y="1.875" />
+</polygon>
+<text x="4.655" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="4.655" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<wire x1="-3.275" y1="-1.775" x2="3.275" y2="-1.775" width="0.127" layer="21" />
+<smd name="P$4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1" />
+</package>
+<package name="SOT-223-4_NOSILK">
+<smd name="P$1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1" />
+<smd name="P$2" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1" />
+<smd name="P$3" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-1.75" y="1.875" />
+<vertex x="-1.75" y="4.1" />
+<vertex x="1.75" y="4.1" />
+<vertex x="1.75" y="1.875" />
+<vertex x="3.375" y="1.875" />
+<vertex x="3.375" y="-1.875" />
+<vertex x="3" y="-1.875" />
+<vertex x="3" y="-4.1" />
+<vertex x="1.6" y="-4.1" />
+<vertex x="1.6" y="-1.875" />
+<vertex x="0.7" y="-1.875" />
+<vertex x="0.7" y="-4.1" />
+<vertex x="-0.7" y="-4.1" />
+<vertex x="-0.7" y="-1.875" />
+<vertex x="-1.6" y="-1.875" />
+<vertex x="-1.6" y="-4.1" />
+<vertex x="-3" y="-4.1" />
+<vertex x="-3" y="-1.875" />
+<vertex x="-3.375" y="-1.875" />
+<vertex x="-3.375" y="1.875" />
+</polygon>
+<text x="4.655" y="0.235" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="4.655" y="-0.705" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<smd name="P$4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1" />
+</package>
+<package name="D2PAK/TO-263-3">
+<smd name="P$1" x="-2.54" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+<smd name="P$3" x="2.54" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+<smd name="P$4" x="0" y="4.445" dx="11.43" dy="8.89" layer="1" />
+<wire x1="-5.88" y1="9.06" x2="5.88" y2="9.06" width="0.127" layer="21" />
+<wire x1="5.88" y1="9.06" x2="5.88" y2="-4.19" width="0.127" layer="21" />
+<wire x1="5.88" y1="-4.19" x2="3.75" y2="-4.19" width="0.127" layer="21" />
+<wire x1="3.75" y1="-4.19" x2="3.75" y2="-9.06" width="0.127" layer="21" />
+<wire x1="3.75" y1="-9.06" x2="1.33" y2="-9.06" width="0.127" layer="21" />
+<wire x1="1.33" y1="-9.06" x2="1.33" y2="-4.19" width="0.127" layer="21" />
+<wire x1="1.33" y1="-4.19" x2="-1.33" y2="-4.19" width="0.127" layer="21" />
+<wire x1="-1.33" y1="-4.19" x2="-1.33" y2="-9.06" width="0.127" layer="21" />
+<wire x1="-1.33" y1="-9.06" x2="-3.75" y2="-9.06" width="0.127" layer="21" />
+<wire x1="-3.75" y1="-9.06" x2="-3.75" y2="-4.19" width="0.127" layer="21" />
+<wire x1="-3.75" y1="-4.19" x2="-5.88" y2="-4.19" width="0.127" layer="21" />
+<wire x1="-5.88" y1="-4.19" x2="-5.88" y2="9.06" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-5.98" y="9.16" />
+<vertex x="5.98" y="9.16" />
+<vertex x="5.98" y="-4.29" />
+<vertex x="3.85" y="-4.29" />
+<vertex x="3.85" y="-9.16" />
+<vertex x="1.23" y="-9.16" />
+<vertex x="1.23" y="-4.29" />
+<vertex x="-1.23" y="-4.29" />
+<vertex x="-1.23" y="-9.16" />
+<vertex x="-3.85" y="-9.16" />
+<vertex x="-3.85" y="-4.29" />
+<vertex x="-5.98" y="-4.29" />
+</polygon>
+<text x="-3.302" y="10.795" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-3.302" y="9.779" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+</package>
+<package name="D2PAK/TO-263-4">
+<smd name="P$1" x="-2.54" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+<smd name="P$3" x="2.54" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+<smd name="P$4" x="0" y="4.445" dx="11.43" dy="8.89" layer="1" />
+<wire x1="-5.88" y1="9.06" x2="5.88" y2="9.06" width="0.127" layer="21" />
+<wire x1="5.88" y1="9.06" x2="5.88" y2="-4.19" width="0.127" layer="21" />
+<wire x1="5.88" y1="-4.19" x2="3.75" y2="-4.19" width="0.127" layer="21" />
+<wire x1="3.75" y1="-4.19" x2="3.75" y2="-9.06" width="0.127" layer="21" />
+<wire x1="3.75" y1="-9.06" x2="-3.75" y2="-9.06" width="0.127" layer="21" />
+<wire x1="-3.75" y1="-9.06" x2="-3.75" y2="-4.19" width="0.127" layer="21" />
+<wire x1="-3.75" y1="-4.19" x2="-5.88" y2="-4.19" width="0.127" layer="21" />
+<wire x1="-5.88" y1="-4.19" x2="-5.88" y2="9.06" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-5.98" y="9.16" />
+<vertex x="5.98" y="9.16" />
+<vertex x="5.98" y="-4.29" />
+<vertex x="3.85" y="-4.29" />
+<vertex x="3.85" y="-9.16" />
+<vertex x="1.23" y="-9.16" />
+<vertex x="-3.85" y="-9.16" />
+<vertex x="-3.85" y="-4.29" />
+<vertex x="-5.98" y="-4.29" />
+</polygon>
+<text x="-3.302" y="10.795" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-3.302" y="9.779" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<smd name="P$2" x="0" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+</package>
+<package name="D2PAK/TO-263-3_NOSILK">
+<smd name="P$1" x="-2.54" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+<smd name="P$3" x="2.54" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+<smd name="P$4" x="0" y="4.445" dx="11.43" dy="8.89" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-5.98" y="9.16" />
+<vertex x="5.98" y="9.16" />
+<vertex x="5.98" y="-4.29" />
+<vertex x="3.85" y="-4.29" />
+<vertex x="3.85" y="-9.16" />
+<vertex x="1.23" y="-9.16" />
+<vertex x="1.23" y="-4.29" />
+<vertex x="-1.23" y="-4.29" />
+<vertex x="-1.23" y="-9.16" />
+<vertex x="-3.85" y="-9.16" />
+<vertex x="-3.85" y="-4.29" />
+<vertex x="-5.98" y="-4.29" />
+</polygon>
+<text x="-3.302" y="10.795" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-3.302" y="9.779" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+</package>
+<package name="D2PAK/TO-263-4_NOSILK">
+<smd name="P$1" x="-2.54" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+<smd name="P$3" x="2.54" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+<smd name="P$4" x="0" y="4.445" dx="11.43" dy="8.89" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-5.98" y="9.16" />
+<vertex x="5.98" y="9.16" />
+<vertex x="5.98" y="-4.29" />
+<vertex x="3.85" y="-4.29" />
+<vertex x="3.85" y="-9.16" />
+<vertex x="1.23" y="-9.16" />
+<vertex x="-3.85" y="-9.16" />
+<vertex x="-3.85" y="-4.29" />
+<vertex x="-5.98" y="-4.29" />
+</polygon>
+<text x="-3.302" y="10.795" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-3.302" y="9.779" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<smd name="P$2" x="0" y="-6.985" dx="2.08" dy="3.81" layer="1" />
+</package>
+<package name="DPAK/TO-252-3">
+<smd name="P$1" x="-2.3" y="-4.15" dx="1.5" dy="2.9" layer="1" />
+<smd name="P$3" x="2.3" y="-4.15" dx="1.5" dy="2.9" layer="1" />
+<smd name="P$4" x="0" y="2.35" dx="6.3" dy="6.5" layer="1" />
+<wire x1="-3.32" y1="5.77" x2="3.32" y2="5.77" width="0.127" layer="21" />
+<wire x1="3.32" y1="5.77" x2="3.32" y2="-2.55" width="0.127" layer="21" />
+<wire x1="3.32" y1="-2.55" x2="3.22" y2="-2.55" width="0.127" layer="21" />
+<wire x1="3.22" y1="-2.55" x2="3.22" y2="-5.77" width="0.127" layer="21" />
+<wire x1="3.22" y1="-5.77" x2="1.37" y2="-5.77" width="0.127" layer="21" />
+<wire x1="1.37" y1="-5.77" x2="1.37" y2="-2.55" width="0.127" layer="21" />
+<wire x1="1.37" y1="-2.55" x2="-1.37" y2="-2.55" width="0.127" layer="21" />
+<wire x1="-1.37" y1="-2.55" x2="-1.37" y2="-5.77" width="0.127" layer="21" />
+<wire x1="-1.37" y1="-5.77" x2="-3.22" y2="-5.77" width="0.127" layer="21" />
+<wire x1="-3.22" y1="-5.77" x2="-3.22" y2="-2.55" width="0.127" layer="21" />
+<wire x1="-3.22" y1="-2.55" x2="-3.32" y2="-2.55" width="0.127" layer="21" />
+<wire x1="-3.32" y1="-2.55" x2="-3.32" y2="5.77" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-3.42" y="5.87" />
+<vertex x="3.42" y="5.87" />
+<vertex x="3.42" y="-2.65" />
+<vertex x="3.32" y="-2.65" />
+<vertex x="3.32" y="-5.87" />
+<vertex x="1.27" y="-5.87" />
+<vertex x="1.27" y="-2.65" />
+<vertex x="-1.27" y="-2.65" />
+<vertex x="-1.27" y="-5.87" />
+<vertex x="-3.32" y="-5.87" />
+<vertex x="-3.32" y="-2.65" />
+<vertex x="-3.42" y="-2.65" />
+</polygon>
+<text x="-3.302" y="6.985" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-3.302" y="5.969" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+</package>
+<package name="DPAK/TO-252-4">
+<smd name="P$1" x="-2.3" y="-4.15" dx="1.5" dy="2.9" layer="1" />
+<smd name="P$3" x="2.3" y="-4.15" dx="1.5" dy="2.9" layer="1" />
+<smd name="P$4" x="0" y="2.35" dx="6.3" dy="6.5" layer="1" />
+<wire x1="-3.32" y1="5.77" x2="3.32" y2="5.77" width="0.127" layer="21" />
+<wire x1="3.32" y1="5.77" x2="3.32" y2="-2.55" width="0.127" layer="21" />
+<wire x1="3.32" y1="-2.55" x2="3.22" y2="-2.55" width="0.127" layer="21" />
+<wire x1="3.22" y1="-2.55" x2="3.22" y2="-5.77" width="0.127" layer="21" />
+<wire x1="3.22" y1="-5.77" x2="-3.22" y2="-5.77" width="0.127" layer="21" />
+<wire x1="-3.22" y1="-5.77" x2="-3.22" y2="-2.55" width="0.127" layer="21" />
+<wire x1="-3.22" y1="-2.55" x2="-3.32" y2="-2.55" width="0.127" layer="21" />
+<wire x1="-3.32" y1="-2.55" x2="-3.32" y2="5.77" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-3.42" y="5.87" />
+<vertex x="3.42" y="5.87" />
+<vertex x="3.42" y="-2.65" />
+<vertex x="3.32" y="-2.65" />
+<vertex x="3.32" y="-5.87" />
+<vertex x="-1.27" y="-5.87" />
+<vertex x="-3.32" y="-5.87" />
+<vertex x="-3.32" y="-2.65" />
+<vertex x="-3.42" y="-2.65" />
+</polygon>
+<text x="-3.302" y="6.985" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-3.302" y="5.969" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<smd name="P$2" x="0" y="-4.15" dx="1.5" dy="2.9" layer="1" />
+</package>
+<package name="DPAK/TO-252-3_NOSILK">
+<smd name="P$1" x="-2.3" y="-4.15" dx="1.5" dy="2.9" layer="1" />
+<smd name="P$3" x="2.3" y="-4.15" dx="1.5" dy="2.9" layer="1" />
+<smd name="P$4" x="0" y="2.35" dx="6.3" dy="6.5" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-3.42" y="5.87" />
+<vertex x="3.42" y="5.87" />
+<vertex x="3.42" y="-2.65" />
+<vertex x="3.32" y="-2.65" />
+<vertex x="3.32" y="-5.87" />
+<vertex x="1.27" y="-5.87" />
+<vertex x="1.27" y="-2.65" />
+<vertex x="-1.27" y="-2.65" />
+<vertex x="-1.27" y="-5.87" />
+<vertex x="-3.32" y="-5.87" />
+<vertex x="-3.32" y="-2.65" />
+<vertex x="-3.42" y="-2.65" />
+</polygon>
+<text x="-3.302" y="6.985" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-3.302" y="5.969" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+</package>
+<package name="DPAK/TO-252-4_NOSILK">
+<smd name="P$1" x="-2.3" y="-4.15" dx="1.5" dy="2.9" layer="1" />
+<smd name="P$3" x="2.3" y="-4.15" dx="1.5" dy="2.9" layer="1" />
+<smd name="P$4" x="0" y="2.35" dx="6.3" dy="6.5" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-3.42" y="5.87" />
+<vertex x="3.42" y="5.87" />
+<vertex x="3.42" y="-2.65" />
+<vertex x="3.32" y="-2.65" />
+<vertex x="3.32" y="-5.87" />
+<vertex x="-1.27" y="-5.87" />
+<vertex x="-3.32" y="-5.87" />
+<vertex x="-3.32" y="-2.65" />
+<vertex x="-3.42" y="-2.65" />
+</polygon>
+<text x="-3.302" y="6.985" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-3.302" y="5.969" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<smd name="P$2" x="0" y="-4.15" dx="1.5" dy="2.9" layer="1" />
 </package>
 </packages>
 <symbols>
@@ -503,8 +964,8 @@
 <pin name="G2" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90" />
 <pin name="S1" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90" />
 <pin name="S2" x="5.08" y="-5.08" visible="off" length="short" direction="pas" rot="R90" />
-<text x="8.89213125" y="-2.540609375" size="1.77843125" layer="96">&gt;VALUE</text>
-<text x="8.90578125" y="2.544509375" size="1.781159375" layer="95">&gt;NAME</text>
+<text x="8.89213125" y="-2.540609375" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;VALUE</text>
+<text x="8.90578125" y="2.544509375" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;NAME</text>
 <text x="-1.016" y="7.62" size="1.778" layer="94" rot="R180">N-CH</text>
 <text x="5.08" y="6.096" size="1.778" layer="94">P-CH</text>
 <polygon width="0.1524" layer="94">
@@ -554,12 +1015,45 @@
 <vertex x="5.08" y="-0.508" />
 <vertex x="4.064" y="0.508" />
 </polygon>
-<text x="7.62" y="0" size="1.27" layer="95">&gt;Name</text>
+<text x="7.62" y="0" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
 <text x="-7.62" y="-1.016" size="1.27" layer="94">G</text>
 <text x="5.08" y="4.318" size="1.27" layer="94">D</text>
 <text x="5.08" y="-5.08" size="1.27" layer="94">S</text>
 <text x="-1.905" y="3.81" size="1.016" layer="94">N-CH</text>
-<text x="7.62" y="-2.54" size="1.27" layer="96">&gt;Value</text>
+<text x="7.62" y="-2.54" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+</symbol>
+<symbol name="FET-P-CHANNEL">
+<circle x="0" y="0" radius="5.6796125" width="0.1524" layer="94" />
+<pin name="GATE" x="-7.62" y="2.54" visible="off" length="middle" />
+<pin name="SOURCE" x="2.54" y="-7.62" visible="off" length="middle" rot="R90" />
+<pin name="DRAIN" x="2.54" y="7.62" visible="off" length="middle" rot="R270" />
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94" />
+<wire x1="4.064" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94" />
+<wire x1="2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" />
+<wire x1="4.064" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94" />
+<wire x1="-1.27" y1="3.302" x2="-1.27" y2="1.778" width="0.1524" layer="94" />
+<wire x1="-1.27" y1="0.762" x2="-1.27" y2="-0.762" width="0.1524" layer="94" />
+<wire x1="-1.27" y1="-1.778" x2="-1.27" y2="-3.302" width="0.1524" layer="94" />
+<wire x1="4.064" y1="-2.54" x2="4.064" y2="2.54" width="0.1524" layer="94" />
+<wire x1="3.048" y1="-0.508" x2="5.08" y2="-0.508" width="0.1524" layer="94" />
+<polygon width="0.1524" layer="94">
+<vertex x="0.762" y="0" />
+<vertex x="-0.254" y="1.016" />
+<vertex x="-0.254" y="-1.016" />
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.048" y="0.508" />
+<vertex x="5.08" y="0.508" />
+<vertex x="4.064" y="-0.508" />
+</polygon>
+<text x="7.62" y="0" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-7.62" y="-1.016" size="1.27" layer="94">G</text>
+<text x="5.08" y="4.318" size="1.27" layer="94">D</text>
+<text x="5.08" y="-5.08" size="1.27" layer="94">S</text>
+<text x="-1.905" y="3.81" size="1.016" layer="94">P-CH</text>
+<text x="7.62" y="-2.54" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94" />
 </symbol>
 </symbols>
 <devicesets>
@@ -663,6 +1157,87 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="FET-N-CH-SOT-323" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-323" package="SOT-323">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-323-NOSILK" package="SOT-323_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-N-CH-SOT-523" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-523" package="SOT-523">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-523-NOSILK" package="SOT-523_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-N-CH-SOT-723" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-723" package="SOT-723">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-723-NOSILK" package="SOT-723_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="FET-N-CH-SOT-23-3" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
@@ -683,6 +1258,410 @@
 <connect gate="G$1" pin="DRAIN" pad="P$3" />
 <connect gate="G$1" pin="GATE" pad="P$1" />
 <connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-N-CH-SOT-883" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-883" package="SOT-883">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-883-NOSILK" package="SOT-883_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-N-CH-SOT-223-4" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-223-4" package="SOT-223-4">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-223-4-NOSILK" package="SOT-223-4_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-P-CH-SOT-323" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-P-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-323" package="SOT-323">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-323-NOSILK" package="SOT-323_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-P-CH-SOT-523" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-P-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-523" package="SOT-523">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-523-NOSILK" package="SOT-523_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-P-CH-SOT-723" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-P-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-723" package="SOT-723">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-723-NOSILK" package="SOT-723_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-P-CH-SOT-23-3" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-P-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-23-3" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-23-3-NOSILK" package="SOT-23-3_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-P-CH-SOT-883" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-P-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-883" package="SOT-883">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-883-NOSILK" package="SOT-883_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$3" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-P-CH-SOT-223-4" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-P-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-223-4" package="SOT-223-4">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-223-4-NOSILK" package="SOT-223-4_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-N-CH-D2PAK" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="D2PAK-3" package="D2PAK/TO-263-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="D2PAK-4" package="D2PAK/TO-263-4">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="D2PAK-3-NOSILK" package="D2PAK/TO-263-3_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="D2PAK-4-NOSILK" package="D2PAK/TO-263-4_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-N-CH-DPAK" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="DPAK-3" package="DPAK/TO-252-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="DPAK-4" package="DPAK/TO-252-4">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="DPAK-3-NOSILK" package="DPAK/TO-252-3_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="DPAK-4-NOSILK" package="DPAK/TO-252-4_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-P-CH-D2PAK" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-P-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="D2PAK-3" package="D2PAK/TO-263-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="D2PAK-4" package="D2PAK/TO-263-4">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="D2PAK-3-NOSILK" package="D2PAK/TO-263-3_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="D2PAK-4-NOSILK" package="D2PAK/TO-263-4_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FET-P-CH-DPAK" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET-P-CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="DPAK-3" package="DPAK/TO-252-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="DPAK-4" package="DPAK/TO-252-4">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="DPAK-3-NOSILK" package="DPAK/TO-252-3_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="DPAK-4-NOSILK" package="DPAK/TO-252-4_NOSILK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$2 P$4" />
+<connect gate="G$1" pin="GATE" pad="P$1" />
+<connect gate="G$1" pin="SOURCE" pad="P$3" />
 </connects>
 <technologies>
 <technology name="" />
