@@ -84,8 +84,8 @@
 <vertex x="0.9" y="0.77" />
 <vertex x="0.9" y="-0.77" />
 </polygon>
-<text x="-2.055" y="1.785" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.055" y="0.845" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.055" y="1.785" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.055" y="0.845" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_1.27MMX1.05MM">
 <smd name="P$1" x="-0.35" y="0" dx="0.4" dy="1" layer="1" />
@@ -96,8 +96,8 @@
 <vertex x="0.75" y="-0.7" />
 <vertex x="-0.75" y="-0.7" />
 </polygon>
-<text x="-2.025" y="1.715" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.025" y="0.775" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.025" y="1.715" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.025" y="0.775" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_1.60MMX1.00MM">
 <smd name="P$1" x="-0.55" y="0" dx="0.5" dy="1" layer="1" />
@@ -110,8 +110,8 @@
 <vertex x="0.9" y="0.75" />
 <vertex x="0.9" y="-0.75" />
 </polygon>
-<text x="-1.915" y="1.755" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-1.915" y="0.815" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-1.915" y="1.755" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.915" y="0.815" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_1.65MMX1.05MM">
 <smd name="P$1" x="-0.55" y="0" dx="0.5" dy="1" layer="1" />
@@ -124,8 +124,8 @@
 <vertex x="0.9" y="0.775" />
 <vertex x="0.9" y="-0.775" />
 </polygon>
-<text x="-1.915" y="1.755" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-1.915" y="0.815" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-1.915" y="1.755" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.915" y="0.815" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_2.00MMX1.20MM">
 <smd name="P$1" x="-0.7" y="0" dx="0.6" dy="1.1" layer="1" />
@@ -138,8 +138,8 @@
 <vertex x="1.1" y="0.85" />
 <vertex x="1.1" y="-0.85" />
 </polygon>
-<text x="-1.845" y="1.85" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-1.845" y="0.85" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-1.845" y="1.85" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.845" y="0.85" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_2.50MMX2.00MM">
 <smd name="P$1" x="-0.775" y="0" dx="1.15" dy="2.2" layer="1" />
@@ -152,8 +152,8 @@
 <vertex x="1.45" y="1.2" />
 <vertex x="1.45" y="-1.2" />
 </polygon>
-<text x="-1.855" y="2.225" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-1.855" y="1.285" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-1.855" y="2.225" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.855" y="1.285" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_3.20MMX1.50MM">
 <smd name="P$1" x="-1.25" y="0" dx="1.1" dy="1.9" layer="1" />
@@ -174,16 +174,16 @@
 <vertex x="-0.6" y="-1.05" />
 <vertex x="-1.9" y="-1.05" />
 </polygon>
-<text x="-1.455" y="2.365" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-1.455" y="1.425" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-1.455" y="2.365" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.455" y="1.425" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_3.30MMX1.60MM">
 <smd name="P$1" x="0" y="1.25" dx="1.9" dy="1.1" layer="1" />
 <smd name="P$2" x="0" y="-1.25" dx="1.9" dy="1.1" layer="1" />
 <wire x1="-0.8" y1="0.5135" x2="-0.8" y2="-0.5135" width="0.127" layer="21" />
 <wire x1="0.8" y1="-0.5135" x2="0.8" y2="0.5135" width="0.127" layer="21" />
-<text x="1.795" y="2.805" size="0.8128" layer="25" font="vector" rot="R180" ratio="8" distance="50">&gt;Name</text>
-<text x="1.795" y="3.745" size="0.8128" layer="27" font="vector" rot="R180" ratio="8" distance="50">&gt;Value</text>
+<text x="1.795" y="2.805" size="0.8128" layer="25" font="vector" rot="R180">&gt;Name</text>
+<text x="1.795" y="3.745" size="0.8128" layer="27" font="vector" rot="R180">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-1.05" y="-1.9" />
 <vertex x="-1.05" y="1.9" />
@@ -210,8 +210,8 @@
 <vertex x="-1.05" y="-1" />
 <vertex x="-1.05" y="-1.05" />
 </polygon>
-<text x="-1.335" y="2.055" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-1.335" y="1.115" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-1.335" y="2.055" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.335" y="1.115" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_4.90MMX1.80MM">
 <smd name="P$1" x="-2.1" y="0" dx="1.3" dy="2.2" layer="1" />
@@ -232,8 +232,8 @@
 <vertex x="-1.35" y="-1.15" />
 <vertex x="-1.35" y="-1.2" />
 </polygon>
-<text x="-0.8516" y="2.1628" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-0.8516" y="1.2228" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-0.8516" y="2.1628" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.8516" y="1.2228" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_5.00MMX3.20MM">
 <smd name="P$1" x="-2.05" y="0" dx="1.9" dy="2.4" layer="1" />
@@ -258,8 +258,8 @@
 <vertex x="-2.75" y="-1.3" />
 <vertex x="-3.1" y="-1.3" />
 </polygon>
-<text x="-0.995" y="2.895" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-0.995" y="1.955" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-0.995" y="2.895" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.995" y="1.955" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_NOLEAD_7.00MMX5.00MM">
 <smd name="P$1" x="-3.15" y="0" dx="2.2" dy="2.4" layer="1" />
@@ -270,8 +270,8 @@
 <wire x1="-3.5" y1="-2.5" x2="-3.5" y2="-1.3865" width="0.127" layer="21" />
 <wire x1="3.5" y1="2.5" x2="3.5" y2="1.3865" width="0.127" layer="21" />
 <wire x1="3.5" y1="-2.5" x2="3.5" y2="-1.3865" width="0.127" layer="21" />
-<text x="-3.425" y="2.75" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="0.385" y="2.75" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-3.425" y="2.75" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0.385" y="2.75" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-4.35" y="-1.3" />
 <vertex x="-4.35" y="1.3" />
@@ -310,8 +310,8 @@
 <vertex x="-4.25" y="-1.6" />
 <vertex x="-4.6" y="-1.6" />
 </polygon>
-<text x="0.6284" y="3.5028" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="0.6284" y="2.5628" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="0.6284" y="3.5028" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0.6284" y="2.5628" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_4-SMD_FLATLEAD_8.00MMX3.80MM">
 <smd name="P$4" x="-3.75" y="0.9" dx="1.2" dy="0.6" layer="1" />
@@ -326,8 +326,8 @@
 <vertex x="4.75" y="-2.15" />
 <vertex x="-4.75" y="-2.15" />
 </polygon>
-<text x="1.065" y="3.125" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.065" y="2.185" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.065" y="3.125" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.065" y="2.185" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <wire x1="4.5" y1="1.9" x2="4.5" y2="1.37048125" width="0.127" layer="21" />
 <wire x1="4.5" y1="0.42951875" x2="4.5" y2="-0.42951875" width="0.127" layer="21" />
 <wire x1="4.5" y1="-1.37048125" x2="4.5" y2="-1.9" width="0.127" layer="21" />
@@ -348,8 +348,8 @@
 <vertex x="1.15" y="1.05" />
 <vertex x="1.15" y="-1.05" />
 </polygon>
-<text x="-1.965" y="2.145" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-1.965" y="1.205" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-1.965" y="2.145" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.965" y="1.205" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_4-SMD_NOLEAD_2.5MMX2.0MM">
 <smd name="P$4" x="-0.925" y="0.775" dx="1" dy="0.9" layer="1" />
@@ -364,8 +364,8 @@
 <vertex x="1.525" y="-1.325" />
 <vertex x="-1.525" y="-1.325" />
 </polygon>
-<text x="-1.895" y="2.495" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-1.895" y="1.555" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-1.895" y="2.495" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.895" y="1.555" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_4-SMD_NOLEAD_3.20MMX2.50MM">
 <smd name="P$4" x="0.775" y="1.125" dx="1" dy="1.3" layer="1" />
@@ -382,8 +382,8 @@
 <vertex x="1.7" y="-1.95" />
 <vertex x="-1.7" y="-1.95" />
 </polygon>
-<text x="-1.995" y="2.945" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-1.995" y="2.005" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-1.995" y="2.945" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.995" y="2.005" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_4-SMD_NOLEAD_5.00MMX3.20MM">
 <smd name="P$4" x="-1.9" y="1.15" dx="1.6" dy="1.3" layer="1" />
@@ -402,8 +402,8 @@
 <vertex x="1" y="-1.9" />
 <vertex x="1.1" y="-1.9" />
 </polygon>
-<text x="-0.845" y="2.885" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-0.845" y="1.945" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-0.845" y="2.885" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-0.845" y="1.945" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL_2-SMD_FLATLEAD_7.00MMX4.10MM">
 <smd name="P$1" x="-2.75" y="0" dx="3.5" dy="1.2" layer="1" />
@@ -418,8 +418,8 @@
 <vertex x="5.05" y="-2.3" />
 <vertex x="-5.05" y="-2.3" />
 </polygon>
-<text x="1.265" y="3.325" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.265" y="2.385" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.265" y="3.325" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.265" y="2.385" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="CRYSTAL-SMD_4-SOJ_8.00MMX3.80MM">
 <smd name="S$4" x="-2.75" y="1.6" dx="1.3" dy="1.9" layer="1" />
@@ -456,8 +456,8 @@
 <vertex x="-3.5" y="-2.65" />
 <vertex x="-3.5" y="-2.25" />
 </polygon>
-<text x="0.785" y="3.685" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="0.785" y="2.745" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="0.785" y="3.685" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0.785" y="2.745" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 </packages>
 <symbols>

@@ -214,8 +214,8 @@
 <vertex x="0" y="-0.494653125" />
 <vertex x="0.349771875" y="-0.349771875" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <smd name="P$1" x="0" y="0" dx="0.65" dy="0.65" layer="1" roundness="100" cream="no" />
 <circle x="0" y="0" radius="0.55" width="0.127" layer="21" />
 </package>
@@ -230,8 +230,8 @@
 <vertex x="0" y="-0.494653125" />
 <vertex x="0.349771875" y="-0.349771875" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <smd name="P$1" x="0" y="0" dx="0.65" dy="0.65" layer="1" roundness="100" cream="no" />
 </package>
 <package name="TESTPOINT_SMT_1MM">
@@ -246,8 +246,8 @@
 <vertex x="0.12935625" y="-0.73360625" />
 <vertex x="0.57064375" y="-0.478828125" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <smd name="P$1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no" />
 <circle x="0" y="0" radius="0.75" width="0.127" layer="21" />
 </package>
@@ -263,8 +263,8 @@
 <vertex x="0.12935625" y="-0.73360625" />
 <vertex x="0.57064375" y="-0.478828125" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <smd name="P$1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no" />
 </package>
 <package name="TESTPOINT_SMT_25MIL">
@@ -278,8 +278,8 @@
 <vertex x="0" y="-0.494653125" />
 <vertex x="0.349771875" y="-0.349771875" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <smd name="P$1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no" />
 <circle x="0" y="0" radius="0.55" width="0.127" layer="21" />
 </package>
@@ -294,8 +294,8 @@
 <vertex x="0" y="-0.494653125" />
 <vertex x="0.349771875" y="-0.349771875" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <smd name="P$1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no" />
 </package>
 <package name="TESTPOINT_SMT_40MIL">
@@ -310,8 +310,8 @@
 <vertex x="0.12935625" y="-0.73360625" />
 <vertex x="0.57064375" y="-0.478828125" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no" />
 <circle x="0" y="0" radius="0.75" width="0.127" layer="21" />
 </package>
@@ -327,8 +327,8 @@
 <vertex x="0.12935625" y="-0.73360625" />
 <vertex x="0.57064375" y="-0.478828125" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no" />
 </package>
 <package name="TESTPOINT_THT_1MM">
@@ -352,8 +352,8 @@
 <vertex x="0" y="-0.974153125" />
 <vertex x="0.68883125" y="-0.68883125" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <pad name="P$1" x="0" y="0" drill="1" />
 <circle x="0" y="0" radius="1" width="0.127" layer="21" />
 </package>
@@ -378,8 +378,8 @@
 <vertex x="0" y="-0.974153125" />
 <vertex x="0.68883125" y="-0.68883125" />
 </polygon>
-<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <pad name="P$1" x="0" y="0" drill="1" />
 </package>
 <package name="MURATA_DVE">
@@ -392,14 +392,14 @@
 <pad name="P$4" x="-25.4" y="-7.62" drill="1.397" />
 <pad name="P$5" x="25.4" y="-7.62" drill="1.905" />
 <pad name="P$16" x="25.4" y="7.62" drill="1.905" />
-<text x="-29.21" y="12.7" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-29.21" y="12.7" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0" layer="39">
 <vertex x="-30.21" y="12.43" />
 <vertex x="30.21" y="12.43" />
 <vertex x="30.21" y="-12.43" />
 <vertex x="-30.21" y="-12.43" />
 </polygon>
-<text x="-29.21" y="13.97" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-29.21" y="13.97" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <polygon width="0" layer="40">
 <vertex x="-26.67" y="8.89" />
 <vertex x="-24.13" y="8.89" />

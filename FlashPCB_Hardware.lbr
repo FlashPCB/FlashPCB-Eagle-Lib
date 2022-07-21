@@ -110,7 +110,7 @@
 </polygon>
 <circle x="0" y="0" radius="2.1" width="0.127" layer="21" />
 <circle x="0" y="0" radius="2.1" width="0.127" layer="22" />
-<text x="-1.84" y="2.34" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="2.34" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="2.4384" />
 <circle x="0" y="0" radius="1.9685" width="0" layer="29" />
 <circle x="0" y="0" radius="1.9685" width="0" layer="30" />
@@ -151,7 +151,7 @@
 <vertex x="1.343" y="-1.68406875" />
 <vertex x="1.940690625" y="-0.9345875" />
 </polygon>
-<text x="-1.84" y="2.34" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="2.34" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="2.4384" />
 <circle x="0" y="0" radius="1.9685" width="0" layer="29" />
 <circle x="0" y="0" radius="1.9685" width="0" layer="30" />
@@ -195,7 +195,7 @@
 <pad name="P$1" x="0" y="0" drill="2.4384" diameter="3.5814" shape="octagon" />
 <circle x="0" y="0" radius="2.1" width="0.127" layer="21" />
 <circle x="0" y="0" radius="2.1" width="0.127" layer="22" />
-<text x="-1.84" y="2.34" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="2.34" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-#2-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -231,7 +231,7 @@
 <vertex x="1.940690625" y="-0.9345875" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="2.4384" diameter="3.5814" shape="octagon" />
-<text x="-1.84" y="2.34" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="2.34" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-#4">
 <polygon width="0" layer="40">
@@ -274,7 +274,7 @@
 </polygon>
 <circle x="0" y="0" radius="2.7" width="0.127" layer="21" />
 <circle x="0" y="0" radius="2.7" width="0.127" layer="22" />
-<text x="-1.94" y="2.91" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.94" y="2.91" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="3.2639" />
 <circle x="0" y="0" radius="2.5781" width="0" layer="29" />
 <circle x="0" y="0" radius="2.5781" width="0" layer="30" />
@@ -321,7 +321,7 @@
 <vertex x="2.0298875" y="-1.8504875" />
 <vertex x="2.5612875" y="-0.992246875" />
 </polygon>
-<text x="-1.94" y="2.91" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.94" y="2.91" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="3.2639" />
 <circle x="0" y="0" radius="2.5781" width="0" layer="29" />
 <circle x="0" y="0" radius="2.5781" width="0" layer="30" />
@@ -371,7 +371,7 @@
 <pad name="P$1" x="0" y="0" drill="3.2639" diameter="4.6482" shape="octagon" />
 <circle x="0" y="0" radius="2.7" width="0.127" layer="21" />
 <circle x="0" y="0" radius="2.7" width="0.127" layer="22" />
-<text x="-1.94" y="2.91" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.94" y="2.91" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-#4-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -413,7 +413,7 @@
 <vertex x="2.5612875" y="-0.992246875" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="3.2639" diameter="4.6482" shape="octagon" />
-<text x="-1.94" y="2.91" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.94" y="2.91" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-#6">
 <polygon width="0" layer="40">
@@ -450,7 +450,7 @@
 </polygon>
 <circle x="0" y="0" radius="3.25" width="0.127" layer="21" />
 <circle x="0" y="0" radius="3.25" width="0.127" layer="22" />
-<text x="-1.84" y="3.51" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="3.51" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="3.7973" />
 <circle x="0" y="0" radius="3.1242" width="0" layer="29" />
 <circle x="0" y="0" radius="3.1242" width="0" layer="30" />
@@ -491,7 +491,7 @@
 <vertex x="2.078453125" y="-2.606296875" />
 <vertex x="3.003453125" y="-1.4463875" />
 </polygon>
-<text x="-1.84" y="3.51" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="3.51" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="3.7973" />
 <circle x="0" y="0" radius="3.1242" width="0" layer="29" />
 <circle x="0" y="0" radius="3.1242" width="0" layer="30" />
@@ -535,7 +535,7 @@
 <pad name="P$1" x="0" y="0" drill="3.7973" diameter="5.7404" shape="octagon" />
 <circle x="0" y="0" radius="3.25" width="0.127" layer="21" />
 <circle x="0" y="0" radius="3.25" width="0.127" layer="22" />
-<text x="-1.84" y="3.51" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="3.51" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-#6-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -571,7 +571,7 @@
 <vertex x="3.003453125" y="-1.4463875" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="3.7973" diameter="5.7404" shape="octagon" />
-<text x="-1.84" y="3.51" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="3.51" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-#8">
 <polygon width="0" layer="40">
@@ -614,7 +614,7 @@
 </polygon>
 <circle x="0" y="0" radius="3.85" width="0.127" layer="21" />
 <circle x="0" y="0" radius="3.85" width="0.127" layer="22" />
-<text x="-1.74" y="4.18" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="4.18" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="4.4958" />
 <circle x="0" y="0" radius="3.683" width="0" layer="29" />
 <circle x="0" y="0" radius="3.683" width="0" layer="30" />
@@ -661,7 +661,7 @@
 <vertex x="2.89446875" y="-2.63865625" />
 <vertex x="3.652203125" y="-1.414871875" />
 </polygon>
-<text x="-1.74" y="4.18" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="4.18" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="4.4958" />
 <circle x="0" y="0" radius="3.683" width="0" layer="29" />
 <circle x="0" y="0" radius="3.683" width="0" layer="30" />
@@ -711,7 +711,7 @@
 <pad name="P$1" x="0" y="0" drill="4.4958" diameter="6.858" shape="octagon" />
 <circle x="0" y="0" radius="3.85" width="0.127" layer="21" />
 <circle x="0" y="0" radius="3.85" width="0.127" layer="22" />
-<text x="-1.74" y="4.18" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="4.18" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-#8-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -753,7 +753,7 @@
 <vertex x="3.652203125" y="-1.414871875" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="4.4958" diameter="6.858" shape="octagon" />
-<text x="-1.74" y="4.18" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="4.18" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-#10">
 <polygon width="0" layer="40">
@@ -790,7 +790,7 @@
 </polygon>
 <circle x="0" y="0" radius="4.45" width="0.127" layer="21" />
 <circle x="0" y="0" radius="4.45" width="0.127" layer="22" />
-<text x="-1.74" y="4.78" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="4.78" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="5.1054" />
 <circle x="0" y="0" radius="4.2799" width="0" layer="29" />
 <circle x="0" y="0" radius="4.2799" width="0" layer="30" />
@@ -831,7 +831,7 @@
 <vertex x="2.84588125" y="-3.568621875" />
 <vertex x="4.11241875" y="-1.9804375" />
 </polygon>
-<text x="-1.74" y="4.78" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="4.78" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="5.1054" />
 <circle x="0" y="0" radius="4.2799" width="0" layer="29" />
 <circle x="0" y="0" radius="4.2799" width="0" layer="30" />
@@ -875,7 +875,7 @@
 <pad name="P$1" x="0" y="0" drill="5.1054" diameter="7.9502" shape="octagon" />
 <circle x="0" y="0" radius="4.45" width="0.127" layer="21" />
 <circle x="0" y="0" radius="4.45" width="0.127" layer="22" />
-<text x="-1.74" y="4.78" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="4.78" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-#10-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -911,7 +911,7 @@
 <vertex x="4.11241875" y="-1.9804375" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="5.1054" diameter="7.9502" shape="octagon" />
-<text x="-1.74" y="4.78" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="4.78" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-1/4">
 <polygon width="0" layer="40">
@@ -954,7 +954,7 @@
 </polygon>
 <circle x="0" y="0" radius="5.3" width="0.127" layer="21" />
 <circle x="0" y="0" radius="5.3" width="0.127" layer="22" />
-<text x="-1.84" y="5.58" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="5.58" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="6.7564" />
 <circle x="0" y="0" radius="5.0673" width="0" layer="29" />
 <circle x="0" y="0" radius="5.0673" width="0" layer="30" />
@@ -1001,7 +1001,7 @@
 <vertex x="3.98459375" y="-3.6324375" />
 <vertex x="5.027709375" y="-1.94774375" />
 </polygon>
-<text x="-1.84" y="5.58" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="5.58" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="6.7564" />
 <circle x="0" y="0" radius="5.0673" width="0" layer="29" />
 <circle x="0" y="0" radius="5.0673" width="0" layer="30" />
@@ -1051,7 +1051,7 @@
 <pad name="P$1" x="0" y="0" drill="6.7564" diameter="9.525" shape="octagon" />
 <circle x="0" y="0" radius="5.3" width="0.127" layer="21" />
 <circle x="0" y="0" radius="5.3" width="0.127" layer="22" />
-<text x="-1.84" y="5.58" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="5.58" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-1/4-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -1093,7 +1093,7 @@
 <vertex x="5.027709375" y="-1.94774375" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="6.7564" diameter="9.525" shape="octagon" />
-<text x="-1.84" y="5.58" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="5.58" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M2">
 <polygon width="0" layer="40">
@@ -1130,7 +1130,7 @@
 </polygon>
 <circle x="0" y="0" radius="2.2" width="0.127" layer="21" />
 <circle x="0" y="0" radius="2.2" width="0.127" layer="22" />
-<text x="-1.84" y="2.44" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="2.44" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="2.4" />
 <circle x="0" y="0" radius="2.1" width="0" layer="29" />
 <circle x="0" y="0" radius="2.1" width="0" layer="30" />
@@ -1171,7 +1171,7 @@
 <vertex x="1.406953125" y="-1.7642625" />
 <vertex x="2.03310625" y="-0.979090625" />
 </polygon>
-<text x="-1.84" y="2.44" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="2.44" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="2.4" />
 <circle x="0" y="0" radius="2.1" width="0" layer="29" />
 <circle x="0" y="0" radius="2.1" width="0" layer="30" />
@@ -1215,7 +1215,7 @@
 <pad name="P$1" x="0" y="0" drill="2.4" diameter="3.8" shape="octagon" />
 <circle x="0" y="0" radius="2.2" width="0.127" layer="21" />
 <circle x="0" y="0" radius="2.2" width="0.127" layer="22" />
-<text x="-1.84" y="2.44" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="2.44" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M2-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -1251,7 +1251,7 @@
 <vertex x="2.03310625" y="-0.979090625" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="2.4" diameter="3.8" shape="octagon" />
-<text x="-1.84" y="2.44" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.84" y="2.44" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M2.5">
 <polygon width="0" layer="40">
@@ -1294,7 +1294,7 @@
 </polygon>
 <circle x="0" y="0" radius="2.55" width="0.127" layer="21" />
 <circle x="0" y="0" radius="2.55" width="0.127" layer="22" />
-<text x="-1.74" y="2.74" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="2.74" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="2.9" />
 <circle x="0" y="0" radius="2.4" width="0" layer="29" />
 <circle x="0" y="0" radius="2.4" width="0" layer="30" />
@@ -1341,7 +1341,7 @@
 <vertex x="1.917115625" y="-1.74768125" />
 <vertex x="2.418990625" y="-0.937121875" />
 </polygon>
-<text x="-1.74" y="2.74" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="2.74" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="2.9" />
 <circle x="0" y="0" radius="2.4" width="0" layer="29" />
 <circle x="0" y="0" radius="2.4" width="0" layer="30" />
@@ -1391,7 +1391,7 @@
 <pad name="P$1" x="0" y="0" drill="2.9" diameter="4.5" shape="octagon" />
 <circle x="0" y="0" radius="2.55" width="0.127" layer="21" />
 <circle x="0" y="0" radius="2.55" width="0.127" layer="22" />
-<text x="-1.74" y="2.74" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="2.74" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M2.5-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -1433,7 +1433,7 @@
 <vertex x="2.418990625" y="-0.937121875" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="2.9" diameter="4.5" shape="octagon" />
-<text x="-1.74" y="2.74" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.74" y="2.74" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M3">
 <polygon width="0" layer="40">
@@ -1482,7 +1482,7 @@
 </polygon>
 <circle x="0" y="0" radius="3.1" width="0.127" layer="21" />
 <circle x="0" y="0" radius="3.1" width="0.127" layer="22" />
-<text x="-1.87" y="3.31" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.87" y="3.31" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="3.4" />
 <circle x="0" y="0" radius="2.95" width="0" layer="29" />
 <circle x="0" y="0" radius="2.95" width="0" layer="30" />
@@ -1535,7 +1535,7 @@
 <vertex x="2.539215625" y="-1.844846875" />
 <vertex x="2.985025" y="-0.96989375" />
 </polygon>
-<text x="-1.87" y="3.31" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.87" y="3.31" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="3.4" />
 <circle x="0" y="0" radius="2.95" width="0" layer="29" />
 <circle x="0" y="0" radius="2.95" width="0" layer="30" />
@@ -1591,7 +1591,7 @@
 <pad name="P$1" x="0" y="0" drill="3.4" diameter="5.5" shape="octagon" />
 <circle x="0" y="0" radius="3.1" width="0.127" layer="21" />
 <circle x="0" y="0" radius="3.1" width="0.127" layer="22" />
-<text x="-1.87" y="3.31" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.87" y="3.31" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M3-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -1639,7 +1639,7 @@
 <vertex x="2.985025" y="-0.96989375" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="3.4" diameter="5.5" shape="octagon" />
-<text x="-1.87" y="3.31" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.87" y="3.31" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M4">
 <polygon width="0" layer="40">
@@ -1682,7 +1682,7 @@
 </polygon>
 <circle x="0" y="0" radius="3.9" width="0.127" layer="21" />
 <circle x="0" y="0" radius="3.9" width="0.127" layer="22" />
-<text x="-1.67" y="4.18" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.67" y="4.18" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="4.5" />
 <circle x="0" y="0" radius="3.75" width="0" layer="29" />
 <circle x="0" y="0" radius="3.75" width="0" layer="30" />
@@ -1729,7 +1729,7 @@
 <vertex x="2.932059375" y="-2.672925" />
 <vertex x="3.699634375" y="-1.433246875" />
 </polygon>
-<text x="-1.67" y="4.18" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.67" y="4.18" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="4.5" />
 <circle x="0" y="0" radius="3.75" width="0" layer="29" />
 <circle x="0" y="0" radius="3.75" width="0" layer="30" />
@@ -1779,7 +1779,7 @@
 <pad name="P$1" x="0" y="0" drill="4.5" diameter="7" shape="octagon" />
 <circle x="0" y="0" radius="3.9" width="0.127" layer="21" />
 <circle x="0" y="0" radius="3.9" width="0.127" layer="22" />
-<text x="-1.67" y="4.18" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.67" y="4.18" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M4-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -1821,7 +1821,7 @@
 <vertex x="3.699634375" y="-1.433246875" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="4.5" diameter="7" shape="octagon" />
-<text x="-1.67" y="4.18" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.67" y="4.18" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M5">
 <polygon width="0" layer="40">
@@ -1870,7 +1870,7 @@
 </polygon>
 <circle x="0" y="0" radius="4.75" width="0.127" layer="21" />
 <circle x="0" y="0" radius="4.75" width="0.127" layer="22" />
-<text x="-1.87" y="5.08" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.87" y="5.08" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="5.5" />
 <circle x="0" y="0" radius="4.55" width="0" layer="29" />
 <circle x="0" y="0" radius="4.55" width="0" layer="30" />
@@ -1923,7 +1923,7 @@
 <vertex x="3.89073125" y="-2.82678125" />
 <vertex x="4.57383125" y="-1.486128125" />
 </polygon>
-<text x="-1.87" y="5.08" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.87" y="5.08" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <hole x="0" y="0" drill="5.5" />
 <circle x="0" y="0" radius="4.55" width="0" layer="29" />
 <circle x="0" y="0" radius="4.55" width="0" layer="30" />
@@ -1979,7 +1979,7 @@
 <pad name="P$1" x="0" y="0" drill="5.5" diameter="8.5" shape="octagon" />
 <circle x="0" y="0" radius="4.75" width="0.127" layer="21" />
 <circle x="0" y="0" radius="4.75" width="0.127" layer="22" />
-<text x="-1.87" y="5.08" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.87" y="5.08" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="MOUNT-HOLE-M5-PTH-NO-SILK">
 <polygon width="0" layer="40">
@@ -2027,13 +2027,13 @@
 <vertex x="4.57383125" y="-1.486128125" />
 </polygon>
 <pad name="P$1" x="0" y="0" drill="5.5" diameter="8.5" shape="octagon" />
-<text x="-1.87" y="5.08" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-1.87" y="5.08" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 <package name="SMTSO-080">
 <pad name="P$1" x="0" y="0" drill="2.5292" diameter="4.191" />
 <circle x="0" y="0" radius="2.2955" width="0.127" layer="21" />
-<text x="-2.54" y="3.5955" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.5455" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.5955" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.5455" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.946284375" y="0.5381" curve="-149.090354" />
 <vertex x="1.946284375" y="0.5381" />
@@ -2077,8 +2077,8 @@
 </package>
 <package name="SMTSO-080-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="2.5292" diameter="4.191" />
-<text x="-2.54" y="3.5955" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.5455" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.5955" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.5455" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.946284375" y="0.5381" curve="-149.090354" />
 <vertex x="1.946284375" y="0.5381" />
@@ -2123,8 +2123,8 @@
 <package name="SMTSO-256">
 <pad name="P$1" x="0" y="0" drill="3.7738" diameter="6.1976" />
 <circle x="0" y="0" radius="3.2988" width="0.127" layer="21" />
-<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.974315625" y="0.5381" curve="-159.490452" />
 <vertex x="2.974315625" y="0.5381" />
@@ -2180,8 +2180,8 @@
 </package>
 <package name="SMTSO-256-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="3.7738" diameter="6.1976" />
-<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.974315625" y="0.5381" curve="-159.490452" />
 <vertex x="2.974315625" y="0.5381" />
@@ -2238,8 +2238,8 @@
 <package name="SMTSO-440">
 <pad name="P$1" x="0" y="0" drill="4.2564" diameter="6.1976" />
 <circle x="0" y="0" radius="3.2988" width="0.127" layer="21" />
-<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.974315625" y="0.5381" curve="-159.490452" />
 <vertex x="2.974315625" y="0.5381" />
@@ -2295,8 +2295,8 @@
 </package>
 <package name="SMTSO-440-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="4.2564" diameter="6.1976" />
-<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.974315625" y="0.5381" curve="-159.490452" />
 <vertex x="2.974315625" y="0.5381" />
@@ -2353,8 +2353,8 @@
 <package name="SMTSO-632">
 <pad name="P$1" x="0" y="0" drill="5.4502" diameter="7.7724" />
 <circle x="0" y="0" radius="4.0862" width="0.127" layer="21" />
-<text x="-2.54" y="5.3862" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="4.3362" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="5.3862" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="4.3362" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="0.5381" y="3.771809375" curve="-73.761529" />
 <vertex x="3.771809375" y="0.5381" />
@@ -2432,8 +2432,8 @@
 </package>
 <package name="SMTSO-632-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="5.4502" diameter="7.7724" />
-<text x="-2.54" y="5.3862" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="4.3362" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="5.3862" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="4.3362" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-3.771809375" y="0.5381" curve="-163.761529" />
 <vertex x="3.771809375" y="0.5381" />
@@ -2500,8 +2500,8 @@
 <package name="SMTSO-832">
 <pad name="P$1" x="0" y="0" drill="6.39" diameter="9.3726" />
 <circle x="0" y="0" radius="4.8863" width="0.127" layer="21" />
-<text x="-2.54" y="6.1863" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="5.1363" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="6.1863" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="5.1363" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="0.5381" y="4.5785875" curve="-76.594088" />
 <vertex x="4.5785875" y="0.5381" />
@@ -2589,8 +2589,8 @@
 </package>
 <package name="SMTSO-832-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="6.39" diameter="9.3726" />
-<text x="-2.54" y="6.1863" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="5.1363" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="6.1863" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="5.1363" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-4.5785875" y="0.5381" curve="-166.594088" />
 <vertex x="4.5785875" y="0.5381" />
@@ -2667,8 +2667,8 @@
 <package name="SMTSO-116">
 <pad name="P$1" x="0" y="0" drill="4.2564" diameter="6.1976" />
 <circle x="0" y="0" radius="3.2988" width="0.127" layer="21" />
-<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.974315625" y="0.5381" curve="-159.490452" />
 <vertex x="2.974315625" y="0.5381" />
@@ -2724,8 +2724,8 @@
 </package>
 <package name="SMTSO-116-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="4.2564" diameter="6.1976" />
-<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.5988" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.5488" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.974315625" y="0.5381" curve="-159.490452" />
 <vertex x="2.974315625" y="0.5381" />
@@ -2782,8 +2782,8 @@
 <package name="SMTSO-143">
 <pad name="P$1" x="0" y="0" drill="5.4502" diameter="7.7724" />
 <circle x="0" y="0" radius="4.0862" width="0.127" layer="21" />
-<text x="-2.54" y="5.3862" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="4.3362" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="5.3862" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="4.3362" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="0.5381" y="3.771809375" curve="-73.761529" />
 <vertex x="3.771809375" y="0.5381" />
@@ -2861,8 +2861,8 @@
 </package>
 <package name="SMTSO-143-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="5.4502" diameter="7.7724" />
-<text x="-2.54" y="5.3862" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="4.3362" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="5.3862" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="4.3362" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-3.771809375" y="0.5381" curve="-163.761529" />
 <vertex x="3.771809375" y="0.5381" />
@@ -2929,8 +2929,8 @@
 <package name="SMTSO-M1">
 <pad name="P$1" x="0" y="0" drill="2.54" diameter="4.19" />
 <circle x="0" y="0" radius="2.295" width="0.127" layer="21" />
-<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.945765625" y="0.5381" curve="-149.082507" />
 <vertex x="1.945765625" y="0.5381" />
@@ -2974,8 +2974,8 @@
 </package>
 <package name="SMTSO-M1-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="2.54" diameter="4.19" />
-<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.945765625" y="0.5381" curve="-149.082507" />
 <vertex x="1.945765625" y="0.5381" />
@@ -3020,8 +3020,8 @@
 <package name="SMTSO-M1_2">
 <pad name="P$1" x="0" y="0" drill="2.54" diameter="4.19" />
 <circle x="0" y="0" radius="2.295" width="0.127" layer="21" />
-<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.945765625" y="0.5381" curve="-149.082507" />
 <vertex x="1.945765625" y="0.5381" />
@@ -3065,8 +3065,8 @@
 </package>
 <package name="SMTSO-M1_2-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="2.54" diameter="4.19" />
-<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.945765625" y="0.5381" curve="-149.082507" />
 <vertex x="1.945765625" y="0.5381" />
@@ -3111,8 +3111,8 @@
 <package name="SMTSO-M1_4">
 <pad name="P$1" x="0" y="0" drill="2.54" diameter="4.19" />
 <circle x="0" y="0" radius="2.295" width="0.127" layer="21" />
-<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.945765625" y="0.5381" curve="-149.082507" />
 <vertex x="1.945765625" y="0.5381" />
@@ -3156,8 +3156,8 @@
 </package>
 <package name="SMTSO-M1_4-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="2.54" diameter="4.19" />
-<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.945765625" y="0.5381" curve="-149.082507" />
 <vertex x="1.945765625" y="0.5381" />
@@ -3202,8 +3202,8 @@
 <package name="SMTSO-M1_6">
 <pad name="P$1" x="0" y="0" drill="2.54" diameter="4.19" />
 <circle x="0" y="0" radius="2.295" width="0.127" layer="21" />
-<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.945765625" y="0.5381" curve="-149.082507" />
 <vertex x="1.945765625" y="0.5381" />
@@ -3247,8 +3247,8 @@
 </package>
 <package name="SMTSO-M1_6-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="2.54" diameter="4.19" />
-<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="3.595" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="2.545" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-1.945765625" y="0.5381" curve="-149.082507" />
 <vertex x="1.945765625" y="0.5381" />
@@ -3293,8 +3293,8 @@
 <package name="SMTSO-M2">
 <pad name="P$1" x="0" y="0" drill="3.77" diameter="6.2" />
 <circle x="0" y="0" radius="3.3" width="0.127" layer="21" />
-<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.9755375" y="0.5381" curve="-159.498679" />
 <vertex x="2.9755375" y="0.5381" />
@@ -3350,8 +3350,8 @@
 </package>
 <package name="SMTSO-M2-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="3.77" diameter="6.2" />
-<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.9755375" y="0.5381" curve="-159.498679" />
 <vertex x="2.9755375" y="0.5381" />
@@ -3408,8 +3408,8 @@
 <package name="SMTSO-M25">
 <pad name="P$1" x="0" y="0" drill="4.26" diameter="6.2" />
 <circle x="0" y="0" radius="3.3" width="0.127" layer="21" />
-<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.9755375" y="0.5381" curve="-159.498679" />
 <vertex x="2.9755375" y="0.5381" />
@@ -3465,8 +3465,8 @@
 </package>
 <package name="SMTSO-M25-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="4.26" diameter="6.2" />
-<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.9755375" y="0.5381" curve="-159.498679" />
 <vertex x="2.9755375" y="0.5381" />
@@ -3523,8 +3523,8 @@
 <package name="SMTSO-M3">
 <pad name="P$1" x="0" y="0" drill="4.26" diameter="6.2" />
 <circle x="0" y="0" radius="3.3" width="0.127" layer="21" />
-<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.9755375" y="0.5381" curve="-159.498679" />
 <vertex x="2.9755375" y="0.5381" />
@@ -3580,8 +3580,8 @@
 </package>
 <package name="SMTSO-M3-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="4.26" diameter="6.2" />
-<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.9755375" y="0.5381" curve="-159.498679" />
 <vertex x="2.9755375" y="0.5381" />
@@ -3638,8 +3638,8 @@
 <package name="SMTSO-M35">
 <pad name="P$1" x="0" y="0" drill="5.45" diameter="7.77" />
 <circle x="0" y="0" radius="4.085" width="0.127" layer="21" />
-<text x="-2.54" y="5.385" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="4.335" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="5.385" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="4.335" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="0.5381" y="3.770596875" curve="-73.756379" />
 <vertex x="3.770596875" y="0.5381" />
@@ -3717,8 +3717,8 @@
 </package>
 <package name="SMTSO-M35-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="5.45" diameter="7.77" />
-<text x="-2.54" y="5.385" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="4.335" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="5.385" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="4.335" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-3.770596875" y="0.5381" curve="-163.756379" />
 <vertex x="3.770596875" y="0.5381" />
@@ -3785,8 +3785,8 @@
 <package name="SMTSO-M4">
 <pad name="P$1" x="0" y="0" drill="6.39" diameter="9.37" />
 <circle x="0" y="0" radius="4.885" width="0.127" layer="21" />
-<text x="-2.54" y="6.185" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="5.135" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="6.185" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="5.135" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="0.5381" y="4.577278125" curve="-76.590289" />
 <vertex x="4.577278125" y="0.5381" />
@@ -3874,8 +3874,8 @@
 </package>
 <package name="SMTSO-M4-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="6.39" diameter="9.37" />
-<text x="-2.54" y="6.185" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="5.135" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="6.185" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="5.135" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-4.577278125" y="0.5381" curve="-166.590289" />
 <vertex x="4.577278125" y="0.5381" />
@@ -3952,8 +3952,8 @@
 <package name="SMTSO-3_1">
 <pad name="P$1" x="0" y="0" drill="4.25" diameter="6.2" />
 <circle x="0" y="0" radius="3.3" width="0.127" layer="21" />
-<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.9755375" y="0.5381" curve="-159.498679" />
 <vertex x="2.9755375" y="0.5381" />
@@ -4009,8 +4009,8 @@
 </package>
 <package name="SMTSO-3_1-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="4.25" diameter="6.2" />
-<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="4.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="3.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-2.9755375" y="0.5381" curve="-159.498679" />
 <vertex x="2.9755375" y="0.5381" />
@@ -4067,8 +4067,8 @@
 <package name="SMTSO-M3_6">
 <pad name="P$1" x="0" y="0" drill="5.45" diameter="7.77" />
 <circle x="0" y="0" radius="4.085" width="0.127" layer="21" />
-<text x="-2.54" y="5.385" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="4.335" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="5.385" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="4.335" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="0.5381" y="3.770596875" curve="-73.756379" />
 <vertex x="3.770596875" y="0.5381" />
@@ -4146,8 +4146,8 @@
 </package>
 <package name="SMTSO-M3_6-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="5.45" diameter="7.77" />
-<text x="-2.54" y="5.385" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="4.335" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="5.385" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="4.335" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-3.770596875" y="0.5381" curve="-163.756379" />
 <vertex x="3.770596875" y="0.5381" />
@@ -4214,8 +4214,8 @@
 <package name="SMTSO-4_2">
 <pad name="P$1" x="0" y="0" drill="6.39" diameter="9.37" />
 <circle x="0" y="0" radius="4.885" width="0.127" layer="21" />
-<text x="-2.54" y="6.185" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="5.135" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="6.185" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="5.135" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="0.5381" y="4.577278125" curve="-76.590289" />
 <vertex x="4.577278125" y="0.5381" />
@@ -4303,8 +4303,8 @@
 </package>
 <package name="SMTSO-4_2-NO_OUTLINE">
 <pad name="P$1" x="0" y="0" drill="6.39" diameter="9.37" />
-<text x="-2.54" y="6.185" size="0.8128" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
-<text x="-2.54" y="5.135" size="0.8128" layer="27" font="vector" ratio="8" distance="50">&gt;Value</text>
+<text x="-2.54" y="6.185" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="5.135" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0.0762" layer="31">
 <vertex x="-4.577278125" y="0.5381" curve="-166.590289" />
 <vertex x="4.577278125" y="0.5381" />

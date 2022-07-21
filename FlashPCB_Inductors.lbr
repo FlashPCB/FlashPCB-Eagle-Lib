@@ -90,7 +90,7 @@
 <wire x1="-0.8635" y1="-1.8" x2="0.8635" y2="-1.8" width="0.127" layer="21" />
 <smd name="1" x="2.675" y="0" dx="3.25" dy="4.1" layer="1" />
 <smd name="2" x="-2.675" y="0" dx="3.25" dy="4.1" layer="1" />
-<text x="-2.675" y="2.675" size="1.27" layer="25" font="vector" ratio="8" distance="50">&gt;Name</text>
+<text x="-2.675" y="2.675" size="0.8128" layer="25" font="vector">&gt;Name</text>
 </package>
 </packages>
 <symbols>
