@@ -240,8 +240,8 @@
 <wire x1="-1.27" y1="0.762" x2="-2.159" y2="-0.127" width="0.1524" layer="94" />
 <pin name="A" x="0" y="5.08" visible="off" length="middle" direction="pas" rot="R270" />
 <pin name="K" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90" />
-<text x="2.54405" y="2.54405" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;NAME</text>
-<text x="2.541009375" y="0" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;VALUE</text>
+<text x="2.54405" y="2.54405" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.541009375" y="0" size="1.778" layer="96">&gt;VALUE</text>
 <polygon width="0.1524" layer="94">
 <vertex x="-3.048" y="1.016" />
 <vertex x="-3.302" y="0.254" />

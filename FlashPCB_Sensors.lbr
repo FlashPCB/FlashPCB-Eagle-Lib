@@ -929,8 +929,8 @@ aperture dim .3</text>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94" />
 <wire x1="12.7" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94" />
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94" />
-<text x="-7.62" y="15.24" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-7.62" y="12.7" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-7.62" y="15.24" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="12.7" size="1.778" layer="96">&gt;Value</text>
 <text x="-10.16" y="-12.7" size="1.778" layer="94">Accelerometer ADXL34*</text>
 </symbol>
 <symbol name="ADXL3XX-16PIN">
@@ -940,8 +940,8 @@ aperture dim .3</text>
 <pin name="YOUT" x="12.7" y="0" length="short" direction="out" rot="R180" />
 <pin name="VS" x="-10.16" y="2.54" length="short" direction="pwr" />
 <pin name="XOUT" x="12.7" y="2.54" length="short" rot="R180" />
-<text x="-7.62" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-7.62" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96">&gt;Value</text>
 <wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.127" layer="94" />
 <wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.127" layer="94" />
 <wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.127" layer="94" />
@@ -959,8 +959,8 @@ aperture dim .3</text>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94" />
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94" />
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94" />
-<text x="-5.08" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-5.08" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="7.62" size="1.778" layer="96">&gt;Value</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="94">Light Sensor</text>
 </symbol>
 <symbol name="BME68X">
@@ -976,8 +976,8 @@ aperture dim .3</text>
 <wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94" />
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94" />
 <text x="-2.54" y="-12.7" size="1.27" layer="94">BME68x</text>
-<text x="-7.62" y="12.7" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-7.62" y="10.16" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-7.62" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="10.16" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="MPL115A2-12C">
 <pin name="VDD" x="-12.7" y="2.54" length="short" direction="pwr" />
@@ -992,8 +992,8 @@ aperture dim .3</text>
 <wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94" />
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94" />
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94" />
-<text x="-10.16" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-10.16" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="7.62" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="MPR121">
 <pin name="IRQ" x="-15.24" y="5.08" length="short" />
@@ -1021,8 +1021,8 @@ aperture dim .3</text>
 <wire x1="15.24" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94" />
 <wire x1="-12.7" y1="-17.78" x2="-12.7" y2="15.24" width="0.254" layer="94" />
 <text x="-10.16" y="-10.16" size="1.27" layer="94" font="vector">MPR121</text>
-<text x="-12.7" y="20.32" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-12.7" y="17.78" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-12.7" y="20.32" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="17.78" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="MPU-6050">
 <pin name="CLKIN" x="-15.24" y="2.54" length="short" />
@@ -1039,8 +1039,8 @@ aperture dim .3</text>
 <pin name="AD0" x="15.24" y="0" length="short" rot="R180" />
 <pin name="INT" x="-15.24" y="7.62" length="short" />
 <text x="0" y="-10.16" size="1.27" layer="94" align="center">MPU-6050</text>
-<text x="-12.7" y="17.78" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-12.7" y="15.24" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-12.7" y="17.78" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="15.24" size="1.778" layer="96">&gt;Value</text>
 <wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94" />
 <wire x1="12.7" y1="12.7" x2="12.7" y2="-7.62" width="0.254" layer="94" />
 <wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94" />
@@ -1057,8 +1057,8 @@ aperture dim .3</text>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94" />
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94" />
 <text x="-2.54" y="-7.62" size="1.27" layer="94">TSL2591</text>
-<text x="-7.62" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-7.62" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96">&gt;Value</text>
 <pin name="NC" x="10.16" y="-2.54" length="short" direction="nc" rot="R180" />
 </symbol>
 <symbol name="VL53LXX">
@@ -1075,8 +1075,8 @@ aperture dim .3</text>
 <wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94" />
 <wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94" />
 <text x="-2.54" y="-10.16" size="1.27" layer="94">VL53L0X</text>
-<text x="-12.7" y="12.7" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-12.7" y="10.16" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-12.7" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="10.16" size="1.778" layer="96">&gt;Value</text>
 <pin name="DNC" x="15.24" y="-2.54" length="short" direction="nc" rot="R180" />
 </symbol>
 <symbol name="VL6180X">
@@ -1093,8 +1093,8 @@ aperture dim .3</text>
 <wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94" />
 <wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.254" layer="94" />
 <text x="-2.54" y="-10.16" size="1.27" layer="94">VL6180X</text>
-<text x="-12.7" y="15.24" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-12.7" y="12.7" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-12.7" y="15.24" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="12.7" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="VCNL4040">
 <pin name="GND" x="-12.7" y="5.08" length="short" direction="pwr" />
@@ -1110,8 +1110,8 @@ aperture dim .3</text>
 <wire x1="12.7" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94" />
 <wire x1="-10.16" y1="-5.08" x2="-10.16" y2="7.62" width="0.254" layer="94" />
 <text x="-2.54" y="-7.62" size="1.27" layer="94">VCNL4040</text>
-<text x="-10.16" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-10.16" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="7.62" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>

@@ -742,8 +742,8 @@
 <wire x1="1.905" y1="-0.635" x2="2.54" y2="0" width="0.1524" layer="94" />
 <pin name="P$1" x="-5.08" y="0" visible="off" length="short" />
 <pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180" />
-<text x="-3.175" y="2.54" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;NAME</text>
-<text x="-3.175" y="-10.795" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;VALUE</text>
+<text x="-3.175" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.175" y="-10.795" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="-2.54" y1="-2.54" x2="-1.905" y2="-1.905" width="0.1524" layer="94" />
 <wire x1="-1.905" y1="-1.905" x2="-0.635" y2="-3.175" width="0.1524" layer="94" />
 <wire x1="-0.635" y1="-3.175" x2="0.635" y2="-1.905" width="0.1524" layer="94" />
@@ -778,8 +778,8 @@
 <wire x1="1.905" y1="-0.635" x2="2.54" y2="0" width="0.1524" layer="94" />
 <pin name="P$1" x="-5.08" y="0" visible="off" length="short" />
 <pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180" />
-<text x="-3.175" y="1.27" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;NAME</text>
-<text x="-3.175" y="-1.905" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;VALUE</text>
+<text x="-3.175" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.175" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="POTENTIOMETER">
 <wire x1="-2.54" y1="0" x2="-1.905" y2="0.635" width="0.1524" layer="94" />
@@ -789,8 +789,8 @@
 <wire x1="1.905" y1="-0.635" x2="2.54" y2="0" width="0.1524" layer="94" />
 <pin name="P$1" x="-5.08" y="0" visible="off" length="short" />
 <pin name="P$3" x="5.08" y="0" visible="off" length="short" rot="R180" />
-<text x="-3.175" y="3.175" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;NAME</text>
-<text x="-3.175" y="1.27" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;VALUE</text>
+<text x="-3.175" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.175" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OUT" x="0" y="-3.81" visible="off" length="short" rot="R90" />
 <wire x1="0" y1="-1.27" x2="0" y2="-0.635" width="0.254" layer="94" />
 <wire x1="0" y1="-0.635" x2="0.635" y2="-1.27" width="0.254" layer="94" />

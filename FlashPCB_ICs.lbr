@@ -12312,7 +12312,7 @@ OTG</text>
 <pin name="VCC_IO" x="-22.86" y="27.94" length="middle" />
 <pin name="VHS" x="-5.08" y="38.1" length="middle" rot="R270" />
 <pin name="VS" x="5.08" y="38.1" length="middle" rot="R270" />
-<text x="-20.32" y="35.56" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-20.32" y="35.56" size="1.778" layer="95">&gt;Name</text>
 <text x="5.08" y="15.24" size="1.778" layer="94" rot="R180">TMC-262</text>
 </symbol>
 <symbol name="APA102">
@@ -12349,8 +12349,8 @@ OTG</text>
 <wire x1="-1.524" y1="2.54" x2="-0.762" y2="2.54" width="0.1524" layer="94" />
 <wire x1="-0.762" y1="0" x2="-1.524" y2="0" width="0.1524" layer="94" />
 <wire x1="-0.762" y1="-2.54" x2="-1.524" y2="-2.54" width="0.1524" layer="94" />
-<text x="0" y="5.588" size="1.778" layer="95" font="proportional" align="bottom-center" distance="50" ratio="8">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.778" layer="96" font="proportional" align="bottom-center" distance="50" ratio="8">&gt;VALUE</text>
+<text x="0" y="5.588" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="VCC" x="12.7" y="-2.54" length="short" rot="R180" />
 <wire x1="0.381" y1="-1.905" x2="0.635" y2="-1.651" width="0.127" layer="94" />
 <wire x1="0.635" y1="-1.651" x2="0.762" y2="-1.778" width="0.127" layer="94" />
@@ -12392,8 +12392,8 @@ OTG</text>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.2032" layer="94" />
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.2032" layer="94" />
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.2032" layer="94" />
-<text x="-4.064" y="5.588" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-4.064" y="-7.366" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-4.064" y="5.588" size="1.778" layer="95">&gt;Name</text>
+<text x="-4.064" y="-7.366" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="MCP9600">
 <pin name="VIN+" x="-15.24" y="7.62" length="short" direction="pwr" />
@@ -12412,8 +12412,8 @@ OTG</text>
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94" />
 <wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94" />
 <text x="-2.54" y="-12.7" size="1.27" layer="94">MCP9600</text>
-<text x="-12.7" y="12.7" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-12.7" y="10.16" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-12.7" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="10.16" size="1.778" layer="96">&gt;Value</text>
 <pin name="THERM_PAD" x="-15.24" y="-7.62" length="short" />
 </symbol>
 <symbol name="MAX31856">
@@ -12436,8 +12436,8 @@ OTG</text>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94" />
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94" />
 <text x="-2.54" y="-12.7" size="1.27" layer="94">MAX31856</text>
-<text x="-10.16" y="12.7" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-10.16" y="10.16" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="10.16" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="MAX446X-5">
 <pin name="IN+" x="-10.16" y="5.08" length="short" />
@@ -12451,8 +12451,8 @@ OTG</text>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94" />
 <text x="0" y="-10.16" size="1.27" layer="94" align="center">MAX4466
 MAX4465</text>
-<text x="-7.62" y="12.7" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-7.62" y="10.16" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-7.62" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="10.16" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="74X4020-14BIT-COUNTER">
 <text x="-12.7" y="-20.32" size="1.778" layer="94">74HC4020-14Bit-Counter</text>
@@ -12476,12 +12476,12 @@ MAX4465</text>
 <wire x1="10.16" y1="15.24" x2="10.16" y2="-17.78" width="0.1524" layer="94" />
 <wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.1524" layer="94" />
 <wire x1="-10.16" y1="-17.78" x2="-10.16" y2="15.24" width="0.1524" layer="94" />
-<text x="-7.62" y="20.32" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-7.62" y="17.78" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-7.62" y="20.32" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="17.78" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="555-TIMER">
 <text x="-5.08" y="0" size="1.778" layer="94">555 Timer</text>
-<text x="12.7" y="7.62" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="12.7" y="7.62" size="1.778" layer="96">&gt;Value</text>
 <pin name="OUT" x="12.7" y="-2.54" length="short" rot="R180" />
 <pin name="VCC" x="-2.54" y="15.24" length="short" rot="R270" />
 <pin name="RESET" x="2.54" y="15.24" length="short" rot="R270" />
@@ -12490,7 +12490,7 @@ MAX4465</text>
 <pin name="TRIG" x="-15.24" y="-7.62" length="short" />
 <pin name="GND" x="2.54" y="-15.24" length="short" rot="R90" />
 <pin name="CONT" x="-2.54" y="-15.24" length="short" rot="R90" />
-<text x="12.7" y="10.16" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="12.7" y="10.16" size="1.778" layer="95">&gt;Name</text>
 <wire x1="-12.7" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="94" />
 <wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.1524" layer="94" />
 <wire x1="10.16" y1="-12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94" />
@@ -12632,7 +12632,7 @@ MAX4465</text>
 <wire x1="35.56" y1="-114.3" x2="2.54" y2="-114.3" width="0.254" layer="97" />
 <wire x1="2.54" y1="-114.3" x2="0" y2="-111.76" width="0.254" layer="97" />
 <wire x1="0" y1="-111.76" x2="0" y2="0" width="0.254" layer="97" />
-<text x="22.86" y="2.54" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="22.86" y="2.54" size="1.778" layer="95">&gt;Name</text>
 </symbol>
 <symbol name="ARDUINO_DUE_ALLPINS">
 <description>https://forum.arduino.cc/t/due-pinout-diagram/129258</description>
@@ -12806,7 +12806,7 @@ MAX4465</text>
 <wire x1="2.54" y1="-114.3" x2="0" y2="-111.76" width="0.254" layer="97" />
 <wire x1="0" y1="-111.76" x2="0" y2="0" width="0.254" layer="97" />
 <text x="17.78" y="-3.81" size="0.6096" layer="97">Use Arduino DUE for most standard applications</text>
-<text x="22.86" y="2.54" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="22.86" y="2.54" size="1.778" layer="95">&gt;Name</text>
 </symbol>
 <symbol name="ARDUINO_MEGA">
 <description>https://content.arduino.cc/assets/Pinout-Mega2560rev3_latest.pdf?_gl=1*4p398r*_ga*Mzk2NjQ1OTcxLjE2NDM5MTY1NTQ.*_ga_NEXN8H46L5*MTY0NDM0OTcxMy42LjEuMTY0NDM1MDA4MS4w</description>
@@ -12944,7 +12944,7 @@ MAX4465</text>
 <wire x1="35.56" y1="-114.3" x2="2.54" y2="-114.3" width="0.254" layer="97" />
 <wire x1="2.54" y1="-114.3" x2="0" y2="-111.76" width="0.254" layer="97" />
 <wire x1="0" y1="-111.76" x2="0" y2="0" width="0.254" layer="97" />
-<text x="22.86" y="2.54" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="22.86" y="2.54" size="1.778" layer="95">&gt;Name</text>
 </symbol>
 <symbol name="ARDUINO_MEGA_ALLPINS">
 <description>https://content.arduino.cc/assets/Pinout-Mega2560rev3_latest.pdf?_gl=1*4p398r*_ga*Mzk2NjQ1OTcxLjE2NDM5MTY1NTQ.*_ga_NEXN8H46L5*MTY0NDM0OTcxMy42LjEuMTY0NDM1MDA4MS4w</description>
@@ -13094,7 +13094,7 @@ MAX4465</text>
 <wire x1="2.54" y1="-114.3" x2="0" y2="-111.76" width="0.254" layer="97" />
 <wire x1="0" y1="-111.76" x2="0" y2="0" width="0.254" layer="97" />
 <text x="17.78" y="-3.81" size="0.6096" layer="97">Use Arduino MEGA for most standard applications</text>
-<text x="22.86" y="2.54" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="22.86" y="2.54" size="1.778" layer="95">&gt;Name</text>
 </symbol>
 <symbol name="ARDUINO_UNO">
 <description>https://content.arduino.cc/assets/Pinout-UNOrev3_latest.pdf?_gl=1*1jrqfnx*_ga*Mzk2NjQ1OTcxLjE2NDM5MTY1NTQ.*_ga_NEXN8H46L5*MTY0NDM0OTcxMy42LjEuMTY0NDM0OTcxNi4w</description>
@@ -13166,7 +13166,7 @@ MAX4465</text>
 <wire x1="35.56" y1="-66.04" x2="2.54" y2="-66.04" width="0.254" layer="97" />
 <wire x1="2.54" y1="-66.04" x2="0" y2="-63.5" width="0.254" layer="97" />
 <wire x1="0" y1="-63.5" x2="0" y2="0" width="0.254" layer="97" />
-<text x="22.86" y="2.54" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="22.86" y="2.54" size="1.778" layer="95">&gt;Name</text>
 </symbol>
 <symbol name="ARDUINO_UNO_ALLPINS">
 <description>https://content.arduino.cc/assets/Pinout-UNOrev3_latest.pdf?_gl=1*1jrqfnx*_ga*Mzk2NjQ1OTcxLjE2NDM5MTY1NTQ.*_ga_NEXN8H46L5*MTY0NDM0OTcxMy42LjEuMTY0NDM0OTcxNi4w</description>
@@ -13250,7 +13250,7 @@ MAX4465</text>
 <wire x1="2.54" y1="-66.04" x2="0" y2="-63.5" width="0.254" layer="97" />
 <wire x1="0" y1="-63.5" x2="0" y2="0" width="0.254" layer="97" />
 <text x="17.78" y="-3.81" size="0.6096" layer="97">Use Arduino UNO for most standard applications</text>
-<text x="22.86" y="2.54" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="22.86" y="2.54" size="1.778" layer="95">&gt;Name</text>
 </symbol>
 <symbol name="RASPBERRY_PI4/3B_HAT">
 <pin name="3V3$1" x="-15.24" y="0" length="short" />
@@ -13313,7 +13313,7 @@ MAX4465</text>
 <rectangle x1="-17.78" y1="-71.12" x2="-10.16" y2="-63.5" layer="97" />
 <rectangle x1="-27.94" y1="-71.12" x2="-20.32" y2="-63.5" layer="97" />
 <text x="-22.86" y="-60.96" size="1.27" layer="94">Rasberry PI 4/3 B+</text>
-<text x="-17.78" y="12.7" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-17.78" y="12.7" size="1.778" layer="95">&gt;Name</text>
 </symbol>
 <symbol name="ATSAMD10D14A">
 <pin name="PA02" x="-17.78" y="7.62" length="short" />
@@ -13345,16 +13345,16 @@ MAX4465</text>
 <wire x1="12.7" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94" />
 <wire x1="-15.24" y1="-15.24" x2="-15.24" y2="17.78" width="0.254" layer="94" />
 <text x="-12.7" y="-22.86" size="1.778" layer="94">ATSAMD10D14A-MUT</text>
-<text x="-15.24" y="27.94" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-15.24" y="25.4" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-15.24" y="27.94" size="1.778" layer="95">&gt;Name</text>
+<text x="-15.24" y="25.4" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="ATMEGA32U4">
 <wire x1="-20.32" y1="38.1" x2="20.32" y2="38.1" width="0.254" layer="94" />
 <wire x1="20.32" y1="38.1" x2="20.32" y2="-40.64" width="0.254" layer="94" />
 <wire x1="20.32" y1="-40.64" x2="-20.32" y2="-40.64" width="0.254" layer="94" />
 <wire x1="-20.32" y1="-40.64" x2="-20.32" y2="38.1" width="0.254" layer="94" />
-<text x="-12.7" y="40.64" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;NAME</text>
-<text x="-12.7" y="38.1" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;VALUE</text>
+<text x="-12.7" y="40.64" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="38.1" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="XTAL2" x="-25.4" y="-12.7" length="middle" />
 <pin name="XTAL1" x="-25.4" y="-10.16" length="middle" />
 <pin name="GND" x="-25.4" y="-25.4" length="middle" />

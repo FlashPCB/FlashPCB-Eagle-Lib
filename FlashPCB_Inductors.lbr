@@ -101,8 +101,8 @@
 <wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180" />
 <pin name="P$1" x="-7.62" y="0" visible="off" length="short" />
 <pin name="P$2" x="7.62" y="0" visible="off" length="short" rot="R180" />
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>

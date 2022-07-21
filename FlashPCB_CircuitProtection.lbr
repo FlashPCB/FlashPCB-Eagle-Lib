@@ -134,8 +134,8 @@
 <wire x1="3.81" y1="2.032" x2="4.318" y2="2.54" width="0.1524" layer="94" />
 <pin name="ANODE" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180" />
 <pin name="CATHODE" x="0" y="0" visible="off" length="short" direction="pas" />
-<text x="-3.8862" y="-6.1976" size="1.778" layer="96" font="proportional" ratio="8" rot="SR0" distance="50">&gt;Value</text>
-<text x="-2.8194" y="3.3528" size="1.778" layer="95" font="proportional" ratio="8" rot="SR0" distance="50">&gt;Name</text>
+<text x="-3.8862" y="-6.1976" size="1.778" layer="96" rot="SR0">&gt;Value</text>
+<text x="-2.8194" y="3.3528" size="1.778" layer="95" rot="SR0">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>

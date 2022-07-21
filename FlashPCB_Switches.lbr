@@ -1702,8 +1702,8 @@ from PCB </text>
 <wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94" />
 <wire x1="0" y1="2.54" x2="-0.635" y2="2.54" width="0.254" layer="94" />
 <wire x1="0" y1="2.54" x2="0.635" y2="2.54" width="0.254" layer="94" />
-<text x="2.54" y="5.08" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="2.54" y="2.54" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="2.54" y="5.08" size="1.778" layer="95">&gt;Name</text>
+<text x="2.54" y="2.54" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="SWITCH-TACT-GOUND">
 <pin name="P$1" x="-5.08" y="0" visible="pad" length="short" />
@@ -1715,8 +1715,8 @@ from PCB </text>
 <wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94" />
 <wire x1="0" y1="2.54" x2="-0.635" y2="2.54" width="0.254" layer="94" />
 <wire x1="0" y1="2.54" x2="0.635" y2="2.54" width="0.254" layer="94" />
-<text x="2.54" y="5.08" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="2.54" y="2.54" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="2.54" y="5.08" size="1.778" layer="95">&gt;Name</text>
+<text x="2.54" y="2.54" size="1.778" layer="96">&gt;Value</text>
 <pin name="GND" x="5.08" y="-2.54" length="short" rot="R180" />
 </symbol>
 <symbol name="SWITCH-SPDT">
@@ -1724,8 +1724,8 @@ from PCB </text>
 <pin name="P$2" x="5.08" y="2.54" visible="pad" length="short" rot="R180" />
 <circle x="-2.159" y="0" radius="0.254" width="0.254" layer="94" />
 <circle x="2.159" y="2.54" radius="0.254" width="0.254" layer="94" />
-<text x="2.54" y="7.62" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="2.54" y="5.08" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="2.54" y="7.62" size="1.778" layer="95">&gt;Name</text>
+<text x="2.54" y="5.08" size="1.778" layer="96">&gt;Value</text>
 <wire x1="-1.905" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" />
 <pin name="P$3" x="5.08" y="0" visible="pad" length="short" rot="R180" />
 <circle x="2.159" y="0" radius="0.254" width="0.254" layer="94" />
@@ -1735,8 +1735,8 @@ from PCB </text>
 <pin name="P$2" x="5.08" y="2.54" visible="pad" length="short" rot="R180" />
 <circle x="-2.159" y="0" radius="0.254" width="0.254" layer="94" />
 <circle x="2.159" y="2.54" radius="0.254" width="0.254" layer="94" />
-<text x="2.54" y="7.62" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="2.54" y="5.08" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;Value</text>
+<text x="2.54" y="7.62" size="1.778" layer="95">&gt;Name</text>
+<text x="2.54" y="5.08" size="1.778" layer="96">&gt;Value</text>
 <wire x1="-1.905" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" />
 <pin name="P$3" x="5.08" y="0" visible="pad" length="short" rot="R180" />
 <circle x="2.159" y="0" radius="0.254" width="0.254" layer="94" />

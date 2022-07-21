@@ -4383,14 +4383,14 @@
 <symbol name="MOUNT-HOLE">
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94" />
 <circle x="0" y="0" radius="3.5921" width="0.254" layer="94" />
-<text x="-2.54" y="5.08" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;Name</text>
 <text x="0" y="-6.35" size="1.778" layer="97" align="bottom-center">Mounting Hole</text>
 </symbol>
 <symbol name="MOUNT-HOLE-SUPPORTED">
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94" />
 <circle x="0" y="0" radius="3.5921" width="0.254" layer="94" />
 <pin name="P$1" x="-5.08" y="0" length="short" />
-<text x="-2.54" y="5.08" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
+<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;Name</text>
 <text x="0" y="-6.35" size="1.778" layer="97" align="bottom-center">Mounting Hole</text>
 </symbol>
 <symbol name="HEADER-01X001">
@@ -4399,8 +4399,8 @@
 <wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="94" />
 <wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="94" />
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="94" />
-<text x="-2.54" y="3.81" size="1.778" layer="95" font="proportional" distance="50" ratio="8">&gt;Name</text>
-<text x="-2.54" y="2.54" size="1.778" layer="96" font="proportional" distance="50" ratio="8">&gt;VALUE</text>
+<text x="-2.54" y="3.81" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
