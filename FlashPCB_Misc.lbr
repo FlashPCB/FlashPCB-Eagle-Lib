@@ -187,6 +187,7 @@
 </polygon>
 </package>
 <package name="FEDUCIAL-50MIL">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="39">
 <vertex x="1.602428125" y="0" />
 <vertex x="1.296390625" y="0.941884375" />
@@ -204,6 +205,7 @@
 <circle x="0" y="0" radius="0.635" width="1.27" layer="29" />
 </package>
 <package name="TESTPOINT_SMT_0_65MM">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="39">
 <vertex x="0.494653125" y="0" />
 <vertex x="0.349771875" y="0.349771875" />
@@ -220,6 +222,7 @@
 <circle x="0" y="0" radius="0.55" width="0.127" layer="21" />
 </package>
 <package name="TESTPOINT_SMT_0_65MM_NOSILK">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="39">
 <vertex x="0.494653125" y="0" />
 <vertex x="0.349771875" y="0.349771875" />
@@ -235,6 +238,7 @@
 <smd name="P$1" x="0" y="0" dx="0.65" dy="0.65" layer="1" roundness="100" cream="no" />
 </package>
 <package name="TESTPOINT_SMT_1MM">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="39">
 <vertex x="0.744925" y="0" />
 <vertex x="0.57064375" y="0.478828125" />
@@ -252,6 +256,7 @@
 <circle x="0" y="0" radius="0.75" width="0.127" layer="21" />
 </package>
 <package name="TESTPOINT_SMT_1MM_NOSILK">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="39">
 <vertex x="0.744925" y="0" />
 <vertex x="0.57064375" y="0.478828125" />
@@ -268,6 +273,7 @@
 <smd name="P$1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no" />
 </package>
 <package name="TESTPOINT_SMT_25MIL">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="39">
 <vertex x="0.494653125" y="0" />
 <vertex x="0.349771875" y="0.349771875" />
@@ -284,6 +290,7 @@
 <circle x="0" y="0" radius="0.55" width="0.127" layer="21" />
 </package>
 <package name="TESTPOINT_SMT_25MIL_NOSILK">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="39">
 <vertex x="0.494653125" y="0" />
 <vertex x="0.349771875" y="0.349771875" />
@@ -299,6 +306,7 @@
 <smd name="P$1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no" />
 </package>
 <package name="TESTPOINT_SMT_40MIL">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="39">
 <vertex x="0.744925" y="0" />
 <vertex x="0.57064375" y="0.478828125" />
@@ -316,6 +324,7 @@
 <circle x="0" y="0" radius="0.75" width="0.127" layer="21" />
 </package>
 <package name="TESTPOINT_SMT_40MIL_NOSILK">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="39">
 <vertex x="0.744925" y="0" />
 <vertex x="0.57064375" y="0.478828125" />
@@ -332,6 +341,7 @@
 <smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no" />
 </package>
 <package name="TESTPOINT_THT_1MM">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="40">
 <vertex x="0.974153125" y="0" />
 <vertex x="0.68883125" y="0.68883125" />
@@ -358,6 +368,7 @@
 <circle x="0" y="0" radius="1" width="0.127" layer="21" />
 </package>
 <package name="TESTPOINT_THT_1MM_NOSILK">
+<description>This is board feature and there is no component for this Package</description>
 <polygon width="0" layer="40">
 <vertex x="0.974153125" y="0" />
 <vertex x="0.68883125" y="0.68883125" />
