@@ -77,43 +77,43 @@
 <packages>
 <package name="RES-4PACK-0603">
 <polygon width="0" layer="39">
-<vertex x="2.9" y="1.2" />
-<vertex x="2.9" y="-1.2" />
-<vertex x="-0.5" y="-1.2" />
-<vertex x="-0.5" y="1.2" />
+<vertex x="1.7" y="1.2" />
+<vertex x="1.7" y="-1.2" />
+<vertex x="-1.7" y="-1.2" />
+<vertex x="-1.7" y="1.2" />
 </polygon>
-<wire x1="2.8" y1="0.8" x2="2.8" y2="-0.8" width="0.127" layer="21" />
-<wire x1="-0.4" y1="0.8" x2="-0.4" y2="-0.8" width="0.127" layer="21" />
-<smd name="P$1" x="0" y="0.775" dx="0.45" dy="0.65" layer="1" />
-<smd name="P$2" x="0" y="-0.775" dx="0.45" dy="0.65" layer="1" />
-<text x="-0.32" y="2.7" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="-0.32" y="1.7" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<smd name="P$3" x="0.8" y="0.775" dx="0.45" dy="0.65" layer="1" />
-<smd name="P$4" x="0.8" y="-0.775" dx="0.45" dy="0.65" layer="1" />
-<smd name="P$5" x="1.6" y="0.775" dx="0.45" dy="0.65" layer="1" />
-<smd name="P$6" x="1.6" y="-0.775" dx="0.45" dy="0.65" layer="1" />
-<smd name="P$7" x="2.4" y="0.775" dx="0.45" dy="0.65" layer="1" />
-<smd name="P$8" x="2.4" y="-0.775" dx="0.45" dy="0.65" layer="1" />
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21" />
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21" />
+<smd name="P$1" x="-1.2" y="0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$2" x="-1.2" y="-0.775" dx="0.45" dy="0.65" layer="1" />
+<text x="-1.52" y="2.7" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.52" y="1.7" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<smd name="P$3" x="-0.4" y="0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$4" x="-0.4" y="-0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$5" x="0.4" y="0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$6" x="0.4" y="-0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$7" x="1.2" y="0.775" dx="0.45" dy="0.65" layer="1" />
+<smd name="P$8" x="1.2" y="-0.775" dx="0.45" dy="0.65" layer="1" />
 </package>
 <package name="RES-4PACK-0805">
 <polygon width="0" layer="39">
-<vertex x="4.545" y="1.8" />
-<vertex x="4.545" y="-1.8" />
-<vertex x="-0.735" y="-1.8" />
-<vertex x="-0.735" y="1.8" />
+<vertex x="2.64" y="1.8" />
+<vertex x="2.64" y="-1.8" />
+<vertex x="-2.64" y="-1.8" />
+<vertex x="-2.64" y="1.8" />
 </polygon>
-<wire x1="4.445" y1="1.1" x2="4.445" y2="-1.1" width="0.127" layer="21" />
-<wire x1="-0.635" y1="1.1" x2="-0.635" y2="-1.1" width="0.127" layer="21" />
-<smd name="P$1" x="0" y="1.15" dx="0.75" dy="1.1" layer="1" />
-<smd name="P$2" x="0" y="-1.15" dx="0.75" dy="1.1" layer="1" />
-<text x="-0.32" y="3" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="-0.32" y="2" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<smd name="P$3" x="1.27" y="1.15" dx="0.75" dy="1.1" layer="1" />
-<smd name="P$4" x="1.27" y="-1.15" dx="0.75" dy="1.1" layer="1" />
-<smd name="P$5" x="2.54" y="1.15" dx="0.75" dy="1.1" layer="1" />
-<smd name="P$6" x="2.54" y="-1.15" dx="0.75" dy="1.1" layer="1" />
-<smd name="P$7" x="3.81" y="1.15" dx="0.75" dy="1.1" layer="1" />
-<smd name="P$8" x="3.81" y="-1.15" dx="0.75" dy="1.1" layer="1" />
+<wire x1="2.54" y1="1.1" x2="2.54" y2="-1.1" width="0.127" layer="21" />
+<wire x1="-2.54" y1="1.1" x2="-2.54" y2="-1.1" width="0.127" layer="21" />
+<smd name="P$1" x="-1.905" y="1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$2" x="-1.905" y="-1.15" dx="0.75" dy="1.1" layer="1" />
+<text x="-2.225" y="3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.225" y="2" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<smd name="P$3" x="-0.635" y="1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$4" x="-0.635" y="-1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$5" x="0.635" y="1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$6" x="0.635" y="-1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$7" x="1.905" y="1.15" dx="0.75" dy="1.1" layer="1" />
+<smd name="P$8" x="1.905" y="-1.15" dx="0.75" dy="1.1" layer="1" />
 </package>
 <package name="RES-0402" urn="urn:adsk.eagle:footprint:17017806/1">
 <polygon width="0" layer="39">
