@@ -1003,6 +1003,124 @@ aperture dim .3</text>
 <vertex x="-2.65" y="3.75" />
 </polygon>
 </package>
+<package name="LGA20-10X10">
+<smd name="P$1" x="-4.125" y="2.5" dx="1.25" dy="0.8" layer="1" stop="no" cream="no" />
+<smd name="P$2" x="-4" y="1.25" dx="1.5" dy="0.8" layer="1" />
+<smd name="P$3" x="-4" y="0" dx="1.5" dy="0.8" layer="1" />
+<smd name="P$4" x="-4" y="-1.25" dx="1.5" dy="0.8" layer="1" />
+<smd name="P$5" x="-4" y="-2.5" dx="1.5" dy="0.8" layer="1" />
+<smd name="P$6" x="-2.5" y="-4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$7" x="-1.25" y="-4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$8" x="0" y="-4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$9" x="1.25" y="-4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$10" x="2.5" y="-4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$11" x="4" y="-2.5" dx="1.5" dy="0.8" layer="1" />
+<smd name="P$12" x="4" y="-1.25" dx="1.5" dy="0.8" layer="1" />
+<smd name="P$13" x="4" y="0" dx="1.5" dy="0.8" layer="1" />
+<smd name="P$14" x="4" y="1.25" dx="1.5" dy="0.8" layer="1" />
+<smd name="P$15" x="4" y="2.5" dx="1.5" dy="0.8" layer="1" />
+<smd name="P$16" x="2.5" y="4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$17" x="1.25" y="4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$18" x="0" y="4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$19" x="-1.25" y="4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$20" x="-2.5" y="4" dx="0.8" dy="1.5" layer="1" />
+<smd name="P$21" x="0" y="0" dx="4.8" dy="4.8" layer="1" cream="no" />
+<polygon width="0" layer="31">
+<vertex x="-2.15" y="2.15" />
+<vertex x="-0.35" y="2.15" />
+<vertex x="-0.35" y="0.35" />
+<vertex x="-2.15" y="0.35" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.35" y="2.15" />
+<vertex x="2.15" y="2.15" />
+<vertex x="2.15" y="0.35" />
+<vertex x="0.35" y="0.35" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-2.15" y="-0.35" />
+<vertex x="-0.35" y="-0.35" />
+<vertex x="-0.35" y="-2.15" />
+<vertex x="-2.15" y="-2.15" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.35" y="-0.35" />
+<vertex x="2.15" y="-0.35" />
+<vertex x="2.15" y="-2.15" />
+<vertex x="0.35" y="-2.15" />
+</polygon>
+<wire x1="-5.05" y1="5.05" x2="-5.05" y2="-5.05" width="0.127" layer="21" />
+<wire x1="-5.05" y1="-5.05" x2="5.05" y2="-5.05" width="0.127" layer="21" />
+<wire x1="5.05" y1="-5.05" x2="5.05" y2="5.05" width="0.127" layer="21" />
+<wire x1="5.05" y1="5.05" x2="-5.05" y2="5.05" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-5.3" y="5.3" />
+<vertex x="-5.3" y="-5.3" />
+<vertex x="5.3" y="-5.3" />
+<vertex x="5.3" y="5.3" />
+</polygon>
+<circle x="-5.5" y="2.5" radius="0.254" width="0" layer="21" />
+<polygon width="0" layer="1">
+<vertex x="-3.5" y="2.9" />
+<vertex x="-3.25" y="2.65" />
+<vertex x="-3.25" y="2.1" />
+<vertex x="-3.5" y="2.1" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-4.8" y="3" />
+<vertex x="-3.45" y="3" />
+<vertex x="-3.15" y="2.7" />
+<vertex x="-3.15" y="2" />
+<vertex x="-4.85" y="2" />
+<vertex x="-4.85" y="3" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-4.75" y="2.9" />
+<vertex x="-3.5" y="2.9" />
+<vertex x="-3.25" y="2.65" />
+<vertex x="-3.25" y="2.1" />
+<vertex x="-4.75" y="2.1" />
+</polygon>
+<text x="-5.08" y="7.62" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-5.08" y="6.35" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
+<package name="SENSIRION_SGP40">
+<smd name="P$1" x="-1.15" y="0.8" dx="0.55" dy="0.4" layer="1" />
+<smd name="P$2" x="-1.15" y="0" dx="0.55" dy="0.4" layer="1" />
+<smd name="P$3" x="-1.15" y="-0.8" dx="0.55" dy="0.4" layer="1" />
+<smd name="P$4" x="1.15" y="-0.8" dx="0.55" dy="0.4" layer="1" />
+<smd name="P$5" x="1.15" y="0" dx="0.55" dy="0.4" layer="1" />
+<smd name="P$6" x="1.15" y="0.8" dx="0.55" dy="0.4" layer="1" />
+<smd name="PAD" x="0" y="-0.15" dx="1.25" dy="1.4" layer="1" cream="no" />
+<polygon width="0" layer="1">
+<vertex x="-0.625" y="0.55" />
+<vertex x="0.625" y="0.55" />
+<vertex x="0.625" y="0.85" />
+<vertex x="-0.325" y="0.85" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.725" y="0.65" />
+<vertex x="0.725" y="0.65" />
+<vertex x="0.725" y="0.95" />
+<vertex x="-0.425" y="0.95" />
+</polygon>
+<circle x="0" y="0" radius="0.575" width="0" layer="31" />
+<wire x1="-1.22" y1="1.22" x2="1.22" y2="1.22" width="0.127" layer="21" />
+<wire x1="1.22" y1="-1.22" x2="-1.22" y2="-1.22" width="0.127" layer="21" />
+<wire x1="-1.22" y1="0.42" x2="-1.22" y2="0.38" width="0.127" layer="21" />
+<wire x1="1.22" y1="0.42" x2="1.22" y2="0.38" width="0.127" layer="21" />
+<wire x1="-1.22" y1="-0.38" x2="-1.22" y2="-0.42" width="0.127" layer="21" />
+<wire x1="1.22" y1="-0.38" x2="1.22" y2="-0.42" width="0.127" layer="21" />
+<text x="-2.4" y="2.4" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.4" y="1.6" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<circle x="-1.925" y="0.8" radius="0.254" width="0" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-1.525" y="1.37" />
+<vertex x="1.525" y="1.37" />
+<vertex x="1.525" y="-1.37" />
+<vertex x="-1.525" y="-1.37" />
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="TC1047AVNBTR">
@@ -1306,6 +1424,36 @@ aperture dim .3</text>
 <text x="-10.16" y="12.7" size="1.27" layer="95">&gt;Name</text>
 <text x="-10.16" y="10.16" size="1.27" layer="96">&gt;Value</text>
 <pin name="GND11" x="12.7" y="-2.54" length="short" rot="R180" />
+</symbol>
+<symbol name="SENSIRION_SCD4X">
+<pin name="GND" x="2.54" y="-12.7" length="short" rot="R90" />
+<pin name="VDD" x="0" y="12.7" length="short" rot="R270" />
+<pin name="VDDH" x="5.08" y="12.7" length="short" rot="R270" />
+<pin name="SDA" x="-12.7" y="-2.54" length="short" />
+<pin name="SCL" x="-12.7" y="2.54" length="short" />
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="94" />
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94" />
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="94" />
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.1524" layer="94" />
+<text x="-12.7" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="10.16" size="1.778" layer="96">&gt;Value</text>
+<text x="0" y="0" size="1.778" layer="94" align="center">SCD4x</text>
+</symbol>
+<symbol name="SENSIRION_SGP40">
+<pin name="VSS" x="-12.7" y="0" length="short" />
+<pin name="VDD" x="-12.7" y="5.08" length="short" />
+<pin name="SDA" x="-12.7" y="-5.08" length="short" />
+<pin name="VDDH" x="12.7" y="0" length="short" rot="R180" />
+<pin name="N/A" x="12.7" y="-5.08" length="short" rot="R180" />
+<pin name="SCL" x="12.7" y="5.08" length="short" rot="R180" />
+<pin name="PAD" x="0" y="-10.16" length="short" rot="R90" />
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="94" />
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94" />
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94" />
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94" />
+<text x="0" y="2.54" size="1.6764" layer="94" align="center">SGP30/40</text>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="10.16" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2023,6 +2171,74 @@ with Small Footprint SOIC8 Package &lt;/a&gt;&lt;br/&gt;</description>
 <connect gate="G$1" pin="SDA" pad="P$8" />
 <connect gate="G$1" pin="VBUS" pad="P$12" />
 <connect gate="G$1" pin="VS" pad="P$10" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SENSIRION_SCD4X" prefix="U" uservalue="yes">
+<description>&lt;b&gt;SCD4x&lt;/b&gt; - CO2 SENSOR 400-2000[SCD40]/5000[SCD41] PPM I2C SMD
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;SCD40 CO2 measurement accuracy: ± (50 ppm + 5% of reading)
+&lt;/li&gt;
+&lt;li&gt;SCD41 CO2 measurement accuracy: ± (40 ppm + 5% of reading)&lt;/li&gt;
+&lt;li&gt;Supply voltage DC: 2.4V ~ 5.5V&lt;/li&gt;
+&lt;li&gt;Peak supply current: 205 mA [VDD = 3 .3V] / 137 mA [VDD = 5V]&lt;/li&gt;
+&lt;li&gt;Temperature operating conditions: -10 – 60°C
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf"&gt;Sensirion SCD4x&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="SENSIRION_SCD4X" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="LGA20-10X10">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$6 P$20 P$21" />
+<connect gate="G$1" pin="SCL" pad="P$9" />
+<connect gate="G$1" pin="SDA" pad="P$10" />
+<connect gate="G$1" pin="VDD" pad="P$7" />
+<connect gate="G$1" pin="VDDH" pad="P$19" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SENSIRION_SGP40" prefix="U" uservalue="yes">
+<description>&lt;b&gt;SGP40&lt;/b&gt; - Indoor Air Quality Sensor for VOC Measurements
+
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Output: I²C&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -10°C ~ 50°C&lt;/li&gt;
+&lt;li&gt;Voltage - Supply: 1.7V ~ 3.6V&lt;/li&gt;
+&lt;li&gt;Current - Supply: 4mA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://sensirion.com/media/documents/296373BB/6203C5DF/Sensirion_Gas_Sensors_Datasheet_SGP40.pdf"&gt;SGP40&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="SENSIRION_SGP40" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="SENSIRION_SGP40">
+<connects>
+<connect gate="G$1" pin="N/A" pad="P$4" />
+<connect gate="G$1" pin="PAD" pad="PAD" />
+<connect gate="G$1" pin="SCL" pad="P$6" />
+<connect gate="G$1" pin="SDA" pad="P$3" />
+<connect gate="G$1" pin="VDD" pad="P$1" />
+<connect gate="G$1" pin="VDDH" pad="P$5" />
+<connect gate="G$1" pin="VSS" pad="P$2" />
 </connects>
 <technologies>
 <technology name="" />
