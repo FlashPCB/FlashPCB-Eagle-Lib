@@ -14244,6 +14244,7 @@ SOC</text>
 </polygon>
 </package>
 <package name="ADAFRUIT_FEATHER">
+<description>kitID='63ee9e8aef38199c05ace565'</description>
 <wire x1="50.8" y1="20.32" x2="50.8" y2="2.54" width="0.127" layer="21" />
 <wire x1="50.8" y1="2.54" x2="48.26" y2="0" width="0.127" layer="21" curve="-90" />
 <wire x1="48.26" y1="0" x2="2.54" y2="0" width="0.127" layer="21" />

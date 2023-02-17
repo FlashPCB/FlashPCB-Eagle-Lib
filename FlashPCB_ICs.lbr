@@ -1351,6 +1351,71 @@ vias .3mmdiam and
 <text x="1.7" y="1" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="1.7" y="-0.2" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
+<package name="6-UDFN(2.0X2.0)">
+<text x="-1.27" y="2.54" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.27" y="1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<smd name="P$1" x="-0.825" y="0.65" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$2" x="-0.825" y="0" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$3" x="-0.825" y="-0.65" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$4" x="0.825" y="-0.65" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$5" x="0.825" y="0" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$6" x="0.825" y="0.65" dx="0.45" dy="0.37" layer="1" />
+<smd name="TAB" x="0" y="0" dx="0.9" dy="1.67" layer="1" cream="no" />
+<polygon width="0" layer="31">
+<vertex x="-0.4" y="-0.1" />
+<vertex x="0.4" y="-0.1" />
+<vertex x="0.4" y="-0.7" />
+<vertex x="-0.4" y="-0.7" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.4" y="0.7" />
+<vertex x="0.4" y="0.7" />
+<vertex x="0.4" y="0.1" />
+<vertex x="-0.4" y="0.1" />
+</polygon>
+<wire x1="-1.0375" y1="1.0375" x2="1.0375" y2="1.0375" width="0.127" layer="21" />
+<wire x1="1.0375" y1="1.0375" x2="1.0375" y2="1.01" width="0.127" layer="21" />
+<wire x1="1.0375" y1="-1.01" x2="1.0375" y2="-1.0375" width="0.127" layer="21" />
+<wire x1="1.0375" y1="-1.0375" x2="-1.0375" y2="-1.0375" width="0.127" layer="21" />
+<wire x1="-1.0375" y1="-1.0375" x2="-1.0375" y2="-1.01" width="0.127" layer="21" />
+<wire x1="-1.0375" y1="1.01" x2="-1.0375" y2="1.0375" width="0.127" layer="21" />
+<circle x="-1.55" y="0.65" radius="0.254" width="0" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-1.15" y="1.1375" />
+<vertex x="1.15" y="1.1375" />
+<vertex x="1.15" y="-1.1375" />
+<vertex x="-1.15" y="-1.1375" />
+</polygon>
+</package>
+<package name="6-UDFN(2.0X2.0)-NOSILK">
+<text x="-1.27" y="2.54" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.27" y="1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<smd name="P$1" x="-0.825" y="0.65" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$2" x="-0.825" y="0" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$3" x="-0.825" y="-0.65" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$4" x="0.825" y="-0.65" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$5" x="0.825" y="0" dx="0.45" dy="0.37" layer="1" />
+<smd name="P$6" x="0.825" y="0.65" dx="0.45" dy="0.37" layer="1" />
+<smd name="TAB" x="0" y="0" dx="0.9" dy="1.67" layer="1" cream="no" />
+<polygon width="0" layer="31">
+<vertex x="-0.4" y="-0.1" />
+<vertex x="0.4" y="-0.1" />
+<vertex x="0.4" y="-0.7" />
+<vertex x="-0.4" y="-0.7" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.4" y="0.7" />
+<vertex x="0.4" y="0.7" />
+<vertex x="0.4" y="0.1" />
+<vertex x="-0.4" y="0.1" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-1.15" y="1.1375" />
+<vertex x="1.15" y="1.1375" />
+<vertex x="1.15" y="-1.1375" />
+<vertex x="-1.15" y="-1.1375" />
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="TRINAMIC-TMC262">
@@ -1839,6 +1904,145 @@ MAX4465</text>
 <wire x1="-12.7" y1="-5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94" />
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;Name</text>
 <text x="-10.16" y="5.08" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="74X4049-HEX-INVERTING-BUFFER">
+<pin name="VCC" x="0" y="25.4" length="short" rot="R270" />
+<pin name="GND" x="0" y="-25.4" length="short" rot="R90" />
+<pin name="1A" x="-12.7" y="12.7" length="short" />
+<pin name="2A" x="-12.7" y="7.62" length="short" />
+<pin name="3A" x="-12.7" y="2.54" length="short" />
+<pin name="4A" x="-12.7" y="-2.54" length="short" />
+<pin name="5A" x="-12.7" y="-7.62" length="short" />
+<pin name="6A" x="-12.7" y="-12.7" length="short" />
+<pin name="!1Y!" x="12.7" y="12.7" length="short" rot="R180" />
+<pin name="!2Y!" x="12.7" y="7.62" length="short" rot="R180" />
+<pin name="!3Y!" x="12.7" y="2.54" length="short" rot="R180" />
+<pin name="!4Y!" x="12.7" y="-2.54" length="short" rot="R180" />
+<pin name="!5Y!" x="12.7" y="-7.62" length="short" rot="R180" />
+<pin name="!6Y!" x="12.7" y="-12.7" length="short" rot="R180" />
+<wire x1="-5.08" y1="12.7" x2="-1.905" y2="12.7" width="0.254" layer="94" />
+<wire x1="-1.905" y1="12.7" x2="-1.905" y2="14.986" width="0.254" layer="94" />
+<wire x1="-1.905" y1="12.7" x2="-1.905" y2="10.414" width="0.254" layer="94" />
+<wire x1="-1.905" y1="10.414" x2="1.27" y2="12.7" width="0.254" layer="94" />
+<wire x1="1.27" y1="12.7" x2="-1.905" y2="14.986" width="0.254" layer="94" />
+<wire x1="5.08" y1="12.7" x2="1.905" y2="12.7" width="0.254" layer="94" />
+<circle x="1.5875" y="12.7" radius="0.3175" width="0.254" layer="94" />
+<wire x1="-5.08" y1="7.62" x2="-1.905" y2="7.62" width="0.254" layer="94" />
+<wire x1="-1.905" y1="7.62" x2="-1.905" y2="9.906" width="0.254" layer="94" />
+<wire x1="-1.905" y1="7.62" x2="-1.905" y2="5.334" width="0.254" layer="94" />
+<wire x1="-1.905" y1="5.334" x2="1.27" y2="7.62" width="0.254" layer="94" />
+<wire x1="1.27" y1="7.62" x2="-1.905" y2="9.906" width="0.254" layer="94" />
+<wire x1="5.08" y1="7.62" x2="1.905" y2="7.62" width="0.254" layer="94" />
+<circle x="1.5875" y="7.62" radius="0.3175" width="0.254" layer="94" />
+<wire x1="-5.08" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="94" />
+<wire x1="-1.905" y1="2.54" x2="-1.905" y2="4.826" width="0.254" layer="94" />
+<wire x1="-1.905" y1="2.54" x2="-1.905" y2="0.254" width="0.254" layer="94" />
+<wire x1="-1.905" y1="0.254" x2="1.27" y2="2.54" width="0.254" layer="94" />
+<wire x1="1.27" y1="2.54" x2="-1.905" y2="4.826" width="0.254" layer="94" />
+<wire x1="5.08" y1="2.54" x2="1.905" y2="2.54" width="0.254" layer="94" />
+<circle x="1.5875" y="2.54" radius="0.3175" width="0.254" layer="94" />
+<wire x1="-5.08" y1="-2.54" x2="-1.905" y2="-2.54" width="0.254" layer="94" />
+<wire x1="-1.905" y1="-2.54" x2="-1.905" y2="-0.254" width="0.254" layer="94" />
+<wire x1="-1.905" y1="-2.54" x2="-1.905" y2="-4.826" width="0.254" layer="94" />
+<wire x1="-1.905" y1="-4.826" x2="1.27" y2="-2.54" width="0.254" layer="94" />
+<wire x1="1.27" y1="-2.54" x2="-1.905" y2="-0.254" width="0.254" layer="94" />
+<wire x1="5.08" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94" />
+<circle x="1.5875" y="-2.54" radius="0.3175" width="0.254" layer="94" />
+<wire x1="-5.08" y1="-7.62" x2="-1.905" y2="-7.62" width="0.254" layer="94" />
+<wire x1="-1.905" y1="-7.62" x2="-1.905" y2="-5.334" width="0.254" layer="94" />
+<wire x1="-1.905" y1="-7.62" x2="-1.905" y2="-9.906" width="0.254" layer="94" />
+<wire x1="-1.905" y1="-9.906" x2="1.27" y2="-7.62" width="0.254" layer="94" />
+<wire x1="1.27" y1="-7.62" x2="-1.905" y2="-5.334" width="0.254" layer="94" />
+<wire x1="5.08" y1="-7.62" x2="1.905" y2="-7.62" width="0.254" layer="94" />
+<circle x="1.5875" y="-7.62" radius="0.3175" width="0.254" layer="94" />
+<wire x1="-5.08" y1="-12.7" x2="-1.905" y2="-12.7" width="0.254" layer="94" />
+<wire x1="-1.905" y1="-12.7" x2="-1.905" y2="-10.414" width="0.254" layer="94" />
+<wire x1="-1.905" y1="-12.7" x2="-1.905" y2="-14.986" width="0.254" layer="94" />
+<wire x1="-1.905" y1="-14.986" x2="1.27" y2="-12.7" width="0.254" layer="94" />
+<wire x1="1.27" y1="-12.7" x2="-1.905" y2="-10.414" width="0.254" layer="94" />
+<wire x1="5.08" y1="-12.7" x2="1.905" y2="-12.7" width="0.254" layer="94" />
+<circle x="1.5875" y="-12.7" radius="0.3175" width="0.254" layer="94" />
+<wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94" />
+<wire x1="10.16" y1="22.86" x2="10.16" y2="-22.86" width="0.254" layer="94" />
+<wire x1="10.16" y1="-22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94" />
+<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="22.86" width="0.254" layer="94" />
+<text x="-9.652" y="-22.098" size="0.8128" layer="94">74x4049
+Hex Inverting Buffer</text>
+<text x="-10.16" y="25.4" size="1.27" layer="95">&gt;Name</text>
+<text x="-10.16" y="22.86" size="1.27" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="74X4050-HEX-NON-INVERTING-BUFFER">
+<pin name="VCC" x="0" y="25.4" length="short" rot="R270" />
+<pin name="GND" x="0" y="-25.4" length="short" rot="R90" />
+<pin name="1A" x="-12.7" y="12.7" length="short" />
+<pin name="2A" x="-12.7" y="7.62" length="short" />
+<pin name="3A" x="-12.7" y="2.54" length="short" />
+<pin name="4A" x="-12.7" y="-2.54" length="short" />
+<pin name="5A" x="-12.7" y="-7.62" length="short" />
+<pin name="6A" x="-12.7" y="-12.7" length="short" />
+<pin name="1Y" x="12.7" y="12.7" length="short" rot="R180" />
+<pin name="2Y" x="12.7" y="7.62" length="short" rot="R180" />
+<pin name="3Y" x="12.7" y="2.54" length="short" rot="R180" />
+<pin name="4Y" x="12.7" y="-2.54" length="short" rot="R180" />
+<pin name="5Y" x="12.7" y="-7.62" length="short" rot="R180" />
+<pin name="6Y" x="12.7" y="-12.7" length="short" rot="R180" />
+<wire x1="-5.08" y1="12.7" x2="-1.143" y2="12.7" width="0.254" layer="94" />
+<wire x1="-1.143" y1="12.7" x2="-1.143" y2="14.986" width="0.254" layer="94" />
+<wire x1="-1.143" y1="12.7" x2="-1.143" y2="10.414" width="0.254" layer="94" />
+<wire x1="-1.143" y1="10.414" x2="2.032" y2="12.7" width="0.254" layer="94" />
+<wire x1="2.032" y1="12.7" x2="-1.143" y2="14.986" width="0.254" layer="94" />
+<wire x1="5.08" y1="12.7" x2="2.032" y2="12.7" width="0.254" layer="94" />
+<wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94" />
+<wire x1="10.16" y1="22.86" x2="10.16" y2="-22.86" width="0.254" layer="94" />
+<wire x1="10.16" y1="-22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94" />
+<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="22.86" width="0.254" layer="94" />
+<text x="-9.652" y="-22.098" size="0.8128" layer="94">74x4050
+Hex Non-Inverting Buffer</text>
+<text x="-10.16" y="25.4" size="1.27" layer="95">&gt;Name</text>
+<text x="-10.16" y="22.86" size="1.27" layer="96">&gt;Value</text>
+<wire x1="-5.08" y1="7.62" x2="-1.143" y2="7.62" width="0.254" layer="94" />
+<wire x1="-1.143" y1="7.62" x2="-1.143" y2="9.906" width="0.254" layer="94" />
+<wire x1="-1.143" y1="7.62" x2="-1.143" y2="5.334" width="0.254" layer="94" />
+<wire x1="-1.143" y1="5.334" x2="2.032" y2="7.62" width="0.254" layer="94" />
+<wire x1="2.032" y1="7.62" x2="-1.143" y2="9.906" width="0.254" layer="94" />
+<wire x1="5.08" y1="7.62" x2="2.032" y2="7.62" width="0.254" layer="94" />
+<wire x1="-5.08" y1="2.54" x2="-1.143" y2="2.54" width="0.254" layer="94" />
+<wire x1="-1.143" y1="2.54" x2="-1.143" y2="4.826" width="0.254" layer="94" />
+<wire x1="-1.143" y1="2.54" x2="-1.143" y2="0.254" width="0.254" layer="94" />
+<wire x1="-1.143" y1="0.254" x2="2.032" y2="2.54" width="0.254" layer="94" />
+<wire x1="2.032" y1="2.54" x2="-1.143" y2="4.826" width="0.254" layer="94" />
+<wire x1="5.08" y1="2.54" x2="2.032" y2="2.54" width="0.254" layer="94" />
+<wire x1="-5.08" y1="-2.54" x2="-1.143" y2="-2.54" width="0.254" layer="94" />
+<wire x1="-1.143" y1="-2.54" x2="-1.143" y2="-0.254" width="0.254" layer="94" />
+<wire x1="-1.143" y1="-2.54" x2="-1.143" y2="-4.826" width="0.254" layer="94" />
+<wire x1="-1.143" y1="-4.826" x2="2.032" y2="-2.54" width="0.254" layer="94" />
+<wire x1="2.032" y1="-2.54" x2="-1.143" y2="-0.254" width="0.254" layer="94" />
+<wire x1="5.08" y1="-2.54" x2="2.032" y2="-2.54" width="0.254" layer="94" />
+<wire x1="-5.08" y1="-7.62" x2="-1.143" y2="-7.62" width="0.254" layer="94" />
+<wire x1="-1.143" y1="-7.62" x2="-1.143" y2="-5.334" width="0.254" layer="94" />
+<wire x1="-1.143" y1="-7.62" x2="-1.143" y2="-9.906" width="0.254" layer="94" />
+<wire x1="-1.143" y1="-9.906" x2="2.032" y2="-7.62" width="0.254" layer="94" />
+<wire x1="2.032" y1="-7.62" x2="-1.143" y2="-5.334" width="0.254" layer="94" />
+<wire x1="5.08" y1="-7.62" x2="2.032" y2="-7.62" width="0.254" layer="94" />
+<wire x1="-5.08" y1="-12.7" x2="-1.143" y2="-12.7" width="0.254" layer="94" />
+<wire x1="-1.143" y1="-12.7" x2="-1.143" y2="-10.414" width="0.254" layer="94" />
+<wire x1="-1.143" y1="-12.7" x2="-1.143" y2="-14.986" width="0.254" layer="94" />
+<wire x1="-1.143" y1="-14.986" x2="2.032" y2="-12.7" width="0.254" layer="94" />
+<wire x1="2.032" y1="-12.7" x2="-1.143" y2="-10.414" width="0.254" layer="94" />
+<wire x1="5.08" y1="-12.7" x2="2.032" y2="-12.7" width="0.254" layer="94" />
+</symbol>
+<symbol name="LED-DRIVER-1CH-PWM">
+<text x="-5.08" y="-10.16" size="1.778" layer="94">LED Driver</text>
+<pin name="EN" x="-2.54" y="15.24" length="short" rot="R270" />
+<text x="-12.7" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="7.62" size="1.778" layer="96">&gt;Value</text>
+<pin name="OUT" x="2.54" y="15.24" length="short" rot="R270" />
+<pin name="R_EXR" x="7.62" y="5.08" length="short" rot="R180" />
+<pin name="GND" x="7.62" y="-5.08" length="short" rot="R180" />
+<wire x1="-5.08" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="94" />
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-7.62" width="0.1524" layer="94" />
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94" />
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="12.7" width="0.1524" layer="94" />
 </symbol>
 </symbols>
 <devicesets>
@@ -2696,6 +2900,145 @@ AVRÃ‚Â® enhanced RISC architecture
 <connect gate="G$1" pin="SENSE-" pad="P$4" />
 <connect gate="G$1" pin="V_FB" pad="P$3" />
 <connect gate="G$1" pin="V_IN" pad="P$5" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74X4049-HEX-INVERTING-BUFFER" prefix="U" uservalue="yes">
+<description>&lt;b&gt;74X4049&lt;/b&gt; - Hex Inverting Buffer
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt; Logic Type: Buffer, Inverting&lt;/li&gt;
+&lt;li&gt; Number of Elements: 6&lt;/li&gt;
+&lt;li&gt; Number of Bits per Element: 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://www.ti.com/lit/ds/symlink/cd74hc4049.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1676576406485&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcd74hc4049"&gt;74HC4049&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="74X4049-HEX-INVERTING-BUFFER" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOIC" package="SOIC-16-150MIL-3.9MM">
+<connects>
+<connect gate="G$1" pin="!1Y!" pad="P$2" />
+<connect gate="G$1" pin="!2Y!" pad="P$4" />
+<connect gate="G$1" pin="!3Y!" pad="P$6" />
+<connect gate="G$1" pin="!4Y!" pad="P$10" />
+<connect gate="G$1" pin="!5Y!" pad="P$12" />
+<connect gate="G$1" pin="!6Y!" pad="P$15" />
+<connect gate="G$1" pin="1A" pad="P$3" />
+<connect gate="G$1" pin="2A" pad="P$5" />
+<connect gate="G$1" pin="3A" pad="P$7" />
+<connect gate="G$1" pin="4A" pad="P$9" />
+<connect gate="G$1" pin="5A" pad="P$11" />
+<connect gate="G$1" pin="6A" pad="P$14" />
+<connect gate="G$1" pin="GND" pad="P$8" />
+<connect gate="G$1" pin="VCC" pad="P$1" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74X4050-HEX-NON-INVERTING-BUFFER" prefix="U" uservalue="yes">
+<description>&lt;b&gt;74X4050&lt;/b&gt; - Hex Non-Inverting Buffer
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt; Logic Type: Buffer, Non-Inverting&lt;/li&gt;
+&lt;li&gt; Number of Elements: 6&lt;/li&gt;
+&lt;li&gt; Number of Bits per Element: 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://www.ti.com/lit/ds/symlink/cd74hc4049.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1676576406485&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcd74hc4049"&gt;74HC4050&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="74X4050-HEX-NON-INVERTING-BUFFER" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOIC" package="SOIC-16-150MIL-3.9MM">
+<connects>
+<connect gate="G$1" pin="1A" pad="P$3" />
+<connect gate="G$1" pin="1Y" pad="P$2" />
+<connect gate="G$1" pin="2A" pad="P$5" />
+<connect gate="G$1" pin="2Y" pad="P$4" />
+<connect gate="G$1" pin="3A" pad="P$7" />
+<connect gate="G$1" pin="3Y" pad="P$6" />
+<connect gate="G$1" pin="4A" pad="P$9" />
+<connect gate="G$1" pin="4Y" pad="P$10" />
+<connect gate="G$1" pin="5A" pad="P$11" />
+<connect gate="G$1" pin="5Y" pad="P$12" />
+<connect gate="G$1" pin="6A" pad="P$14" />
+<connect gate="G$1" pin="6Y" pad="P$15" />
+<connect gate="G$1" pin="GND" pad="P$8" />
+<connect gate="G$1" pin="VCC" pad="P$1" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-DRIVER-1CH-PWM" prefix="U" uservalue="yes">
+<description>&lt;b&gt;LED Driver&lt;/b&gt; - LED Driver IC 1 Output  PWM Dimming
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Dimming: PWM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://www.diodes.com/assets/Datasheets/BCR420UW6-BCR421UW7.pdf"&gt;BCR420UW6 / BCR421UW6&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://www.diodes.com/assets/Datasheets/BCR420UFDQ-BCR421UFDQ.pdf"&gt;BCR420UFDQ / BCR421UFDQ&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED-DRIVER-1CH-PWM" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT26" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="EN" pad="P$1" />
+<connect gate="G$1" pin="GND" pad="P$4" />
+<connect gate="G$1" pin="OUT" pad="P$2 P$3 P$5" />
+<connect gate="G$1" pin="R_EXR" pad="P$6" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT26-NOSILK" package="SOT-23-6_NOSILK">
+<connects>
+<connect gate="G$1" pin="EN" pad="P$1" />
+<connect gate="G$1" pin="GND" pad="P$4" />
+<connect gate="G$1" pin="OUT" pad="P$2 P$3 P$5" />
+<connect gate="G$1" pin="R_EXR" pad="P$6" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="6-UDFN" package="6-UDFN(2.0X2.0)">
+<connects>
+<connect gate="G$1" pin="EN" pad="P$4" />
+<connect gate="G$1" pin="GND" pad="P$6" />
+<connect gate="G$1" pin="OUT" pad="P$2 TAB" />
+<connect gate="G$1" pin="R_EXR" pad="P$5" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="6-UDFN-NOSILK" package="6-UDFN(2.0X2.0)-NOSILK">
+<connects>
+<connect gate="G$1" pin="EN" pad="P$4" />
+<connect gate="G$1" pin="GND" pad="P$6" />
+<connect gate="G$1" pin="OUT" pad="P$2 TAB" />
+<connect gate="G$1" pin="R_EXR" pad="P$5" />
 </connects>
 <technologies>
 <technology name="" />
