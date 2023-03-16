@@ -1416,6 +1416,306 @@ vias .3mmdiam and
 <vertex x="-1.15" y="-1.1375" />
 </polygon>
 </package>
+<package name="ESP32-PICO-MINI-02">
+<smd name="P$49_5" x="0" y="0" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_4" x="-1.975" y="0" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_6" x="1.975" y="0" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_9" x="1.975" y="-1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_8" x="0" y="-1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_7" x="-1.975" y="-1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_2" x="0" y="1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_3" x="1.975" y="1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_1" x="-1.975" y="1.675" dx="1.45" dy="0.85" layer="1" />
+<polygon width="0" layer="1">
+<vertex x="-2.7" y="2.1" />
+<vertex x="-1.25" y="2.1" />
+<vertex x="-1.25" y="2.7" />
+<vertex x="-2.1" y="2.7" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.8" y="2.2" />
+<vertex x="-1.15" y="2.2" />
+<vertex x="-1.15" y="2.8" />
+<vertex x="-2.2" y="2.8" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-2.7" y="2.1" />
+<vertex x="-1.25" y="2.1" />
+<vertex x="-1.25" y="2.7" />
+<vertex x="-2.1" y="2.7" />
+</polygon>
+<smd name="P$1" x="-5.9" y="4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$2" x="-5.9" y="3.2" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$3" x="-5.9" y="2.4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$4" x="-5.9" y="1.6" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$5" x="-5.9" y="0.8" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$6" x="-5.9" y="0" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$7" x="-5.9" y="-0.8" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$8" x="-5.9" y="-1.6" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$9" x="-5.9" y="-2.4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$10" x="-5.9" y="-3.2" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$11" x="-5.9" y="-4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$12" x="-4.8" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$13" x="-4" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$14" x="-3.2" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$15" x="-2.4" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$16" x="-1.6" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$17" x="-0.8" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$18" x="0" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$19" x="0.8" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$20" x="1.6" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$21" x="2.4" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$22" x="3.2" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$23" x="4" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$24" x="4.8" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$25" x="5.9" y="-4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$26" x="5.9" y="-3.2" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$27" x="5.9" y="-2.4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$28" x="5.9" y="-1.6" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$29" x="5.9" y="-0.8" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$30" x="5.9" y="0" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$31" x="5.9" y="0.8" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$32" x="5.9" y="1.6" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$33" x="5.9" y="2.4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$34" x="5.9" y="3.2" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$35" x="5.9" y="4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$36" x="4.8" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$37" x="4" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$38" x="3.2" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$39" x="2.4" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$40" x="1.6" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$41" x="0.8" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$42" x="0" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$43" x="-0.8" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$44" x="-1.6" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$45" x="-2.4" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$46" x="-3.2" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$47" x="-4" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$48" x="-4.8" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$50" x="5.95" y="4.95" dx="0.7" dy="0.7" layer="1" />
+<smd name="P$51" x="5.95" y="-4.95" dx="0.7" dy="0.7" layer="1" />
+<smd name="P$52" x="-5.95" y="-4.95" dx="0.7" dy="0.7" layer="1" />
+<smd name="P$53" x="-5.95" y="4.95" dx="0.7" dy="0.7" layer="1" />
+<wire x1="-6.6" y1="-5.6" x2="6.6" y2="-5.6" width="0.127" layer="21" />
+<wire x1="6.6" y1="-5.6" x2="6.6" y2="5.6" width="0.127" layer="21" />
+<wire x1="6.6" y1="5.6" x2="6.6" y2="11" width="0.127" layer="21" />
+<wire x1="6.6" y1="11" x2="-6.6" y2="11" width="0.127" layer="21" />
+<wire x1="-6.6" y1="11" x2="-6.6" y2="5.6" width="0.127" layer="21" />
+<wire x1="-6.6" y1="5.6" x2="-6.6" y2="-5.6" width="0.127" layer="21" />
+<wire x1="-6.6" y1="5.6" x2="6.6" y2="5.6" width="0.127" layer="21" />
+<text x="7.62" y="3.81" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="7.62" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-6.95" y="11.35" />
+<vertex x="-6.95" y="-5.95" />
+<vertex x="6.95" y="-5.95" />
+<vertex x="6.95" y="11.35" />
+</polygon>
+<polygon width="0" layer="117">
+<vertex x="-6.95" y="5.85" />
+<vertex x="-6.95" y="-5.95" />
+<vertex x="6.95" y="-5.95" />
+<vertex x="6.95" y="5.85" />
+</polygon>
+<text x="-5.08" y="7.62" size="1.2" layer="51">Antenna Area</text>
+<polygon width="0" layer="41">
+<vertex x="-6.95" y="11.35" />
+<vertex x="-6.95" y="5.85" />
+<vertex x="6.95" y="5.85" />
+<vertex x="6.95" y="11.35" />
+</polygon>
+<polygon width="0" layer="43">
+<vertex x="-6.95" y="11.35" />
+<vertex x="-6.95" y="5.85" />
+<vertex x="6.95" y="5.85" />
+<vertex x="6.95" y="11.35" />
+</polygon>
+<polygon width="0" layer="42">
+<vertex x="-6.95" y="11.35" />
+<vertex x="-6.95" y="5.85" />
+<vertex x="6.95" y="5.85" />
+<vertex x="6.95" y="11.35" />
+</polygon>
+</package>
+<package name="ESP32-PICO-MINI-02U">
+<smd name="P$49_5" x="0" y="0" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_4" x="-1.975" y="0" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_6" x="1.975" y="0" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_9" x="1.975" y="-1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_8" x="0" y="-1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_7" x="-1.975" y="-1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_2" x="0" y="1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_3" x="1.975" y="1.975" dx="1.45" dy="1.45" layer="1" />
+<smd name="P$49_1" x="-1.975" y="1.675" dx="1.45" dy="0.85" layer="1" />
+<polygon width="0" layer="1">
+<vertex x="-2.7" y="2.1" />
+<vertex x="-1.25" y="2.1" />
+<vertex x="-1.25" y="2.7" />
+<vertex x="-2.1" y="2.7" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.8" y="2.2" />
+<vertex x="-1.15" y="2.2" />
+<vertex x="-1.15" y="2.8" />
+<vertex x="-2.2" y="2.8" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-2.7" y="2.1" />
+<vertex x="-1.25" y="2.1" />
+<vertex x="-1.25" y="2.7" />
+<vertex x="-2.1" y="2.7" />
+</polygon>
+<smd name="P$1" x="-5.9" y="4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$2" x="-5.9" y="3.2" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$3" x="-5.9" y="2.4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$4" x="-5.9" y="1.6" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$5" x="-5.9" y="0.8" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$6" x="-5.9" y="0" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$7" x="-5.9" y="-0.8" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$8" x="-5.9" y="-1.6" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$9" x="-5.9" y="-2.4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$10" x="-5.9" y="-3.2" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$11" x="-5.9" y="-4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$12" x="-4.8" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$13" x="-4" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$14" x="-3.2" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$15" x="-2.4" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$16" x="-1.6" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$17" x="-0.8" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$18" x="0" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$19" x="0.8" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$20" x="1.6" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$21" x="2.4" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$22" x="3.2" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$23" x="4" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$24" x="4.8" y="-4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$25" x="5.9" y="-4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$26" x="5.9" y="-3.2" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$27" x="5.9" y="-2.4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$28" x="5.9" y="-1.6" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$29" x="5.9" y="-0.8" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$30" x="5.9" y="0" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$31" x="5.9" y="0.8" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$32" x="5.9" y="1.6" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$33" x="5.9" y="2.4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$34" x="5.9" y="3.2" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$35" x="5.9" y="4" dx="0.8" dy="0.4" layer="1" />
+<smd name="P$36" x="4.8" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$37" x="4" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$38" x="3.2" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$39" x="2.4" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$40" x="1.6" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$41" x="0.8" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$42" x="0" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$43" x="-0.8" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$44" x="-1.6" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$45" x="-2.4" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$46" x="-3.2" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$47" x="-4" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$48" x="-4.8" y="4.9" dx="0.4" dy="0.8" layer="1" />
+<smd name="P$50" x="5.95" y="4.95" dx="0.7" dy="0.7" layer="1" />
+<smd name="P$51" x="5.95" y="-4.95" dx="0.7" dy="0.7" layer="1" />
+<smd name="P$52" x="-5.95" y="-4.95" dx="0.7" dy="0.7" layer="1" />
+<smd name="P$53" x="-5.95" y="4.95" dx="0.7" dy="0.7" layer="1" />
+<wire x1="-6.6" y1="-5.6" x2="6.6" y2="-5.6" width="0.127" layer="21" />
+<wire x1="6.6" y1="-5.6" x2="6.6" y2="5.6" width="0.127" layer="21" />
+<wire x1="-6.6" y1="5.6" x2="-6.6" y2="-5.6" width="0.127" layer="21" />
+<wire x1="-6.6" y1="5.6" x2="6.6" y2="5.6" width="0.127" layer="21" />
+<text x="7.62" y="3.81" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="7.62" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-6.95" y="5.95" />
+<vertex x="-6.95" y="-5.95" />
+<vertex x="6.95" y="-5.95" />
+<vertex x="6.95" y="5.95" />
+</polygon>
+</package>
+<package name="LGA9-3X3">
+<smd name="P$1" x="-1.05" y="0.9" dx="0.85" dy="0.55" layer="1" />
+<smd name="P$2" x="-1.05" y="0" dx="0.85" dy="0.85" layer="1" />
+<smd name="P$3" x="-1.05" y="-1.05" dx="0.85" dy="0.85" layer="1" />
+<smd name="P$4" x="0" y="-1.05" dx="0.85" dy="0.85" layer="1" />
+<smd name="P$5" x="1.05" y="-1.05" dx="0.85" dy="0.85" layer="1" />
+<smd name="P$6" x="1.05" y="0" dx="0.85" dy="0.85" layer="1" />
+<smd name="P$7" x="1.05" y="1.05" dx="0.85" dy="0.85" layer="1" />
+<smd name="P$8" x="0" y="1.05" dx="0.85" dy="0.85" layer="1" />
+<smd name="P$9" x="0" y="0" dx="0.85" dy="0.85" layer="1" />
+<polygon width="0" layer="1">
+<vertex x="-1.475" y="1.175" />
+<vertex x="-0.625" y="1.175" />
+<vertex x="-0.625" y="1.475" />
+<vertex x="-1.175" y="1.475" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1.575" y="1.275" />
+<vertex x="-0.525" y="1.275" />
+<vertex x="-0.525" y="1.575" />
+<vertex x="-1.275" y="1.575" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.475" y="1.175" />
+<vertex x="-0.625" y="1.175" />
+<vertex x="-0.625" y="1.475" />
+<vertex x="-1.175" y="1.475" />
+</polygon>
+<wire x1="-1.7" y1="-1.7" x2="1.7" y2="-1.7" width="0.127" layer="21" />
+<wire x1="1.7" y1="-1.7" x2="1.7" y2="1.7" width="0.127" layer="21" />
+<wire x1="1.7" y1="1.7" x2="-1.7" y2="1.7" width="0.127" layer="21" />
+<wire x1="-1.7" y1="1.7" x2="-1.7" y2="-1.7" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-1.85" y="1.85" />
+<vertex x="1.85" y="1.85" />
+<vertex x="1.85" y="-1.85" />
+<vertex x="-1.85" y="-1.85" />
+</polygon>
+<text x="-1" y="3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1" y="2" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<circle x="-2" y="2" radius="0.254" width="0" layer="21" />
+</package>
+<package name="8-DFN-2X3">
+<smd name="P$1" x="-0.75" y="-1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$2" x="-0.25" y="-1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$3" x="0.25" y="-1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$4" x="0.75" y="-1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$5" x="0.75" y="1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$6" x="0.25" y="1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$7" x="-0.25" y="1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$8" x="-0.75" y="1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$9" x="0" y="0" dx="1.45" dy="1.75" layer="1" />
+<wire x1="-1.1" y1="2.05" x2="1.1" y2="2.05" width="0.127" layer="21" />
+<wire x1="1.1" y1="2.05" x2="1.1" y2="-2.05" width="0.127" layer="21" />
+<wire x1="1.1" y1="-2.05" x2="-1.1" y2="-2.05" width="0.127" layer="21" />
+<wire x1="-1.1" y1="-2.05" x2="-1.1" y2="2.05" width="0.127" layer="21" />
+<circle x="-0.75" y="-2.425" radius="0.254" width="0" layer="21" />
+<text x="2" y="1" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-1" y="1.925" />
+<vertex x="1" y="1.925" />
+<vertex x="1" y="-1.925" />
+<vertex x="-1" y="-1.925" />
+</polygon>
+</package>
+<package name="8-DFN-2X3-NOSILK">
+<smd name="P$1" x="-0.75" y="-1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$2" x="-0.25" y="-1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$3" x="0.25" y="-1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$4" x="0.75" y="-1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$5" x="0.75" y="1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$6" x="0.25" y="1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$7" x="-0.25" y="1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$8" x="-0.75" y="1.45" dx="0.3" dy="0.75" layer="1" />
+<smd name="P$9" x="0" y="0" dx="1.45" dy="1.75" layer="1" />
+<text x="2" y="1" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-1" y="1.925" />
+<vertex x="1" y="1.925" />
+<vertex x="1" y="-1.925" />
+<vertex x="-1" y="-1.925" />
+</polygon>
+<text x="-0.75" y="-2.2" size="0.6096" layer="51" align="center">*</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TRINAMIC-TMC262">
@@ -2043,6 +2343,100 @@ Hex Non-Inverting Buffer</text>
 <wire x1="5.08" y1="12.7" x2="5.08" y2="-7.62" width="0.1524" layer="94" />
 <wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94" />
 <wire x1="-5.08" y1="-7.62" x2="-5.08" y2="12.7" width="0.1524" layer="94" />
+</symbol>
+<symbol name="ESP32-PICO-MINI-02">
+<pin name="GND$1" x="-33.02" y="12.7" length="short" />
+<pin name="GND$2" x="-33.02" y="10.16" length="short" />
+<pin name="3V3" x="-33.02" y="7.62" length="short" />
+<pin name="I36" x="-33.02" y="5.08" length="short" />
+<pin name="I37" x="-33.02" y="2.54" length="short" />
+<pin name="I38" x="-33.02" y="0" length="short" />
+<pin name="I39" x="-33.02" y="-2.54" length="short" />
+<pin name="EN" x="-33.02" y="-5.08" length="short" />
+<pin name="I34" x="-33.02" y="-7.62" length="short" />
+<pin name="I35" x="-33.02" y="-10.16" length="short" />
+<pin name="GND$11" x="-33.02" y="-12.7" length="short" />
+<pin name="IO32" x="-15.24" y="-22.86" length="short" rot="R90" />
+<pin name="IO33" x="-12.7" y="-22.86" length="short" rot="R90" />
+<pin name="GND$14" x="-10.16" y="-22.86" length="short" rot="R90" />
+<pin name="IO25" x="-7.62" y="-22.86" length="short" rot="R90" />
+<pin name="IO26" x="-5.08" y="-22.86" length="short" rot="R90" />
+<pin name="IO27" x="-2.54" y="-22.86" length="short" rot="R90" />
+<pin name="IO14" x="0" y="-22.86" length="short" rot="R90" />
+<pin name="IO12" x="2.54" y="-22.86" length="short" rot="R90" />
+<pin name="IO13" x="5.08" y="-22.86" length="short" rot="R90" />
+<pin name="IO15" x="7.62" y="-22.86" length="short" rot="R90" />
+<pin name="IO2" x="10.16" y="-22.86" length="short" rot="R90" />
+<pin name="IO0" x="12.7" y="-22.86" length="short" rot="R90" />
+<pin name="IO4" x="15.24" y="-22.86" length="short" rot="R90" />
+<pin name="NC$25" x="30.48" y="-12.7" length="short" direction="nc" rot="R180" />
+<pin name="IO20" x="30.48" y="-10.16" length="short" rot="R180" />
+<pin name="IO7" x="30.48" y="-7.62" length="short" rot="R180" />
+<pin name="IO8" x="30.48" y="-5.08" length="short" rot="R180" />
+<pin name="IO5" x="30.48" y="-2.54" length="short" rot="R180" />
+<pin name="RXD0" x="30.48" y="0" length="short" rot="R180" />
+<pin name="TXD0" x="30.48" y="2.54" length="short" rot="R180" />
+<pin name="NC$32" x="30.48" y="5.08" length="short" direction="nc" rot="R180" />
+<pin name="IO19" x="30.48" y="7.62" length="short" rot="R180" />
+<pin name="IO22" x="30.48" y="10.16" length="short" rot="R180" />
+<pin name="IO21" x="30.48" y="12.7" length="short" rot="R180" />
+<pin name="GND$36" x="15.24" y="22.86" length="short" rot="R270" />
+<pin name="GND$37" x="12.7" y="22.86" length="short" rot="R270" />
+<pin name="GND$38" x="10.16" y="22.86" length="short" rot="R270" />
+<pin name="GND$39" x="7.62" y="22.86" length="short" rot="R270" />
+<pin name="GND$40" x="5.08" y="22.86" length="short" rot="R270" />
+<pin name="GND$41" x="2.54" y="22.86" length="short" rot="R270" />
+<pin name="GND$42" x="0" y="22.86" length="short" rot="R270" />
+<pin name="GND$43" x="-2.54" y="22.86" length="short" rot="R270" />
+<pin name="GND$44" x="-5.08" y="22.86" length="short" rot="R270" />
+<pin name="GND$45" x="-7.62" y="22.86" length="short" rot="R270" />
+<pin name="GND$46" x="-10.16" y="22.86" length="short" rot="R270" />
+<pin name="GND$47" x="-12.7" y="22.86" length="short" rot="R270" />
+<pin name="GND$48" x="-15.24" y="22.86" length="short" rot="R270" />
+<pin name="EPAD" x="-17.78" y="22.86" length="short" rot="R270" />
+<pin name="GND$53" x="-33.02" y="17.78" length="short" />
+<pin name="GND$52" x="-33.02" y="-17.78" length="short" />
+<pin name="GND$51" x="30.48" y="-17.78" length="short" rot="R180" />
+<pin name="GND$50" x="30.48" y="17.78" length="short" rot="R180" />
+<wire x1="-30.48" y1="20.32" x2="-30.48" y2="-20.32" width="0.2032" layer="94" />
+<wire x1="-30.48" y1="-20.32" x2="27.94" y2="-20.32" width="0.2032" layer="94" />
+<wire x1="27.94" y1="-20.32" x2="27.94" y2="20.32" width="0.2032" layer="94" />
+<wire x1="27.94" y1="20.32" x2="-30.48" y2="20.32" width="0.2032" layer="94" />
+<text x="0" y="0" size="1.778" layer="94" align="center">ESP32-PICO-MINI-02
+ESP32-PICO-MINI-02U</text>
+<text x="20.32" y="22.86" size="1.778" layer="95">&gt;Name</text>
+<text x="20.32" y="20.32" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="SCIOSENSE_ENS160">
+<pin name="VDD" x="2.54" y="17.78" length="short" rot="R270" />
+<pin name="VDDIO" x="-5.08" y="17.78" length="short" rot="R270" />
+<pin name="CS" x="-15.24" y="5.08" length="short" />
+<pin name="MOSI/SDA" x="-15.24" y="2.54" length="short" />
+<pin name="SCLK/SCL" x="-15.24" y="0" length="short" />
+<pin name="INT" x="-15.24" y="-2.54" length="short" />
+<pin name="MISO/ADDR" x="-15.24" y="-5.08" length="short" />
+<pin name="VSS" x="2.54" y="-17.78" length="short" rot="R90" />
+<wire x1="-12.7" y1="15.24" x2="7.62" y2="15.24" width="0.2032" layer="94" />
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.2032" layer="94" />
+<wire x1="7.62" y1="-15.24" x2="-12.7" y2="-15.24" width="0.2032" layer="94" />
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.2032" layer="94" />
+<text x="5.08" y="-5.08" size="1.778" layer="94" rot="R90">ENS160</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="-20.32" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="BATT-CHARGER-PROG">
+<pin name="VDD" x="-10.16" y="5.08" length="short" />
+<pin name="STAT" x="-10.16" y="-5.08" length="short" />
+<pin name="VBAT" x="10.16" y="5.08" length="short" rot="R180" />
+<pin name="PROG" x="10.16" y="0" length="short" rot="R180" />
+<pin name="VSS" x="10.16" y="-5.08" length="short" rot="R180" />
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94" />
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94" />
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94" />
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94" />
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96">&gt;Value</text>
+<text x="0" y="-10.16" size="1.27" layer="94" align="bottom-center">Battery Charger</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3039,6 +3433,246 @@ AVRÃ‚Â® enhanced RISC architecture
 <connect gate="G$1" pin="GND" pad="P$6" />
 <connect gate="G$1" pin="OUT" pad="P$2 TAB" />
 <connect gate="G$1" pin="R_EXR" pad="P$5" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP32-PICO-MINI-02" prefix="U" uservalue="yes">
+<description>&lt;b&gt;ESP32-PICO-MINI-02(U)&lt;/b&gt; - Bluetooth, WiFi 802.11b/g/n, Bluetooth v4.2 +EDR, Class 1, 2 and 3 Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Chassis Mount
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;RF Standard: Bluetooth, WiFi&lt;/li&gt;
+&lt;li&gt;Protocol: 802.11b/g/n, Bluetooth v4.2 +EDR, Class 1, 2 and 3&lt;/li&gt;
+&lt;li&gt;Voltage - Supply: 3V ~ 3.6V&lt;/li&gt;
+&lt;li&gt;Antenna Type: PCB Trace (ESP32-PICO-MINI-02), External (ESP32-PICO-MINI-02U)&lt;/li&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf"&gt;ESP32­PICO­MINI­02&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="ESP32-PICO-MINI-02" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="ESP32-PICO-MINI-02">
+<connects>
+<connect gate="G$1" pin="3V3" pad="P$3" />
+<connect gate="G$1" pin="EN" pad="P$8" />
+<connect gate="G$1" pin="EPAD" pad="P$49_1 P$49_2 P$49_3 P$49_4 P$49_5 P$49_6 P$49_7 P$49_8 P$49_9" />
+<connect gate="G$1" pin="GND$1" pad="P$1" />
+<connect gate="G$1" pin="GND$11" pad="P$11" />
+<connect gate="G$1" pin="GND$14" pad="P$14" />
+<connect gate="G$1" pin="GND$2" pad="P$2" />
+<connect gate="G$1" pin="GND$36" pad="P$36" />
+<connect gate="G$1" pin="GND$37" pad="P$37" />
+<connect gate="G$1" pin="GND$38" pad="P$38" />
+<connect gate="G$1" pin="GND$39" pad="P$39" />
+<connect gate="G$1" pin="GND$40" pad="P$40" />
+<connect gate="G$1" pin="GND$41" pad="P$41" />
+<connect gate="G$1" pin="GND$42" pad="P$42" />
+<connect gate="G$1" pin="GND$43" pad="P$43" />
+<connect gate="G$1" pin="GND$44" pad="P$44" />
+<connect gate="G$1" pin="GND$45" pad="P$45" />
+<connect gate="G$1" pin="GND$46" pad="P$46" />
+<connect gate="G$1" pin="GND$47" pad="P$47" />
+<connect gate="G$1" pin="GND$48" pad="P$48" />
+<connect gate="G$1" pin="GND$50" pad="P$50" />
+<connect gate="G$1" pin="GND$51" pad="P$51" />
+<connect gate="G$1" pin="GND$52" pad="P$52" />
+<connect gate="G$1" pin="GND$53" pad="P$53" />
+<connect gate="G$1" pin="I34" pad="P$9" />
+<connect gate="G$1" pin="I35" pad="P$10" />
+<connect gate="G$1" pin="I36" pad="P$4" />
+<connect gate="G$1" pin="I37" pad="P$5" />
+<connect gate="G$1" pin="I38" pad="P$6" />
+<connect gate="G$1" pin="I39" pad="P$7" />
+<connect gate="G$1" pin="IO0" pad="P$23" />
+<connect gate="G$1" pin="IO12" pad="P$19" />
+<connect gate="G$1" pin="IO13" pad="P$20" />
+<connect gate="G$1" pin="IO14" pad="P$18" />
+<connect gate="G$1" pin="IO15" pad="P$21" />
+<connect gate="G$1" pin="IO19" pad="P$33" />
+<connect gate="G$1" pin="IO2" pad="P$22" />
+<connect gate="G$1" pin="IO20" pad="P$26" />
+<connect gate="G$1" pin="IO21" pad="P$35" />
+<connect gate="G$1" pin="IO22" pad="P$34" />
+<connect gate="G$1" pin="IO25" pad="P$15" />
+<connect gate="G$1" pin="IO26" pad="P$16" />
+<connect gate="G$1" pin="IO27" pad="P$17" />
+<connect gate="G$1" pin="IO32" pad="P$12" />
+<connect gate="G$1" pin="IO33" pad="P$13" />
+<connect gate="G$1" pin="IO4" pad="P$24" />
+<connect gate="G$1" pin="IO5" pad="P$29" />
+<connect gate="G$1" pin="IO7" pad="P$27" />
+<connect gate="G$1" pin="IO8" pad="P$28" />
+<connect gate="G$1" pin="NC$25" pad="P$25" />
+<connect gate="G$1" pin="NC$32" pad="P$32" />
+<connect gate="G$1" pin="RXD0" pad="P$30" />
+<connect gate="G$1" pin="TXD0" pad="P$31" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="U" package="ESP32-PICO-MINI-02U">
+<connects>
+<connect gate="G$1" pin="3V3" pad="P$3" />
+<connect gate="G$1" pin="EN" pad="P$8" />
+<connect gate="G$1" pin="EPAD" pad="P$49_1 P$49_2 P$49_3 P$49_4 P$49_5 P$49_6 P$49_7 P$49_8 P$49_9" />
+<connect gate="G$1" pin="GND$1" pad="P$1" />
+<connect gate="G$1" pin="GND$11" pad="P$11" />
+<connect gate="G$1" pin="GND$14" pad="P$14" />
+<connect gate="G$1" pin="GND$2" pad="P$2" />
+<connect gate="G$1" pin="GND$36" pad="P$36" />
+<connect gate="G$1" pin="GND$37" pad="P$37" />
+<connect gate="G$1" pin="GND$38" pad="P$38" />
+<connect gate="G$1" pin="GND$39" pad="P$39" />
+<connect gate="G$1" pin="GND$40" pad="P$40" />
+<connect gate="G$1" pin="GND$41" pad="P$41" />
+<connect gate="G$1" pin="GND$42" pad="P$42" />
+<connect gate="G$1" pin="GND$43" pad="P$43" />
+<connect gate="G$1" pin="GND$44" pad="P$44" />
+<connect gate="G$1" pin="GND$45" pad="P$45" />
+<connect gate="G$1" pin="GND$46" pad="P$46" />
+<connect gate="G$1" pin="GND$47" pad="P$47" />
+<connect gate="G$1" pin="GND$48" pad="P$48" />
+<connect gate="G$1" pin="GND$50" pad="P$50" />
+<connect gate="G$1" pin="GND$51" pad="P$51" />
+<connect gate="G$1" pin="GND$52" pad="P$52" />
+<connect gate="G$1" pin="GND$53" pad="P$53" />
+<connect gate="G$1" pin="I34" pad="P$9" />
+<connect gate="G$1" pin="I35" pad="P$10" />
+<connect gate="G$1" pin="I36" pad="P$4" />
+<connect gate="G$1" pin="I37" pad="P$5" />
+<connect gate="G$1" pin="I38" pad="P$6" />
+<connect gate="G$1" pin="I39" pad="P$7" />
+<connect gate="G$1" pin="IO0" pad="P$23" />
+<connect gate="G$1" pin="IO12" pad="P$19" />
+<connect gate="G$1" pin="IO13" pad="P$20" />
+<connect gate="G$1" pin="IO14" pad="P$18" />
+<connect gate="G$1" pin="IO15" pad="P$21" />
+<connect gate="G$1" pin="IO19" pad="P$33" />
+<connect gate="G$1" pin="IO2" pad="P$22" />
+<connect gate="G$1" pin="IO20" pad="P$26" />
+<connect gate="G$1" pin="IO21" pad="P$35" />
+<connect gate="G$1" pin="IO22" pad="P$34" />
+<connect gate="G$1" pin="IO25" pad="P$15" />
+<connect gate="G$1" pin="IO26" pad="P$16" />
+<connect gate="G$1" pin="IO27" pad="P$17" />
+<connect gate="G$1" pin="IO32" pad="P$12" />
+<connect gate="G$1" pin="IO33" pad="P$13" />
+<connect gate="G$1" pin="IO4" pad="P$24" />
+<connect gate="G$1" pin="IO5" pad="P$29" />
+<connect gate="G$1" pin="IO7" pad="P$27" />
+<connect gate="G$1" pin="IO8" pad="P$28" />
+<connect gate="G$1" pin="NC$25" pad="P$25" />
+<connect gate="G$1" pin="NC$32" pad="P$32" />
+<connect gate="G$1" pin="RXD0" pad="P$30" />
+<connect gate="G$1" pin="TXD0" pad="P$31" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCIOSENSE_ENS160" prefix="U" uservalue="yes">
+<description>&lt;b&gt;ENS160&lt;/b&gt; - Air Quality, Carbon Dioxide (CO2), Metal Oxide (MOX) Sensor I²C, SPI
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Type: Air Quality, Carbon Dioxide (CO2), Metal Oxide (MOX)&lt;/li&gt;
+&lt;li&gt;Output: I²C, SPI&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
+&lt;li&gt;Voltage - Supply: 1.71V ~ 1.98V&lt;/li&gt;
+&lt;li&gt;Current - Supply: 10µA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://www.mouser.com/datasheet/2/1081/SC_001224_DS_1_ENS160_Datasheet_Rev_0_95-2258311.pdf"&gt;ENS160&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCIOSENSE_ENS160" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="LGA9-3X3">
+<connects>
+<connect gate="G$1" pin="CS" pad="P$7" />
+<connect gate="G$1" pin="INT" pad="P$6" />
+<connect gate="G$1" pin="MISO/ADDR" pad="P$3" />
+<connect gate="G$1" pin="MOSI/SDA" pad="P$1" />
+<connect gate="G$1" pin="SCLK/SCL" pad="P$2" />
+<connect gate="G$1" pin="VDD" pad="P$4" />
+<connect gate="G$1" pin="VDDIO" pad="P$5" />
+<connect gate="G$1" pin="VSS" pad="P$8 P$9" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATT-CHARGER-PROG" prefix="U" uservalue="yes">
+<description>&lt;b&gt;MCP73831/2&lt;/b&gt; - IC BATT CNTL LI-ION 1CEL
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Battery Chemistry: Lithium Ion/Polymer&lt;/li&gt;
+&lt;li&gt;Number of Cells: 1&lt;/li&gt;
+&lt;li&gt;Fault Protection: Over Voltage&lt;/li&gt;
+&lt;li&gt;Battery Pack Voltage: 4.2V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf"&gt;MCP73831/2&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATT-CHARGER-PROG" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOT-23-5" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="PROG" pad="P$5" />
+<connect gate="G$1" pin="STAT" pad="P$1" />
+<connect gate="G$1" pin="VBAT" pad="P$3" />
+<connect gate="G$1" pin="VDD" pad="P$4" />
+<connect gate="G$1" pin="VSS" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="SOT-23-5_NS" package="SOT-23-5_NOSILK">
+<connects>
+<connect gate="G$1" pin="PROG" pad="P$5" />
+<connect gate="G$1" pin="STAT" pad="P$1" />
+<connect gate="G$1" pin="VBAT" pad="P$3" />
+<connect gate="G$1" pin="VDD" pad="P$4" />
+<connect gate="G$1" pin="VSS" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="8DFN" package="8-DFN-2X3">
+<connects>
+<connect gate="G$1" pin="PROG" pad="P$8" />
+<connect gate="G$1" pin="STAT" pad="P$5" />
+<connect gate="G$1" pin="VBAT" pad="P$3 P$4" />
+<connect gate="G$1" pin="VDD" pad="P$1 P$2" />
+<connect gate="G$1" pin="VSS" pad="P$6 P$9" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="8DFN_NS" package="8-DFN-2X3-NOSILK">
+<connects>
+<connect gate="G$1" pin="PROG" pad="P$8" />
+<connect gate="G$1" pin="STAT" pad="P$5" />
+<connect gate="G$1" pin="VBAT" pad="P$3 P$4" />
+<connect gate="G$1" pin="VDD" pad="P$1 P$2" />
+<connect gate="G$1" pin="VSS" pad="P$6 P$9" />
 </connects>
 <technologies>
 <technology name="" />
