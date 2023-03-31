@@ -2442,6 +2442,20 @@ ESP32-PICO-MINI-02U</text>
 <pin name="!SUSPEND!/RI_SCI" x="20.32" y="-15.24" length="short" rot="R180" />
 <pin name="GPIO.2_SCI/DSR_SCI" x="20.32" y="-22.86" length="short" rot="R180" />
 </symbol>
+<symbol name="DIODES-AP3602A">
+<pin name="VIN" x="-15.24" y="2.54" length="short" />
+<pin name="!SHDN!" x="-15.24" y="-2.54" length="short" />
+<pin name="GND" x="0" y="-10.16" length="short" rot="R90" />
+<pin name="C+" x="-5.08" y="10.16" length="short" rot="R270" />
+<pin name="C-" x="5.08" y="10.16" length="short" rot="R270" />
+<pin name="VOUT" x="15.24" y="0" length="short" rot="R180" />
+<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="94" />
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94" />
+<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.1524" layer="94" />
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.1524" layer="94" />
+<text x="10.16" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="10.16" y="10.16" size="1.778" layer="96">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TRINAMIC-TMC262">
@@ -3734,6 +3748,50 @@ AVRÃ‚Â® enhanced RISC architecture
 <connect gate="G$1" pin="VBUS" pad="P$8" />
 <connect gate="G$1" pin="VDD" pad="P$6" />
 <connect gate="G$1" pin="VIO" pad="P$5" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STEP-UP-BOOST-SOT23-6" prefix="U" uservalue="yes">
+<description>&lt;b&gt;STEP-UP-BOOST&lt;/b&gt; - LED Driver IC 1 Output DC DC Regulator Step-Up (Boost) Dimming 100mA SOT-23-6
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Type: DC DC Regulator&lt;/li&gt;
+&lt;li&gt;Number of Outputs: 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://www.digikey.com/en/products/detail/diodes-incorporated/AP3602AKTR-G1/5305823"&gt;	
+AP3602A&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODES-AP3602A" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="!SHDN!" pad="P$3" />
+<connect gate="G$1" pin="C+" pad="P$6" />
+<connect gate="G$1" pin="C-" pad="P$4" />
+<connect gate="G$1" pin="GND" pad="P$2" />
+<connect gate="G$1" pin="VIN" pad="P$5" />
+<connect gate="G$1" pin="VOUT" pad="P$1" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="NOSILK" package="SOT-23-6_NOSILK">
+<connects>
+<connect gate="G$1" pin="!SHDN!" pad="P$3" />
+<connect gate="G$1" pin="C+" pad="P$6" />
+<connect gate="G$1" pin="C-" pad="P$4" />
+<connect gate="G$1" pin="GND" pad="P$2" />
+<connect gate="G$1" pin="VIN" pad="P$5" />
+<connect gate="G$1" pin="VOUT" pad="P$1" />
 </connects>
 <technologies>
 <technology name="" />
