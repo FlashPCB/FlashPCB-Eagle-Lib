@@ -340,7 +340,7 @@
 <vertex x="-1.77" y="-2.65" />
 </polygon>
 </package>
-<package name="6-WSOF-BH1750">
+<package name="6WSOF">
 <smd name="P$5" x="1.375" y="0" dx="0.55" dy="0.25" layer="1" />
 <smd name="P$6" x="1.375" y="0.5" dx="0.55" dy="0.25" layer="1" />
 <smd name="P$4" x="1.375" y="-0.5" dx="0.55" dy="0.25" layer="1" />
@@ -374,8 +374,6 @@ Area</text>
 <text x="-1.5" y="2.65" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="-1.5" y="1.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <circle x="-2.15" y="0.5" radius="0" width="0.508" layer="21" />
-<text x="-1" y="0.35" size="0.4" layer="51" font="vector">A</text>
-<text x="-1" y="-0.15" size="0.4" layer="51" font="vector">A</text>
 </package>
 <package name="BME68X">
 <smd name="P$1" x="1.2" y="1.2" dx="0.4" dy="0.4" layer="1" />
@@ -506,6 +504,74 @@ Area</text>
 <vertex x="2.65" y="3.75" />
 <vertex x="-2.65" y="3.75" />
 </polygon>
+</package>
+<package name="14-LGA(2.5X3)">
+<smd name="P$1" x="-1.1625" y="0.75" dx="0.575" dy="0.35" layer="1" />
+<smd name="P$2" x="-1.1625" y="0.25" dx="0.575" dy="0.35" layer="1" />
+<smd name="P$3" x="-1.1625" y="-0.25" dx="0.575" dy="0.35" layer="1" />
+<smd name="P$4" x="-1.1625" y="-0.75" dx="0.575" dy="0.35" layer="1" />
+<smd name="P$5" x="-0.5" y="-0.9125" dx="0.35" dy="0.575" layer="1" />
+<smd name="P$6" x="0" y="-0.9125" dx="0.35" dy="0.575" layer="1" />
+<smd name="P$7" x="0.5" y="-0.9125" dx="0.35" dy="0.575" layer="1" />
+<smd name="P$8" x="1.1625" y="-0.75" dx="0.575" dy="0.35" layer="1" />
+<smd name="P$9" x="1.1625" y="-0.25" dx="0.575" dy="0.35" layer="1" />
+<smd name="P$10" x="1.1625" y="0.25" dx="0.575" dy="0.35" layer="1" />
+<smd name="P$11" x="1.1625" y="0.75" dx="0.575" dy="0.35" layer="1" />
+<smd name="P$12" x="0.5" y="0.9125" dx="0.35" dy="0.575" layer="1" />
+<smd name="P$13" x="0" y="0.9125" dx="0.35" dy="0.575" layer="1" />
+<smd name="P$14" x="-0.5" y="0.9125" dx="0.35" dy="0.575" layer="1" />
+<text x="1.8" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.8" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<circle x="-1.95" y="0.75" radius="0.254" width="0" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="1.65" y="1.4" />
+<vertex x="-1.65" y="1.4" />
+<vertex x="-1.65" y="-1.4" />
+<vertex x="1.65" y="-1.4" />
+</polygon>
+<wire x1="-1.5" y1="1.25" x2="-0.875" y2="1.25" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.25" x2="-1.5" y2="1.125" width="0.127" layer="21" />
+<wire x1="0.875" y1="1.25" x2="1.5" y2="1.25" width="0.127" layer="21" />
+<wire x1="1.5" y1="1.25" x2="1.5" y2="1.125" width="0.127" layer="21" />
+<wire x1="1.5" y1="-1.125" x2="1.5" y2="-1.25" width="0.127" layer="21" />
+<wire x1="1.5" y1="-1.25" x2="0.875" y2="-1.25" width="0.127" layer="21" />
+<wire x1="-0.875" y1="-1.25" x2="-1.5" y2="-1.25" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="-1.125" width="0.127" layer="21" />
+</package>
+<package name="16-LGA(3X3)">
+<smd name="P$1" x="0.75" y="1.275" dx="0.3" dy="0.45" layer="1" />
+<smd name="P$2" x="0.25" y="1.275" dx="0.3" dy="0.45" layer="1" />
+<smd name="P$3" x="-0.25" y="1.275" dx="0.3" dy="0.45" layer="1" />
+<smd name="P$4" x="-0.75" y="1.275" dx="0.3" dy="0.45" layer="1" />
+<smd name="P$5" x="-1.275" y="0.75" dx="0.45" dy="0.3" layer="1" />
+<smd name="P$6" x="-1.275" y="0.25" dx="0.45" dy="0.3" layer="1" />
+<smd name="P$7" x="-1.275" y="-0.25" dx="0.45" dy="0.3" layer="1" />
+<smd name="P$8" x="-1.275" y="-0.75" dx="0.45" dy="0.3" layer="1" />
+<smd name="P$9" x="-0.75" y="-1.275" dx="0.3" dy="0.45" layer="1" />
+<smd name="P$10" x="0.75" y="-1.275" dx="0.3" dy="0.45" layer="1" />
+<smd name="P$11" x="-0.25" y="-1.275" dx="0.3" dy="0.45" layer="1" />
+<smd name="P$12" x="0.25" y="-1.275" dx="0.3" dy="0.45" layer="1" />
+<smd name="P$16" x="1.275" y="0.75" dx="0.45" dy="0.3" layer="1" />
+<smd name="P$15" x="1.275" y="0.25" dx="0.45" dy="0.3" layer="1" />
+<smd name="P$14" x="1.275" y="-0.25" dx="0.45" dy="0.3" layer="1" />
+<smd name="P$13" x="1.275" y="-0.75" dx="0.45" dy="0.3" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-1.6" y="1.6" />
+<vertex x="1.6" y="1.6" />
+<vertex x="1.6" y="-1.6" />
+<vertex x="-1.6" y="-1.6" />
+</polygon>
+<wire x1="1.1" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.1" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.1" x2="-1.5" y2="1.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.5" x2="-1.1" y2="1.5" width="0.127" layer="21" />
+<wire x1="-1.1" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.1" width="0.127" layer="21" />
+<wire x1="1.5" y1="-1.1" x2="1.5" y2="-1.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="-1.5" x2="1.1" y2="-1.5" width="0.127" layer="21" />
+<text x="2.54" y="1.27" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<circle x="0.75" y="2" radius="0.254" width="0" layer="21" />
 </package>
 <package name="MPL115A2-I2C">
 <smd name="P$8" x="1.075" y="1.875" dx="1.05" dy="0.55" layer="1" />
@@ -1344,6 +1410,47 @@ aperture dim .3</text>
 <text x="-10.16" y="10.16" size="1.27" layer="96">&gt;Value</text>
 <pin name="GND11" x="12.7" y="-2.54" length="short" rot="R180" />
 </symbol>
+<symbol name="LSM6D-STMICROELECTRONICS">
+<pin name="CS" x="12.7" y="2.54" length="short" rot="R180" />
+<pin name="SCL" x="12.7" y="7.62" length="short" rot="R180" />
+<pin name="SDA" x="12.7" y="10.16" length="short" rot="R180" />
+<pin name="SDO/SA0" x="12.7" y="5.08" length="short" rot="R180" />
+<pin name="SDX" x="12.7" y="0" length="short" rot="R180" />
+<pin name="SCX" x="12.7" y="-2.54" length="short" rot="R180" />
+<pin name="INT1" x="-15.24" y="5.08" length="short" />
+<pin name="INT2" x="-15.24" y="2.54" length="short" />
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-10.16" width="0.1524" layer="94" />
+<wire x1="-12.7" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94" />
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="12.7" width="0.1524" layer="94" />
+<wire x1="10.16" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94" />
+<pin name="VDD" x="-15.24" y="10.16" length="short" />
+<pin name="VDDIO" x="-15.24" y="7.62" length="short" />
+<pin name="OCS_AUX" x="12.7" y="-5.08" length="short" rot="R180" />
+<pin name="SDO_AUX" x="12.7" y="-7.62" length="short" rot="R180" />
+<pin name="GND6" x="-15.24" y="0" length="short" />
+<text x="-12.7" y="15.24" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="12.7" size="1.778" layer="96">&gt;Value</text>
+<pin name="GND7" x="-15.24" y="-2.54" length="short" />
+<text x="-5.08" y="-12.7" size="1.778" layer="94">LSM6D*</text>
+</symbol>
+<symbol name="3-AXIS-MAGNETOMETER">
+<pin name="SCL" x="12.7" y="2.54" length="short" rot="R180" />
+<pin name="VDD" x="-12.7" y="2.54" length="short" />
+<pin name="NC" x="-12.7" y="-2.54" length="short" />
+<pin name="SPI_CS" x="12.7" y="-2.54" length="short" rot="R180" />
+<pin name="SPI_SDO" x="12.7" y="0" length="short" rot="R180" />
+<pin name="GND" x="-12.7" y="-5.08" length="short" />
+<pin name="CAP" x="-12.7" y="0" length="short" />
+<pin name="VDDIO" x="-12.7" y="5.08" length="short" />
+<pin name="INT" x="12.7" y="-5.08" length="short" rot="R180" />
+<pin name="SDA" x="12.7" y="5.08" length="short" rot="R180" />
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94" />
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94" />
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94" />
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94" />
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="7.62" size="1.778" layer="96">&gt;Value</text>
+</symbol>
 <symbol name="MPL115A2-12C">
 <pin name="VDD" x="-12.7" y="2.54" length="short" direction="pwr" />
 <pin name="CAP" x="-12.7" y="0" length="short" direction="pas" />
@@ -1719,7 +1826,7 @@ Ambient Light Sensor IC
 <gate name="G$1" symbol="BH1750FVI" x="0" y="0" />
 </gates>
 <devices>
-<device name="" package="6-WSOF-BH1750">
+<device name="BH1750FVI" package="6WSOF">
 <connects>
 <connect gate="G$1" pin="ADDR" pad="P$2" />
 <connect gate="G$1" pin="DVI" pad="P$5" />
@@ -1909,6 +2016,82 @@ Ambient Light Sensor IC
 <connect gate="G$1" pin="SDA" pad="P$8" />
 <connect gate="G$1" pin="VBUS" pad="P$12" />
 <connect gate="G$1" pin="VS" pad="P$10" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LSM6D-SENSOR" prefix="U" uservalue="yes">
+<description>&lt;b&gt;LSM6D* Sensors&lt;/b&gt; - 14 LGA
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Output Type: I²C, SPI Output&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -40°C ~ 85°C &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://www.st.com/content/ccc/resource/technical/document/datasheet/76/27/cf/88/c5/03/42/6b/DM00218116.pdf/files/DM00218116.pdf/jcr:content/translations/en.DM00218116.pdf"&gt;iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="LSM6D-STMICROELECTRONICS" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="14-LGA(2.5X3)">
+<connects>
+<connect gate="G$1" pin="CS" pad="P$12" />
+<connect gate="G$1" pin="GND6" pad="P$6" />
+<connect gate="G$1" pin="GND7" pad="P$7" />
+<connect gate="G$1" pin="INT1" pad="P$4" />
+<connect gate="G$1" pin="INT2" pad="P$9" />
+<connect gate="G$1" pin="OCS_AUX" pad="P$10" />
+<connect gate="G$1" pin="SCL" pad="P$13" />
+<connect gate="G$1" pin="SCX" pad="P$3" />
+<connect gate="G$1" pin="SDA" pad="P$14" />
+<connect gate="G$1" pin="SDO/SA0" pad="P$1" />
+<connect gate="G$1" pin="SDO_AUX" pad="P$11" />
+<connect gate="G$1" pin="SDX" pad="P$2" />
+<connect gate="G$1" pin="VDD" pad="P$8" />
+<connect gate="G$1" pin="VDDIO" pad="P$5" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMC5983MA" prefix="U" uservalue="yes">
+<description>&lt;b&gt;MMC5983MA&lt;/b&gt; - 3-Axis Magnetometer
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Voltage - Supply: 2.8V ~ 3.5V&lt;/li&gt;
+&lt;li&gt;Current - Supply (Max): 450µA&lt;/li&gt;
+&lt;li&gt;Current - Output (Max): -&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -40°C ~ 105°C&lt;/li&gt;
+&lt;li&gt;Max output data rate of 1000Hz&lt;/li&gt;
+&lt;li&gt;Low power consumption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;Microsoft Word - MMC5983MA Datasheet Rev A&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a herf="https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf"&gt;Microsoft Word - MMC5983MA Datasheet Rev A&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="3-AXIS-MAGNETOMETER" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="16-LGA(3X3)">
+<connects>
+<connect gate="G$1" pin="CAP" pad="P$10" />
+<connect gate="G$1" pin="GND" pad="P$9 P$11" />
+<connect gate="G$1" pin="INT" pad="P$15" />
+<connect gate="G$1" pin="NC" pad="P$3 P$6 P$7 P$8 P$12 P$14" route="any" />
+<connect gate="G$1" pin="SCL" pad="P$1" />
+<connect gate="G$1" pin="SDA" pad="P$16" />
+<connect gate="G$1" pin="SPI_CS" pad="P$4" />
+<connect gate="G$1" pin="SPI_SDO" pad="P$5" />
+<connect gate="G$1" pin="VDD" pad="P$2" />
+<connect gate="G$1" pin="VDDIO" pad="P$13" />
 </connects>
 <technologies>
 <technology name="" />
