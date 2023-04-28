@@ -340,7 +340,7 @@
 <vertex x="-1.77" y="-2.65" />
 </polygon>
 </package>
-<package name="6WSOF">
+<package name="6-WSOF-BH1750">
 <smd name="P$5" x="1.375" y="0" dx="0.55" dy="0.25" layer="1" />
 <smd name="P$6" x="1.375" y="0.5" dx="0.55" dy="0.25" layer="1" />
 <smd name="P$4" x="1.375" y="-0.5" dx="0.55" dy="0.25" layer="1" />
@@ -758,6 +758,8 @@ dim = 1mm</text>
 <smd name="P$9" x="0" y="0" dx="0.85" dy="0.85" layer="1" />
 <polygon width="0" layer="1">
 <vertex x="-1.475" y="1.175" />
+<vertex x="-1.475" y="0.625" />
+<vertex x="-0.625" y="0.625" />
 <vertex x="-0.625" y="1.175" />
 <vertex x="-0.625" y="1.475" />
 <vertex x="-1.175" y="1.475" />
@@ -849,7 +851,8 @@ dim = 1mm</text>
 <vertex x="-3.5" y="2.9" />
 <vertex x="-3.25" y="2.65" />
 <vertex x="-3.25" y="2.1" />
-<vertex x="-3.5" y="2.1" />
+<vertex x="-4.75" y="2.1" />
+<vertex x="-4.75" y="2.9" />
 </polygon>
 <polygon width="0" layer="29">
 <vertex x="-4.8" y="3" />
@@ -1826,7 +1829,7 @@ Ambient Light Sensor IC
 <gate name="G$1" symbol="BH1750FVI" x="0" y="0" />
 </gates>
 <devices>
-<device name="BH1750FVI" package="6WSOF">
+<device name="BH1750FVI" package="6-WSOF-BH1750">
 <connects>
 <connect gate="G$1" pin="ADDR" pad="P$2" />
 <connect gate="G$1" pin="DVI" pad="P$5" />
