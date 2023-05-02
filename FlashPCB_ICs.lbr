@@ -5038,7 +5038,7 @@ AVRÃ‚Â® enhanced RISC architecture
 <gate name="G$1" symbol="ESP32-PICO-MINI-02" x="0" y="0" />
 </gates>
 <devices>
-<device name="" package="ESP32-PICO-MINI-02">
+<device name="02" package="ESP32-PICO-MINI-02">
 <connects>
 <connect gate="G$1" pin="3V3" pad="P$3" />
 <connect gate="G$1" pin="EN" pad="P$8" />
@@ -5098,7 +5098,7 @@ AVRÃ‚Â® enhanced RISC architecture
 <technology name="" />
 </technologies>
 </device>
-<device name="U" package="ESP32-PICO-MINI-02U">
+<device name="02U" package="ESP32-PICO-MINI-02U">
 <connects>
 <connect gate="G$1" pin="3V3" pad="P$3" />
 <connect gate="G$1" pin="EN" pad="P$8" />
@@ -5158,7 +5158,7 @@ AVRÃ‚Â® enhanced RISC architecture
 <technology name="" />
 </technologies>
 </device>
-<device name="" package="ESP32-PICO-MINI-02-THERMALS">
+<device name="02-THERMALS" package="ESP32-PICO-MINI-02-THERMALS">
 <connects>
 <connect gate="G$1" pin="3V3" pad="P$3" />
 <connect gate="G$1" pin="EN" pad="P$8" />
@@ -5218,7 +5218,7 @@ AVRÃ‚Â® enhanced RISC architecture
 <technology name="" />
 </technologies>
 </device>
-<device name="U" package="ESP32-PICO-MINI-02U-THERMALS">
+<device name="02U-THERMALS" package="ESP32-PICO-MINI-02U-THERMALS">
 <connects>
 <connect gate="G$1" pin="3V3" pad="P$3" />
 <connect gate="G$1" pin="EN" pad="P$8" />
