@@ -736,7 +736,7 @@
 <vertex x="-2.33" y="-3.425" />
 <vertex x="-2.925" y="-3.425" />
 </polygon>
-<circle x="-1.905" y="-4" radius="0" width="0.5" layer="21" />
+<circle x="-1.905" y="-4" radius="0.25" width="0" layer="21" />
 <smd name="TAB" x="0" y="0.7125" dx="4.7" dy="4.575" layer="1" cream="no" />
 </package>
 <package name="8-POWER-TDFN-NOSILK">
@@ -833,7 +833,7 @@
 <vertex x="2.925" y="-3.425" />
 <vertex x="-2.925" y="-3.425" />
 </polygon>
-<circle x="-1.905" y="-3.8" radius="0" width="0.5" layer="21" />
+<circle x="-1.905" y="-3.8" radius="0.25" width="0" layer="21" />
 <smd name="TAB" x="0" y="0.6975" dx="4.56" dy="4.055" layer="1" cream="no" />
 <smd name="TAB$1" x="2.5275" y="-0.4525" dx="0.495" dy="0.905" layer="1" />
 <smd name="TAB$2" x="-2.5275" y="-0.4525" dx="0.495" dy="0.905" layer="1" />
@@ -892,7 +892,7 @@
 <vertex x="1.95" y="-1.95" />
 <vertex x="-1.95" y="-1.95" />
 </polygon>
-<circle x="-0.975" y="-2.15" radius="0" width="0.5" layer="21" />
+<circle x="-0.975" y="-2.15" radius="0.25" width="0" layer="21" />
 <smd name="TAB" x="0" y="0.385" dx="2.45" dy="1.93" layer="1" cream="no" />
 <rectangle x1="-0.75" y1="-0.25" x2="0.75" y2="0.75" layer="31" />
 </package>

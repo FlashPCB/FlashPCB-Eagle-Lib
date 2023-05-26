@@ -83,7 +83,7 @@
 <wire x1="2.54" y1="2" x2="2.54" y2="-2" width="0.127" layer="21" />
 <text x="-2.54" y="5.08" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="-2.54" y="3.81" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<circle x="-1.905" y="-3.96" radius="0" width="0.508" layer="21" />
+<circle x="-1.905" y="-3.96" radius="0.254" width="0" layer="21" />
 <wire x1="-2.54" y1="0.5" x2="-2.54" y2="-0.5" width="0.127" layer="21" curve="-180" />
 <smd name="P$2" x="-0.635" y="-2.7" dx="0.6" dy="1.55" layer="1" />
 <smd name="P$3" x="0.635" y="-2.7" dx="0.6" dy="1.55" layer="1" />
@@ -120,148 +120,36 @@
 <package name="16-LQFN-EXPOSED-PAD">
 <smd name="P$1" x="-1.8375" y="0.975" dx="0.325" dy="0.35" layer="1" stop="no" />
 <circle x="-1.6625" y="0.975" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="-2.1" y="1.25" />
-<vertex x="-1.6875" y="1.25" curve="-90" />
-<vertex x="-1.3875" y="0.975" curve="-90" />
-<vertex x="-1.6875" y="0.7" />
-<vertex x="-2.1" y="0.7" />
-</polygon>
 <smd name="P$2" x="-1.8375" y="0.325" dx="0.325" dy="0.35" layer="1" stop="no" />
 <circle x="-1.6625" y="0.325" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="-2.1" y="0.6" />
-<vertex x="-1.6875" y="0.6" curve="-90" />
-<vertex x="-1.3875" y="0.325" curve="-90" />
-<vertex x="-1.6875" y="0.05" />
-<vertex x="-2.1" y="0.05" />
-</polygon>
 <smd name="P$3" x="-1.8375" y="-0.325" dx="0.325" dy="0.35" layer="1" stop="no" />
 <circle x="-1.6625" y="-0.325" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="-2.1" y="-0.05" />
-<vertex x="-1.6875" y="-0.05" curve="-90" />
-<vertex x="-1.3875" y="-0.325" curve="-90" />
-<vertex x="-1.6875" y="-0.6" />
-<vertex x="-2.1" y="-0.6" />
-</polygon>
 <smd name="P$4" x="-1.8375" y="-0.975" dx="0.325" dy="0.35" layer="1" stop="no" />
 <circle x="-1.6625" y="-0.975" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="-2.1" y="-0.7" />
-<vertex x="-1.6875" y="-0.7" curve="-90" />
-<vertex x="-1.3875" y="-0.975" curve="-90" />
-<vertex x="-1.6875" y="-1.25" />
-<vertex x="-2.1" y="-1.25" />
-</polygon>
 <smd name="P$5" x="-0.975" y="-1.8375" dx="0.325" dy="0.35" layer="1" rot="R90" stop="no" />
 <circle x="-0.975" y="-1.6625" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="-1.25" y="-2.1" />
-<vertex x="-1.25" y="-1.6875" curve="-90" />
-<vertex x="-0.975" y="-1.3875" curve="-90" />
-<vertex x="-0.7" y="-1.6875" />
-<vertex x="-0.7" y="-2.1" />
-</polygon>
 <smd name="P$6" x="-0.325" y="-1.8375" dx="0.325" dy="0.35" layer="1" rot="R90" stop="no" />
 <circle x="-0.325" y="-1.6625" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="-0.6" y="-2.1" />
-<vertex x="-0.6" y="-1.6875" curve="-90" />
-<vertex x="-0.325" y="-1.3875" curve="-90" />
-<vertex x="-0.05" y="-1.6875" />
-<vertex x="-0.05" y="-2.1" />
-</polygon>
 <smd name="P$7" x="0.325" y="-1.8375" dx="0.325" dy="0.35" layer="1" rot="R90" stop="no" />
 <circle x="0.325" y="-1.6625" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="0.05" y="-2.1" />
-<vertex x="0.05" y="-1.6875" curve="-90" />
-<vertex x="0.325" y="-1.3875" curve="-90" />
-<vertex x="0.6" y="-1.6875" />
-<vertex x="0.6" y="-2.1" />
-</polygon>
 <smd name="P$8" x="0.975" y="-1.8375" dx="0.325" dy="0.35" layer="1" rot="R90" stop="no" />
 <circle x="0.975" y="-1.6625" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="0.7" y="-2.1" />
-<vertex x="0.7" y="-1.6875" curve="-90" />
-<vertex x="0.975" y="-1.3875" curve="-90" />
-<vertex x="1.25" y="-1.6875" />
-<vertex x="1.25" y="-2.1" />
-</polygon>
 <smd name="P$9" x="1.8375" y="-0.975" dx="0.325" dy="0.35" layer="1" rot="R180" stop="no" />
 <circle x="1.6625" y="-0.975" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="2.1" y="-1.25" />
-<vertex x="1.6875" y="-1.25" curve="-90" />
-<vertex x="1.3875" y="-0.975" curve="-90" />
-<vertex x="1.6875" y="-0.7" />
-<vertex x="2.1" y="-0.7" />
-</polygon>
 <smd name="P$10" x="1.8375" y="-0.325" dx="0.325" dy="0.35" layer="1" rot="R180" stop="no" />
 <circle x="1.6625" y="-0.325" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="2.1" y="-0.6" />
-<vertex x="1.6875" y="-0.6" curve="-90" />
-<vertex x="1.3875" y="-0.325" curve="-90" />
-<vertex x="1.6875" y="-0.05" />
-<vertex x="2.1" y="-0.05" />
-</polygon>
 <smd name="P$11" x="1.8375" y="0.325" dx="0.325" dy="0.35" layer="1" rot="R180" stop="no" />
 <circle x="1.6625" y="0.325" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="2.1" y="0.05" />
-<vertex x="1.6875" y="0.05" curve="-90" />
-<vertex x="1.3875" y="0.325" curve="-90" />
-<vertex x="1.6875" y="0.6" />
-<vertex x="2.1" y="0.6" />
-</polygon>
 <smd name="P$12" x="1.8375" y="0.975" dx="0.325" dy="0.35" layer="1" rot="R180" stop="no" />
 <circle x="1.6625" y="0.975" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="2.1" y="0.7" />
-<vertex x="1.6875" y="0.7" curve="-90" />
-<vertex x="1.3875" y="0.975" curve="-90" />
-<vertex x="1.6875" y="1.25" />
-<vertex x="2.1" y="1.25" />
-</polygon>
 <smd name="P$13" x="0.975" y="1.8375" dx="0.325" dy="0.35" layer="1" rot="R270" stop="no" />
 <circle x="0.975" y="1.6625" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="1.25" y="2.1" />
-<vertex x="1.25" y="1.6875" curve="-90" />
-<vertex x="0.975" y="1.3875" curve="-90" />
-<vertex x="0.7" y="1.6875" />
-<vertex x="0.7" y="2.1" />
-</polygon>
 <smd name="P$14" x="0.325" y="1.8375" dx="0.325" dy="0.35" layer="1" rot="R270" stop="no" />
 <circle x="0.325" y="1.6625" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="0.6" y="2.1" />
-<vertex x="0.6" y="1.6875" curve="-90" />
-<vertex x="0.325" y="1.3875" curve="-90" />
-<vertex x="0.05" y="1.6875" />
-<vertex x="0.05" y="2.1" />
-</polygon>
 <smd name="P$15" x="-0.325" y="1.8375" dx="0.325" dy="0.35" layer="1" rot="R270" stop="no" />
 <circle x="-0.325" y="1.6625" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="-0.05" y="2.1" />
-<vertex x="-0.05" y="1.6875" curve="-90" />
-<vertex x="-0.325" y="1.3875" curve="-90" />
-<vertex x="-0.6" y="1.6875" />
-<vertex x="-0.6" y="2.1" />
-</polygon>
 <smd name="P$16" x="-0.975" y="1.8375" dx="0.325" dy="0.35" layer="1" rot="R270" stop="no" />
 <circle x="-0.975" y="1.6625" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="-0.7" y="2.1" />
-<vertex x="-0.7" y="1.6875" curve="-90" />
-<vertex x="-0.975" y="1.3875" curve="-90" />
-<vertex x="-1.25" y="1.6875" />
-<vertex x="-1.25" y="2.1" />
-</polygon>
 <circle x="-1.6625" y="0.975" radius="0.175" width="0" layer="31" />
 <circle x="-1.6625" y="0.325" radius="0.175" width="0" layer="31" />
 <circle x="-1.6625" y="-0.325" radius="0.175" width="0" layer="31" />
@@ -286,7 +174,7 @@
 <wire x1="-1.3365" y1="-2" x2="-2" y2="-2" width="0.127" layer="21" />
 <wire x1="-2" y1="-2" x2="-2" y2="-1.3365" width="0.127" layer="21" />
 <wire x1="-2" y1="1.3365" x2="-2" y2="2" width="0.127" layer="21" />
-<circle x="-2.5" y="0.975" radius="0" width="0.508" layer="21" />
+<circle x="-2.5" y="0.975" radius="0.254" width="0" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-2.175" y="2.175" />
 <vertex x="2.175" y="2.175" />
@@ -297,6 +185,406 @@
 <text x="2.8" y="-0.3" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <rectangle x1="-1.8" y1="1.6" x2="-1.6" y2="1.8" layer="51" />
 <smd name="P$17" x="0" y="0" dx="1.95" dy="1.95" layer="1" />
+<polygon width="0" layer="29">
+<vertex x="-2.1" y="1.25" />
+<vertex x="-1.6875" y="1.25" />
+<vertex x="-1.642371875" y="1.248415625" />
+<vertex x="-1.598046875" y="1.239790625" />
+<vertex x="-1.555615625" y="1.2243375" />
+<vertex x="-1.516125" y="1.202440625" />
+<vertex x="-1.480546875" y="1.17463125" />
+<vertex x="-1.44975625" y="1.1416" />
+<vertex x="-1.4245125" y="1.104159375" />
+<vertex x="-1.405434375" y="1.06323125" />
+<vertex x="-1.39299375" y="1.019821875" />
+<vertex x="-1.3875" y="0.975" />
+<vertex x="-1.39299375" y="0.930178125" />
+<vertex x="-1.405434375" y="0.88676875" />
+<vertex x="-1.4245125" y="0.845840625" />
+<vertex x="-1.44975625" y="0.8084" />
+<vertex x="-1.480546875" y="0.77536875" />
+<vertex x="-1.516125" y="0.747559375" />
+<vertex x="-1.555615625" y="0.7256625" />
+<vertex x="-1.598046875" y="0.710209375" />
+<vertex x="-1.642371875" y="0.701584375" />
+<vertex x="-1.6875" y="0.7" />
+<vertex x="-2.1" y="0.7" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.1" y="0.6" />
+<vertex x="-1.6875" y="0.6" />
+<vertex x="-1.642371875" y="0.598415625" />
+<vertex x="-1.598046875" y="0.589790625" />
+<vertex x="-1.555615625" y="0.5743375" />
+<vertex x="-1.516125" y="0.552440625" />
+<vertex x="-1.480546875" y="0.52463125" />
+<vertex x="-1.44975625" y="0.4916" />
+<vertex x="-1.4245125" y="0.454159375" />
+<vertex x="-1.405434375" y="0.41323125" />
+<vertex x="-1.39299375" y="0.369821875" />
+<vertex x="-1.3875" y="0.325" />
+<vertex x="-1.39299375" y="0.280178125" />
+<vertex x="-1.405434375" y="0.23676875" />
+<vertex x="-1.4245125" y="0.195840625" />
+<vertex x="-1.44975625" y="0.1584" />
+<vertex x="-1.480546875" y="0.12536875" />
+<vertex x="-1.516125" y="0.097559375" />
+<vertex x="-1.555615625" y="0.0756625" />
+<vertex x="-1.598046875" y="0.060209375" />
+<vertex x="-1.642371875" y="0.051584375" />
+<vertex x="-1.6875" y="0.05" />
+<vertex x="-2.1" y="0.05" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.1" y="-0.05" />
+<vertex x="-1.6875" y="-0.05" />
+<vertex x="-1.642371875" y="-0.051584375" />
+<vertex x="-1.598046875" y="-0.060209375" />
+<vertex x="-1.555615625" y="-0.0756625" />
+<vertex x="-1.516125" y="-0.097559375" />
+<vertex x="-1.480546875" y="-0.12536875" />
+<vertex x="-1.44975625" y="-0.1584" />
+<vertex x="-1.4245125" y="-0.195840625" />
+<vertex x="-1.405434375" y="-0.23676875" />
+<vertex x="-1.39299375" y="-0.280178125" />
+<vertex x="-1.3875" y="-0.325" />
+<vertex x="-1.39299375" y="-0.369821875" />
+<vertex x="-1.405434375" y="-0.41323125" />
+<vertex x="-1.4245125" y="-0.454159375" />
+<vertex x="-1.44975625" y="-0.4916" />
+<vertex x="-1.480546875" y="-0.52463125" />
+<vertex x="-1.516125" y="-0.552440625" />
+<vertex x="-1.555615625" y="-0.5743375" />
+<vertex x="-1.598046875" y="-0.589790625" />
+<vertex x="-1.642371875" y="-0.598415625" />
+<vertex x="-1.6875" y="-0.6" />
+<vertex x="-2.1" y="-0.6" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.1" y="-0.7" />
+<vertex x="-1.6875" y="-0.7" />
+<vertex x="-1.642371875" y="-0.701584375" />
+<vertex x="-1.598046875" y="-0.710209375" />
+<vertex x="-1.555615625" y="-0.7256625" />
+<vertex x="-1.516125" y="-0.747559375" />
+<vertex x="-1.480546875" y="-0.77536875" />
+<vertex x="-1.44975625" y="-0.8084" />
+<vertex x="-1.4245125" y="-0.845840625" />
+<vertex x="-1.405434375" y="-0.88676875" />
+<vertex x="-1.39299375" y="-0.930178125" />
+<vertex x="-1.3875" y="-0.975" />
+<vertex x="-1.39299375" y="-1.019821875" />
+<vertex x="-1.405434375" y="-1.06323125" />
+<vertex x="-1.4245125" y="-1.104159375" />
+<vertex x="-1.44975625" y="-1.1416" />
+<vertex x="-1.480546875" y="-1.17463125" />
+<vertex x="-1.516125" y="-1.202440625" />
+<vertex x="-1.555615625" y="-1.2243375" />
+<vertex x="-1.598046875" y="-1.239790625" />
+<vertex x="-1.642371875" y="-1.248415625" />
+<vertex x="-1.6875" y="-1.25" />
+<vertex x="-2.1" y="-1.25" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1.25" y="-2.1" />
+<vertex x="-1.25" y="-1.6875" />
+<vertex x="-1.248415625" y="-1.642371875" />
+<vertex x="-1.239790625" y="-1.598046875" />
+<vertex x="-1.2243375" y="-1.555615625" />
+<vertex x="-1.202440625" y="-1.516125" />
+<vertex x="-1.17463125" y="-1.480546875" />
+<vertex x="-1.1416" y="-1.44975625" />
+<vertex x="-1.104159375" y="-1.4245125" />
+<vertex x="-1.06323125" y="-1.405434375" />
+<vertex x="-1.019821875" y="-1.39299375" />
+<vertex x="-0.975" y="-1.3875" />
+<vertex x="-0.930178125" y="-1.39299375" />
+<vertex x="-0.88676875" y="-1.405434375" />
+<vertex x="-0.845840625" y="-1.4245125" />
+<vertex x="-0.8084" y="-1.44975625" />
+<vertex x="-0.77536875" y="-1.480546875" />
+<vertex x="-0.747559375" y="-1.516125" />
+<vertex x="-0.7256625" y="-1.555615625" />
+<vertex x="-0.710209375" y="-1.598046875" />
+<vertex x="-0.701584375" y="-1.642371875" />
+<vertex x="-0.7" y="-1.6875" />
+<vertex x="-0.7" y="-2.1" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.6" y="-2.1" />
+<vertex x="-0.6" y="-1.6875" />
+<vertex x="-0.598415625" y="-1.642371875" />
+<vertex x="-0.589790625" y="-1.598046875" />
+<vertex x="-0.5743375" y="-1.555615625" />
+<vertex x="-0.552440625" y="-1.516125" />
+<vertex x="-0.52463125" y="-1.480546875" />
+<vertex x="-0.4916" y="-1.44975625" />
+<vertex x="-0.454159375" y="-1.4245125" />
+<vertex x="-0.41323125" y="-1.405434375" />
+<vertex x="-0.369821875" y="-1.39299375" />
+<vertex x="-0.325" y="-1.3875" />
+<vertex x="-0.280178125" y="-1.39299375" />
+<vertex x="-0.23676875" y="-1.405434375" />
+<vertex x="-0.195840625" y="-1.4245125" />
+<vertex x="-0.1584" y="-1.44975625" />
+<vertex x="-0.12536875" y="-1.480546875" />
+<vertex x="-0.097559375" y="-1.516125" />
+<vertex x="-0.0756625" y="-1.555615625" />
+<vertex x="-0.060209375" y="-1.598046875" />
+<vertex x="-0.051584375" y="-1.642371875" />
+<vertex x="-0.05" y="-1.6875" />
+<vertex x="-0.05" y="-2.1" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.05" y="-2.1" />
+<vertex x="0.05" y="-1.6875" />
+<vertex x="0.051584375" y="-1.642371875" />
+<vertex x="0.060209375" y="-1.598046875" />
+<vertex x="0.0756625" y="-1.555615625" />
+<vertex x="0.097559375" y="-1.516125" />
+<vertex x="0.12536875" y="-1.480546875" />
+<vertex x="0.1584" y="-1.44975625" />
+<vertex x="0.195840625" y="-1.4245125" />
+<vertex x="0.23676875" y="-1.405434375" />
+<vertex x="0.280178125" y="-1.39299375" />
+<vertex x="0.325" y="-1.3875" />
+<vertex x="0.369821875" y="-1.39299375" />
+<vertex x="0.41323125" y="-1.405434375" />
+<vertex x="0.454159375" y="-1.4245125" />
+<vertex x="0.4916" y="-1.44975625" />
+<vertex x="0.52463125" y="-1.480546875" />
+<vertex x="0.552440625" y="-1.516125" />
+<vertex x="0.5743375" y="-1.555615625" />
+<vertex x="0.589790625" y="-1.598046875" />
+<vertex x="0.598415625" y="-1.642371875" />
+<vertex x="0.6" y="-1.6875" />
+<vertex x="0.6" y="-2.1" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.7" y="-2.1" />
+<vertex x="0.7" y="-1.6875" />
+<vertex x="0.701584375" y="-1.642371875" />
+<vertex x="0.710209375" y="-1.598046875" />
+<vertex x="0.7256625" y="-1.555615625" />
+<vertex x="0.747559375" y="-1.516125" />
+<vertex x="0.77536875" y="-1.480546875" />
+<vertex x="0.8084" y="-1.44975625" />
+<vertex x="0.845840625" y="-1.4245125" />
+<vertex x="0.88676875" y="-1.405434375" />
+<vertex x="0.930178125" y="-1.39299375" />
+<vertex x="0.975" y="-1.3875" />
+<vertex x="1.019821875" y="-1.39299375" />
+<vertex x="1.06323125" y="-1.405434375" />
+<vertex x="1.104159375" y="-1.4245125" />
+<vertex x="1.1416" y="-1.44975625" />
+<vertex x="1.17463125" y="-1.480546875" />
+<vertex x="1.202440625" y="-1.516125" />
+<vertex x="1.2243375" y="-1.555615625" />
+<vertex x="1.239790625" y="-1.598046875" />
+<vertex x="1.248415625" y="-1.642371875" />
+<vertex x="1.25" y="-1.6875" />
+<vertex x="1.25" y="-2.1" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="2.1" y="-1.25" />
+<vertex x="1.6875" y="-1.25" />
+<vertex x="1.642371875" y="-1.248415625" />
+<vertex x="1.598046875" y="-1.239790625" />
+<vertex x="1.555615625" y="-1.2243375" />
+<vertex x="1.516125" y="-1.202440625" />
+<vertex x="1.480546875" y="-1.17463125" />
+<vertex x="1.44975625" y="-1.1416" />
+<vertex x="1.4245125" y="-1.104159375" />
+<vertex x="1.405434375" y="-1.06323125" />
+<vertex x="1.39299375" y="-1.019821875" />
+<vertex x="1.3875" y="-0.975" />
+<vertex x="1.39299375" y="-0.930178125" />
+<vertex x="1.405434375" y="-0.88676875" />
+<vertex x="1.4245125" y="-0.845840625" />
+<vertex x="1.44975625" y="-0.8084" />
+<vertex x="1.480546875" y="-0.77536875" />
+<vertex x="1.516125" y="-0.747559375" />
+<vertex x="1.555615625" y="-0.7256625" />
+<vertex x="1.598046875" y="-0.710209375" />
+<vertex x="1.642371875" y="-0.701584375" />
+<vertex x="1.6875" y="-0.7" />
+<vertex x="2.1" y="-0.7" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="2.1" y="-0.6" />
+<vertex x="1.6875" y="-0.6" />
+<vertex x="1.642371875" y="-0.598415625" />
+<vertex x="1.598046875" y="-0.589790625" />
+<vertex x="1.555615625" y="-0.5743375" />
+<vertex x="1.516125" y="-0.552440625" />
+<vertex x="1.480546875" y="-0.52463125" />
+<vertex x="1.44975625" y="-0.4916" />
+<vertex x="1.4245125" y="-0.454159375" />
+<vertex x="1.405434375" y="-0.41323125" />
+<vertex x="1.39299375" y="-0.369821875" />
+<vertex x="1.3875" y="-0.325" />
+<vertex x="1.39299375" y="-0.280178125" />
+<vertex x="1.405434375" y="-0.23676875" />
+<vertex x="1.4245125" y="-0.195840625" />
+<vertex x="1.44975625" y="-0.1584" />
+<vertex x="1.480546875" y="-0.12536875" />
+<vertex x="1.516125" y="-0.097559375" />
+<vertex x="1.555615625" y="-0.0756625" />
+<vertex x="1.598046875" y="-0.060209375" />
+<vertex x="1.642371875" y="-0.051584375" />
+<vertex x="1.6875" y="-0.05" />
+<vertex x="2.1" y="-0.05" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="2.1" y="0.05" />
+<vertex x="1.6875" y="0.05" />
+<vertex x="1.642371875" y="0.051584375" />
+<vertex x="1.598046875" y="0.060209375" />
+<vertex x="1.555615625" y="0.0756625" />
+<vertex x="1.516125" y="0.097559375" />
+<vertex x="1.480546875" y="0.12536875" />
+<vertex x="1.44975625" y="0.1584" />
+<vertex x="1.4245125" y="0.195840625" />
+<vertex x="1.405434375" y="0.23676875" />
+<vertex x="1.39299375" y="0.280178125" />
+<vertex x="1.3875" y="0.325" />
+<vertex x="1.39299375" y="0.369821875" />
+<vertex x="1.405434375" y="0.41323125" />
+<vertex x="1.4245125" y="0.454159375" />
+<vertex x="1.44975625" y="0.4916" />
+<vertex x="1.480546875" y="0.52463125" />
+<vertex x="1.516125" y="0.552440625" />
+<vertex x="1.555615625" y="0.5743375" />
+<vertex x="1.598046875" y="0.589790625" />
+<vertex x="1.642371875" y="0.598415625" />
+<vertex x="1.6875" y="0.6" />
+<vertex x="2.1" y="0.6" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="2.1" y="0.7" />
+<vertex x="1.6875" y="0.7" />
+<vertex x="1.642371875" y="0.701584375" />
+<vertex x="1.598046875" y="0.710209375" />
+<vertex x="1.555615625" y="0.7256625" />
+<vertex x="1.516125" y="0.747559375" />
+<vertex x="1.480546875" y="0.77536875" />
+<vertex x="1.44975625" y="0.8084" />
+<vertex x="1.4245125" y="0.845840625" />
+<vertex x="1.405434375" y="0.88676875" />
+<vertex x="1.39299375" y="0.930178125" />
+<vertex x="1.3875" y="0.975" />
+<vertex x="1.39299375" y="1.019821875" />
+<vertex x="1.405434375" y="1.06323125" />
+<vertex x="1.4245125" y="1.104159375" />
+<vertex x="1.44975625" y="1.1416" />
+<vertex x="1.480546875" y="1.17463125" />
+<vertex x="1.516125" y="1.202440625" />
+<vertex x="1.555615625" y="1.2243375" />
+<vertex x="1.598046875" y="1.239790625" />
+<vertex x="1.642371875" y="1.248415625" />
+<vertex x="1.6875" y="1.25" />
+<vertex x="2.1" y="1.25" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.25" y="2.1" />
+<vertex x="1.25" y="1.6875" />
+<vertex x="1.248415625" y="1.642371875" />
+<vertex x="1.239790625" y="1.598046875" />
+<vertex x="1.2243375" y="1.555615625" />
+<vertex x="1.202440625" y="1.516125" />
+<vertex x="1.17463125" y="1.480546875" />
+<vertex x="1.1416" y="1.44975625" />
+<vertex x="1.104159375" y="1.4245125" />
+<vertex x="1.06323125" y="1.405434375" />
+<vertex x="1.019821875" y="1.39299375" />
+<vertex x="0.975" y="1.3875" />
+<vertex x="0.930178125" y="1.39299375" />
+<vertex x="0.88676875" y="1.405434375" />
+<vertex x="0.845840625" y="1.4245125" />
+<vertex x="0.8084" y="1.44975625" />
+<vertex x="0.77536875" y="1.480546875" />
+<vertex x="0.747559375" y="1.516125" />
+<vertex x="0.7256625" y="1.555615625" />
+<vertex x="0.710209375" y="1.598046875" />
+<vertex x="0.701584375" y="1.642371875" />
+<vertex x="0.7" y="1.6875" />
+<vertex x="0.7" y="2.1" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.6" y="2.1" />
+<vertex x="0.6" y="1.6875" />
+<vertex x="0.598415625" y="1.642371875" />
+<vertex x="0.589790625" y="1.598046875" />
+<vertex x="0.5743375" y="1.555615625" />
+<vertex x="0.552440625" y="1.516125" />
+<vertex x="0.52463125" y="1.480546875" />
+<vertex x="0.4916" y="1.44975625" />
+<vertex x="0.454159375" y="1.4245125" />
+<vertex x="0.41323125" y="1.405434375" />
+<vertex x="0.369821875" y="1.39299375" />
+<vertex x="0.325" y="1.3875" />
+<vertex x="0.280178125" y="1.39299375" />
+<vertex x="0.23676875" y="1.405434375" />
+<vertex x="0.195840625" y="1.4245125" />
+<vertex x="0.1584" y="1.44975625" />
+<vertex x="0.12536875" y="1.480546875" />
+<vertex x="0.097559375" y="1.516125" />
+<vertex x="0.0756625" y="1.555615625" />
+<vertex x="0.060209375" y="1.598046875" />
+<vertex x="0.051584375" y="1.642371875" />
+<vertex x="0.05" y="1.6875" />
+<vertex x="0.05" y="2.1" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.05" y="2.1" />
+<vertex x="-0.05" y="1.6875" />
+<vertex x="-0.051584375" y="1.642371875" />
+<vertex x="-0.060209375" y="1.598046875" />
+<vertex x="-0.0756625" y="1.555615625" />
+<vertex x="-0.097559375" y="1.516125" />
+<vertex x="-0.12536875" y="1.480546875" />
+<vertex x="-0.1584" y="1.44975625" />
+<vertex x="-0.195840625" y="1.4245125" />
+<vertex x="-0.23676875" y="1.405434375" />
+<vertex x="-0.280178125" y="1.39299375" />
+<vertex x="-0.325" y="1.3875" />
+<vertex x="-0.369821875" y="1.39299375" />
+<vertex x="-0.41323125" y="1.405434375" />
+<vertex x="-0.454159375" y="1.4245125" />
+<vertex x="-0.4916" y="1.44975625" />
+<vertex x="-0.52463125" y="1.480546875" />
+<vertex x="-0.552440625" y="1.516125" />
+<vertex x="-0.5743375" y="1.555615625" />
+<vertex x="-0.589790625" y="1.598046875" />
+<vertex x="-0.598415625" y="1.642371875" />
+<vertex x="-0.6" y="1.6875" />
+<vertex x="-0.6" y="2.1" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.7" y="2.1" />
+<vertex x="-0.7" y="1.6875" />
+<vertex x="-0.701584375" y="1.642371875" />
+<vertex x="-0.710209375" y="1.598046875" />
+<vertex x="-0.7256625" y="1.555615625" />
+<vertex x="-0.747559375" y="1.516125" />
+<vertex x="-0.77536875" y="1.480546875" />
+<vertex x="-0.8084" y="1.44975625" />
+<vertex x="-0.845840625" y="1.4245125" />
+<vertex x="-0.88676875" y="1.405434375" />
+<vertex x="-0.930178125" y="1.39299375" />
+<vertex x="-0.975" y="1.3875" />
+<vertex x="-1.019821875" y="1.39299375" />
+<vertex x="-1.06323125" y="1.405434375" />
+<vertex x="-1.104159375" y="1.4245125" />
+<vertex x="-1.1416" y="1.44975625" />
+<vertex x="-1.17463125" y="1.480546875" />
+<vertex x="-1.202440625" y="1.516125" />
+<vertex x="-1.2243375" y="1.555615625" />
+<vertex x="-1.239790625" y="1.598046875" />
+<vertex x="-1.248415625" y="1.642371875" />
+<vertex x="-1.25" y="1.6875" />
+<vertex x="-1.25" y="2.1" />
+</polygon>
 </package>
 <package name="14-LGA(3X5)">
 <smd name="P$14" x="0" y="2.0975" dx="0.55" dy="1.145" layer="1" />
@@ -324,7 +612,7 @@
 <rectangle x1="-1.4" y1="1.7" x2="-0.6" y2="2.4" layer="51" />
 <text x="2.3" y="1.1" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="2.3" y="-0.1" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<circle x="-2.17" y="2" radius="0" width="0.508" layer="21" />
+<circle x="-2.17" y="2" radius="0.254" width="0" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-1.77" y="2.65" />
 <vertex x="-0.375" y="2.65" />
@@ -373,7 +661,7 @@
 Area</text>
 <text x="-1.5" y="2.65" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="-1.5" y="1.55" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<circle x="-2.15" y="0.5" radius="0" width="0.508" layer="21" />
+<circle x="-2.15" y="0.5" radius="0.254" width="0" layer="21" />
 </package>
 <package name="BME68X">
 <smd name="P$1" x="1.2" y="1.2" dx="0.4" dy="0.4" layer="1" />
@@ -388,7 +676,7 @@ Area</text>
 <wire x1="1.565" y1="1.565" x2="1.565" y2="-1.565" width="0.127" layer="21" />
 <wire x1="1.565" y1="-1.565" x2="-1.565" y2="-1.565" width="0.127" layer="21" />
 <wire x1="-1.565" y1="-1.565" x2="-1.565" y2="1.565" width="0.127" layer="21" />
-<circle x="1.9" y="1.2" radius="0" width="0.508" layer="21" />
+<circle x="1.9" y="1.2" radius="0.254" width="0" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-1.665" y="1.665" />
 <vertex x="1.665" y="1.665" />
@@ -472,7 +760,7 @@ Area</text>
 <vertex x="-1.55" y="0.9" />
 <vertex x="-1.35" y="0.9" />
 </polygon>
-<circle x="-1" y="-2.2" radius="0" width="0.508" layer="21" />
+<circle x="-1" y="-2.2" radius="0.254" width="0" layer="21" />
 <text x="1.6" y="0.8" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="1.6" y="-0.2" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
@@ -482,7 +770,7 @@ Area</text>
 <wire x1="2.65" y1="1.97951875" x2="2.65" y2="-1.97951875" width="0.127" layer="21" />
 <text x="-2.54" y="5.08" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="-2.54" y="3.81" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<circle x="-2.275" y="-4.1" radius="0" width="0.508" layer="21" />
+<circle x="-2.275" y="-4.1" radius="0.254" width="0" layer="21" />
 <smd name="P$2" x="-1.625" y="-2.9" dx="0.45" dy="1.5" layer="1" />
 <smd name="P$3" x="-0.975" y="-2.9" dx="0.45" dy="1.5" layer="1" />
 <smd name="P$4" x="-0.325" y="-2.9" dx="0.45" dy="1.5" layer="1" />
@@ -608,7 +896,7 @@ dim = 1mm</text>
 <text x="-0.1" y="-0.6" size="0.127" layer="51" rot="R90">1.2mm</text>
 <text x="2.1" y="1.1" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="2.1" y="-0.3" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<circle x="-2.1" y="1.875" radius="0" width="0.508" layer="21" />
+<circle x="-2.1" y="1.875" radius="0.254" width="0" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-1.7" y="2.65" />
 <vertex x="1.7" y="2.65" />
@@ -647,7 +935,7 @@ dim = 1mm</text>
 <smd name="P$18" x="0" y="1.425" dx="0.25" dy="0.75" layer="1" />
 <smd name="P$19" x="-0.4" y="1.425" dx="0.25" dy="0.75" layer="1" />
 <smd name="P$20" x="-0.8" y="1.425" dx="0.25" dy="0.75" layer="1" />
-<circle x="-2.3" y="0.8" radius="0" width="0.508" layer="21" />
+<circle x="-2.3" y="0.8" radius="0.254" width="0" layer="21" />
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.1115" width="0.127" layer="21" />
 <wire x1="-1.5" y1="1.5" x2="-1.1115" y2="1.5" width="0.127" layer="21" />
 <wire x1="1.1115" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21" />
@@ -714,7 +1002,7 @@ dim = 1mm</text>
 <wire x1="-1.5865" y1="2.05" x2="-2.05" y2="2.05" width="0.127" layer="21" />
 <wire x1="-2.05" y1="2.05" x2="-2.05" y2="1.5865" width="0.127" layer="21" />
 <wire x1="-2.05" y1="-1.5865" x2="-2.05" y2="-2.05" width="0.127" layer="21" />
-<circle x="-2.8" y="1.25" radius="0" width="0.508" layer="21" />
+<circle x="-2.8" y="1.25" radius="0.254" width="0" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-2.4" y="1.5" />
 <vertex x="-2.15" y="1.5" />
@@ -756,14 +1044,6 @@ dim = 1mm</text>
 <smd name="P$7" x="1.05" y="1.05" dx="0.85" dy="0.85" layer="1" />
 <smd name="P$8" x="0" y="1.05" dx="0.85" dy="0.85" layer="1" />
 <smd name="P$9" x="0" y="0" dx="0.85" dy="0.85" layer="1" />
-<polygon width="0" layer="1">
-<vertex x="-1.475" y="1.175" />
-<vertex x="-1.475" y="0.625" />
-<vertex x="-0.625" y="0.625" />
-<vertex x="-0.625" y="1.175" />
-<vertex x="-0.625" y="1.475" />
-<vertex x="-1.175" y="1.475" />
-</polygon>
 <polygon width="0" layer="29">
 <vertex x="-1.575" y="1.275" />
 <vertex x="-0.525" y="1.275" />
@@ -789,6 +1069,13 @@ dim = 1mm</text>
 <text x="-1" y="3" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="-1" y="2" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <circle x="-2" y="2" radius="0.254" width="0" layer="21" />
+<polygon width="0" layer="1">
+<vertex x="-1.475" y="1.175" />
+<vertex x="-1.175" y="1.475" />
+<vertex x="-0.625" y="1.475" />
+<vertex x="-0.625" y="0.625" />
+<vertex x="-1.475" y="0.625" />
+</polygon>
 </package>
 <package name="LGA20-10X10">
 <smd name="P$1" x="-4.125" y="2.5" dx="1.25" dy="0.8" layer="1" stop="no" cream="no" />
@@ -944,96 +1231,11 @@ dim = 1mm</text>
 <package name="TSL2591">
 <smd name="P$1" x="-0.75" y="0.65" dx="1.2" dy="0.35" layer="1" />
 <smd name="P$2" x="-0.8375" y="0" dx="1.025" dy="0.35" layer="1" stop="no" />
-<polygon width="0" layer="31">
-<vertex x="-0.325" y="-0.175" />
-<vertex x="-0.325" y="0.175" curve="-90" />
-<vertex x="-0.15" y="0" curve="-90" />
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.325" y="-0.175" />
-<vertex x="-0.325" y="0.175" curve="-90" />
-<vertex x="-0.15" y="0" curve="-90" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-1.45" y="0.275" />
-<vertex x="-1.45" y="-0.275" />
-<vertex x="-0.3" y="-0.275" curve="90" />
-<vertex x="-0.05" y="0" curve="90" />
-<vertex x="-0.325" y="0.275" />
-</polygon>
 <smd name="P$3" x="-0.8375" y="-0.65" dx="1.025" dy="0.35" layer="1" stop="no" />
-<polygon width="0" layer="31">
-<vertex x="-0.325" y="-0.825" />
-<vertex x="-0.325" y="-0.475" curve="-90" />
-<vertex x="-0.15" y="-0.65" curve="-90" />
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.325" y="-0.825" />
-<vertex x="-0.325" y="-0.475" curve="-90" />
-<vertex x="-0.15" y="-0.65" curve="-90" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-1.45" y="-0.375" />
-<vertex x="-1.45" y="-0.925" />
-<vertex x="-0.3" y="-0.925" curve="90" />
-<vertex x="-0.05" y="-0.65" curve="90" />
-<vertex x="-0.325" y="-0.375" />
-</polygon>
 <smd name="P$4" x="0.8375" y="-0.65" dx="1.025" dy="0.35" layer="1" stop="no" />
-<polygon width="0" layer="31">
-<vertex x="0.325" y="-0.475" />
-<vertex x="0.325" y="-0.825" curve="-90" />
-<vertex x="0.15" y="-0.65" curve="-90" />
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.325" y="-0.475" />
-<vertex x="0.325" y="-0.825" curve="-90" />
-<vertex x="0.15" y="-0.65" curve="-90" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="1.45" y="-0.925" />
-<vertex x="1.45" y="-0.375" />
-<vertex x="0.3" y="-0.375" curve="90" />
-<vertex x="0.05" y="-0.65" curve="90" />
-<vertex x="0.325" y="-0.925" />
-</polygon>
 <smd name="P$5" x="0.8375" y="0" dx="1.025" dy="0.35" layer="1" stop="no" />
-<polygon width="0" layer="31">
-<vertex x="0.325" y="0.175" />
-<vertex x="0.325" y="-0.175" curve="-90" />
-<vertex x="0.15" y="0" curve="-90" />
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.325" y="0.175" />
-<vertex x="0.325" y="-0.175" curve="-90" />
-<vertex x="0.15" y="0" curve="-90" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="1.45" y="-0.275" />
-<vertex x="1.45" y="0.275" />
-<vertex x="0.3" y="0.275" curve="90" />
-<vertex x="0.05" y="0" curve="90" />
-<vertex x="0.325" y="-0.275" />
-</polygon>
 <smd name="P$6" x="0.8375" y="0.65" dx="1.025" dy="0.35" layer="1" stop="no" />
-<polygon width="0" layer="31">
-<vertex x="0.325" y="0.825" />
-<vertex x="0.325" y="0.475" curve="-90" />
-<vertex x="0.15" y="0.65" curve="-90" />
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.325" y="0.825" />
-<vertex x="0.325" y="0.475" curve="-90" />
-<vertex x="0.15" y="0.65" curve="-90" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="1.45" y="0.375" />
-<vertex x="1.45" y="0.925" />
-<vertex x="0.3" y="0.925" curve="90" />
-<vertex x="0.05" y="0.65" curve="90" />
-<vertex x="0.325" y="0.375" />
-</polygon>
-<circle x="-1.85" y="0.65" radius="0" width="0.585" layer="21" />
+<circle x="-1.85" y="0.65" radius="0.2925" width="0" layer="21" />
 <wire x1="-1" y1="1.2" x2="1" y2="1.2" width="0.127" layer="21" />
 <wire x1="-1" y1="1.2" x2="-1" y2="1.0115" width="0.127" layer="21" />
 <wire x1="1" y1="1.2" x2="1" y2="1.0115" width="0.127" layer="21" />
@@ -1083,6 +1285,161 @@ Array Area</text>
 <wire x1="0" y1="-0.4" x2="-0.05" y2="-0.35" width="0" layer="51" />
 <wire x1="0" y1="0" x2="0.05" y2="-0.05" width="0" layer="51" />
 <wire x1="0" y1="0" x2="-0.05" y2="-0.05" width="0" layer="51" />
+<polygon width="0" layer="31">
+<vertex x="-0.325" y="0.175" curve="-180" />
+<vertex x="-0.325" y="-0.175" />
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-0.325" y="0.175" curve="-180" />
+<vertex x="-0.325" y="-0.175" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1.45" y="0.275" />
+<vertex x="-0.325" y="0.275" />
+<vertex x="-0.277246875" y="0.270821875" />
+<vertex x="-0.23094375" y="0.258415625" />
+<vertex x="-0.1875" y="0.23815625" />
+<vertex x="-0.148234375" y="0.2106625" />
+<vertex x="-0.1143375" y="0.176765625" />
+<vertex x="-0.08684375" y="0.1375" />
+<vertex x="-0.066584375" y="0.09405625" />
+<vertex x="-0.054178125" y="0.047753125" />
+<vertex x="-0.05" y="0" />
+<vertex x="-0.051815625" y="-0.045771875" />
+<vertex x="-0.06155625" y="-0.090534375" />
+<vertex x="-0.07891875" y="-0.132925" />
+<vertex x="-0.103378125" y="-0.17165625" />
+<vertex x="-0.13419375" y="-0.205553125" />
+<vertex x="-0.170425" y="-0.23358125" />
+<vertex x="-0.210975" y="-0.25489375" />
+<vertex x="-0.25460625" y="-0.268840625" />
+<vertex x="-0.3" y="-0.275" />
+<vertex x="-1.45" y="-0.275" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.325" y="-0.475" curve="-180" />
+<vertex x="-0.325" y="-0.825" />
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-0.325" y="-0.475" curve="-180" />
+<vertex x="-0.325" y="-0.825" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1.45" y="-0.375" />
+<vertex x="-0.325" y="-0.375" />
+<vertex x="-0.277246875" y="-0.379178125" />
+<vertex x="-0.23094375" y="-0.391584375" />
+<vertex x="-0.1875" y="-0.41184375" />
+<vertex x="-0.148234375" y="-0.4393375" />
+<vertex x="-0.1143375" y="-0.473234375" />
+<vertex x="-0.08684375" y="-0.5125" />
+<vertex x="-0.066584375" y="-0.55594375" />
+<vertex x="-0.054178125" y="-0.602246875" />
+<vertex x="-0.05" y="-0.65" />
+<vertex x="-0.051815625" y="-0.695771875" />
+<vertex x="-0.06155625" y="-0.740534375" />
+<vertex x="-0.07891875" y="-0.782925" />
+<vertex x="-0.103378125" y="-0.82165625" />
+<vertex x="-0.13419375" y="-0.855553125" />
+<vertex x="-0.170425" y="-0.88358125" />
+<vertex x="-0.210975" y="-0.90489375" />
+<vertex x="-0.25460625" y="-0.918840625" />
+<vertex x="-0.3" y="-0.925" />
+<vertex x="-1.45" y="-0.925" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.325" y="-0.825" curve="-180" />
+<vertex x="0.325" y="-0.475" />
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="0.325" y="-0.825" curve="-180" />
+<vertex x="0.325" y="-0.475" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.45" y="-0.925" />
+<vertex x="0.325" y="-0.925" />
+<vertex x="0.277246875" y="-0.920821875" />
+<vertex x="0.23094375" y="-0.908415625" />
+<vertex x="0.1875" y="-0.88815625" />
+<vertex x="0.148234375" y="-0.8606625" />
+<vertex x="0.1143375" y="-0.826765625" />
+<vertex x="0.08684375" y="-0.7875" />
+<vertex x="0.066584375" y="-0.74405625" />
+<vertex x="0.054178125" y="-0.697753125" />
+<vertex x="0.05" y="-0.65" />
+<vertex x="0.051815625" y="-0.604228125" />
+<vertex x="0.06155625" y="-0.559465625" />
+<vertex x="0.07891875" y="-0.517075" />
+<vertex x="0.103378125" y="-0.47834375" />
+<vertex x="0.13419375" y="-0.444446875" />
+<vertex x="0.170425" y="-0.41641875" />
+<vertex x="0.210975" y="-0.39510625" />
+<vertex x="0.25460625" y="-0.381159375" />
+<vertex x="0.3" y="-0.375" />
+<vertex x="1.45" y="-0.375" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.325" y="-0.175" curve="-180" />
+<vertex x="0.325" y="0.175" />
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="0.325" y="-0.175" curve="-180" />
+<vertex x="0.325" y="0.175" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.45" y="-0.275" />
+<vertex x="0.325" y="-0.275" />
+<vertex x="0.277246875" y="-0.270821875" />
+<vertex x="0.23094375" y="-0.258415625" />
+<vertex x="0.1875" y="-0.23815625" />
+<vertex x="0.148234375" y="-0.2106625" />
+<vertex x="0.1143375" y="-0.176765625" />
+<vertex x="0.08684375" y="-0.1375" />
+<vertex x="0.066584375" y="-0.09405625" />
+<vertex x="0.054178125" y="-0.047753125" />
+<vertex x="0.05" y="0" />
+<vertex x="0.051815625" y="0.045771875" />
+<vertex x="0.06155625" y="0.090534375" />
+<vertex x="0.07891875" y="0.132925" />
+<vertex x="0.103378125" y="0.17165625" />
+<vertex x="0.13419375" y="0.205553125" />
+<vertex x="0.170425" y="0.23358125" />
+<vertex x="0.210975" y="0.25489375" />
+<vertex x="0.25460625" y="0.268840625" />
+<vertex x="0.3" y="0.275" />
+<vertex x="1.45" y="0.275" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.325" y="0.475" curve="-180" />
+<vertex x="0.325" y="0.825" />
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="0.325" y="0.475" curve="-180" />
+<vertex x="0.325" y="0.825" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.45" y="0.375" />
+<vertex x="0.325" y="0.375" />
+<vertex x="0.277246875" y="0.379178125" />
+<vertex x="0.23094375" y="0.391584375" />
+<vertex x="0.1875" y="0.41184375" />
+<vertex x="0.148234375" y="0.4393375" />
+<vertex x="0.1143375" y="0.473234375" />
+<vertex x="0.08684375" y="0.5125" />
+<vertex x="0.066584375" y="0.55594375" />
+<vertex x="0.054178125" y="0.602246875" />
+<vertex x="0.05" y="0.65" />
+<vertex x="0.051815625" y="0.695771875" />
+<vertex x="0.06155625" y="0.740534375" />
+<vertex x="0.07891875" y="0.782925" />
+<vertex x="0.103378125" y="0.82165625" />
+<vertex x="0.13419375" y="0.855553125" />
+<vertex x="0.170425" y="0.88358125" />
+<vertex x="0.210975" y="0.90489375" />
+<vertex x="0.25460625" y="0.918840625" />
+<vertex x="0.3" y="0.925" />
+<vertex x="1.45" y="0.925" />
+</polygon>
 </package>
 <package name="VCNL4040M3OE">
 <smd name="P$1" x="0.7" y="-1.6125" dx="0.7" dy="0.725" layer="1" />
@@ -1095,7 +1452,7 @@ Array Area</text>
 <smd name="P$8" x="-0.7" y="-1.6125" dx="0.7" dy="0.725" layer="1" />
 <wire x1="-0.1635" y1="2" x2="0.1635" y2="2" width="0.127" layer="21" />
 <wire x1="-0.1635" y1="-2" x2="0.1635" y2="-2" width="0.127" layer="21" />
-<circle x="1.55" y="-1.6125" radius="0" width="0.508" layer="21" />
+<circle x="1.55" y="-1.6125" radius="0.254" width="0" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-1.15" y="2.1" />
 <vertex x="1.15" y="2.1" />
@@ -1161,7 +1518,7 @@ Array Area</text>
 <wire x1="-2.225" y1="-1.225" x2="-2.225" y2="1.225" width="0.127" layer="21" />
 <circle x="-1.44" y="0" radius="0.4" width="0.02" layer="51" />
 <circle x="1.56" y="0" radius="0.2" width="0.02" layer="51" />
-<circle x="-1.6" y="1.55" radius="0" width="0.585" layer="21" />
+<circle x="-1.6" y="1.55" radius="0.2925" width="0" layer="21" />
 <text x="2.8" y="0.6" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="2.8" y="-0.4" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0" layer="39">
@@ -1218,7 +1575,7 @@ Array Area</text>
 </polygon>
 <circle x="-1.4" y="0" radius="0.85" width="0.02" layer="51" />
 <circle x="1.6" y="0" radius="0.72" width="0.02" layer="51" />
-<circle x="-1.6" y="1.55" radius="0" width="0.585" layer="21" />
+<circle x="-1.6" y="1.55" radius="0.2925" width="0" layer="21" />
 <text x="3.3" y="0.9" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="3.3" y="0" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <polygon width="0" layer="39">
@@ -1243,8 +1600,8 @@ Array Area</text>
 <smd name="P$12" x="-1.875" y="1" dx="0.55" dy="0.6" layer="1" />
 <wire x1="2.45" y1="1.45" x2="2.45" y2="-1.45" width="0.127" layer="21" />
 <wire x1="-2.45" y1="-1.45" x2="-2.45" y2="1.45" width="0.127" layer="21" />
-<circle x="1.8" y="0" radius="0.5" width="0.02" layer="21" />
-<circle x="-1.52" y="0" radius="0.3" width="0.02" layer="21" />
+<circle x="1.8" y="0" radius="0.5" width="0.127" layer="21" />
+<circle x="-1.52" y="0" radius="0.3" width="0.127" layer="21" />
 <circle x="0.1" y="-0.9" radius="0.1" width="0.02" layer="51" />
 <text x="-0.1" y="-0.7" size="0.1" layer="51">Vent hole</text>
 <text x="1.4" y="-0.1" size="0.1" layer="51">Light emission
@@ -1374,8 +1731,8 @@ aperture dim .3</text>
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94" />
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94" />
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94" />
-<text x="-7.62" y="7.62" size="1.27" layer="95">&gt;Name</text>
-<text x="-7.62" y="5.08" size="1.27" layer="96">&gt;Value</text>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="5.08" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="INA219">
 <pin name="A1" x="-10.16" y="2.54" length="short" />
@@ -1409,8 +1766,8 @@ aperture dim .3</text>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94" />
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94" />
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94" />
-<text x="-10.16" y="12.7" size="1.27" layer="95">&gt;Name</text>
-<text x="-10.16" y="10.16" size="1.27" layer="96">&gt;Value</text>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="10.16" size="1.778" layer="96">&gt;Value</text>
 <pin name="GND11" x="12.7" y="-2.54" length="short" rot="R180" />
 </symbol>
 <symbol name="LSM6D-STMICROELECTRONICS">
