@@ -793,56 +793,56 @@ Area</text>
 <text x="-1.27" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="SOT-563">
-<smd name="P$1" x="-0.5" y="-0.675" dx="0.3" dy="0.45" layer="1" />
-<smd name="P$2" x="0" y="-0.675" dx="0.3" dy="0.45" layer="1" />
-<smd name="P$3" x="0.5" y="-0.675" dx="0.3" dy="0.45" layer="1" />
-<wire x1="0.85" y1="0.65" x2="0.85" y2="-0.65" width="0.127" layer="21" />
-<wire x1="-0.85" y1="0.65" x2="-0.85" y2="-0.65" width="0.127" layer="21" />
+<smd name="P$1" x="-0.5" y="-0.74" dx="0.3" dy="0.67" layer="1" />
+<smd name="P$2" x="0" y="-0.74" dx="0.3" dy="0.67" layer="1" />
+<smd name="P$3" x="0.5" y="-0.74" dx="0.3" dy="0.67" layer="1" />
+<wire x1="0.85" y1="0.6" x2="0.85" y2="-0.6" width="0.127" layer="21" />
+<wire x1="-0.85" y1="0.6" x2="-0.85" y2="-0.6" width="0.127" layer="21" />
+<text x="1.015" y="0.235" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.015" y="-0.705" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<smd name="P$4" x="0.5" y="0.74" dx="0.3" dy="0.67" layer="1" />
+<smd name="P$5" x="0" y="0.74" dx="0.3" dy="0.67" layer="1" />
+<smd name="P$6" x="-0.5" y="0.74" dx="0.3" dy="0.67" layer="1" />
+<circle x="-0.5" y="-1.575" radius="0.254" width="0" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-0.75" y="0.75" />
-<vertex x="-0.75" y="1" />
-<vertex x="0.75" y="1" />
+<vertex x="-0.75" y="1.175" />
+<vertex x="0.75" y="1.175" />
 <vertex x="0.75" y="0.75" />
 <vertex x="0.95" y="0.75" />
 <vertex x="0.95" y="-0.75" />
 <vertex x="0.75" y="-0.75" />
-<vertex x="0.75" y="-1.005" />
-<vertex x="0.2" y="-1" />
-<vertex x="-0.75" y="-1" />
+<vertex x="0.75" y="-1.175" />
+<vertex x="-0.75" y="-1.175" />
 <vertex x="-0.75" y="-0.75" />
 <vertex x="-0.95" y="-0.75" />
 <vertex x="-0.95" y="0.75" />
 </polygon>
-<text x="1.015" y="0.235" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="1.015" y="-0.705" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<smd name="P$4" x="0.5" y="0.675" dx="0.3" dy="0.45" layer="1" />
-<smd name="P$5" x="0" y="0.675" dx="0.3" dy="0.45" layer="1" />
-<smd name="P$6" x="-0.5" y="0.675" dx="0.3" dy="0.45" layer="1" />
 </package>
 <package name="SOT-563_NOSILK">
-<smd name="P$1" x="-0.5" y="-0.675" dx="0.3" dy="0.45" layer="1" />
-<smd name="P$2" x="0" y="-0.675" dx="0.3" dy="0.45" layer="1" />
-<smd name="P$3" x="0.5" y="-0.675" dx="0.3" dy="0.45" layer="1" />
+<smd name="P$1" x="-0.5" y="-0.74" dx="0.3" dy="0.67" layer="1" />
+<smd name="P$2" x="0" y="-0.74" dx="0.3" dy="0.67" layer="1" />
+<smd name="P$3" x="0.5" y="-0.74" dx="0.3" dy="0.67" layer="1" />
+<text x="1.015" y="0.235" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="1.015" y="-0.705" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<smd name="P$4" x="0.5" y="0.74" dx="0.3" dy="0.67" layer="1" />
+<smd name="P$5" x="0" y="0.74" dx="0.3" dy="0.67" layer="1" />
+<smd name="P$6" x="-0.5" y="0.74" dx="0.3" dy="0.67" layer="1" />
+<circle x="-0.5" y="-1.575" radius="0.254" width="0" layer="21" />
 <polygon width="0" layer="39">
 <vertex x="-0.75" y="0.75" />
-<vertex x="-0.75" y="1" />
-<vertex x="0.75" y="1" />
+<vertex x="-0.75" y="1.175" />
+<vertex x="0.75" y="1.175" />
 <vertex x="0.75" y="0.75" />
 <vertex x="0.95" y="0.75" />
 <vertex x="0.95" y="-0.75" />
 <vertex x="0.75" y="-0.75" />
-<vertex x="0.75" y="-1.005" />
-<vertex x="0.2" y="-1" />
-<vertex x="-0.75" y="-1" />
+<vertex x="0.75" y="-1.175" />
+<vertex x="-0.75" y="-1.175" />
 <vertex x="-0.75" y="-0.75" />
 <vertex x="-0.95" y="-0.75" />
 <vertex x="-0.95" y="0.75" />
 </polygon>
-<text x="1.015" y="0.235" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="1.015" y="-0.705" size="0.8128" layer="27" font="vector">&gt;Value</text>
-<smd name="P$4" x="0.5" y="0.675" dx="0.3" dy="0.45" layer="1" />
-<smd name="P$5" x="0" y="0.675" dx="0.3" dy="0.45" layer="1" />
-<smd name="P$6" x="-0.5" y="0.675" dx="0.3" dy="0.45" layer="1" />
 </package>
 <package name="8-DSBGA-NSMD">
 <smd name="P$A1" x="-0.5" y="0.75" dx="0.263" dy="0.263" layer="1" roundness="100" stop="no" cream="no" />
