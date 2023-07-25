@@ -2462,8 +2462,8 @@ Ambient Light Sensor IC
 &lt;li&gt;Measurement range: min .11 lx , max 100000 lx&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.mouser.com/datasheet/2/348/bh1750fvi-e-186247.pdf"&gt;BH1750FVI : Sensor ICs&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="flashpcb.com/components"&gt;BH1750FVI&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.mouser.com/datasheet/2/348/bh1750fvi-e-186247.pdf"&gt;BH1750FVI : Sensor ICs&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="BH1750FVI" x="0" y="0" />
 </gates>

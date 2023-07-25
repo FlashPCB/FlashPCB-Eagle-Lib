@@ -1110,7 +1110,7 @@ Recommendations (5x 0.2mm DIA)</text>
 <text x="-2.54" y="3.81" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="-2.54" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
-<package name="8-XFQFN">
+<package name="6-XFQFN">
 <polygon width="0" layer="39">
 <vertex x="-0.875" y="1.03" />
 <vertex x="-0.875" y="-1.03" />
@@ -8550,29 +8550,34 @@ AVRÃ‚Â® enhanced RISC architecture
 </device>
 </devices>
 </deviceset>
-<deviceset name="BATTERY-MANAGEMENT-BQ298XYZ" prefix="IC">
-<description>&lt;b&gt;BQ298009RUGR&lt;/b&gt; - Battery Protection IC
+<deviceset name="BATTERY-MANAGEMENT-BQ298XYZ" prefix="U" uservalue="yes">
+<description>&lt;b&gt;BQ298xyz&lt;/b&gt; - Battery Protection IC
 
 &lt;p&gt;Technical Specifications:
 &lt;ul&gt;
 &lt;li&gt;Function: Battery Protection&lt;/li&gt;
 &lt;li&gt;Battery Chemistry: Lithium Ion/Polymer&lt;/li&gt;
 &lt;li&gt;Number of Cells:1&lt;/li&gt;
-&lt;li&gt;Overvoltage (OV): ±10 mV&lt;/li&gt;
-&lt;li&gt; Undervoltage (UV): ±20 mV&lt;/li&gt;
-&lt;li&gt;Overcurrent in charge (OCC): ±1 mV&lt;/li&gt;
-&lt;li&gt;Overcurrent in discharge (OCD): ±1 mV&lt;/li&gt;
-&lt;li&gt;Short circuit in discharge (SCD): ±5 mV&lt;/li&gt;
 &lt;li&gt;Operating Temperature: -40°C ~ 85°C (TA)
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;BQ298xyz Voltage, Current, Temperature Protectors with an Integrated High-Side NFET Driver for Fast/Flash Charging Single-Cell Li-Ion and Li-Polymer Batteries datasheet (Rev. J)&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.ti.com/lit/ds/symlink/bq2980.pdf"&gt;BQ298xyz Voltage, Current, Temperature Protectors with an Integrated High-Side NFET Driver for Fast/Flash Charging Single-Cell Li-Ion and Li-Polymer Batteries datasheet (Rev. J)&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;BQ298xxx&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/ds/symlink/bq2980.pdf"&gt;BQ298xyz Voltage, Current, Temperature Protectors with an Integrated High-Side NFET Driver for Fast/Flash Charging Single-Cell Li-Ion and Li-Polymer Batteries datasheet (Rev. J)&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="BATTERY-MANAGEMENT-BQ298XYZ" x="0" y="0" />
 </gates>
 <devices>
-<device name="" package="8-XFQFN">
+<device name="" package="6-XFQFN">
+<connects>
+<connect gate="G$1" pin="BAT" pad="P$1" />
+<connect gate="G$1" pin="CHG" pad="P$8" />
+<connect gate="G$1" pin="CS" pad="P$4" />
+<connect gate="G$1" pin="CTR" pad="P$5" />
+<connect gate="G$1" pin="DSG" pad="P$7" />
+<connect gate="G$1" pin="PACK" pad="P$6" />
+<connect gate="G$1" pin="VDD" pad="P$2" />
+<connect gate="G$1" pin="VSS" pad="P$3" />
+</connects>
 <technologies>
 <technology name="" />
 </technologies>
