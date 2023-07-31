@@ -108,6 +108,67 @@
 <vertex x="-0.9" y="2" />
 </polygon>
 </package>
+<package name="POT-3362U">
+<pad name="P$3" x="-2.54" y="0" drill="0.55" />
+<pad name="P$2" x="0" y="0" drill="0.55" />
+<pad name="P$1" x="2.54" y="0" drill="0.55" />
+<circle x="-3.2" y="-3.77" radius="0.254" width="0" layer="21" />
+<text x="-3.3" y="5" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-3.3" y="4.1" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-3.4" y="3.56" />
+<vertex x="-3.4" y="-3.37" />
+<vertex x="-2.4" y="-3.37" />
+<vertex x="-2.4" y="-3.63" />
+<vertex x="-1.4" y="-3.63" />
+<vertex x="-1.4" y="-3.37" />
+<vertex x="1.4" y="-3.37" />
+<vertex x="1.4" y="-3.63" />
+<vertex x="2.4" y="-3.63" />
+<vertex x="2.4" y="-3.37" />
+<vertex x="3.4" y="-3.37" />
+<vertex x="3.4" y="3.56" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="-3.18" y="0.64" />
+<vertex x="-3.18" y="-0.64" />
+<vertex x="3.18" y="-0.64" />
+<vertex x="3.18" y="0.64" />
+</polygon>
+<wire x1="-3.3" y1="-3.25" x2="-3.3" y2="3.4" width="0.1524" layer="21" />
+<wire x1="-3.3" y1="3.4" x2="3.3" y2="3.4" width="0.1524" layer="21" />
+<wire x1="3.3" y1="3.4" x2="3.3" y2="-3.25" width="0.1524" layer="21" />
+<wire x1="3.3" y1="-3.25" x2="2.5" y2="-3.25" width="0.1524" layer="21" />
+<wire x1="-3.3" y1="-3.25" x2="-2.5" y2="-3.25" width="0.1524" layer="21" />
+</package>
+<package name="POT-3386U">
+<pad name="P$1" x="-2.54" y="0" drill="0.61" />
+<pad name="P$2" x="0" y="0" drill="0.61" />
+<pad name="P$3" x="2.54" y="0" drill="0.61" />
+<polygon width="0" layer="40">
+<vertex x="-3.2" y="0.665" />
+<vertex x="3.205" y="0.665" />
+<vertex x="3.205" y="-0.665" />
+<vertex x="-3.2" y="-0.665" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-4.865" y="4.88" />
+<vertex x="4.865" y="4.88" />
+<vertex x="4.865" y="-4.85" />
+<vertex x="3.8" y="-4.85" />
+<vertex x="3.8" y="-4.7" />
+<vertex x="-3.9" y="-4.7" />
+<vertex x="-3.9" y="-4.85" />
+<vertex x="-4.865" y="-4.85" />
+</polygon>
+<text x="-4.8" y="6.1" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-4.8" y="5.1" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="-4.7" y1="4.7" x2="-4.7" y2="-4.7" width="0.127" layer="21" />
+<wire x1="-4.7" y1="-4.7" x2="-4" y2="-4.7" width="0.127" layer="21" />
+<wire x1="3.9" y1="-4.7" x2="4.7" y2="-4.7" width="0.127" layer="21" />
+<wire x1="4.7" y1="-4.7" x2="4.7" y2="4.7" width="0.127" layer="21" />
+<wire x1="4.7" y1="4.7" x2="-4.7" y2="4.7" width="0.127" layer="21" />
+</package>
 <package name="POT-3306F">
 <polygon width="0" layer="40">
 <vertex x="-1.279090625" y="-2.5" />
@@ -822,6 +883,63 @@
 </gates>
 <devices>
 <device name="" package="POT-TC33">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$1" />
+<connect gate="G$1" pin="P$3" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POT-THT-3362" prefix="VR" uservalue="yes">
+<description>&lt;b&gt;336xx &lt;/b&gt; - TRIMMER PC PIN TOP
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment&lt;/li&gt;
+&lt;li&gt;Rectangular&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;3362U&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/3362.pdf"&gt;3362 1/4 " Square Trimpot® Trimming Potentiometer
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;3386&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/3386.pdf"&gt;3386 – 3/8 ˝ Square Trimpot® Trimming Potentiometer
+&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="POTENTIOMETER" x="0" y="0" />
+</gates>
+<devices>
+<device name="3362U" package="POT-3362U">
+<connects>
+<connect gate="G$1" pin="OUT" pad="P$2" />
+<connect gate="G$1" pin="P$1" pad="P$3" />
+<connect gate="G$1" pin="P$3" pad="P$1" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POT-THT-3386" prefix="RV" uservalue="yes">
+<description>&lt;b&gt;3386&lt;/b&gt; - TRIMMER PC PIN TOP
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;3386&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/3386.pdf"&gt;3386 – 3/8 ˝ Square Trimpot® Trimming Potentiometer
+&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="POTENTIOMETER" x="0" y="0" />
+</gates>
+<devices>
+<device name="3386U" package="POT-3386U">
 <connects>
 <connect gate="G$1" pin="OUT" pad="P$2" />
 <connect gate="G$1" pin="P$1" pad="P$1" />
