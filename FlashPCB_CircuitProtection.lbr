@@ -417,6 +417,85 @@
 <text x="-0.7" y="3.07" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.66" y="2.13" size="0.8128" layer="25" font="vector">&gt;VALUE</text>
 </package>
+<package name="DO-204AL/DO-41">
+<pad name="CATHODE" x="-3.855" y="0" drill="0.875" />
+<wire x1="-2.605" y1="1.36" x2="-1.5" y2="1.36" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.36" x2="2.605" y2="1.36" width="0.127" layer="21" />
+<wire x1="-2.605" y1="-1.36" x2="-1.5" y2="-1.36" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-1.36" x2="2.605" y2="-1.36" width="0.127" layer="21" />
+<wire x1="-2.605" y1="-1.36" x2="-2.605" y2="1.36" width="0.127" layer="21" />
+<wire x1="2.605" y1="1.36" x2="2.605" y2="-1.36" width="0.127" layer="21" />
+<text x="-2.85" y="3.3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.85" y="2.15" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-4.9" y="1" />
+<vertex x="-2.7" y="1" />
+<vertex x="-2.7" y="1.5" />
+<vertex x="2.7" y="1.5" />
+<vertex x="2.7" y="1" />
+<vertex x="4.9" y="1" />
+<vertex x="4.9" y="-1" />
+<vertex x="2.7" y="-1" />
+<vertex x="2.7" y="-1.5" />
+<vertex x="-2.7" y="-1.5" />
+<vertex x="-2.7" y="-1" />
+<vertex x="-4.9" y="-1" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="-4.9" y="1" />
+<vertex x="-2.8" y="1" />
+<vertex x="-2.8" y="-1" />
+<vertex x="-4.9" y="-1" />
+</polygon>
+<pad name="ANODE" x="3.855" y="0" drill="0.875" />
+<polygon width="0" layer="40">
+<vertex x="2.81" y="1" />
+<vertex x="4.9" y="1" />
+<vertex x="4.9" y="-1" />
+<vertex x="2.81" y="-1" />
+</polygon>
+<wire x1="-1.5" y1="1.36" x2="-1.5" y2="-1.36" width="0.127" layer="21" />
+</package>
+<package name="DO-204AH/DO-35">
+<wire x1="-2" y1="-1" x2="-2" y2="0" width="0.127" layer="21" />
+<wire x1="-2" y1="0" x2="-2" y2="1" width="0.127" layer="21" />
+<wire x1="-2" y1="1" x2="-1.1" y2="1" width="0.127" layer="21" />
+<wire x1="-1.1" y1="1" x2="2" y2="1" width="0.127" layer="21" />
+<wire x1="2" y1="1" x2="2" y2="0" width="0.127" layer="51" />
+<wire x1="2" y1="0" x2="2" y2="-1" width="0.127" layer="51" />
+<wire x1="-2" y1="-1" x2="-2" y2="0" width="0.127" layer="51" />
+<circle x="-5.3" y="0" radius="0.1" width="0.2" layer="21" />
+<text x="-2.61" y="3.97" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.61" y="2.3" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="-2" y1="0" x2="-2" y2="1" width="0.127" layer="51" />
+<wire x1="-2" y1="1" x2="2" y2="1" width="0.127" layer="51" />
+<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.127" layer="51" />
+<wire x1="2" y1="1" x2="2" y2="0" width="0.127" layer="21" />
+<wire x1="2" y1="0" x2="2" y2="-1" width="0.127" layer="21" />
+<wire x1="2" y1="-1" x2="-1.1" y2="-1" width="0.127" layer="21" />
+<wire x1="-1.1" y1="-1" x2="-2" y2="-1" width="0.127" layer="21" />
+<pad name="CATHODE" x="-4.1" y="0" drill="0.8" />
+<pad name="ANODE" x="4.1" y="0" drill="0.8" />
+<polygon width="0" layer="40">
+<vertex x="-4.95" y="0.8" />
+<vertex x="-3.35" y="0.8" />
+<vertex x="-3.35" y="-0.8" />
+<vertex x="-4.95" y="-0.8" />
+</polygon>
+<polygon width="0" layer="39">
+<vertex x="-4.95" y="1.25" />
+<vertex x="4.95" y="1.25" />
+<vertex x="4.95" y="-1.25" />
+<vertex x="-4.95" y="-1.25" />
+</polygon>
+<polygon width="0" layer="40">
+<vertex x="3.25" y="0.8" />
+<vertex x="4.85" y="0.8" />
+<vertex x="4.85" y="-0.8" />
+<vertex x="3.25" y="-0.8" />
+</polygon>
+<wire x1="-1.1" y1="1" x2="-1.1" y2="-1" width="0.127" layer="21" />
+</package>
 <package name="FUSE-0805">
 <polygon width="0" layer="39">
 <vertex x="-1.7" y="0.85" />
@@ -684,6 +763,24 @@
 <technology name="" />
 </technologies>
 </device>
+<device name="DO-41" package="DO-204AL/DO-41">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE" />
+<connect gate="G$1" pin="CATHODE" pad="CATHODE" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="DO-35" package="DO-204AH/DO-35">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE" />
+<connect gate="G$1" pin="CATHODE" pad="CATHODE" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DIODE_TVS_BIDIRECTIONAL" prefix="D" uservalue="yes">
@@ -800,6 +897,24 @@
 </technologies>
 </device>
 <device name="SOD-80C" package="SOD-80C">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE" />
+<connect gate="G$1" pin="CATHODE" pad="CATHODE" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="DO-41" package="DO-204AL/DO-41">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE" />
+<connect gate="G$1" pin="CATHODE" pad="CATHODE" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="DO-35" package="DO-204AH/DO-35">
 <connects>
 <connect gate="G$1" pin="ANODE" pad="ANODE" />
 <connect gate="G$1" pin="CATHODE" pad="CATHODE" />

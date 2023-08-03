@@ -1184,6 +1184,149 @@ Recommendations (5x 0.2mm DIA)</text>
 <text x="-2.54" y="3.81" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="-2.54" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
+<package name="12-VSON(2.5X4)">
+<smd name="P$1" x="-1.9" y="1" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$2" x="-1.9" y="0.6" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$3" x="-1.9" y="0.2" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$4" x="-1.9" y="-0.2" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$5" x="-1.9" y="-0.6" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$6" x="-1.9" y="-1" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$7" x="1.9" y="-1" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$8" x="1.9" y="-0.6" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$9" x="1.9" y="-0.2" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$10" x="1.9" y="0.2" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$11" x="1.9" y="0.6" dx="0.6" dy="0.2" layer="1" />
+<smd name="P$12" x="1.9" y="1" dx="0.6" dy="0.2" layer="1" />
+<polygon width="0" layer="1">
+<vertex x="-1.225" y="1.45" />
+<vertex x="-1.025" y="1.45" />
+<vertex x="-1.025" y="0.975" />
+<vertex x="1.025" y="0.975" />
+<vertex x="1.025" y="1.45" />
+<vertex x="1.225" y="1.45" />
+<vertex x="1.225" y="-1.45" />
+<vertex x="1.025" y="-1.45" />
+<vertex x="1.025" y="-0.975" />
+<vertex x="-1.025" y="-0.975" />
+<vertex x="-1.025" y="-1.45" />
+<vertex x="-1.225" y="-1.45" />
+</polygon>
+<smd name="P$13" x="0" y="0" dx="2.45" dy="1.95" layer="1" stop="no" cream="no" />
+<polygon width="0" layer="29">
+<vertex x="-1.325" y="1.55" />
+<vertex x="-0.925" y="1.55" />
+<vertex x="-0.925" y="1.075" />
+<vertex x="0.925" y="1.075" />
+<vertex x="0.925" y="1.55" />
+<vertex x="1.325" y="1.55" />
+<vertex x="1.325" y="-1.55" />
+<vertex x="0.925" y="-1.55" />
+<vertex x="0.925" y="-1.075" />
+<vertex x="-0.925" y="-1.075" />
+<vertex x="-0.925" y="-1.55" />
+<vertex x="-1.325" y="-1.55" />
+</polygon>
+<text x="-1.18" y="-0.5" size="0.1" layer="51" font="vector">5x 0.2mm Diameter VIAs recommended.
+Place from origin point (in mm):
+(0,0), (+/- 0.975, 0),  (0, +/- 0.725) </text>
+<polygon width="0" layer="39">
+<vertex x="-2.3" y="1.55" />
+<vertex x="2.3" y="1.55" />
+<vertex x="2.3" y="-1.55" />
+<vertex x="-2.3" y="-1.55" />
+</polygon>
+<text x="-1" y="3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1" y="2" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<circle x="-2.8" y="1" radius="0.254" width="0" layer="21" />
+<wire x1="1.425" y1="-1.5" x2="2.25" y2="-1.5" width="0.127" layer="21" />
+<wire x1="2.25" y1="-1.5" x2="2.25" y2="-1.3" width="0.127" layer="21" />
+<rectangle x1="-1.225" y1="1.05" x2="-1.025" y2="1.45" layer="31" />
+<rectangle x1="1.025" y1="1.05" x2="1.225" y2="1.45" layer="31" />
+<rectangle x1="1.025" y1="-1.45" x2="1.225" y2="-1.05" layer="31" />
+<rectangle x1="-1.225" y1="-1.45" x2="-1.025" y2="-1.05" layer="31" />
+<rectangle x1="0.1" y1="-0.875" x2="1.18" y2="0.875" layer="31" />
+<rectangle x1="-1.18" y1="-0.875" x2="-0.1" y2="0.875" layer="31" />
+<wire x1="-0.8" y1="-1.5" x2="0.8" y2="-1.5" width="0.127" layer="21" />
+<wire x1="-2.25" y1="-1.3" x2="-2.25" y2="-1.5" width="0.127" layer="21" />
+<wire x1="-2.25" y1="-1.5" x2="-1.45" y2="-1.5" width="0.127" layer="21" />
+<wire x1="-2.25" y1="1.3" x2="-2.25" y2="1.5" width="0.127" layer="21" />
+<wire x1="-2.25" y1="1.5" x2="-1.45" y2="1.5" width="0.127" layer="21" />
+<wire x1="-0.8" y1="1.5" x2="0.8" y2="1.5" width="0.127" layer="21" />
+<wire x1="2.25" y1="1.3" x2="2.25" y2="1.5" width="0.127" layer="21" />
+<wire x1="2.25" y1="1.5" x2="1.45" y2="1.5" width="0.127" layer="21" />
+</package>
+<package name="16-VQFN(3X3)-EXPOSED-PAD">
+<smd name="P$1" x="-1.4" y="0.75" dx="0.6" dy="0.24" layer="1" />
+<smd name="P$2" x="-1.4" y="0.25" dx="0.6" dy="0.24" layer="1" />
+<smd name="P$3" x="-1.4" y="-0.25" dx="0.6" dy="0.24" layer="1" />
+<smd name="P$4" x="-1.4" y="-0.75" dx="0.6" dy="0.24" layer="1" />
+<smd name="P$5" x="-0.75" y="-1.4" dx="0.24" dy="0.6" layer="1" />
+<smd name="P$6" x="-0.25" y="-1.4" dx="0.24" dy="0.6" layer="1" />
+<smd name="P$7" x="0.25" y="-1.4" dx="0.24" dy="0.6" layer="1" />
+<smd name="P$8" x="0.75" y="-1.4" dx="0.24" dy="0.6" layer="1" />
+<smd name="P$9" x="1.4" y="-0.75" dx="0.6" dy="0.24" layer="1" />
+<smd name="P$10" x="1.4" y="-0.25" dx="0.6" dy="0.24" layer="1" />
+<smd name="P$11" x="1.4" y="0.25" dx="0.6" dy="0.24" layer="1" />
+<smd name="P$12" x="1.4" y="0.75" dx="0.6" dy="0.24" layer="1" />
+<smd name="P$13" x="0.75" y="1.4" dx="0.24" dy="0.6" layer="1" />
+<smd name="P$14" x="0.25" y="1.4" dx="0.24" dy="0.6" layer="1" />
+<smd name="P$15" x="-0.25" y="1.4" dx="0.24" dy="0.6" layer="1" />
+<smd name="P$16" x="-0.75" y="1.4" dx="0.24" dy="0.6" layer="1" />
+<smd name="P$17" x="0" y="0" dx="1.68" dy="1.68" layer="1" cream="no" />
+<circle x="-0.58" y="-0.58" radius="0.07" width="0.05" layer="51" />
+<circle x="0.62" y="-0.58" radius="0.07" width="0.05" layer="51" />
+<circle x="-0.58" y="0.62" radius="0.07" width="0.05" layer="51" />
+<circle x="0.62" y="0.62" radius="0.07" width="0.05" layer="51" />
+<circle x="0" y="0" radius="0.07" width="0.05" layer="51" />
+<text x="-1.125" y="-2.5" size="0.125" layer="48">Recommended via size: 0.2mm DIA
+Recommended via placement from center of part (in mm)
+ (0,0),(+/-0.58,+/-0.58)</text>
+<wire x1="0.75" y1="-0.75" x2="0.75" y2="-0.875" width="0.01" layer="48" />
+<wire x1="0.75" y1="-0.875" x2="0.875" y2="-0.75" width="0.01" layer="48" />
+<wire x1="0.875" y1="-0.75" x2="0.75" y2="-0.75" width="0.01" layer="48" />
+<wire x1="0.75" y1="-0.75" x2="1.23535625" y2="-1.23535625" width="0.01" layer="48" />
+<wire x1="1.23535625" y1="-1.23535625" x2="1.25" y2="-1.270709375" width="0.01" layer="48" curve="-44.996419" />
+<wire x1="1.25" y1="-1.270709375" x2="1.25" y2="-2" width="0.01" layer="48" />
+<text x="-2.02" y="3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.02" y="2.125" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="31" spacing="0.05">
+<vertex x="-0.77" y="0.77" />
+<vertex x="0.77" y="0.77" />
+<vertex x="0.77" y="-0.77" />
+<vertex x="-0.77" y="-0.77" />
+</polygon>
+<circle x="-2.3" y="0.75" radius="0.254" width="0" layer="21" />
+<wire x1="-1.5" y1="-1.2" x2="-1.5" y2="-1.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="-1.5" x2="-1.2" y2="-1.5" width="0.127" layer="21" />
+<wire x1="1.2" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.2" width="0.127" layer="21" />
+<wire x1="1.2" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21" />
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.2" width="0.127" layer="21" />
+<wire x1="-1.2" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21" />
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.2" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-1.8" y="-0.97" />
+<vertex x="-1.8" y="0.97" />
+<vertex x="-1.75" y="0.97" />
+<vertex x="-1.75" y="1.75" />
+<vertex x="-0.97" y="1.75" />
+<vertex x="-0.97" y="1.8" />
+<vertex x="0.97" y="1.8" />
+<vertex x="0.97" y="1.75" />
+<vertex x="1.75" y="1.75" />
+<vertex x="1.75" y="0.97" />
+<vertex x="1.8" y="0.97" />
+<vertex x="1.8" y="-0.97" />
+<vertex x="1.75" y="-0.97" />
+<vertex x="1.75" y="-1.75" />
+<vertex x="0.97" y="-1.75" />
+<vertex x="0.97" y="-1.8" />
+<vertex x="-0.97" y="-1.8" />
+<vertex x="-0.97" y="-1.75" />
+<vertex x="-1.75" y="-1.75" />
+<vertex x="-1.75" y="-0.97" />
+</polygon>
+</package>
 <package name="6-XFQFN">
 <polygon width="0" layer="39">
 <vertex x="-0.875" y="1.03" />
@@ -2625,14 +2768,6 @@ relief via placements
 <smd name="P$49_2" x="0" y="1.975" dx="1.45" dy="1.45" layer="1" thermals="no" />
 <smd name="P$49_3" x="1.975" y="1.975" dx="1.45" dy="1.45" layer="1" thermals="no" />
 <smd name="P$49_1" x="-1.975" y="1.675" dx="1.45" dy="0.85" layer="1" thermals="no" />
-<polygon width="0" layer="1">
-<vertex x="-2.7" y="2.1" />
-<vertex x="-2.7" y="1.25" />
-<vertex x="-1.25" y="1.25" />
-<vertex x="-1.25" y="2.1" />
-<vertex x="-1.25" y="2.7" />
-<vertex x="-2.1" y="2.7" />
-</polygon>
 <polygon width="0" layer="29">
 <vertex x="-2.8" y="2.2" />
 <vertex x="-1.15" y="2.2" />
@@ -2736,6 +2871,13 @@ relief via placements
 <vertex x="-6.95" y="5.85" />
 <vertex x="6.95" y="5.85" />
 <vertex x="6.95" y="11.35" />
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-2.7" y="2.1" />
+<vertex x="-2.1" y="2.7" />
+<vertex x="-1.25" y="2.7" />
+<vertex x="-1.25" y="1.25" />
+<vertex x="-2.7" y="1.25" />
 </polygon>
 </package>
 <package name="ESP32-PICO-MINI-02U">
@@ -2748,14 +2890,6 @@ relief via placements
 <smd name="P$49_2" x="0" y="1.975" dx="1.45" dy="1.45" layer="1" thermals="no" />
 <smd name="P$49_3" x="1.975" y="1.975" dx="1.45" dy="1.45" layer="1" thermals="no" />
 <smd name="P$49_1" x="-1.975" y="1.675" dx="1.45" dy="0.85" layer="1" thermals="no" />
-<polygon width="0" layer="1">
-<vertex x="-2.7" y="2.1" />
-<vertex x="-2.7" y="1.25" />
-<vertex x="-1.25" y="1.25" />
-<vertex x="-1.25" y="2.1" />
-<vertex x="-1.25" y="2.7" />
-<vertex x="-2.1" y="2.7" />
-</polygon>
 <polygon width="0" layer="29">
 <vertex x="-2.8" y="2.2" />
 <vertex x="-1.15" y="2.2" />
@@ -2832,6 +2966,13 @@ relief via placements
 <vertex x="6.95" y="-5.95" />
 <vertex x="6.95" y="5.95" />
 </polygon>
+<polygon width="0" layer="1">
+<vertex x="-2.7" y="2.1" />
+<vertex x="-2.1" y="2.7" />
+<vertex x="-1.25" y="2.7" />
+<vertex x="-1.25" y="1.25" />
+<vertex x="-2.7" y="1.25" />
+</polygon>
 </package>
 <package name="ESP32-PICO-MINI-02-THERMALS">
 <smd name="P$49_5" x="0" y="0" dx="1.45" dy="1.45" layer="1" />
@@ -2843,14 +2984,6 @@ relief via placements
 <smd name="P$49_2" x="0" y="1.975" dx="1.45" dy="1.45" layer="1" />
 <smd name="P$49_3" x="1.975" y="1.975" dx="1.45" dy="1.45" layer="1" />
 <smd name="P$49_1" x="-1.975" y="1.675" dx="1.45" dy="0.85" layer="1" />
-<polygon width="0" layer="1">
-<vertex x="-2.7" y="2.1" />
-<vertex x="-2.7" y="1.25" />
-<vertex x="-1.25" y="1.25" />
-<vertex x="-1.25" y="2.1" />
-<vertex x="-1.25" y="2.7" />
-<vertex x="-2.1" y="2.7" />
-</polygon>
 <polygon width="0" layer="29">
 <vertex x="-2.8" y="2.2" />
 <vertex x="-1.15" y="2.2" />
@@ -2955,6 +3088,13 @@ relief via placements
 <vertex x="6.95" y="5.85" />
 <vertex x="6.95" y="11.35" />
 </polygon>
+<polygon width="0" layer="1">
+<vertex x="-2.7" y="2.1" />
+<vertex x="-2.1" y="2.7" />
+<vertex x="-1.25" y="2.7" />
+<vertex x="-1.25" y="1.25" />
+<vertex x="-2.7" y="1.25" />
+</polygon>
 </package>
 <package name="ESP32-PICO-MINI-02U-THERMALS">
 <smd name="P$49_5" x="0" y="0" dx="1.45" dy="1.45" layer="1" />
@@ -2966,14 +3106,6 @@ relief via placements
 <smd name="P$49_2" x="0" y="1.975" dx="1.45" dy="1.45" layer="1" />
 <smd name="P$49_3" x="1.975" y="1.975" dx="1.45" dy="1.45" layer="1" />
 <smd name="P$49_1" x="-1.975" y="1.675" dx="1.45" dy="0.85" layer="1" />
-<polygon width="0" layer="1">
-<vertex x="-2.7" y="2.1" />
-<vertex x="-2.7" y="1.25" />
-<vertex x="-1.25" y="1.25" />
-<vertex x="-1.25" y="2.1" />
-<vertex x="-1.25" y="2.7" />
-<vertex x="-2.1" y="2.7" />
-</polygon>
 <polygon width="0" layer="29">
 <vertex x="-2.8" y="2.2" />
 <vertex x="-1.15" y="2.2" />
@@ -3049,6 +3181,13 @@ relief via placements
 <vertex x="-6.95" y="-5.95" />
 <vertex x="6.95" y="-5.95" />
 <vertex x="6.95" y="5.95" />
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-2.7" y="2.1" />
+<vertex x="-2.1" y="2.7" />
+<vertex x="-1.25" y="2.7" />
+<vertex x="-1.25" y="1.25" />
+<vertex x="-2.7" y="1.25" />
 </polygon>
 </package>
 <package name="20-SSOP">
@@ -5928,6 +6067,54 @@ ADS1015/ADS1115 ONLY</text>
 <pin name="PVDDR" x="5.08" y="12.7" length="short" rot="R270" />
 <pin name="SDZ" x="-20.32" y="-10.16" length="short" />
 </symbol>
+<symbol name="BATT-FUEL-GAUGE_BQ27441">
+<pin name="SDA" x="-12.7" y="10.16" length="short" />
+<pin name="SCL" x="-12.7" y="7.62" length="short" />
+<pin name="VSS" x="-12.7" y="0" length="short" />
+<pin name="VDD" x="-12.7" y="-2.54" length="short" />
+<pin name="BAT" x="-12.7" y="-7.62" length="short" />
+<pin name="SRN" x="12.7" y="-2.54" length="short" rot="R180" />
+<pin name="SRP" x="12.7" y="0" length="short" rot="R180" />
+<pin name="BIN" x="12.7" y="5.08" length="short" rot="R180" />
+<pin name="GPOUT" x="12.7" y="10.16" length="short" rot="R180" />
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="12.7" width="0.254" layer="94" />
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94" />
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-10.16" width="0.254" layer="94" />
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94" />
+<pin name="NC" x="0" y="-12.7" length="short" rot="R90" />
+<pin name="PPAD" x="12.7" y="-7.62" length="short" rot="R180" />
+<text x="0" y="15.24" size="1.778" layer="94" align="center">BQ27441</text>
+<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="20.32" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="BATTERY-CHARGER-BQ2407X">
+<pin name="TS" x="-20.32" y="-2.54" length="short" />
+<pin name="BAT-1" x="-20.32" y="-7.62" length="short" />
+<pin name="BAT-2" x="-20.32" y="-10.16" length="short" />
+<pin name="CE" x="20.32" y="-5.08" length="short" rot="R180" />
+<pin name="EN2" x="20.32" y="2.54" length="short" rot="R180" />
+<pin name="EN1" x="20.32" y="0" length="short" rot="R180" />
+<pin name="PGOOD" x="-2.54" y="20.32" length="short" rot="R270" />
+<pin name="VSS" x="-20.32" y="2.54" length="short" />
+<pin name="CHG" x="2.54" y="20.32" length="short" rot="R270" />
+<pin name="OUT-1" x="20.32" y="10.16" length="short" rot="R180" />
+<pin name="OUT-2" x="20.32" y="12.7" length="short" rot="R180" />
+<pin name="ILIM" x="-2.54" y="-20.32" length="short" rot="R90" />
+<pin name="IN" x="-20.32" y="12.7" length="short" />
+<pin name="TMR" x="-5.08" y="-20.32" length="short" rot="R90" />
+<pin name="ITERM/TD/SYSOFF" x="20.32" y="-2.54" length="short" rot="R180" />
+<pin name="ISET" x="5.08" y="-20.32" length="short" rot="R90" />
+<wire x1="-17.78" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94" />
+<wire x1="17.78" y1="17.78" x2="17.78" y2="-17.78" width="0.254" layer="94" />
+<wire x1="17.78" y1="-17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94" />
+<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="17.78" width="0.254" layer="94" />
+<text x="-17.78" y="25.4" size="1.778" layer="95">&gt;Name</text>
+<text x="-17.78" y="22.86" size="1.778" layer="96">&gt;Value</text>
+<text x="0" y="5.08" size="1.778" layer="94" align="center">BQ2407x</text>
+<text x="-5.08" y="-7.62" size="0.508" layer="97">BAT-1/BAT-2, OUT-1/OUT-2 
+ARE CONNECTED INTERNALLY</text>
+<pin name="TPAD" x="-20.32" y="0" length="short" />
+</symbol>
 <symbol name="BATTERY-MANAGEMENT-BQ298XYZ">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94" />
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94" />
@@ -7265,6 +7452,22 @@ MAX4465</text>
 <wire x1="-2.54" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="94" />
 <wire x1="0" y1="-7.62" x2="0" y2="-2.54" width="0.1524" layer="94" />
 </symbol>
+<symbol name="OPTOCOUPLER">
+<pin name="ANODE1" x="-12.7" y="7.62" length="short" />
+<pin name="CATH1" x="-12.7" y="2.54" length="short" />
+<pin name="CATH2" x="-12.7" y="-2.54" length="short" />
+<pin name="ANODE2" x="-12.7" y="-7.62" length="short" />
+<pin name="GND" x="12.7" y="-7.62" length="short" rot="R180" />
+<pin name="V02" x="12.7" y="-2.54" length="short" rot="R180" />
+<pin name="V01" x="12.7" y="2.54" length="short" rot="R180" />
+<pin name="VCC" x="12.7" y="7.62" length="short" rot="R180" />
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94" />
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94" />
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94" />
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94" />
+<text x="-10.16" y="15.24" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="12.7" size="1.778" layer="96">&gt;Value</text>
+</symbol>
 <symbol name="PANELBUS-TFP410A">
 <pin name="QO2" x="30.48" y="48.26" length="short" rot="R270" />
 <pin name="QO1" x="48.26" y="30.48" length="short" rot="R180" />
@@ -7404,6 +7607,38 @@ MAX4465</text>
 <wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94" />
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94" />
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94" />
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="7.62" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="SERIAL-FLASH-MEM-DUAL-IO">
+<pin name="CS#" x="-12.7" y="5.08" length="short" />
+<pin name="SO" x="-12.7" y="2.54" length="short" />
+<pin name="WP#" x="-12.7" y="0" length="short" />
+<pin name="GND" x="-12.7" y="-2.54" length="short" />
+<pin name="SI/IO0" x="12.7" y="-2.54" length="short" rot="R180" />
+<pin name="SCK" x="12.7" y="0" length="short" rot="R180" />
+<pin name="HOLD#" x="12.7" y="2.54" length="short" rot="R180" />
+<pin name="VCC" x="12.7" y="5.08" length="short" direction="oc" rot="R180" />
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94" />
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94" />
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94" />
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94" />
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="7.62" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="SERIAL-FLASH-MEM-DUAL/QUAD-IO">
+<pin name="CS" x="-15.24" y="5.08" length="short" />
+<pin name="DO/IO1" x="-15.24" y="2.54" length="short" />
+<pin name="WP/IO2" x="-15.24" y="0" length="short" />
+<pin name="GND" x="-15.24" y="-2.54" length="short" />
+<pin name="DI/IO0" x="15.24" y="-2.54" length="short" rot="R180" />
+<pin name="SCK" x="15.24" y="0" length="short" rot="R180" />
+<pin name="HOLD/IO3" x="15.24" y="2.54" length="short" rot="R180" />
+<pin name="VCC" x="15.24" y="5.08" length="short" direction="oc" rot="R180" />
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-5.08" width="0.254" layer="94" />
+<wire x1="-12.7" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94" />
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="7.62" width="0.254" layer="94" />
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94" />
 <text x="-10.16" y="10.16" size="1.778" layer="95">&gt;Name</text>
 <text x="-10.16" y="7.62" size="1.778" layer="96">&gt;Value</text>
 </symbol>
@@ -8775,6 +9010,91 @@ AVRÃ‚Â® enhanced RISC architecture
 <connect gate="G$1" pin="SDA" pad="P$19" />
 <connect gate="G$1" pin="SDZ" pad="P$18" />
 <connect gate="G$1" pin="TPAD" pad="EP" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATT-FUEL-GAUGE_BQ27441" prefix="U" uservalue="yes">
+<description>&lt;b&gt;BQ27441-G1&lt;/b&gt; - IC FUEL GAUGE LI-ION 1CELL 12SON
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt; Function: Battery Monitor &lt;/li&gt;
+&lt;li&gt; Battery Chemistry: Lithium Ion &lt;/li&gt;
+&lt;li&gt; I2C Interface
+&lt;li&gt; Supports low-value external sense resistor (10 Ohm)
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;BQ27441-G1&lt;/a&gt;
+&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/ds/symlink/bq27441-g1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1668527457644&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq27441-g1"&gt;bq27441-G1 System-Side Impedance Track Fuel Gauge datasheet (Rev. C)&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATT-FUEL-GAUGE_BQ27441" x="0" y="0" />
+</gates>
+<devices>
+<device name="DRZ" package="12-VSON(2.5X4)">
+<connects>
+<connect gate="G$1" pin="BAT" pad="P$6" />
+<connect gate="G$1" pin="BIN" pad="P$10" />
+<connect gate="G$1" pin="GPOUT" pad="P$12" />
+<connect gate="G$1" pin="NC" pad="P$4 P$9 P$11" />
+<connect gate="G$1" pin="PPAD" pad="P$13" />
+<connect gate="G$1" pin="SCL" pad="P$2" />
+<connect gate="G$1" pin="SDA" pad="P$1" />
+<connect gate="G$1" pin="SRN" pad="P$7" />
+<connect gate="G$1" pin="SRP" pad="P$8" />
+<connect gate="G$1" pin="VDD" pad="P$5" />
+<connect gate="G$1" pin="VSS" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATTERY-CHARGER-BQ2407X" prefix="U" uservalue="yes">
+<description>&lt;b&gt;BQ2407x&lt;/b&gt; - IC BATT CHG LI-ION 1CELL 16QFN
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Charger IC Lithium Ion 16-VQFN (3x3)&lt;/li&gt;
+&lt;li&gt;Fully compliant USB Charger&lt;/li&gt;
+&lt;li&gt;Battery Pack Voltage: 4.2V&lt;/li&gt;
+&lt;b&gt;&lt;li&gt;Pin15 depends on model:
+&lt;li&gt;System output tracks battery voltage (BQ24072)&lt;/li&gt;
+&lt;li&gt;Programmable termination current (BQ24074)&lt;/li&gt;
+&lt;li&gt;Battery disconnect function with SYSOFF input (BQ24075, BQ24079)&lt;/li&gt;&lt;/b&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;BQ2407x&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/ds/symlink/bq24074.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1681869526777&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq24074"&gt;BQ2407x Standalone 1-Cell 1.5-A Linear Battery Charger with PowerPath datasheet (Rev. N)
+&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATTERY-CHARGER-BQ2407X" x="0" y="0" />
+</gates>
+<devices>
+<device name="RGT" package="16-VQFN(3X3)-EXPOSED-PAD">
+<connects>
+<connect gate="G$1" pin="BAT-1" pad="P$2" />
+<connect gate="G$1" pin="BAT-2" pad="P$3" />
+<connect gate="G$1" pin="CE" pad="P$4" />
+<connect gate="G$1" pin="CHG" pad="P$9" />
+<connect gate="G$1" pin="EN1" pad="P$6" />
+<connect gate="G$1" pin="EN2" pad="P$5" />
+<connect gate="G$1" pin="ILIM" pad="P$12" />
+<connect gate="G$1" pin="IN" pad="P$13" />
+<connect gate="G$1" pin="ISET" pad="P$16" />
+<connect gate="G$1" pin="ITERM/TD/SYSOFF" pad="P$15" />
+<connect gate="G$1" pin="OUT-1" pad="P$10" />
+<connect gate="G$1" pin="OUT-2" pad="P$11" />
+<connect gate="G$1" pin="PGOOD" pad="P$7" />
+<connect gate="G$1" pin="TMR" pad="P$14" />
+<connect gate="G$1" pin="TPAD" pad="P$17" />
+<connect gate="G$1" pin="TS" pad="P$1" />
+<connect gate="G$1" pin="VSS" pad="P$8" />
 </connects>
 <technologies>
 <technology name="" />
@@ -11085,6 +11405,42 @@ AVRÃ‚Â® enhanced RISC architecture
 </device>
 </devices>
 </deviceset>
+<deviceset name="OPTOCOUPLER-HCPL-X73" prefix="U" uservalue="yes">
+<description>&lt;b&gt;HCPL-073L&lt;/b&gt; - Low Input Current, High Gain, LVTTL/LVCMOS
+Compatible Optocouplers
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Input voltage: 3.3/5v dual supply&lt;/li&gt;
+&lt;li&gt;Min input current: 0.5mA&lt;/li&gt;
+&lt;li&gt;Output current: 60mA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;HCPL-073L-000E&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://docs.broadcom.com/doc/AV02-1054EN"&gt;HCPL-270L/070L/273L/073L
+Low Input Current, High Gain, LVTTL/LVCMOS
+Compatible Optocouplers&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPTOCOUPLER" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="SOIC-8-150MIL-3.9MM">
+<connects>
+<connect gate="G$1" pin="ANODE1" pad="P$1" />
+<connect gate="G$1" pin="ANODE2" pad="P$4" />
+<connect gate="G$1" pin="CATH1" pad="P$2" />
+<connect gate="G$1" pin="CATH2" pad="P$3" />
+<connect gate="G$1" pin="GND" pad="P$5" />
+<connect gate="G$1" pin="V01" pad="P$7" />
+<connect gate="G$1" pin="V02" pad="P$6" />
+<connect gate="G$1" pin="VCC" pad="P$8" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="PANELBUS-TFP401A" prefix="U" uservalue="yes">
 <description>&lt;b&gt;TFP401A&lt;/b&gt; - IC RECEIVER DVI 100HTQFP
 
@@ -11288,6 +11644,75 @@ AVRÃ‚Â® enhanced RISC architecture
 <connect gate="G$1" pin="SO" pad="P$2" />
 <connect gate="G$1" pin="VCC" pad="P$8" />
 <connect gate="G$1" pin="WP#" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SERIAL-FLASH-MEM-DUAL-IO" uservalue="yes">
+<description>&lt;b&gt;SERIAL-FLASH-MEM-DUAL-IO&lt;/b&gt; - 16MBIT SPI Microcontroller/Dual 8-SOIC
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Memory Interface: SPI - Dual I/O&lt;/li&gt;
+&lt;li&gt;Clock Frequency: 65 MHz&lt;/li&gt;
+&lt;li&gt;Write Cycle Time: 5ms&lt;/li&gt;
+&lt;li&gt;Voltage - Supply: 2.7V ~ 3.6V&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -40°C ~ 85°C (TA)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;S25FL216K&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.infineon.com/dgdl/Infineon-S25FL216K_16-Mbit_3.0_V_Serial_Flash_Memory_with_Uniform_4_kB_Sectors_Datasheet-AdditionalTechnicalInformation-v12_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ed5142053e0&amp;utm_source=cypress&amp;utm_medium=referral&amp;utm_campaign"&gt;S25FL216K&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="SERIAL-FLASH-MEM-DUAL-IO" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="SOIC-8-150MIL-3.9MM">
+<connects>
+<connect gate="G$1" pin="CS#" pad="P$1" />
+<connect gate="G$1" pin="GND" pad="P$4" />
+<connect gate="G$1" pin="HOLD#" pad="P$7" />
+<connect gate="G$1" pin="SCK" pad="P$6" />
+<connect gate="G$1" pin="SI/IO0" pad="P$5" />
+<connect gate="G$1" pin="SO" pad="P$2" />
+<connect gate="G$1" pin="VCC" pad="P$8" />
+<connect gate="G$1" pin="WP#" pad="P$3" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SERIAL-FLASH-MEM-DUAL/QUAD-IO" uservalue="yes">
+<description>&lt;b&gt;SERIAL-FLASH-MEM-DUAL/QUAD-IO&lt;/b&gt; -  Serial Flash Memory with Standard, Dual, and Quad IO SPI 
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Memory Interface: SPI - STD, DUAL, QUAD I/O&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;W25Q80EWSNIG&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.winbond.com/resource-files/w25q80ew%20revi%2008222017%20sfdp.pdf"&gt;1.8V 8M-BIT
+SERIAL FLASH MEMORY WITH
+DUAL/QUAD SPI &amp; QPI&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="SERIAL-FLASH-MEM-DUAL/QUAD-IO" x="0" y="0" />
+</gates>
+<devices>
+<device name="SOIC-8" package="SOIC-8-150MIL-3.9MM">
+<connects>
+<connect gate="G$1" pin="CS" pad="P$1" />
+<connect gate="G$1" pin="DI/IO0" pad="P$5" />
+<connect gate="G$1" pin="DO/IO1" pad="P$2" />
+<connect gate="G$1" pin="GND" pad="P$4" />
+<connect gate="G$1" pin="HOLD/IO3" pad="P$7" />
+<connect gate="G$1" pin="SCK" pad="P$6" />
+<connect gate="G$1" pin="VCC" pad="P$8" />
+<connect gate="G$1" pin="WP/IO2" pad="P$3" />
 </connects>
 <technologies>
 <technology name="" />
