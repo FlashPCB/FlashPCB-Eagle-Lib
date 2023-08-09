@@ -2758,6 +2758,47 @@ relief via placements
 <text x="-1.7" y="2.4" size="0.8128" layer="25">&gt;Name</text>
 <text x="-1.7" y="1.5" size="0.8128" layer="27">&gt;Value</text>
 </package>
+<package name="ESP-12S">
+<smd name="P$1" x="-8" y="7" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$2" x="-8" y="5" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$3" x="-8" y="3" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$4" x="-8" y="1" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$5" x="-8" y="-1" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$6" x="-8" y="-3" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$7" x="-8" y="-5" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$8" x="-8" y="-7" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$9" x="8" y="-7" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$10" x="8" y="-5" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$11" x="8" y="-3" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$12" x="8" y="-1" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$13" x="8" y="1" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$14" x="8" y="3" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$15" x="8" y="5" dx="2.6" dy="1.1" layer="1" />
+<smd name="P$16" x="8" y="7" dx="2.6" dy="1.1" layer="1" />
+<wire x1="-8" y1="15.5" x2="8" y2="15.5" width="0.127" layer="21" />
+<wire x1="8" y1="15.5" x2="8" y2="8" width="0.127" layer="21" />
+<wire x1="8" y1="-8" x2="8" y2="-8.5" width="0.127" layer="21" />
+<wire x1="8" y1="-8.5" x2="-8" y2="-8.5" width="0.127" layer="21" />
+<wire x1="-8" y1="-8.5" x2="-8" y2="-8" width="0.127" layer="21" />
+<wire x1="-8" y1="8" x2="-8" y2="15.5" width="0.127" layer="21" />
+<circle x="-9.8" y="7" radius="0.254" width="0" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-8.25" y="15.75" />
+<vertex x="8.25" y="15.75" />
+<vertex x="8.25" y="7.65" />
+<vertex x="9.4" y="7.65" />
+<vertex x="9.4" y="-7.65" />
+<vertex x="8.25" y="-7.65" />
+<vertex x="8.25" y="-8.75" />
+<vertex x="-8.25" y="-8.75" />
+<vertex x="-8.25" y="-7.65" />
+<vertex x="-9.4" y="-7.65" />
+<vertex x="-9.4" y="7.65" />
+<vertex x="-8.25" y="7.65" />
+</polygon>
+<text x="-8" y="17.25" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-8" y="16" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
 <package name="ESP32-PICO-MINI-02">
 <smd name="P$49_5" x="0" y="0" dx="1.45" dy="1.45" layer="1" thermals="no" />
 <smd name="P$49_4" x="-1.975" y="0" dx="1.45" dy="1.45" layer="1" thermals="no" />
@@ -3365,6 +3406,35 @@ relief via placements
 <text x="-1.75" y="1.875" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <wire x1="-0.925" y1="1" x2="0.925" y2="1" width="0.127" layer="21" />
 <wire x1="-0.925" y1="-1" x2="0.925" y2="-1" width="0.127" layer="21" />
+</package>
+<package name="8-WSON(2X2)-NO_EP">
+<smd name="P$1" x="-0.95" y="0.75" dx="0.5" dy="0.25" layer="1" />
+<smd name="P$2" x="-0.95" y="0.25" dx="0.5" dy="0.25" layer="1" />
+<smd name="P$3" x="-0.95" y="-0.25" dx="0.5" dy="0.25" layer="1" />
+<smd name="P$4" x="-0.95" y="-0.75" dx="0.5" dy="0.25" layer="1" />
+<smd name="P$5" x="0.95" y="-0.75" dx="0.5" dy="0.25" layer="1" rot="R180" />
+<smd name="P$6" x="0.95" y="-0.25" dx="0.5" dy="0.25" layer="1" rot="R180" />
+<smd name="P$7" x="0.95" y="0.25" dx="0.5" dy="0.25" layer="1" rot="R180" />
+<smd name="P$8" x="0.95" y="0.75" dx="0.5" dy="0.25" layer="1" rot="R180" />
+<polygon width="0" layer="39">
+<vertex x="-1.3" y="0.975" />
+<vertex x="-1.15" y="0.975" />
+<vertex x="-1.15" y="1.15" />
+<vertex x="1.15" y="1.15" />
+<vertex x="1.15" y="0.975" />
+<vertex x="1.3" y="0.975" />
+<vertex x="1.3" y="-0.975" />
+<vertex x="1.15" y="-0.975" />
+<vertex x="1.15" y="-1.15" />
+<vertex x="-1.15" y="-1.15" />
+<vertex x="-1.15" y="-0.975" />
+<vertex x="-1.3" y="-0.975" />
+</polygon>
+<wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.127" layer="21" />
+<wire x1="-0.5" y1="-1" x2="0.5" y2="-1" width="0.127" layer="21" />
+<circle x="-1.7" y="0.75" radius="0.254" width="0" layer="21" />
+<text x="-1.7" y="2.4" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.7" y="1.5" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="20-PLCC(9X9)">
 <smd name="P$1" x="0" y="4.15" dx="0.64" dy="2.45" layer="1" />
@@ -4150,6 +4220,89 @@ Recommendations (5x 0.2mm DIA)</text>
 vias .3mmdiam and
 1.00mm pitch</text>
 <smd name="P$21" x="0" y="0" dx="3.3" dy="3.3" layer="1" />
+</package>
+<package name="48-LQFP(7X7)">
+<smd name="P$1" x="-4.1" y="2.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$2" x="-4.1" y="2.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$3" x="-4.1" y="1.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$4" x="-4.1" y="1.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$5" x="-4.1" y="0.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$6" x="-4.1" y="0.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$7" x="-4.1" y="-0.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$8" x="-4.1" y="-0.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$9" x="-4.1" y="-1.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$10" x="-4.1" y="-1.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$11" x="-4.1" y="-2.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$12" x="-4.1" y="-2.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$13" x="-2.75" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$14" x="-2.25" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$15" x="-1.75" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$16" x="-1.25" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$17" x="-0.75" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$18" x="-0.25" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$19" x="0.25" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$20" x="0.75" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$21" x="1.25" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$22" x="1.75" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$23" x="2.25" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$24" x="2.75" y="-4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$25" x="4.1" y="-2.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$26" x="4.1" y="-2.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$27" x="4.1" y="-1.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$28" x="4.1" y="-1.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$29" x="4.1" y="-0.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$30" x="4.1" y="-0.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$31" x="4.1" y="0.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$32" x="4.1" y="0.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$33" x="4.1" y="1.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$34" x="4.1" y="1.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$35" x="4.1" y="2.25" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$36" x="4.1" y="2.75" dx="1.45" dy="0.27" layer="1" />
+<smd name="P$37" x="2.75" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$38" x="2.25" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$39" x="1.75" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$40" x="1.25" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$41" x="0.75" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$42" x="0.25" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$43" x="-0.25" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$44" x="-0.75" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$45" x="-1.25" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$46" x="-1.75" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$47" x="-2.25" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<smd name="P$48" x="-2.75" y="4.1" dx="0.27" dy="1.45" layer="1" />
+<circle x="-5.325" y="2.75" radius="0.254" width="0" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-4.925" y="3" />
+<vertex x="-3.7" y="3" />
+<vertex x="-3.7" y="3.7" />
+<vertex x="-3" y="3.7" />
+<vertex x="-3" y="4.925" />
+<vertex x="3" y="4.925" />
+<vertex x="3" y="3.7" />
+<vertex x="3.7" y="3.7" />
+<vertex x="3.7" y="3" />
+<vertex x="4.925" y="3" />
+<vertex x="4.925" y="-3" />
+<vertex x="3.7" y="-3" />
+<vertex x="3.7" y="-3.7" />
+<vertex x="3" y="-3.7" />
+<vertex x="3" y="-4.925" />
+<vertex x="-3" y="-4.925" />
+<vertex x="-3" y="-3.7" />
+<vertex x="-3.7" y="-3.7" />
+<vertex x="-3.7" y="-3" />
+<vertex x="-4.925" y="-3" />
+</polygon>
+<text x="-2.7" y="6.2" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.7" y="5.2" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<wire x1="-3.5" y1="3.5" x2="-3.0715" y2="3.5" width="0.127" layer="21" />
+<wire x1="3.0715" y1="3.5" x2="3.5" y2="3.5" width="0.127" layer="21" />
+<wire x1="3.5" y1="3.5" x2="3.5" y2="3.0715" width="0.127" layer="21" />
+<wire x1="3.5" y1="-3.0715" x2="3.5" y2="-3.5" width="0.127" layer="21" />
+<wire x1="3.5" y1="-3.5" x2="3.0715" y2="-3.5" width="0.127" layer="21" />
+<wire x1="-3.0715" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21" />
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="-3.0715" width="0.127" layer="21" />
+<wire x1="-3.5" y1="3.0715" x2="-3.5" y2="3.5" width="0.127" layer="21" />
 </package>
 <package name="16-HTSSOP">
 <circle x="-4.15" y="2.275" radius="0.254" width="0" layer="21" />
@@ -6794,6 +6947,31 @@ ARE CONNECTED INTERNALLY</text>
 <text x="-17.78" y="7.62" size="1.778" layer="95">&gt;Name</text>
 <text x="-17.78" y="5.08" size="1.778" layer="96">&gt;Value</text>
 </symbol>
+<symbol name="ESP-12S">
+<pin name="RST" x="-12.7" y="0" length="short" />
+<pin name="ADC" x="-12.7" y="-12.7" length="short" />
+<pin name="EN" x="-12.7" y="5.08" length="short" />
+<pin name="IO16" x="12.7" y="-10.16" length="short" rot="R180" />
+<pin name="IO14" x="12.7" y="-2.54" length="short" rot="R180" />
+<pin name="IO12" x="12.7" y="0" length="short" rot="R180" />
+<pin name="IO13" x="12.7" y="-5.08" length="short" rot="R180" />
+<pin name="IO15" x="12.7" y="-7.62" length="short" rot="R180" />
+<pin name="IO2" x="12.7" y="7.62" length="short" rot="R180" />
+<pin name="IO0" x="12.7" y="10.16" length="short" rot="R180" />
+<pin name="IO4" x="12.7" y="5.08" length="short" rot="R180" />
+<pin name="IO5" x="12.7" y="2.54" length="short" rot="R180" />
+<pin name="RXD0" x="-12.7" y="-7.62" length="short" />
+<pin name="TXD0" x="-12.7" y="-5.08" length="short" />
+<pin name="VCC" x="-12.7" y="10.16" length="short" />
+<pin name="GND" x="0" y="-20.32" length="short" rot="R90" />
+<wire x1="-10.16" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94" />
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-17.78" width="0.254" layer="94" />
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94" />
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="17.78" width="0.254" layer="94" />
+<text x="0" y="15.24" size="1.778" layer="94" align="bottom-center">ESP-12S</text>
+<text x="-10.16" y="22.86" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="20.32" size="1.778" layer="96">&gt;Value</text>
+</symbol>
 <symbol name="ESP32-PICO-MINI-02">
 <pin name="GND$1" x="-33.02" y="12.7" length="short" />
 <pin name="GND$2" x="-33.02" y="10.16" length="short" />
@@ -6984,6 +7162,18 @@ ESP32-PICO-MINI-02U</text>
 <text x="0" y="2.54" size="1.778" layer="94" align="bottom-center">74AVCT774</text>
 <text x="-12.7" y="15.24" size="1.778" layer="96">Value</text>
 <text x="-12.7" y="17.78" size="1.778" layer="95">Name</text>
+</symbol>
+<symbol name="IR-PREAMP">
+<pin name="IN" x="-12.7" y="0" length="short" />
+<pin name="OUT" x="12.7" y="0" length="short" rot="R180" />
+<pin name="VSS" x="0" y="10.16" length="short" rot="R270" />
+<pin name="GND" x="0" y="-10.16" length="short" rot="R90" />
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94" />
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94" />
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94" />
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94" />
+<text x="-10.16" y="15.24" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="12.7" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="LED-DRIVER-10CH-LM3914">
 <pin name="R_LOW" x="-7.62" y="-17.78" length="short" rot="R90" />
@@ -7214,6 +7404,48 @@ MAX4465</text>
 <text x="-12.7" y="12.7" size="1.778" layer="95">&gt;Name</text>
 <text x="-12.7" y="10.16" size="1.778" layer="96">&gt;Value</text>
 <pin name="THERM_PAD" x="-15.24" y="-7.62" length="short" />
+</symbol>
+<symbol name="VS10X3">
+<pin name="SD" x="-17.78" y="25.4" length="short" />
+<pin name="SI" x="-17.78" y="22.86" length="short" />
+<pin name="SCLK" x="-17.78" y="20.32" length="short" />
+<pin name="CS" x="-17.78" y="17.78" length="short" />
+<pin name="DCS/BSYNC" x="-17.78" y="15.24" length="short" />
+<pin name="DREQ" x="-17.78" y="12.7" length="short" />
+<pin name="RESET" x="-17.78" y="10.16" length="short" />
+<pin name="TEST" x="-17.78" y="7.62" length="short" />
+<pin name="XTI/MCLK" x="-17.78" y="2.54" length="short" />
+<pin name="XTO" x="-17.78" y="0" length="short" />
+<pin name="VCO" x="-17.78" y="-5.08" length="short" />
+<pin name="GPIO0" x="-17.78" y="-10.16" length="short" />
+<pin name="GPIO1" x="-17.78" y="-12.7" length="short" />
+<pin name="GPIO2/DCLK" x="-17.78" y="-15.24" length="short" />
+<pin name="GPIO3/SDATA" x="-17.78" y="-17.78" length="short" />
+<pin name="GPIO4/12S_LROUT" x="-17.78" y="-20.32" length="short" />
+<pin name="GPIO5/12S_MCLK" x="-17.78" y="-22.86" length="short" />
+<pin name="GPIO6/12S_SCLK" x="-17.78" y="-25.4" length="short" />
+<pin name="GPIO7/12S_SDATA" x="-17.78" y="-27.94" length="short" />
+<pin name="AGND" x="17.78" y="-27.94" length="short" rot="R180" />
+<pin name="RCAP" x="17.78" y="-22.86" length="short" rot="R180" />
+<pin name="LINE2" x="17.78" y="-17.78" length="short" rot="R180" />
+<pin name="MICN" x="17.78" y="-15.24" length="short" rot="R180" />
+<pin name="MICP/LINE1" x="17.78" y="-12.7" length="short" rot="R180" />
+<pin name="GBUF" x="17.78" y="-7.62" length="short" rot="R180" />
+<pin name="RIGHT" x="17.78" y="-5.08" length="short" rot="R180" />
+<pin name="LEFT" x="17.78" y="-2.54" length="short" rot="R180" />
+<pin name="AVDD" x="17.78" y="2.54" length="short" rot="R180" />
+<pin name="DGND" x="17.78" y="7.62" length="short" rot="R180" />
+<pin name="TX" x="17.78" y="12.7" length="short" rot="R180" />
+<pin name="RX" x="17.78" y="15.24" length="short" rot="R180" />
+<pin name="CVDD" x="17.78" y="20.32" length="short" rot="R180" />
+<pin name="IOVDD" x="17.78" y="25.4" length="short" rot="R180" />
+<wire x1="-15.24" y1="30.48" x2="15.24" y2="30.48" width="0.254" layer="94" />
+<wire x1="15.24" y1="30.48" x2="15.24" y2="-30.48" width="0.254" layer="94" />
+<wire x1="15.24" y1="-30.48" x2="-15.24" y2="-30.48" width="0.254" layer="94" />
+<wire x1="-15.24" y1="-30.48" x2="-15.24" y2="30.48" width="0.254" layer="94" />
+<text x="-15.24" y="35.56" size="1.778" layer="95">&gt;Name</text>
+<text x="-15.24" y="33.02" size="1.778" layer="96">&gt;Value</text>
+<text x="0" y="27.94" size="1.778" layer="94" align="center">VS1053</text>
 </symbol>
 <symbol name="MOTOR-DRIVER-DRV2605L">
 <pin name="GND" x="0" y="-17.78" length="short" rot="R90" />
@@ -10036,6 +10268,48 @@ AVRÃ‚Â® enhanced RISC architecture
 </device>
 </devices>
 </deviceset>
+<deviceset name="ESP-12S" prefix="U" uservalue="yes">
+<description>&lt;b&gt;ESP-12S&lt;/b&gt; - Self Contained 802.11b/g/n ESP Wifi Module featuring the ESP8266 SOC
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;802.11 b/g/n&lt;/li&gt;
+&lt;li&gt;Wi-Fi 2.4GHz, WPA/WPA2&lt;/li&gt;
+&lt;li&gt;SDIO 2.0, SPI, UART, 12C, 12S, IRDA, PWM, GPIO&lt;/li&gt;
+&lt;li&gt;Wake-up time: under 2ms &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;ESP-12S&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.rfsolutions.co.uk/downloads/6253e9e3cab0d503DS-ESP12S-1.pdf"&gt;ESP WIFI Module&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="ESP-12S" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="ESP-12S">
+<connects>
+<connect gate="G$1" pin="ADC" pad="P$2" />
+<connect gate="G$1" pin="EN" pad="P$3" />
+<connect gate="G$1" pin="GND" pad="P$9" />
+<connect gate="G$1" pin="IO0" pad="P$12" />
+<connect gate="G$1" pin="IO12" pad="P$6" />
+<connect gate="G$1" pin="IO13" pad="P$7" />
+<connect gate="G$1" pin="IO14" pad="P$5" />
+<connect gate="G$1" pin="IO15" pad="P$10" />
+<connect gate="G$1" pin="IO16" pad="P$4" />
+<connect gate="G$1" pin="IO2" pad="P$11" />
+<connect gate="G$1" pin="IO4" pad="P$13" />
+<connect gate="G$1" pin="IO5" pad="P$14" />
+<connect gate="G$1" pin="RST" pad="P$1" />
+<connect gate="G$1" pin="RXD0" pad="P$15" />
+<connect gate="G$1" pin="TXD0" pad="P$16" />
+<connect gate="G$1" pin="VCC" pad="P$8" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="ESP32-PICO-MINI-02" prefix="U" uservalue="yes">
 <description>&lt;b&gt;ESP32-PICO-MINI-02(U)&lt;/b&gt; - Bluetooth, WiFi 802.11b/g/n, Bluetooth v4.2 +EDR, Class 1, 2 and 3 Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Chassis Mount
 
@@ -10513,6 +10787,45 @@ AVRÃ‚Â® enhanced RISC architecture
 <connect gate="G$1" pin="OE" pad="P$9" />
 <connect gate="G$1" pin="VCCA" pad="P$16" />
 <connect gate="G$1" pin="VCCB" pad="P$15" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IR-PREAMP_VSOP383" prefix="U" uservalue="yes">
+<description>&lt;b&gt;IR-PREAMP&lt;/b&gt; - Preamplifier Circuit for IR Remote Control
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;AGC to spress noise from fluorescent lamps and CRTs&lt;/li&gt;
+&lt;li&gt;High immunity to DC light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;VSOP38338&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.vishay.com/docs/82748/vsop383.pdf"&gt;Preamplifier Circuit for IR Remote Control&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="IR-PREAMP" x="0" y="0" />
+</gates>
+<devices>
+<device name="NO_EP" package="8-WSON(2X2)-NO_EP">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$6 P$8" />
+<connect gate="G$1" pin="IN" pad="P$7" />
+<connect gate="G$1" pin="OUT" pad="P$3" />
+<connect gate="G$1" pin="VSS" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="EP" package="8-WSON(2X2)">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$6 P$8" />
+<connect gate="G$1" pin="IN" pad="P$7" />
+<connect gate="G$1" pin="OUT" pad="P$3" />
+<connect gate="G$1" pin="VSS" pad="P$2" />
 </connects>
 <technologies>
 <technology name="" />
@@ -11017,6 +11330,68 @@ AVRÃ‚Â® enhanced RISC architecture
 <connect gate="G$1" pin="VDD" pad="P$8" />
 <connect gate="G$1" pin="VIN+" pad="P$2" />
 <connect gate="G$1" pin="VIN-" pad="P$4" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIDI-CODEC-VS10X3" prefix="U" uservalue="yes">
+<description>&lt;b&gt;VS1053 / VS1063&lt;/b&gt; - Ogg Vorbis/MP3/AAC/WMA/
+FLAC/WAVMIDI audio decoder as well as an
+PCM/IMA ADPCM/Ogg Vorbis encoder
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;MP3 = MPEG 1 &amp; 2 audio layer III (CBR
++VBR +ABR)&lt;/li&gt;
+&lt;li&gt;MP1/MP2 = layers I &amp; II optional&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;VS1053 / VS1063&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.vlsi.fi/fileadmin/datasheets/vs1053.pdf"&gt;VS1053b -
+Ogg Vorbis/MP3/AAC/WMA/FLAC/
+MIDI AUDIO CODEC CIRCUIT&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="VS10X3" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="48-LQFP(7X7)">
+<connects>
+<connect gate="G$1" pin="AGND" pad="P$37 P$40 P$41 P$47" />
+<connect gate="G$1" pin="AVDD" pad="P$38 P$43 P$45" />
+<connect gate="G$1" pin="CS" pad="P$23" />
+<connect gate="G$1" pin="CVDD" pad="P$5 P$7 P$24 P$31" />
+<connect gate="G$1" pin="DCS/BSYNC" pad="P$13" />
+<connect gate="G$1" pin="DGND" pad="P$4 P$16 P$20 P$21 P$22 P$35" />
+<connect gate="G$1" pin="DREQ" pad="P$8" />
+<connect gate="G$1" pin="GBUF" pad="P$42" />
+<connect gate="G$1" pin="GPIO0" pad="P$33" />
+<connect gate="G$1" pin="GPIO1" pad="P$34" />
+<connect gate="G$1" pin="GPIO2/DCLK" pad="P$9" />
+<connect gate="G$1" pin="GPIO3/SDATA" pad="P$10" />
+<connect gate="G$1" pin="GPIO4/12S_LROUT" pad="P$36" />
+<connect gate="G$1" pin="GPIO5/12S_MCLK" pad="P$25" />
+<connect gate="G$1" pin="GPIO6/12S_SCLK" pad="P$11" />
+<connect gate="G$1" pin="GPIO7/12S_SDATA" pad="P$12" />
+<connect gate="G$1" pin="IOVDD" pad="P$6 P$14 P$19" />
+<connect gate="G$1" pin="LEFT" pad="P$46" />
+<connect gate="G$1" pin="LINE2" pad="P$48" />
+<connect gate="G$1" pin="MICN" pad="P$2" />
+<connect gate="G$1" pin="MICP/LINE1" pad="P$1" />
+<connect gate="G$1" pin="RCAP" pad="P$44" />
+<connect gate="G$1" pin="RESET" pad="P$3" />
+<connect gate="G$1" pin="RIGHT" pad="P$39" />
+<connect gate="G$1" pin="RX" pad="P$26" />
+<connect gate="G$1" pin="SCLK" pad="P$28" />
+<connect gate="G$1" pin="SD" pad="P$30" />
+<connect gate="G$1" pin="SI" pad="P$29" />
+<connect gate="G$1" pin="TEST" pad="P$32" />
+<connect gate="G$1" pin="TX" pad="P$27" />
+<connect gate="G$1" pin="VCO" pad="P$15" />
+<connect gate="G$1" pin="XTI/MCLK" pad="P$18" />
+<connect gate="G$1" pin="XTO" pad="P$17" />
 </connects>
 <technologies>
 <technology name="" />
