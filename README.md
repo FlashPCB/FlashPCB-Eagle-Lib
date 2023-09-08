@@ -40,10 +40,8 @@ Clone this repo using your favorite git client or download the zip file containi
 
 ### Update Eagle's Library directories to recognize this library
 
-[This tutorial](https://www.autodesk.com/products/eagle/blog/library-basics-install-use-sparkfun-adafruit-libraries-autodesk-eagle/#:~:text=Step%202%20%E2%80%93%20Update%20Your%20EAGLE%20Library%20Directory)
-explains how to update Eagle's settings so that you can use this library. The tutorial explains how to use Sparkfun and
-Adafruit libraries but the process is very similar for our library. Start at the section "Step 2 – Update Your EAGLE
-Library Directory".
+[Our blogpost](https://www.flashpcb.com/blog/FlashPCB-Eagle-Libraries) explains our suggested method for importing the FlashPCB
+Libraries in KiCad.
 
 ### Use these components in your Eagle PCB design
 
@@ -52,7 +50,7 @@ you're placing a resistor or by specifying a manufacturer's part number.
 
 ### Order your assembled board from FlashPCB
 
-We are currently in a closed beta program. Sign up [here](https://www.flashpcb.com/beta-sign-up) to get your board
+Upload your board [here](https://www.flashpcb.com/upload-board) to get your board
 manufactured with us.
 
 ## Requesting additions to the library
@@ -62,5 +60,7 @@ request specific components added to our library. Additionally you can reach out
 via [our site's contact page](https://www.flashpcb.com/contact).
 
 ## Do you use a different CAD software?
+
+- [FlashPCB KiCad Library](https://github.com/FlashPCB/FlashPCB-KiCad-Lib/)
 
 We are working on supporting more CAD programs in the future. Check back here later for links to our other libraries.
