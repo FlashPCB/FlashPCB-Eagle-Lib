@@ -457,6 +457,29 @@
 <text x="1.265" y="3.325" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="1.265" y="2.385" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
+<package name="CMR200T">
+<smd name="S$1" x="-3.875" y="0" dx="2.5" dy="2.5" layer="1" />
+<smd name="P$1" x="3.875" y="-1.25" dx="2.5" dy="1" layer="1" />
+<smd name="P$2" x="3.875" y="1.25" dx="2.5" dy="1" layer="1" />
+<wire x1="-2.4" y1="-1" x2="2.4" y2="-1" width="0.127" layer="21" />
+<wire x1="2.4" y1="1" x2="-2.4" y2="1" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-5.225" y="1.35" />
+<vertex x="-2.5" y="1.35" />
+<vertex x="-2.5" y="1.3" />
+<vertex x="2.5" y="1.3" />
+<vertex x="2.5" y="1.85" />
+<vertex x="5.225" y="1.85" />
+<vertex x="5.225" y="-1.85" />
+<vertex x="2.5" y="-1.85" />
+<vertex x="2.5" y="-1.3" />
+<vertex x="-2.5" y="-1.3" />
+<vertex x="-2.5" y="-1.35" />
+<vertex x="-5.225" y="-1.35" />
+</polygon>
+<text x="-4.1" y="2.4" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-4.1" y="1.5" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
 <package name="3-SMD">
 <smd name="P$1" x="-1.2" y="0" dx="0.4" dy="1.9" layer="1" />
 <smd name="P$2" x="0" y="0" dx="0.4" dy="1.9" layer="1" />
@@ -866,6 +889,33 @@
 <connects>
 <connect gate="G$1" pin="1" pad="P$1" />
 <connect gate="G$1" pin="2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRYSTAL_RADIAL_SMD" prefix="Y" uservalue="yes">
+<description>&lt;b&gt;CRYSTAL_RADIAL_SMD&lt;/b&gt; - Citizen Tuning Fork Crystal Unit CMR200T Surface Mount Cylinder
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Frequency: 32.768kHZ&lt;/li&gt;
+&lt;li&gt;Load Capacitance: 6.0pf - 12.5pf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;CMR200T32768DZBT&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="http://cfd.citizen.co.jp/cms/cfd/pdf/english/CMR200T_E.pdf"&gt;TUNING FORK CRYSTAL UNIT&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL_WITH_GND" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="CMR200T">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1" />
+<connect gate="G$1" pin="2" pad="P$2" />
+<connect gate="G$1" pin="GND" pad="S$1" />
 </connects>
 <technologies>
 <technology name="" />
