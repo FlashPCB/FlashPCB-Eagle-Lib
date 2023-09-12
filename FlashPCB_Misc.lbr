@@ -75,137 +75,6 @@
 </layers>
 <library>
 <packages>
-<package name="AMPHENOL-PCI-EDGE-10018783-19919TLF">
-<polygon width="0" layer="117">
-<vertex x="0.95" y="0.55" />
-<vertex x="1.5" y="0" />
-<vertex x="7.6" y="0" />
-<vertex x="8.15" y="0.55" />
-<vertex x="8.15" y="12.35" />
-<vertex x="-12.15" y="12.35" />
-<vertex x="-12.15" y="0.55" />
-<vertex x="-11.6" y="0" />
-<vertex x="-1.5" y="0" />
-<vertex x="-0.95" y="0.55" />
-<vertex x="-0.95" y="9.1" />
-<vertex x="0.95" y="9.1" />
-</polygon>
-<polygon width="0" layer="40">
-<vertex x="0.95" y="0.55" />
-<vertex x="1.5" y="0" />
-<vertex x="7.6" y="0" />
-<vertex x="8.15" y="0.55" />
-<vertex x="8.15" y="12.35" />
-<vertex x="-12.15" y="12.35" />
-<vertex x="-12.15" y="0.55" />
-<vertex x="-11.6" y="0" />
-<vertex x="-1.5" y="0" />
-<vertex x="-0.95" y="0.55" />
-<vertex x="-0.95" y="9" />
-<vertex x="0.95" y="9" />
-</polygon>
-<polygon width="0" layer="39">
-<vertex x="0.95" y="0.55" />
-<vertex x="1.5" y="0" />
-<vertex x="7.6" y="0" />
-<vertex x="8.15" y="0.55" />
-<vertex x="8.15" y="12.35" />
-<vertex x="-12.15" y="12.35" />
-<vertex x="-12.15" y="0.55" />
-<vertex x="-11.6" y="0" />
-<vertex x="-1.5" y="0" />
-<vertex x="-0.95" y="0.55" />
-<vertex x="-0.95" y="9" />
-<vertex x="0.95" y="9" />
-</polygon>
-<wire x1="0.95" y1="0.55" x2="1.5" y2="0" width="0" layer="20" />
-<wire x1="1.5" y1="0" x2="7.6" y2="0" width="0" layer="20" />
-<wire x1="0.95" y1="0.55" x2="0.95" y2="8.05" width="0" layer="20" />
-<wire x1="-0.95" y1="0.55" x2="-1.5" y2="0" width="0" layer="20" />
-<wire x1="-1.5" y1="0" x2="-11.6" y2="0" width="0" layer="20" />
-<wire x1="-11.6" y1="0" x2="-12.15" y2="0.55" width="0" layer="20" />
-<wire x1="-12.15" y1="0.55" x2="-12.15" y2="10.66" width="0" layer="20" />
-<wire x1="-0.95" y1="0.55" x2="-0.95" y2="8.05" width="0" layer="20" />
-<wire x1="-0.95" y1="8.05" x2="0.95" y2="8.05" width="0" layer="20" curve="-180" />
-<wire x1="-15.9" y1="10.66" x2="-12.15" y2="10.66" width="0" layer="20" curve="-180" />
-<wire x1="-15.9" y1="10.66" x2="-15.9" y2="4.3" width="0" layer="20" />
-<wire x1="-15.9" y1="4.3" x2="-17" y2="4.3" width="0" layer="20" />
-<wire x1="7.6" y1="0" x2="8.15" y2="0.55" width="0" layer="20" />
-<wire x1="8.15" y1="0.55" x2="8.15" y2="12.35" width="0" layer="20" />
-<wire x1="8.15" y1="12.35" x2="10" y2="12.35" width="0" layer="20" />
-<smd name="A$1" x="-11.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$2" x="-10.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$3" x="-9.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$4" x="-8.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$5" x="-7.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$6" x="-6.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$7" x="-5.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$8" x="-4.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$9" x="-3.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$10" x="-2.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$11" x="-1.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$12" x="1.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$13" x="2.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$14" x="3.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$15" x="4.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$16" x="5.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$17" x="6.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="A$18" x="7.5" y="3.5" dx="0.7" dy="4.2" layer="1" stop="no" cream="no" />
-<smd name="B$1" x="-11.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$2" x="-10.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$3" x="-9.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$4" x="-8.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$5" x="-7.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$6" x="-6.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$7" x="-5.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$8" x="-4.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$9" x="-3.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$10" x="-2.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$11" x="-1.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$12" x="1.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$13" x="2.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$14" x="3.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$15" x="4.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$16" x="5.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$17" x="6.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<smd name="B$18" x="7.5" y="3.5" dx="0.7" dy="4.2" layer="16" rot="R180" stop="no" cream="no" />
-<text x="-15.75" y="0" size="0.54" layer="49" font="vector" ratio="10" rot="R90">&lt;-4.3mm-&gt;</text>
-<text x="9.5" y="0" size="0.54" layer="49" font="vector" ratio="10" rot="R90">&lt;-----  12.35 mm   -----&gt;</text>
-<text x="0" y="-1.27" size="0.54" layer="49" font="vector" ratio="10">&lt;---  10.0 mm   ---&gt;</text>
-<text x="0" y="-1.27" size="0.54" layer="49" font="vector" ratio="10" rot="R180" align="top-left">&lt;-------     17.0 mm      -------&gt;</text>
-<polygon width="0" layer="29">
-<vertex x="-12.5" y="8" />
-<vertex x="-12.5" y="-0.35" />
-<vertex x="8.5" y="-0.35" />
-<vertex x="8.5" y="8" />
-</polygon>
-<polygon width="0" layer="30">
-<vertex x="-12.5" y="8" />
-<vertex x="-12.5" y="-0.35" />
-<vertex x="8.5" y="-0.35" />
-<vertex x="8.5" y="8" />
-</polygon>
-<polygon width="0" layer="119">
-<vertex x="-17" y="4.3" />
-<vertex x="-15.9" y="4.3" />
-<vertex x="-15.9" y="10.66" />
-<vertex x="-12.15" y="10.66" />
-<vertex x="-12.15" y="0.55" />
-<vertex x="-11.6" y="0" />
-<vertex x="-1.5" y="0" />
-<vertex x="-0.95" y="0.55" />
-<vertex x="-0.95" y="8.05" />
-<vertex x="0.95" y="8.05" />
-<vertex x="0.95" y="0.55" />
-<vertex x="1.5" y="0" />
-<vertex x="7.6" y="0" />
-<vertex x="8.15" y="0.55" />
-<vertex x="8.15" y="12.35" />
-<vertex x="10" y="12.35" />
-<vertex x="10" y="-1" />
-<vertex x="-17" y="-1" />
-</polygon>
-</package>
 <package name="ANT-KYOCERA-1001312">
 <smd name="P$1" x="-1.25" y="0" dx="1" dy="1.4" layer="1" />
 <smd name="P$2" x="1.25" y="0" dx="1" dy="1.4" layer="1" />
@@ -235,6 +104,80 @@
 <vertex x="1.2" y="-0.5" />
 <vertex x="-1.2" y="-0.5" />
 </polygon>
+</package>
+<package name="ANT-JOHANSON-8.00MMX1.00MM">
+<smd name="P$1" x="-4" y="0" dx="1" dy="1" layer="1" />
+<smd name="P$2" x="4" y="0" dx="1" dy="1" layer="1" />
+<wire x1="-3.3" y1="0.6" x2="3.3" y2="0.6" width="0.127" layer="21" />
+<wire x1="-3.3" y1="-0.6" x2="3.3" y2="-0.6" width="0.127" layer="21" />
+<text x="-1.8128" y="2.3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.8" y="1.05" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-4.6" y="0.85" />
+<vertex x="4.6" y="0.85" />
+<vertex x="4.6" y="-0.85" />
+<vertex x="-4.6" y="-0.85" />
+</polygon>
+<text x="0" y="0" size="0.15" layer="51" align="center">Check datasheet for layout</text>
+<wire x1="-3.2" y1="0.4" x2="-3.1" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-3.1" y1="0.4" x2="-3" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-3" y1="0.4" x2="-2.9" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.9" y1="0.4" x2="-2.8" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.8" y1="0.4" x2="-2.7" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.7" y1="0.4" x2="-2.6" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.6" y1="0.4" x2="-2.5" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.5" y1="0.4" x2="-2.4" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.4" y1="0.4" x2="-2.3" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.3" y1="0.4" x2="-2.2" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.2" y1="0.4" x2="-2.2" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-2.2" y1="-0.4" x2="-2.3" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-2.3" y1="-0.4" x2="-2.4" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-2.4" y1="-0.4" x2="-2.5" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-2.5" y1="-0.4" x2="-2.6" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-2.6" y1="-0.4" x2="-2.7" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-2.7" y1="-0.4" x2="-2.8" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-2.8" y1="-0.4" x2="-2.9" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-2.9" y1="-0.4" x2="-3" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-3" y1="-0.4" x2="-3.1" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-3.1" y1="-0.4" x2="-3.2" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-3.2" y1="-0.4" x2="-3.2" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-3.1" y1="-0.4" x2="-3.1" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-3" y1="-0.4" x2="-3" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.9" y1="-0.4" x2="-2.9" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.8" y1="-0.4" x2="-2.8" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.7" y1="-0.4" x2="-2.7" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.6" y1="-0.4" x2="-2.6" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.4" y1="-0.4" x2="-2.4" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.5" y1="-0.4" x2="-2.5" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-2.3" y1="-0.4" x2="-2.3" y2="0.4" width="0.1524" layer="21" />
+</package>
+<package name="ANT-JOHANSON-3.2MMX1.20MM">
+<smd name="P$1" x="-1.7" y="0" dx="0.8" dy="1.6" layer="1" />
+<smd name="P$2" x="1.7" y="0" dx="0.8" dy="1.6" layer="1" />
+<wire x1="-0.76" y1="0.6" x2="0.76" y2="0.6" width="0.127" layer="21" />
+<wire x1="-0.76" y1="-0.6" x2="0.76" y2="-0.6" width="0.127" layer="21" />
+<text x="-1.8128" y="2.3" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0.74" y="1.05" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="39">
+<vertex x="-2.2" y="0.9" />
+<vertex x="2.2" y="0.9" />
+<vertex x="2.2" y="-0.9" />
+<vertex x="-2.2" y="-0.9" />
+</polygon>
+<text x="0" y="0" size="0.15" layer="51" align="center">Check datasheet for layout</text>
+<wire x1="-0.96" y1="0.4" x2="-0.86" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-0.86" y1="0.4" x2="-0.76" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-0.76" y1="0.4" x2="-0.66" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-0.66" y1="0.4" x2="-0.56" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-0.56" y1="-0.4" x2="-0.66" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-0.66" y1="-0.4" x2="-0.76" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-0.76" y1="-0.4" x2="-0.86" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-0.86" y1="-0.4" x2="-0.96" y2="-0.4" width="0.1524" layer="21" />
+<wire x1="-0.96" y1="-0.4" x2="-0.96" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-0.86" y1="-0.4" x2="-0.86" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-0.76" y1="-0.4" x2="-0.76" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-0.66" y1="-0.4" x2="-0.66" y2="0.4" width="0.1524" layer="21" />
+<wire x1="-0.56" y1="-0.4" x2="-0.56" y2="0.4" width="0.1524" layer="21" />
 </package>
 <package name="CMT-5023S">
 <smd name="P$1" x="-1.8" y="1.75" dx="1.7" dy="1" layer="1" />
@@ -21595,69 +21538,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="PCI-E-1X">
-<wire x1="-78.74" y1="17.78" x2="-68.58" y2="17.78" width="0.254" layer="94" />
-<wire x1="-68.58" y1="17.78" x2="-68.58" y2="-2.54" width="0.254" layer="94" />
-<wire x1="-68.58" y1="-2.54" x2="-48.26" y2="-2.54" width="0.254" layer="94" />
-<wire x1="-48.26" y1="-2.54" x2="-48.26" y2="7.62" width="0.254" layer="94" />
-<wire x1="-48.26" y1="7.62" x2="-43.18" y2="7.62" width="0.254" layer="94" curve="-180" />
-<wire x1="-43.18" y1="7.62" x2="-43.18" y2="-2.54" width="0.254" layer="94" />
-<wire x1="-43.18" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94" />
-<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="12.7" width="0.254" layer="94" />
-<wire x1="-12.7" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94" curve="-180" />
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="10.16" width="0.254" layer="94" />
-<wire x1="-5.08" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94" />
-<wire x1="78.74" y1="17.78" x2="68.58" y2="17.78" width="0.254" layer="94" />
-<wire x1="68.58" y1="17.78" x2="68.58" y2="-2.54" width="0.254" layer="94" />
-<wire x1="68.58" y1="-2.54" x2="48.26" y2="-2.54" width="0.254" layer="94" />
-<wire x1="48.26" y1="-2.54" x2="48.26" y2="7.62" width="0.254" layer="94" />
-<wire x1="48.26" y1="7.62" x2="43.18" y2="7.62" width="0.254" layer="94" curve="180" />
-<wire x1="43.18" y1="7.62" x2="43.18" y2="-2.54" width="0.254" layer="94" />
-<wire x1="43.18" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94" />
-<wire x1="12.7" y1="-2.54" x2="12.7" y2="12.7" width="0.254" layer="94" />
-<wire x1="12.7" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94" curve="180" />
-<wire x1="5.08" y1="12.7" x2="5.08" y2="10.16" width="0.254" layer="94" />
-<wire x1="5.08" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94" />
-<pin name="A$1" x="15.24" y="2.54" length="middle" rot="R270" />
-<pin name="A$2" x="17.78" y="2.54" length="middle" rot="R270" />
-<pin name="A$3" x="20.32" y="2.54" length="middle" rot="R270" />
-<pin name="A$4" x="22.86" y="2.54" length="middle" rot="R270" />
-<pin name="A$5" x="25.4" y="2.54" length="middle" rot="R270" />
-<pin name="A$6" x="27.94" y="2.54" length="middle" rot="R270" />
-<pin name="A$7" x="30.48" y="2.54" length="middle" rot="R270" />
-<pin name="A$8" x="33.02" y="2.54" length="middle" rot="R270" />
-<pin name="A$9" x="35.56" y="2.54" length="middle" rot="R270" />
-<pin name="A$10" x="38.1" y="2.54" length="middle" rot="R270" />
-<pin name="A$11" x="40.64" y="2.54" length="middle" rot="R270" />
-<pin name="A$12" x="50.8" y="2.54" length="middle" rot="R270" />
-<pin name="A$13" x="53.34" y="2.54" length="middle" rot="R270" />
-<pin name="A$14" x="55.88" y="2.54" length="middle" rot="R270" />
-<pin name="A$15" x="58.42" y="2.54" length="middle" rot="R270" />
-<pin name="A$16" x="60.96" y="2.54" length="middle" rot="R270" />
-<pin name="A$17" x="63.5" y="2.54" length="middle" rot="R270" />
-<pin name="A$18" x="66.04" y="2.54" length="middle" rot="R270" />
-<pin name="B$1" x="-15.24" y="2.54" length="middle" rot="R270" />
-<pin name="B$2" x="-17.78" y="2.54" length="middle" rot="R270" />
-<pin name="B$3" x="-20.32" y="2.54" length="middle" rot="R270" />
-<pin name="B$4" x="-22.86" y="2.54" length="middle" rot="R270" />
-<pin name="B$5" x="-25.4" y="2.54" length="middle" rot="R270" />
-<pin name="B$6" x="-27.94" y="2.54" length="middle" rot="R270" />
-<pin name="B$7" x="-30.48" y="2.54" length="middle" rot="R270" />
-<pin name="B$8" x="-33.02" y="2.54" length="middle" rot="R270" />
-<pin name="B$9" x="-35.56" y="2.54" length="middle" rot="R270" />
-<pin name="B$10" x="-38.1" y="2.54" length="middle" rot="R270" />
-<pin name="B$11" x="-40.64" y="2.54" length="middle" rot="R270" />
-<pin name="B$12" x="-50.8" y="2.54" length="middle" rot="R270" />
-<pin name="B$13" x="-53.34" y="2.54" length="middle" rot="R270" />
-<pin name="B$14" x="-55.88" y="2.54" length="middle" rot="R270" />
-<pin name="B$15" x="-58.42" y="2.54" length="middle" rot="R270" />
-<pin name="B$16" x="-60.96" y="2.54" length="middle" rot="R270" />
-<pin name="B$17" x="-63.5" y="2.54" length="middle" rot="R270" />
-<pin name="B$18" x="-66.04" y="2.54" length="middle" rot="R270" />
-<text x="68.58" y="20.32" size="1.778" layer="94">Component Side</text>
-<text x="-81.28" y="20.32" size="1.778" layer="94">Back Side</text>
-<text x="-10.16" y="17.78" size="1.778" layer="94">PCI-E-1x Card Edge</text>
-</symbol>
 <symbol name="ANTENNA_CHIP_GND">
 <pin name="FEED" x="0" y="-5.08" length="short" rot="R90" />
 <wire x1="0" y1="-2.54" x2="0" y2="0" width="0.254" layer="94" />
@@ -21782,57 +21662,6 @@ No Part Placed</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AMPHENOL-PCI-EDGE-10018783-19919TLF" prefix="X">
-<description>PCI-E 1x Card Edge</description>
-<gates>
-<gate name="G$1" symbol="PCI-E-1X" x="0" y="0" />
-</gates>
-<devices>
-<device name="" package="AMPHENOL-PCI-EDGE-10018783-19919TLF">
-<connects>
-<connect gate="G$1" pin="A$1" pad="A$1" />
-<connect gate="G$1" pin="A$10" pad="A$10" />
-<connect gate="G$1" pin="A$11" pad="A$11" />
-<connect gate="G$1" pin="A$12" pad="A$12" />
-<connect gate="G$1" pin="A$13" pad="A$13" />
-<connect gate="G$1" pin="A$14" pad="A$14" />
-<connect gate="G$1" pin="A$15" pad="A$15" />
-<connect gate="G$1" pin="A$16" pad="A$16" />
-<connect gate="G$1" pin="A$17" pad="A$17" />
-<connect gate="G$1" pin="A$18" pad="A$18" />
-<connect gate="G$1" pin="A$2" pad="A$2" />
-<connect gate="G$1" pin="A$3" pad="A$3" />
-<connect gate="G$1" pin="A$4" pad="A$4" />
-<connect gate="G$1" pin="A$5" pad="A$5" />
-<connect gate="G$1" pin="A$6" pad="A$6" />
-<connect gate="G$1" pin="A$7" pad="A$7" />
-<connect gate="G$1" pin="A$8" pad="A$8" />
-<connect gate="G$1" pin="A$9" pad="A$9" />
-<connect gate="G$1" pin="B$1" pad="B$1" />
-<connect gate="G$1" pin="B$10" pad="B$10" />
-<connect gate="G$1" pin="B$11" pad="B$11" />
-<connect gate="G$1" pin="B$12" pad="B$12" />
-<connect gate="G$1" pin="B$13" pad="B$13" />
-<connect gate="G$1" pin="B$14" pad="B$14" />
-<connect gate="G$1" pin="B$15" pad="B$15" />
-<connect gate="G$1" pin="B$16" pad="B$16" />
-<connect gate="G$1" pin="B$17" pad="B$17" />
-<connect gate="G$1" pin="B$18" pad="B$18" />
-<connect gate="G$1" pin="B$2" pad="B$2" />
-<connect gate="G$1" pin="B$3" pad="B$3" />
-<connect gate="G$1" pin="B$4" pad="B$4" />
-<connect gate="G$1" pin="B$5" pad="B$5" />
-<connect gate="G$1" pin="B$6" pad="B$6" />
-<connect gate="G$1" pin="B$7" pad="B$7" />
-<connect gate="G$1" pin="B$8" pad="B$8" />
-<connect gate="G$1" pin="B$9" pad="B$9" />
-</connects>
-<technologies>
-<technology name="" />
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ANT-KYOCERA-1001312" prefix="AE" uservalue="yes">
 <description>&lt;b&gt;1001312&lt;/b&gt; - 2.4 Ghz Chip Antenna
 
@@ -21878,6 +21707,18 @@ No Part Placed</text>
 </devices>
 </deviceset>
 <deviceset name="ANTENNA_EMBEDDED" prefix="AE" uservalue="yes">
+<description>&lt;b&gt;Antenna Embeded&lt;/b&gt; - Chip Antenna, Embedded
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;GND Pin Left Floating&lt;/li&gt;
+&lt;li&gt;Check Datasheet for layout recommendation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;2500AT44M0400, 2450AT18B100&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.johansontechnology.com/datasheets/2500AT44M0400/2500AT44M0400.pdf"&gt;2500AT44M0400.pdf
+&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.johansontechnology.com/datasheets/2450AT18B100/2450AT18B100.pdff"&gt;2450AT18B100_110518.xlsx&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="ANTENNA_CHIP" x="-2.54" y="2.54" />
 </gates>
@@ -21886,6 +21727,24 @@ No Part Placed</text>
 <connects>
 <connect gate="G$1" pin="FEED" pad="FEED" />
 <connect gate="G$1" pin="NC" pad="NC" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="8.0X1.0" package="ANT-JOHANSON-8.00MMX1.00MM">
+<connects>
+<connect gate="G$1" pin="FEED" pad="P$1" />
+<connect gate="G$1" pin="NC" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="3.2X1.6" package="ANT-JOHANSON-3.2MMX1.20MM">
+<connects>
+<connect gate="G$1" pin="FEED" pad="P$1" />
+<connect gate="G$1" pin="NC" pad="P$2" />
 </connects>
 <technologies>
 <technology name="" />

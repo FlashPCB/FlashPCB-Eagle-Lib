@@ -14453,8 +14453,8 @@ DUAL/QUAD SPI &amp; QPI&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Standards: USB 2.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.silabs.com/documents/public/data-sheets/cp2104.pdf"&gt;CP2104&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2104.pdf"&gt;CP2104&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="SILICONLABS_CP2104" x="0" y="0" />
 </gates>

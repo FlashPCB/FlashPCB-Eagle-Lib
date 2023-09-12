@@ -645,6 +645,31 @@
 <vertex x="-0.227" y="0.1778" />
 </polygon>
 </package>
+<package name="6-PLCC(5X5)">
+<smd name="P$1" x="-2.25" y="2.25" dx="1.3" dy="1.3" layer="1" />
+<smd name="P$2" x="-2.25" y="0" dx="1.3" dy="1.3" layer="1" />
+<smd name="P$3" x="-2.25" y="-2.25" dx="1.3" dy="1.3" layer="1" />
+<smd name="P$4" x="2.25" y="-2.25" dx="1.3" dy="1.3" layer="1" />
+<smd name="P$5" x="2.25" y="0" dx="1.3" dy="1.3" layer="1" />
+<smd name="P$6" x="2.25" y="2.25" dx="1.3" dy="1.3" layer="1" />
+<polygon width="0" layer="39">
+<vertex x="-3" y="3" />
+<vertex x="3" y="3" />
+<vertex x="3" y="-3" />
+<vertex x="-3" y="-3" />
+</polygon>
+<text x="-3" y="4.5" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-3" y="3.5" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<circle x="-3.4" y="2.25" radius="0.254" width="0" layer="21" />
+<wire x1="-1.3" y1="2.5" x2="-1.3" y2="2" width="0.127" layer="21" />
+<wire x1="-1.3" y1="2" x2="-0.8" y2="2.5" width="0.127" layer="21" />
+<wire x1="-1.4135" y1="-2.5" x2="1.4135" y2="-2.5" width="0.127" layer="21" />
+<wire x1="1.4135" y1="2.5" x2="-1.4135" y2="2.5" width="0.127" layer="21" />
+<wire x1="-2.5" y1="1.4135" x2="-2.5" y2="0.8365" width="0.127" layer="21" />
+<wire x1="-2.5" y1="-0.8365" x2="-2.5" y2="-1.4135" width="0.127" layer="21" />
+<wire x1="2.5" y1="-1.4135" x2="2.5" y2="-0.8365" width="0.127" layer="21" />
+<wire x1="2.5" y1="0.8365" x2="2.5" y2="1.4135" width="0.127" layer="21" />
+</package>
 <package name="LED-THT-3MMROUND">
 <polygon width="0" layer="40">
 <vertex x="-0.295846875" y="0" />
@@ -902,6 +927,70 @@
 <vertex x="-2.54" y="-0.508" />
 <vertex x="-1.778" y="-0.254" />
 </polygon>
+</symbol>
+<symbol name="DIODE_LED_RGB">
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94" />
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94" />
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94" />
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" />
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94" />
+<wire x1="-0.254" y1="-2.032" x2="0.635" y2="-2.921" width="0.254" layer="94" />
+<wire x1="0.508" y1="-1.27" x2="1.397" y2="-2.159" width="0.254" layer="94" />
+<pin name="G_AN" x="-3.81" y="0" visible="off" length="short" direction="pas" />
+<pin name="G_K" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180" />
+<text x="-2.53595" y="12.70405" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.538990625" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+<polygon width="0.254" layer="94">
+<vertex x="0.254" y="-3.048" />
+<vertex x="1.016" y="-3.302" />
+<vertex x="0.762" y="-2.54" />
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.016" y="-2.286" />
+<vertex x="1.778" y="-2.54" />
+<vertex x="1.524" y="-1.778" />
+</polygon>
+<wire x1="-1.27" y1="6.35" x2="1.27" y2="5.08" width="0.254" layer="94" />
+<wire x1="1.27" y1="5.08" x2="-1.27" y2="3.81" width="0.254" layer="94" />
+<wire x1="1.27" y1="6.35" x2="1.27" y2="5.08" width="0.254" layer="94" />
+<wire x1="1.27" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" />
+<wire x1="-1.27" y1="6.35" x2="-1.27" y2="3.81" width="0.254" layer="94" />
+<wire x1="-0.254" y1="3.048" x2="0.635" y2="2.159" width="0.254" layer="94" />
+<wire x1="0.508" y1="3.81" x2="1.397" y2="2.921" width="0.254" layer="94" />
+<pin name="R_AN" x="-3.81" y="5.08" visible="off" length="short" direction="pas" />
+<pin name="R_K" x="3.81" y="5.08" visible="off" length="short" direction="pas" rot="R180" />
+<polygon width="0.254" layer="94">
+<vertex x="0.254" y="2.032" />
+<vertex x="1.016" y="1.778" />
+<vertex x="0.762" y="2.54" />
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.016" y="2.794" />
+<vertex x="1.778" y="2.54" />
+<vertex x="1.524" y="3.302" />
+</polygon>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-5.08" width="0.254" layer="94" />
+<wire x1="1.27" y1="-5.08" x2="-1.27" y2="-6.35" width="0.254" layer="94" />
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="-5.08" width="0.254" layer="94" />
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.254" layer="94" />
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-6.35" width="0.254" layer="94" />
+<wire x1="-0.254" y1="-7.112" x2="0.635" y2="-8.001" width="0.254" layer="94" />
+<wire x1="0.508" y1="-6.35" x2="1.397" y2="-7.239" width="0.254" layer="94" />
+<pin name="B_AN" x="-3.81" y="-5.08" visible="off" length="short" direction="pas" />
+<pin name="B_K" x="3.81" y="-5.08" visible="off" length="short" direction="pas" rot="R180" />
+<polygon width="0.254" layer="94">
+<vertex x="0.254" y="-8.128" />
+<vertex x="1.016" y="-8.382" />
+<vertex x="0.762" y="-7.62" />
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.016" y="-7.366" />
+<vertex x="1.778" y="-7.62" />
+<vertex x="1.524" y="-6.858" />
+</polygon>
+<text x="2.54" y="6.35" size="1.778" layer="94">R</text>
+<text x="2.54" y="1.27" size="1.778" layer="94">G</text>
+<text x="2.54" y="-3.81" size="1.778" layer="94">B</text>
 </symbol>
 <symbol name="RGB-LED-COMMON-ANODE">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94" />
@@ -1529,6 +1618,39 @@
 <connects>
 <connect gate="G$1" pin="A" pad="2" />
 <connect gate="G$1" pin="K" pad="1" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-SMT-6-PLCC" prefix="D" uservalue="yes">
+<description>&lt;b&gt;LED-RGB-6-PLCC&lt;/b&gt; - LED RGB DIFFUSED 6PLCC SMD
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Independently controlled RGB LED&lt;/li&gt;
+&lt;li&gt;Voltage : 2.2V Red, 3.3V Green/Blue&lt;/li&gt;
+&lt;li&gt;Current: 20mA Per Color&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components"&gt;LTST-G563EGBW
+&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://optoelectronics.liteon.com/upload/download/DS22-2012-0212/LTST-G563EGBW.pdf"&gt;LTST-G563EGBW.pdf
+&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_LED_RGB" x="0" y="0" />
+</gates>
+<devices>
+<device name="LTST-G563" package="6-PLCC(5X5)">
+<connects>
+<connect gate="G$1" pin="B_AN" pad="P$6" />
+<connect gate="G$1" pin="B_K" pad="P$1" />
+<connect gate="G$1" pin="G_AN" pad="P$5" />
+<connect gate="G$1" pin="G_K" pad="P$2" />
+<connect gate="G$1" pin="R_AN" pad="P$4" />
+<connect gate="G$1" pin="R_K" pad="P$3" />
 </connects>
 <technologies>
 <technology name="" />
