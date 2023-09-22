@@ -1966,8 +1966,8 @@ Mode
 &lt;li&gt;Features: Logic Level Gate, 2.5V Drive&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;EFC8811R&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.onsemi.com/pdf/datasheet/efc8811r-d.pdf"&gt;EFC8811R&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;EFC8811R&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.onsemi.com/pdf/datasheet/efc8811r-d.pdf"&gt;EFC8811R&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="FET-N-2-CHANNEL" x="0" y="0" />
 </gates>

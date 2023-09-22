@@ -1224,9 +1224,9 @@
 
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;BAV756DW
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;BAV756DW
 &lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.diodes.com/assets/Datasheets/ds30148.pdf"&gt;BAV756DW
+&lt;p&gt;Datasheet: &lt;a href="https://www.diodes.com/assets/Datasheets/ds30148.pdf"&gt;BAV756DW
 &lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE_BRIDGE-ARRAY-2" x="0" y="0" />
@@ -1698,8 +1698,8 @@
 &lt;li&gt;Color: Red,Green,Blue&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://everlighteurope.com/index.php?controller=attachment&amp;id_attachment=6835"&gt;18-038BT/BDGAR6S1-CC01/10T&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://everlighteurope.com/index.php?controller=attachment&amp;id_attachment=6835"&gt;18-038BT/BDGAR6S1-CC01/10T&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="RGB-LED-COMMON-ANODE" x="0" y="0" />
 </gates>

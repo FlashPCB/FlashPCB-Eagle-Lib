@@ -542,7 +542,7 @@
 <wire x1="2.65" y1="-3.6" x2="-2.65" y2="-3.6" width="0.127" layer="21" />
 <wire x1="-2.65" y1="-3.6" x2="-2.65" y2="-3.35" width="0.127" layer="21" />
 <wire x1="2.65" y1="-3.35" x2="2.65" y2="-3.6" width="0.127" layer="21" />
-<circle x="-1.5" y="2.25" radius="0.5" width="0.1" layer="21" />
+<circle x="-1.5" y="2.25" radius="0.5" width="0.127" layer="21" />
 </package>
 <package name="APA102-2020">
 <polygon width="0" layer="39">
@@ -1659,230 +1659,6 @@ Recommended via placement from center of part (in mm)
 <circle x="0.325" y="1.725" radius="0.175" width="0" layer="1" />
 <circle x="-0.325" y="1.725" radius="0.175" width="0" layer="1" />
 <circle x="-0.975" y="1.725" radius="0.175" width="0" layer="1" />
-<polygon width="0" layer="29">
-<vertex x="2.5" y="1.25" />
-<vertex x="2.5" y="0.7" />
-<vertex x="1.725" y="0.7" curve="-90" />
-<vertex x="1.45" y="0.975" curve="-90" />
-<vertex x="1.725" y="1.25" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="2.5" y="0.6" />
-<vertex x="2.5" y="0.05" />
-<vertex x="1.725" y="0.05" curve="-90" />
-<vertex x="1.45" y="0.325" curve="-90" />
-<vertex x="1.725" y="0.6" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="2.5" y="-0.05" />
-<vertex x="2.5" y="-0.6" />
-<vertex x="1.725" y="-0.6" curve="-90" />
-<vertex x="1.45" y="-0.325" curve="-90" />
-<vertex x="1.725" y="-0.05" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="2.5" y="-0.7" />
-<vertex x="2.5" y="-1.25" />
-<vertex x="1.725" y="-1.25" curve="-90" />
-<vertex x="1.45" y="-0.975" curve="-90" />
-<vertex x="1.725" y="-0.7" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-2.5" y="-1.25" />
-<vertex x="-2.5" y="-0.7" />
-<vertex x="-1.725" y="-0.7" curve="-90" />
-<vertex x="-1.45" y="-0.975" curve="-90" />
-<vertex x="-1.725" y="-1.25" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-2.5" y="-0.6" />
-<vertex x="-2.5" y="-0.05" />
-<vertex x="-1.725" y="-0.05" curve="-90" />
-<vertex x="-1.45" y="-0.325" curve="-90" />
-<vertex x="-1.725" y="-0.6" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-2.5" y="0.05" />
-<vertex x="-2.5" y="0.6" />
-<vertex x="-1.725" y="0.6" curve="-90" />
-<vertex x="-1.45" y="0.325" curve="-90" />
-<vertex x="-1.725" y="0.05" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-2.5" y="0.7" />
-<vertex x="-2.5" y="1.25" />
-<vertex x="-1.725" y="1.25" curve="-90" />
-<vertex x="-1.45" y="0.975" curve="-90" />
-<vertex x="-1.725" y="0.7" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-1.25" y="2.5" />
-<vertex x="-0.7" y="2.5" />
-<vertex x="-0.7" y="1.725" curve="-90" />
-<vertex x="-0.975" y="1.45" curve="-90" />
-<vertex x="-1.25" y="1.725" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-0.6" y="2.5" />
-<vertex x="-0.05" y="2.5" />
-<vertex x="-0.05" y="1.725" curve="-90" />
-<vertex x="-0.325" y="1.45" curve="-90" />
-<vertex x="-0.6" y="1.725" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="0.05" y="2.5" />
-<vertex x="0.6" y="2.5" />
-<vertex x="0.6" y="1.725" curve="-90" />
-<vertex x="0.325" y="1.45" curve="-90" />
-<vertex x="0.05" y="1.725" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="0.7" y="2.5" />
-<vertex x="1.25" y="2.5" />
-<vertex x="1.25" y="1.725" curve="-90" />
-<vertex x="0.975" y="1.45" curve="-90" />
-<vertex x="0.7" y="1.725" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="1.25" y="-2.5" />
-<vertex x="0.7" y="-2.5" />
-<vertex x="0.7" y="-1.725" curve="-90" />
-<vertex x="0.975" y="-1.45" curve="-90" />
-<vertex x="1.25" y="-1.725" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="0.6" y="-2.5" />
-<vertex x="0.05" y="-2.5" />
-<vertex x="0.05" y="-1.725" curve="-90" />
-<vertex x="0.325" y="-1.45" curve="-90" />
-<vertex x="0.6" y="-1.725" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-0.05" y="-2.5" />
-<vertex x="-0.6" y="-2.5" />
-<vertex x="-0.6" y="-1.725" curve="-90" />
-<vertex x="-0.325" y="-1.45" curve="-90" />
-<vertex x="-0.05" y="-1.725" />
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-0.7" y="-2.5" />
-<vertex x="-1.25" y="-2.5" />
-<vertex x="-1.25" y="-1.725" curve="-90" />
-<vertex x="-0.975" y="-1.45" curve="-90" />
-<vertex x="-0.7" y="-1.725" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="1.725" y="0.825" curve="-90" />
-<vertex x="1.575" y="0.975" curve="-90" />
-<vertex x="1.725" y="1.125" />
-<vertex x="2.375" y="1.125" />
-<vertex x="2.375" y="0.825" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="1.725" y="0.175" curve="-90" />
-<vertex x="1.575" y="0.325" curve="-90" />
-<vertex x="1.725" y="0.475" />
-<vertex x="2.375" y="0.475" />
-<vertex x="2.375" y="0.175" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="1.725" y="-0.475" curve="-90" />
-<vertex x="1.575" y="-0.325" curve="-90" />
-<vertex x="1.725" y="-0.175" />
-<vertex x="2.375" y="-0.175" />
-<vertex x="2.375" y="-0.475" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="1.725" y="-1.125" curve="-90" />
-<vertex x="1.575" y="-0.975" curve="-90" />
-<vertex x="1.725" y="-0.825" />
-<vertex x="2.375" y="-0.825" />
-<vertex x="2.375" y="-1.125" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-1.725" y="-0.825" curve="-90" />
-<vertex x="-1.575" y="-0.975" curve="-90" />
-<vertex x="-1.725" y="-1.125" />
-<vertex x="-2.375" y="-1.125" />
-<vertex x="-2.375" y="-0.825" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-1.725" y="-0.175" curve="-90" />
-<vertex x="-1.575" y="-0.325" curve="-90" />
-<vertex x="-1.725" y="-0.475" />
-<vertex x="-2.375" y="-0.475" />
-<vertex x="-2.375" y="-0.175" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-1.725" y="0.475" curve="-90" />
-<vertex x="-1.575" y="0.325" curve="-90" />
-<vertex x="-1.725" y="0.175" />
-<vertex x="-2.375" y="0.175" />
-<vertex x="-2.375" y="0.475" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-1.725" y="1.125" curve="-90" />
-<vertex x="-1.575" y="0.975" curve="-90" />
-<vertex x="-1.725" y="0.825" />
-<vertex x="-2.375" y="0.825" />
-<vertex x="-2.375" y="1.125" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.825" y="-1.725" curve="-90" />
-<vertex x="0.975" y="-1.575" curve="-90" />
-<vertex x="1.125" y="-1.725" />
-<vertex x="1.125" y="-2.375" />
-<vertex x="0.825" y="-2.375" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.175" y="-1.725" curve="-90" />
-<vertex x="0.325" y="-1.575" curve="-90" />
-<vertex x="0.475" y="-1.725" />
-<vertex x="0.475" y="-2.375" />
-<vertex x="0.175" y="-2.375" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.475" y="-1.725" curve="-90" />
-<vertex x="-0.325" y="-1.575" curve="-90" />
-<vertex x="-0.175" y="-1.725" />
-<vertex x="-0.175" y="-2.375" />
-<vertex x="-0.475" y="-2.375" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-1.125" y="-1.725" curve="-90" />
-<vertex x="-0.975" y="-1.575" curve="-90" />
-<vertex x="-0.825" y="-1.725" />
-<vertex x="-0.825" y="-2.375" />
-<vertex x="-1.125" y="-2.375" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.825" y="1.725" curve="-90" />
-<vertex x="-0.975" y="1.575" curve="-90" />
-<vertex x="-1.125" y="1.725" />
-<vertex x="-1.125" y="2.375" />
-<vertex x="-0.825" y="2.375" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.175" y="1.725" curve="-90" />
-<vertex x="-0.325" y="1.575" curve="-90" />
-<vertex x="-0.475" y="1.725" />
-<vertex x="-0.475" y="2.375" />
-<vertex x="-0.175" y="2.375" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.475" y="1.725" curve="-90" />
-<vertex x="0.325" y="1.575" curve="-90" />
-<vertex x="0.175" y="1.725" />
-<vertex x="0.175" y="2.375" />
-<vertex x="0.475" y="2.375" />
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="1.125" y="1.725" curve="-90" />
-<vertex x="0.975" y="1.575" curve="-90" />
-<vertex x="0.825" y="1.725" />
-<vertex x="0.825" y="2.375" />
-<vertex x="1.125" y="2.375" />
-</polygon>
 <smd name="P$17" x="0" y="0" dx="2.7" dy="2.7" layer="1" thermals="no" cream="no" />
 <polygon width="0" layer="31">
 <vertex x="-0.15" y="0.15" />
@@ -1986,6 +1762,198 @@ recommeded placements
 <wire x1="2" y1="-2" x2="1.35" y2="-2" width="0.127" layer="21" />
 <text x="2.54" y="3.81" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="2.54" y="2.54" size="0.8128" layer="27" font="vector">&gt;Value</text>
+<polygon width="0" layer="29">
+<vertex x="2.5" y="1.25" />
+<vertex x="2.5" y="0.7" />
+<vertex x="1.725" y="0.7" curve="-180" />
+<vertex x="1.725" y="1.25" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="2.5" y="0.6" />
+<vertex x="2.5" y="0.05" />
+<vertex x="1.725" y="0.05" curve="-180" />
+<vertex x="1.725" y="0.6" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="2.5" y="-0.05" />
+<vertex x="2.5" y="-0.6" />
+<vertex x="1.725" y="-0.6" curve="-180" />
+<vertex x="1.725" y="-0.05" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="2.5" y="-0.7" />
+<vertex x="2.5" y="-1.25" />
+<vertex x="1.725" y="-1.25" curve="-180" />
+<vertex x="1.725" y="-0.7" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.5" y="-1.25" />
+<vertex x="-2.5" y="-0.7" />
+<vertex x="-1.725" y="-0.7" curve="-180" />
+<vertex x="-1.725" y="-1.25" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.5" y="-0.6" />
+<vertex x="-2.5" y="-0.05" />
+<vertex x="-1.725" y="-0.05" curve="-180" />
+<vertex x="-1.725" y="-0.6" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.5" y="0.05" />
+<vertex x="-2.5" y="0.6" />
+<vertex x="-1.725" y="0.6" curve="-180" />
+<vertex x="-1.725" y="0.05" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.5" y="0.7" />
+<vertex x="-2.5" y="1.25" />
+<vertex x="-1.725" y="1.25" curve="-180" />
+<vertex x="-1.725" y="0.7" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1.25" y="2.5" />
+<vertex x="-0.7" y="2.5" />
+<vertex x="-0.7" y="1.725" curve="-180" />
+<vertex x="-1.25" y="1.725" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.6" y="2.5" />
+<vertex x="-0.05" y="2.5" />
+<vertex x="-0.05" y="1.725" curve="-180" />
+<vertex x="-0.6" y="1.725" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.05" y="2.5" />
+<vertex x="0.6" y="2.5" />
+<vertex x="0.6" y="1.725" curve="-180" />
+<vertex x="0.05" y="1.725" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.7" y="2.5" />
+<vertex x="1.25" y="2.5" />
+<vertex x="1.25" y="1.725" curve="-180" />
+<vertex x="0.7" y="1.725" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.25" y="-2.5" />
+<vertex x="0.7" y="-2.5" />
+<vertex x="0.7" y="-1.725" curve="-180" />
+<vertex x="1.25" y="-1.725" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.6" y="-2.5" />
+<vertex x="0.05" y="-2.5" />
+<vertex x="0.05" y="-1.725" curve="-180" />
+<vertex x="0.6" y="-1.725" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.05" y="-2.5" />
+<vertex x="-0.6" y="-2.5" />
+<vertex x="-0.6" y="-1.725" curve="-180" />
+<vertex x="-0.05" y="-1.725" />
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.7" y="-2.5" />
+<vertex x="-1.25" y="-2.5" />
+<vertex x="-1.25" y="-1.725" curve="-180" />
+<vertex x="-0.7" y="-1.725" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="1.725" y="0.825" curve="-180" />
+<vertex x="1.725" y="1.125" />
+<vertex x="2.375" y="1.125" />
+<vertex x="2.375" y="0.825" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="1.725" y="0.175" curve="-180" />
+<vertex x="1.725" y="0.475" />
+<vertex x="2.375" y="0.475" />
+<vertex x="2.375" y="0.175" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="1.725" y="-0.475" curve="-180" />
+<vertex x="1.725" y="-0.175" />
+<vertex x="2.375" y="-0.175" />
+<vertex x="2.375" y="-0.475" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="1.725" y="-1.125" curve="-180" />
+<vertex x="1.725" y="-0.825" />
+<vertex x="2.375" y="-0.825" />
+<vertex x="2.375" y="-1.125" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.725" y="-0.825" curve="-180" />
+<vertex x="-1.725" y="-1.125" />
+<vertex x="-2.375" y="-1.125" />
+<vertex x="-2.375" y="-0.825" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.725" y="-0.175" curve="-180" />
+<vertex x="-1.725" y="-0.475" />
+<vertex x="-2.375" y="-0.475" />
+<vertex x="-2.375" y="-0.175" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.725" y="0.475" curve="-180" />
+<vertex x="-1.725" y="0.175" />
+<vertex x="-2.375" y="0.175" />
+<vertex x="-2.375" y="0.475" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.725" y="1.125" curve="-180" />
+<vertex x="-1.725" y="0.825" />
+<vertex x="-2.375" y="0.825" />
+<vertex x="-2.375" y="1.125" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.825" y="-1.725" curve="-180" />
+<vertex x="1.125" y="-1.725" />
+<vertex x="1.125" y="-2.375" />
+<vertex x="0.825" y="-2.375" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.175" y="-1.725" curve="-180" />
+<vertex x="0.475" y="-1.725" />
+<vertex x="0.475" y="-2.375" />
+<vertex x="0.175" y="-2.375" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.475" y="-1.725" curve="-180" />
+<vertex x="-0.175" y="-1.725" />
+<vertex x="-0.175" y="-2.375" />
+<vertex x="-0.475" y="-2.375" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.125" y="-1.725" curve="-180" />
+<vertex x="-0.825" y="-1.725" />
+<vertex x="-0.825" y="-2.375" />
+<vertex x="-1.125" y="-2.375" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.825" y="1.725" curve="-180" />
+<vertex x="-1.125" y="1.725" />
+<vertex x="-1.125" y="2.375" />
+<vertex x="-0.825" y="2.375" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.175" y="1.725" curve="-180" />
+<vertex x="-0.475" y="1.725" />
+<vertex x="-0.475" y="2.375" />
+<vertex x="-0.175" y="2.375" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.475" y="1.725" curve="-180" />
+<vertex x="0.175" y="1.725" />
+<vertex x="0.175" y="2.375" />
+<vertex x="0.475" y="2.375" />
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="1.125" y="1.725" curve="-180" />
+<vertex x="0.825" y="1.725" />
+<vertex x="0.825" y="2.375" />
+<vertex x="1.125" y="2.375" />
+</polygon>
 </package>
 <package name="10-VSON(3X3)">
 <smd name="P$1" x="-1.4" y="1" dx="0.6" dy="0.24" layer="1" />
@@ -2838,8 +2806,8 @@ relief via placements
 <wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.127" layer="21" />
 <wire x1="-0.5" y1="-1" x2="0.5" y2="-1" width="0.127" layer="21" />
 <circle x="-1.7" y="0.75" radius="0.254" width="0" layer="21" />
-<text x="-1.7" y="2.4" size="0.8128" layer="25">&gt;Name</text>
-<text x="-1.7" y="1.5" size="0.8128" layer="27">&gt;Value</text>
+<text x="-1.7" y="2.4" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-1.7" y="1.5" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="ESP-12S">
 <smd name="P$1" x="-8" y="7" dx="2.6" dy="1.1" layer="1" />
@@ -3803,8 +3771,6 @@ relief via placements
 <vertex x="-3.4" y="-2.35" />
 </polygon>
 <circle x="-2.925" y="-4.1" radius="0.25" width="0" layer="21" />
-<wire x1="-3.25" y1="1.8" x2="-3.25" y2="-1.8" width="0.127" layer="21" />
-<wire x1="3.25" y1="1.8" x2="3.25" y2="-1.8" width="0.127" layer="21" />
 <text x="-3.35" y="4.85" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="-3.35" y="3.85" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
@@ -4062,13 +4028,15 @@ relief via placements
 </polygon>
 <circle x="-4.875" y="-5.1" radius="0.254" width="0" layer="21" />
 <wire x1="-5.225" y1="3.05" x2="-5.5" y2="3.05" width="0.127" layer="21" />
-<wire x1="-5.5" y1="3.05" x2="-5.5" y2="-3.05" width="0.127" layer="21" />
 <wire x1="-5.5" y1="-3.05" x2="-5.225" y2="-3.05" width="0.127" layer="21" />
 <wire x1="5.225" y1="-3.05" x2="5.5" y2="-3.05" width="0.127" layer="21" />
-<wire x1="5.5" y1="-3.05" x2="5.5" y2="3.05" width="0.127" layer="21" />
 <wire x1="5.5" y1="3.05" x2="5.225" y2="3.05" width="0.127" layer="21" />
 <text x="-5.08" y="5.08" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <text x="-5.08" y="6.35" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<wire x1="-5.5" y1="3.05" x2="-5.5" y2="2.7865" width="0.127" layer="21" />
+<wire x1="-5.5" y1="-2.7865" x2="-5.5" y2="-3.05" width="0.127" layer="21" />
+<wire x1="5.5" y1="-3.05" x2="5.5" y2="-2.7865" width="0.127" layer="21" />
+<wire x1="5.5" y1="2.7865" x2="5.5" y2="3.05" width="0.127" layer="21" />
 </package>
 <package name="24-WQFN(4X4)">
 <smd name="P$1" x="-1.9" y="1.25" dx="0.6" dy="0.25" layer="1" />
@@ -10712,8 +10680,8 @@ MAX4465</text>
 &lt;li&gt; Number of Bits per Element: 1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.ti.com/lit/ds/symlink/cd74hc4049.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1676576406485&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcd74hc4049"&gt;74HC4049&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/ds/symlink/cd74hc4049.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1676576406485&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcd74hc4049"&gt;74HC4049&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="74X4049-HEX-INVERTING-BUFFER" x="0" y="0" />
 </gates>
@@ -10751,8 +10719,8 @@ MAX4465</text>
 &lt;li&gt; Number of Bits per Element: 1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.ti.com/lit/ds/symlink/cd74hc4049.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1676576406485&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcd74hc4049"&gt;74HC4050&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/ds/symlink/cd74hc4049.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1676576406485&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcd74hc4049"&gt;74HC4050&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="74X4050-HEX-NON-INVERTING-BUFFER" x="0" y="0" />
 </gates>
@@ -10951,7 +10919,7 @@ Inputs&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Sampling Rate: Up to 3.3k Samples Per Second (3300Hz)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;ADS101x&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;ADS101x&lt;/a&gt;&lt;br/&gt;
 &lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/ds/symlink/ads1013.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1681808725583&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fads1013"&gt;ADS101x Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator datasheet (Rev. E)&lt;/a&gt;&lt;br/&gt;
 
 &lt;br&gt;
@@ -10968,7 +10936,7 @@ Inputs&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Sampling Rate: Up to 860 Samples Per Second (860Hz)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;ADS111x&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;ADS111x&lt;/a&gt;&lt;br/&gt;
 &lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/ds/symlink/ads1113.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1681831810159&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fads1113"&gt;ADS111x Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator datasheet (Rev. D)
 &lt;/a&gt;&lt;br/&gt;</description>
 <gates>
@@ -11097,8 +11065,8 @@ AVRÃ‚Â® enhanced RISC architecture
 &lt;li&gt;EEPROM: 256/512/512/1KBytes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf"&gt;megaAVRÃ‚Â® Data Sheet&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf"&gt;megaAVRÃ‚Â® Data Sheet&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="ATMEGA328P-AUR" x="0" y="0" />
 </gates>
@@ -11149,12 +11117,12 @@ AVRÃ‚Â® enhanced RISC architecture
 
 &lt;p&gt;Technical Specifications:
 &lt;ul&gt;
-&lt;li&gt;Core Processor: High Performance, Low Power AVRÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â® 8-Bit Microcontroller&lt;/li&gt;
+&lt;li&gt;Core Processor: High Performance, Low Power AVR 8-Bit Microcontroller&lt;/li&gt;
 &lt;li&gt;Speed: 16MHz&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf"&gt;ATmega16U4/ATmega32U4&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf"&gt;ATmega16U4/ATmega32U4&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="ATMEGA32U4" x="0" y="0" />
 </gates>
@@ -11221,7 +11189,7 @@ AVRÃ‚Â® enhanced RISC architecture
 &lt;li&gt;Speed: 48MHz&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
 &lt;p&gt;Datasheet: &lt;a href="https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42242-SAM-D10_Datasheet.pdf"&gt;SAMD10&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="ATSAMD10D14A" x="0" y="0" />
@@ -11710,7 +11678,7 @@ Advanced Analog
 &lt;li&gt; Supports low-value external sense resistor (10 Ohm)
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;BQ27441-G1&lt;/a&gt;
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;BQ27441-G1&lt;/a&gt;
 &lt;br/&gt;
 &lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/ds/symlink/bq27441-g1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1668527457644&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq27441-g1"&gt;bq27441-G1 System-Side Impedance Track Fuel Gauge datasheet (Rev. C)&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
@@ -11751,7 +11719,7 @@ Advanced Analog
 &lt;li&gt;Battery disconnect function with SYSOFF input (BQ24075, BQ24079)&lt;/li&gt;&lt;/b&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;BQ2407x&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;BQ2407x&lt;/a&gt;&lt;br/&gt;
 &lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/ds/symlink/bq24074.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1681869526777&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq24074"&gt;BQ2407x Standalone 1-Cell 1.5-A Linear Battery Charger with PowerPath datasheet (Rev. N)
 &lt;/a&gt;&lt;br/&gt;</description>
 <gates>
@@ -13085,8 +13053,8 @@ easier Internet connection to embedded systems
 &lt;li&gt;Supply Voltage: 3.3v - 5v&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf"&gt;FT231X&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf"&gt;FT231X&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="FT231XS-R" x="0" y="0" />
 </gates>
@@ -13446,9 +13414,9 @@ easier Internet connection to embedded systems
 &lt;li&gt;Dimming: PWM&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.diodes.com/assets/Datasheets/BCR420UW6-BCR421UW7.pdf"&gt;BCR420UW6 / BCR421UW6&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.diodes.com/assets/Datasheets/BCR420UFDQ-BCR421UFDQ.pdf"&gt;BCR420UFDQ / BCR421UFDQ&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.diodes.com/assets/Datasheets/BCR420UW6-BCR421UW7.pdf"&gt;BCR420UW6 / BCR421UW6&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.diodes.com/assets/Datasheets/BCR420UFDQ-BCR421UFDQ.pdf"&gt;BCR420UFDQ / BCR421UFDQ&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED-DRIVER-1CH-PWM" x="0" y="0" />
 </gates>
@@ -13519,8 +13487,8 @@ easier Internet connection to embedded systems
 &lt;li&gt;Dimming: PWM&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;Infineon LED Driver BCR 401U E6327&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.infineon.com/dgdl?fileId=5546d4624b0b249c014b6e645ed42f3d"&gt;Infineon LED Driver BCR 401U E6327&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;Infineon LED Driver BCR 401U E6327&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.infineon.com/dgdl?fileId=5546d4624b0b249c014b6e645ed42f3d"&gt;Infineon LED Driver BCR 401U E6327&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED-DRIVER-1CH-PWM-BCR401" x="0" y="0" />
 </gates>
@@ -13753,7 +13721,7 @@ Schmitt Trigger&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Resolution: 19-bit .0078125ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°C&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
 &lt;p&gt;Datasheet: &lt;a href="https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf"&gt;MAX31856&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX31856" x="0" y="0" />
@@ -13791,8 +13759,8 @@ Schmitt Trigger&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Common-Mode Rejection Ration: 126dB&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://datasheets.maximintegrated.com/en/ds/MAX4465-MAX4469.pdf"&gt;MAX4465-69 DS&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://datasheets.maximintegrated.com/en/ds/MAX4465-MAX4469.pdf"&gt;MAX4465-69 DS&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX446X-5" x="0" y="0" />
 </gates>
@@ -13821,8 +13789,8 @@ Schmitt Trigger&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Fault Protection: Over Voltage&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf"&gt;MCP73831/2&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf"&gt;MCP73831/2&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="BATT-CHARGER-PROG" x="0" y="0" />
 </gates>
@@ -13886,8 +13854,8 @@ Schmitt Trigger&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Resolution: +0.0625 ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°C&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP960X-L0X-RL0X-Data-Sheet-20005426F.pdf"&gt;MCP960X/L0X/RL0X Data Sheet&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP960X-L0X-RL0X-Data-Sheet-20005426F.pdf"&gt;MCP960X/L0X/RL0X Data Sheet&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="MCP9600" x="0" y="0" />
 </gates>
@@ -14238,8 +14206,8 @@ MIDI AUDIO CODEC CIRCUIT&lt;/a&gt;&lt;br/&gt;</description>
 
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;nRF52811&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://infocenter.nordicsemi.com/pdf/nRF52811_PS_v1.1.pdf"&gt;nRF52811&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;nRF52811&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://infocenter.nordicsemi.com/pdf/nRF52811_PS_v1.1.pdf"&gt;nRF52811&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="NORDIC-NRF52811-QCAA" x="-66.04" y="-2.54" />
 </gates>
@@ -15030,8 +14998,8 @@ DUAL/QUAD SPI &amp; QPI&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Standards: USB 2.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.silabs.com/documents/public/data-sheets/CP2105.pdf"&gt;CP2105&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.silabs.com/documents/public/data-sheets/CP2105.pdf"&gt;CP2105&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="SILICONLABS_CP2105" x="0" y="0" />
 </gates>
@@ -15078,8 +15046,8 @@ DUAL/QUAD SPI &amp; QPI&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Working temperature: -40~+85 ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°C&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"&gt;SK6812&lt;/a&gt;&lt;br/&gt;
-Datasheet: &lt;a herf="https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf"&gt;SK6812RGBW&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Datasheet: &lt;a href="https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"&gt;SK6812&lt;/a&gt;&lt;br/&gt;
+Datasheet: &lt;a href="https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf"&gt;SK6812RGBW&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="SK6812" x="0" y="0" />
 </gates>
@@ -15117,8 +15085,8 @@ Datasheet: &lt;a herf="https://cdn-shop.adafruit.com/product-files/2757/p2757_SK
 &lt;li&gt;Number of Outputs: 1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.digikey.com/en/products/detail/diodes-incorporated/AP3602AKTR-G1/5305823"&gt;	
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AP3602AKTR-G1/5305823"&gt;	
 AP3602A&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODES-AP3602A" x="0" y="0" />
@@ -15254,8 +15222,8 @@ AP3602A&lt;/a&gt;&lt;br/&gt;</description>
 &lt;li&gt;Core Processor: ArmÃ‚Â® CortexÃ‚Â®-M3&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Component Search: &lt;a herf="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
-&lt;p&gt;Datasheet: &lt;a herf="https://www.ti.com/lit/gpn/cc2640r2l"&gt;CC2640R2L&lt;/a&gt;&lt;br/&gt;</description>
+&lt;p&gt;Component Search: &lt;a href="[FLASHPCB URL]"&gt;[DATA SHEET NAME]&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.ti.com/lit/gpn/cc2640r2l"&gt;CC2640R2L&lt;/a&gt;&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="TI-CC2640R2L" x="0" y="0" />
 </gates>
