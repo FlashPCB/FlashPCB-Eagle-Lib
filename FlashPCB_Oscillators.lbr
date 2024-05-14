@@ -127,6 +127,32 @@
 <text x="-1.915" y="1.755" size="0.8128" layer="25" font="vector">&gt;Name</text>
 <text x="-1.915" y="0.815" size="0.8128" layer="27" font="vector">&gt;Value</text>
 </package>
+<package name="CRYSTAL_2-SMD_NOLEAD_11.4MMX4.7MM">
+<smd name="P$1" x="-4.25" y="0" dx="5.5" dy="1.5" layer="1" />
+<smd name="P$2" x="4.25" y="0" dx="5.5" dy="1.5" layer="1" />
+<wire x1="-5.7" y1="2.35" x2="5.7" y2="2.35" width="0.127" layer="21" />
+<wire x1="-5.7" y1="-2.35" x2="5.7" y2="-2.35" width="0.127" layer="21" />
+<wire x1="-5.7" y1="2.35" x2="-5.7" y2="1" width="0.127" layer="21" />
+<wire x1="-5.7" y1="-2.35" x2="-5.7" y2="-1" width="0.127" layer="21" />
+<wire x1="5.7" y1="2.35" x2="5.7" y2="1" width="0.127" layer="21" />
+<wire x1="5.7" y1="-2.35" x2="5.7" y2="-1" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-7.1" y="0.85" />
+<vertex x="-5.9" y="0.85" />
+<vertex x="-5.9" y="2.55" />
+<vertex x="5.9" y="2.55" />
+<vertex x="5.9" y="0.85" />
+<vertex x="7.1" y="0.85" />
+<vertex x="7.1" y="-0.85" />
+<vertex x="5.9" y="-0.85" />
+<vertex x="5.9" y="-2.55" />
+<vertex x="-5.9" y="-2.55" />
+<vertex x="-5.9" y="-0.85" />
+<vertex x="-7.1" y="-0.85" />
+</polygon>
+<text x="0.6284" y="3.5028" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="0.6284" y="2.5628" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
 <package name="CRYSTAL_2-SMD_NOLEAD_2.00MMX1.20MM">
 <smd name="P$1" x="-0.7" y="0" dx="0.6" dy="1.1" layer="1" />
 <smd name="P$2" x="0.7" y="0" dx="0.6" dy="1.1" layer="1" />
@@ -626,6 +652,22 @@
 </gates>
 <devices>
 <device name="" package="CRYSTAL_2-SMD_NOLEAD_1.65MMX1.05MM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1" />
+<connect gate="G$1" pin="2" pad="P$2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRYSTAL_11.40MMX4.70MM" prefix="Y" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="CRYSTAL_2-SMD_NOLEAD_11.4MMX4.7MM">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1" />
 <connect gate="G$1" pin="2" pad="P$2" />
