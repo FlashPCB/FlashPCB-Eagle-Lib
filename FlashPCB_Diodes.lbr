@@ -620,6 +620,33 @@
 <wire x1="-0.8135" y1="0.85" x2="0.8135" y2="0.85" width="0.127" layer="21" />
 <wire x1="-0.8135" y1="-0.85" x2="0.8135" y2="-0.85" width="0.127" layer="21" />
 </package>
+<package name="KIGHTBRIGHT-AM2520F3C03">
+<smd name="K" x="-2.3" y="0" dx="1.6" dy="1.5" layer="1" />
+<smd name="A" x="2.3" y="0" dx="1.6" dy="1.5" layer="1" />
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.127" layer="21" />
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.127" layer="21" />
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.127" layer="21" />
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.127" layer="21" />
+<circle x="-0.15" y="0" radius="0.8" width="0.127" layer="21" />
+<polygon width="0" layer="39">
+<vertex x="-3.2" y="0.85" />
+<vertex x="-1.4" y="0.85" />
+<vertex x="-1.4" y="1.15" />
+<vertex x="1.4" y="1.15" />
+<vertex x="1.4" y="0.85" />
+<vertex x="3.2" y="0.85" />
+<vertex x="3.2" y="-0.85" />
+<vertex x="1.4" y="-0.85" />
+<vertex x="1.4" y="-1.15" />
+<vertex x="-1.4" y="-1.15" />
+<vertex x="-1.4" y="-0.85" />
+<vertex x="-3.2" y="-0.85" />
+</polygon>
+<wire x1="-1.1" y1="0.9" x2="-1.1" y2="-0.9" width="0.3048" layer="21" />
+<wire x1="-3.3" y1="0.8" x2="-3.3" y2="-0.8" width="0.1524" layer="21" />
+<text x="-2.54" y="2.54" size="0.8128" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
+</package>
 <package name="LED-0603">
 <polygon width="0" layer="39">
 <vertex x="-1.25" y="0.5" />
@@ -1570,6 +1597,32 @@
 <connects>
 <connect gate="G$1" pin="ANODE" pad="ANODE" />
 <connect gate="G$1" pin="CATHODE" pad="CATHODE" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KINGBRIGHT-AM2520F3C03" prefix="D" uservalue="yes">
+<description>&lt;b&gt;AM2520F3C03-P22&lt;/b&gt; -2.5X2.0MM INFRARED SMD LED
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Wavelength: 940nm&lt;/li&gt;
+&lt;li&gt;Voltage - Forward (Vf) (Typ): 1.2V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Component Search: &lt;a href="https://www.flashpcb.com/components?page=1&amp;searchTerms=AM2520F3C03-P22"&gt;AM2520F3C03-P22&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Datasheet: &lt;a href="https://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"&gt;AM2520F3C03-P22&lt;/a&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_LED" x="0" y="-2.54" />
+</gates>
+<devices>
+<device name="" package="KIGHTBRIGHT-AM2520F3C03">
+<connects>
+<connect gate="G$1" pin="A" pad="A" />
+<connect gate="G$1" pin="K" pad="K" />
 </connects>
 <technologies>
 <technology name="" />
